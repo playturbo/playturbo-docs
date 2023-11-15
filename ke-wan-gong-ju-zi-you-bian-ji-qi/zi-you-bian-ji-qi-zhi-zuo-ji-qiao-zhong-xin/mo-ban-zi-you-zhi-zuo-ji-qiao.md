@@ -2,7 +2,7 @@
 description: '#自由编辑器 #模板自由制作'
 ---
 
-# 模板自由制作
+# 模板自由制作技巧
 
 ## <mark style="color:blue;">一、调整顺序建议</mark>
 
@@ -51,7 +51,7 @@ description: '#自由编辑器 #模板自由制作'
 
 * 若该位置有动画参数，则代表可以调整
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 若该位置无动画参数，则可能由代码控制，不可以调整
 
@@ -61,7 +61,7 @@ description: '#自由编辑器 #模板自由制作'
 
 若有需要，还可为图层添加动画
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.粒子特效
 
@@ -69,7 +69,7 @@ description: '#自由编辑器 #模板自由制作'
 * 可以新增粒子特效，并调整其位置大小到合适
 * 同样，对于不需要的粒子特效，可以将其图层隐藏或调整该图层透明度为0
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.事件设置
 
@@ -80,7 +80,7 @@ description: '#自由编辑器 #模板自由制作'
 * 若该位置有事件参数，则可以调整
 * 若该位置无事件参数，则可能由代码控制，不可以调整
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2）新增事件
 
@@ -89,7 +89,7 @@ description: '#自由编辑器 #模板自由制作'
 * 可直接在现有触发事件中添加响应事件
 * 也可额外添加触发事件和响应事件
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 5.多语言文本翻译
 
@@ -100,7 +100,7 @@ description: '#自由编辑器 #模板自由制作'
 
 具体操作步骤可查看[duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/quan-ju-chang-jing/quan-ju-she-zhi/duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md "mention")
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6.横屏适配
 
@@ -108,13 +108,13 @@ description: '#自由编辑器 #模板自由制作'
 
 同时需注意横屏下各图层的屏幕适配方式是否正确
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 7.玩法参数
 
 模板自由制作也可以调整玩法参数，一般位于核心玩法场景（场景1）的参数设置区
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 8.整体预览
 
@@ -149,6 +149,8 @@ description: '#自由编辑器 #模板自由制作'
 <mark style="color:red;">**Tips：**</mark>若有相同的资产出现在多个场景中，同时您又想全部替换掉：可以在【项目资产】窗口内选中该资产，点击【替换资产】，这样便可以一次性快速完成所有场景的替换哦！
 
 <figure><img src="../../.gitbook/assets/image (1228).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### 2.部分资产找不到在哪？
 
