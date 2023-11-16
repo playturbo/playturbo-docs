@@ -16,4 +16,4 @@ coverY: 0
 
 #### 浏览器使用建议：
 
-为了获得最佳的编辑体验，官方建议使用Chrome浏览器
+<mark style="color:red;">为了获得最佳的编辑体验，官方建议使用Chrome浏览器</mark>
