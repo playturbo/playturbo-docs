@@ -4,30 +4,20 @@ description: '#自由编辑器'
 
 # 适配相关
 
-## 1.视觉方面的总体建议
+## 适配方向
 
-建议在预览时，多切换横竖屏和多种屏幕尺寸大小，以预览不同情况下的作品呈现情况。\
+在新建空白制作项目时，需要选择适配方向
 
+* 若选择【横屏&竖屏】，则在制作时需要分别对竖屏和横屏进行排版制作<mark style="color:red;">（建议您在完成每个场景竖屏的排版后，及时切换到横屏进行调整，通过“复用竖屏位置尺寸配置”按钮可以大大提高效率）</mark>
+* 若选择单方向【横屏】或【竖屏】，只需制作当前屏幕方向的素材即可，无需切换横竖屏
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/视觉问题1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+不同适配方向呈现出的效果可查看[zuo-pin-zhi-zuo-xin-jian-zhi-nan.md](../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md "mention") [#step3-xuan-ze-kuo-pei-fang-xiang](../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md#step3-xuan-ze-kuo-pei-fang-xiang "mention")
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/视觉问题2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="351"><figcaption></figcaption></figure>
 
 </div>
-
-
-
-## 2.投放适配：横竖屏制作 / 单方向制作
-
-* 当选择横竖屏同时制作时，需要点击横竖屏切换按钮，分别制作竖屏和横屏的素材适配。<mark style="color:red;">建议在制作过程中，当前场景完成横竖屏制作，再进行下一场景制作。</mark>
-* 当选择单方向制作时，只需制作当前屏幕方向的素材即可，无需切换横竖屏。
-* 不同制作方式在投放时的效果详见：[适配说明](../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md)
 
 
 
