@@ -9,3 +9,5 @@
 
 ### 时间筛选时的时区 <a href="#ixcre" id="ixcre"></a>
 
+* Unity广告账户数据：筛选的时区为UTC+0
+* Mintegral广告账户数据：筛选的时区为 「广告账户时区」
