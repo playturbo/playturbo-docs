@@ -106,3 +106,6 @@ description: '#自由编辑器'
 
 </div>
 
+
+
+关于背景图片其他内容可查看[#1.-bei-jing-tu-pian](../../../../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/shi-pei-xiang-guan.md#1.-bei-jing-tu-pian "mention")
