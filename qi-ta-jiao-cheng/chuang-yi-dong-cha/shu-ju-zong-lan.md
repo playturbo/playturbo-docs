@@ -1,3 +1,7 @@
+---
+description: '#换肤编辑器 #自由编辑器 #视频编辑器'
+---
+
 # 数据总览
 
 入口：创意洞察>>>数据总览
@@ -98,7 +102,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1298).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
