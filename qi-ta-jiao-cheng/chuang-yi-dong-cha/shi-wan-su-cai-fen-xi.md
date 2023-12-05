@@ -1,14 +1,10 @@
----
-description: '#订阅 #定制'
----
+# 试玩素材分析
 
-# 素材分析
-
-入口：创意洞察（内测）>>>素材分析
+入口：创意洞察>>>试玩素材分析
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -40,7 +36,7 @@ description: '#订阅 #定制'
 
 可以自定义需展示的表头和数据指标，自定义后选择的指标会被保存。
 
-数据筛选和指标选择，同「事件分析」中的「详细数据」 [#3.-xiang-xi-shu-ju-biao-ge](shi-jian-fen-xi.md#3.-xiang-xi-shu-ju-biao-ge "mention")
+数据筛选和指标选择，同「事件分析」中的「详细数据」 [#3.-xiang-xi-shu-ju-biao-ge](shu-ju-zong-lan.md#3.-xiang-xi-shu-ju-biao-ge "mention")
 
 <div align="left">
 
