@@ -8,7 +8,7 @@ description: '#换肤编辑器 #自由编辑器 #视频编辑器'
 
 包含： [shu-ju-zong-lan.md](shu-ju-zong-lan.md "mention")和[shi-wan-su-cai-fen-xi.md](shi-wan-su-cai-fen-xi.md "mention")
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">背景说明</mark>
 
@@ -40,6 +40,10 @@ description: '#换肤编辑器 #自由编辑器 #视频编辑器'
 
 ### 2）自定义埋点
 
-依赖您在素材中添加的自定义埋点，自定义埋点需要手动添加，可添加在任何您认为重要的节点上。
+自定义埋点需要手动添加，用户可自行根据创意情况去添加设置埋点，此部分即为自定义埋点；
+
+添加自定义埋点的操作方式为事件设置，即用户添加的触发事件和响应事件，具体内容可查看[pu-tong-shi-jian](../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/can-shu-lei-xing-jie-shao/shi-jian/pu-tong-shi-jian/ "mention")
+
+
 
 我们将收集「基础埋点」和「自定义埋点」，并加工成数据指标，呈现出来。

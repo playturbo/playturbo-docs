@@ -6,7 +6,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 入口：顶部资产库>>>玩法模板>>>组件库>>>连线
 
-<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 一、连线组件是什么
 
@@ -38,7 +38,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -57,7 +57,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 「起止区域」是连线组件的独有参数，一个连线组件有若干个起止区域和配对关系
 
-<figure><img src="../../../../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **1）起止区域**
 
