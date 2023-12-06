@@ -4,7 +4,7 @@ description: '#换肤编辑器 #自由编辑器'
 
 # 创意洞察-通用埋点使用建议
 
-上一章节的[chuang-yi-dong-cha](../chuang-yi-dong-cha/ "mention")，我们介绍了如何基于素材埋点数据，使用【事件分析】和【素材分析】来查看和分析素材的各项指标。
+上一章节的[chuang-yi-dong-cha](../chuang-yi-dong-cha/ "mention")，我们介绍了如何基于素材埋点数据和素材投放数据，来更好的了解广告账号的整体投放情况以及试玩素材的投放和交互情况。
 
 
 
