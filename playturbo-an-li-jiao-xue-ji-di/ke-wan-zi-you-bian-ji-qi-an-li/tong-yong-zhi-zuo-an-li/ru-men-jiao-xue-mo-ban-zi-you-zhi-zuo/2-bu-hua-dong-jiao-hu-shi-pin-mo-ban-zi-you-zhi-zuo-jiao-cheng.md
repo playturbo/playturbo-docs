@@ -6,7 +6,7 @@ description: '#自由编辑器 #模板自由制作'
 
 ## <mark style="color:blue;">**一、对比展示**</mark> <a href="#aluje" id="aluje"></a>
 
-我们先来看一下使用**模板自由制作**前后的对比：[迭代前](https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fgm%2Ft%2F20000734%2F11625%2Fpv%2F23%2F09%2F14%2F65026ea3e762a%2Fproject.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn\&mw\_test=0\&is\_browser\_tips=1\&track\_data=%7B%22pid%22%3A20000734%2C%22uid%22%3A109685%2C%22skin\_id%22%3A11625%2C%22sct%22%3A%22pt\_template\_index%22%2C%22env%22%3A%22p%22%7D) VS [迭代后](https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fps%2Fpreview%2F23%2F10%2F26%2F653a16b712270%2Findex.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn\&mw\_test=0\&is\_browser\_tips=1\&track\_data=%7B%22pid%22%3A1979925%2C%22uid%22%3A109685%2C%22sct%22%3A%22pt\_project\_ps%22%2C%22env%22%3A%22p%22%7D)
+我们先来看一下使用**模板自由制作**前后的对比：[迭代前](https://tinyurl.com/335cx5e6) VS [迭代后](https://tinyurl.com/32fwappc)
 
 <div align="left">
 

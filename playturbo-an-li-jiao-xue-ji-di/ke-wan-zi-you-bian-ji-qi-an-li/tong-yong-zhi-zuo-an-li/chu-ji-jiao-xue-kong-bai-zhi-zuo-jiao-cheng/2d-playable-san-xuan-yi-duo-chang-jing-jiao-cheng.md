@@ -6,7 +6,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 本讲旨在讲解如何通过**自由编辑器**实现普通多场景的制作，同时将通过一个案例，教大家快速制作出“按钮三选一”玩法的可玩广告！
 
-## 一、教学目的
+## <mark style="color:blue;">一、教学目的</mark>
 
 * **多场景制作：**理解什么是“场景”，并学会通过<mark style="color:red;">**复制场景**</mark>功能来快速搭建新场景；
 * **交互事件：**学会通过<mark style="color:red;">**“事件”**</mark>【包含触发事件（例如：按下）和一系列响应事件（例如：跳转应用商店）】来实现“场景和场景”之间的串联，从而形成一个完成的可玩素材；
@@ -14,7 +14,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 
 
-## 二、特征标签
+## <mark style="color:blue;">二、特征标签</mark>
 
 * 【制作难度】：⭐⭐
 * 【适用产品】：普遍适用
@@ -24,13 +24,13 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 
 
-## 三、作品预览
+## <mark style="color:blue;">三、作品预览</mark>
 
-<table><thead><tr><th>手机试玩效果最佳</th><th>竖屏</th><th>横屏</th><th data-hidden data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (858).png" alt=""></td><td><img src="../../../../.gitbook/assets/image (856).png" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/image (859).png" alt="" data-size="original"></td><td><a href="https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fps%2Fpreview%2F1913727%2F23%2F08%2F02%2F64ca21629cbea%2Fgeneralscenes_0801.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn&#x26;mw_test=0&#x26;is_browser_tips=1&#x26;track_data=%7B%22pid%22%3A1913727%2C%22uid%22%3A109685%2C%22env%22%3A%22p%22%7D">https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fps%2Fpreview%2F1913727%2F23%2F08%2F02%2F64ca21629cbea%2Fgeneralscenes_0801.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn&#x26;mw_test=0&#x26;is_browser_tips=1&#x26;track_data=%7B%22pid%22%3A1913727%2C%22uid%22%3A109685%2C%22env%22%3A%22p%22%7D</a></td></tr><tr><td>扫码试玩</td><td><a href="https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fps%2Fpreview%2F1913727%2F23%2F08%2F02%2F64ca21629cbea%2Fgeneralscenes_0801.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn&#x26;mw_test=0&#x26;is_browser_tips=1&#x26;track_data=%7B%22pid%22%3A1913727%2C%22uid%22%3A109685%2C%22env%22%3A%22p%22%7D">点击试玩</a></td><td><a href="https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fps%2Fpreview%2F1913727%2F23%2F08%2F02%2F64ca21629cbea%2Fgeneralscenes_0801.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn&#x26;mw_test=0&#x26;is_browser_tips=1&#x26;track_data=%7B%22pid%22%3A1913727%2C%22uid%22%3A109685%2C%22env%22%3A%22p%22%7D">点击试玩</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th>手机试玩效果最佳</th><th>竖屏</th><th>横屏</th><th data-hidden data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (858).png" alt=""></td><td><img src="../../../../.gitbook/assets/image (856).png" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/image (859).png" alt="" data-size="original"></td><td><a href="https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fps%2Fpreview%2F1913727%2F23%2F08%2F02%2F64ca21629cbea%2Fgeneralscenes_0801.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn&#x26;mw_test=0&#x26;is_browser_tips=1&#x26;track_data=%7B%22pid%22%3A1913727%2C%22uid%22%3A109685%2C%22env%22%3A%22p%22%7D">https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fps%2Fpreview%2F1913727%2F23%2F08%2F02%2F64ca21629cbea%2Fgeneralscenes_0801.html%3Floading%3D1%26preview%3Dtrue%26lang%3Dzh-cn&#x26;mw_test=0&#x26;is_browser_tips=1&#x26;track_data=%7B%22pid%22%3A1913727%2C%22uid%22%3A109685%2C%22env%22%3A%22p%22%7D</a></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/ynkvvspb">点击试玩</a></td><td><a href="https://tinyurl.com/ynkvvspb">点击试玩</a></td><td></td></tr></tbody></table>
 
-##
 
-## 四、玩法梳理
+
+## <mark style="color:blue;">四、玩法梳理</mark>
 
 **我们在开始制作之前需要将本案例的玩法逻辑进行简单的梳理：**
 
@@ -42,7 +42,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 
 
-## 五、制作思路
+## <mark style="color:blue;">五、制作思路</mark>
 
 **核心思想：**让单个场景里的动画和事件尽可能少，场景拆分逻辑清晰，图层结构简单
 
@@ -56,9 +56,9 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <table><thead><tr><th width="117">场景名称</th><th width="203">场景1-诱导选择</th><th width="219">场景2/3/4-选择结果展示</th><th>场景5-结束页</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/3 (74).png" alt=""></td><td><img src="../../../../.gitbook/assets/4 (59).png" alt=""><img src="../../../../.gitbook/assets/5 (43).png" alt=""></td><td><img src="../../../../.gitbook/assets/6 (33).png" alt=""></td></tr><tr><td><strong>场景描述</strong></td><td>角色解锁场景，引导玩家点击任意一个卡牌按钮解锁新角色</td><td><p>玩家完成选择后，出现待开启的角色宝箱，引导玩家点击打开宝箱；</p><p>玩家点击后，出现新角色卡牌，然后跳转至结束页</p></td><td><p>展示产品内丰富的角色信息；</p><p>展示产品信息和CTA按钮</p></td></tr><tr><td><strong>动画</strong></td><td><p>【手指】：位移缓动+透明度缓动</p><p>【按钮外发光×3】：透明度缓动</p><p>【指引文案】：透明度缓动</p><p>【主角色】：缩放缓动</p></td><td><p>【散射光】：放大出现+旋转缓动</p><p>【宝箱】：放大出现+位移缓动+Q弹晃动+放大消失</p><p>【手指】：淡入+缩放缓动</p><p>【新角色卡牌】：放大出现+位移缓动</p></td><td><p>【角色】：位移缓动</p><p>【CTA按钮】：缩放缓动</p></td></tr><tr><td><strong>场景事件</strong></td><td><p>触发对象：按钮×3</p><p>触发操作：按下</p><p>响应事件：跳转指定场景2/3/4</p></td><td><p>触发对象：宝箱</p><p>触发操作：按下</p><p>响应事件：（详见第五部分Step3）</p></td><td><p>触发对象：CTA按钮</p><p>触发操作：按下</p><p>响应事件：跳转应用商店</p></td></tr><tr><td><strong>核心物料清单</strong></td><td><p>【图片】：主角色、卡牌按钮×3、按钮光晕×3（可选）、手指、logo、CTA按钮</p><p>【文本】：指引文案、下载文案</p><p>【背景音乐】【背景图片】</p></td><td><p>【图片】：宝箱×3、散射光、新角色卡牌×3、外发光序列帧、手指、logo、CTA按钮</p><p>【粒子】：爆炸、烟雾爆炸</p><p>【文本】：指引文案、下载文案</p><p>【音效】：礼花爆炸音效、闪光音效</p><p>【背景音乐】【背景图片】</p></td><td><p>【图片】：角色×3、CTA按钮×2、logo</p><p>【背景音乐】【背景图片】</p></td></tr></tbody></table>
 
-###
 
-## 六、制作指南
+
+## <mark style="color:blue;">六、制作指南</mark>
 
 ### Step1 - 基础场景搭建
 

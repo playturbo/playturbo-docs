@@ -23,9 +23,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 | 手机试玩效果最佳                                                                             | 竖屏                                                                                   | 横屏                                                                                   |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | <img src="../../../../.gitbook/assets/image (1059).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/image (1057).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/image (1058).png" alt="" data-size="original"> |
-| 扫码试玩                                                                                 | 点击链接试玩                                                                               | 点击链接试玩                                                                               |
-
-{% embed url="http://playable-portal.mintegral.com/viewer/mindwork-view.html?language=zh-cn&name=&orientation=3&url=https://mmp-cdn.rayjump.com/mindworks-interactive-ads.html?url=https%3A%2F%2Fmmp-cdn.rayjump.com%2Fmindworks-interactive-ads.html%3Furl%3Dhttps%253A%252F%252Fmmp-cdn.rayjump.com%252Fgm%252Ft%252F20000713%252F11560%252Fpv%252F23%252F09%252F14%252F65026f6d3389a%252Fproject.html%253Floading%253D1%2526preview%253Dtrue%2526lang%253Dzh-cn%26mw_test%3D0%26is_browser_tips%3D1%26track_data%3D%257B%2522pid%2522%253A20000713%252C%2522uid%2522%253A9432%252C%2522skin_id%2522%253A11560%252C%2522sct%2522%253A%2522pt_template_index%2522%252C%2522env%2522%253A%2522p%2522%257D%26preview%3Dtrue%26itavideo%3D2%26vconsole%3D0%26mw_test%3D0%26loading%3D1&mw_test=0" %}
+| 扫码试玩                                                                                 | [点击试玩](https://tinyurl.com/33r7xwhn)                                                 | [点击试玩](https://tinyurl.com/33r7xwhn)                                                 |
 
 
 
