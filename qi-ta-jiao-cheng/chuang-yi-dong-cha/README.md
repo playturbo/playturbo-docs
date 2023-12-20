@@ -8,7 +8,7 @@ description: '#换肤编辑器 #自由编辑器 #视频编辑器'
 
 包含： [shu-ju-zong-lan.md](shu-ju-zong-lan.md "mention")和[shi-wan-su-cai-fen-xi.md](shi-wan-su-cai-fen-xi.md "mention")
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">背景说明</mark>
 

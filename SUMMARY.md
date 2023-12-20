@@ -190,6 +190,8 @@
       * [进阶-全局变量功能](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/zhuang-ban-wan-fa-an-li/jin-jie-quan-ju-bian-liang-gong-neng.md)
     * [棋牌玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/qi-pai-wan-fa-an-li/README.md)
       * [Skip-Bo玩法:全局变量制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/qi-pai-wan-fa-an-li/skipbo-wan-fa-quan-ju-bian-liang-zhi-zuo.md)
+    * [拉环玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/la-huan-wan-fa-an-li/README.md)
+      * [拉环玩法-制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/la-huan-wan-fa-an-li/la-huan-wan-fa-zhi-zuo-jiao-cheng.md)
   * [视频编辑器案例](playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/README.md)
     * [3.1 演示视频 🎦](playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/3.1-yan-shi-shi-pin/README.md)
       * [视频制作-全流程](playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/3.1-yan-shi-shi-pin/shi-pin-zhi-zuo-quan-liu-cheng.md)
