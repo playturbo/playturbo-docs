@@ -115,7 +115,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 
 
-### Step3 - 逻辑设置 <a href="#umduz" id="umduz"></a>
+### <mark style="background-color:blue;">Step3 - 逻辑设置</mark> <a href="#umduz" id="umduz"></a>
 
 有关【全局变量】的功能介绍可查看 [quan-ju-bian-liang.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md "mention")
 
