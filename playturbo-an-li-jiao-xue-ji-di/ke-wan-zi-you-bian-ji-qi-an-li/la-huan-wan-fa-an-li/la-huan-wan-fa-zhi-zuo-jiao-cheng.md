@@ -119,7 +119,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 
 
-### <mark style="background-color:red;">Step3 - 逻辑设置</mark> <a href="#umduz" id="umduz"></a>
+### <mark style="color:red;background-color:red;">Step3 - 逻辑设置</mark> <a href="#umduz" id="umduz"></a>
 
 有关【全局变量】的功能介绍可查看 [quan-ju-bian-liang.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md "mention")
 
@@ -129,7 +129,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 1）点击【全局变量】-【添加变量】
 
-2）输入变量名称（如key\_a\_switch）-选择变量类型为【布尔值】-选择初始值为【false】-保存
+2）输入变量名称（如key\_a\_switch）- 选择变量类型为【布尔值】 - 选择初始值为【false】 - 保存
 
 3）按照以上步骤，再依次添加拉环b/拉环c的全局变量
 
@@ -147,7 +147,9 @@ _<mark style="background-color:yellow;">如为拉环a添加事件【按下】并
 
 </div>
 
-<mark style="background-color:red;">**拉环a：**</mark>
+
+
+<mark style="background-color:orange;">**Part1：拉环a**</mark>
 
 根据三根拉环的摆放位置，我们可以看出，无论是哪种操作顺序，拉动拉环a的结果只有一种（即序列帧火落下），不受拉环b与拉环c的影响，因此拉环a的事件设置比较简单。
 
@@ -165,23 +167,25 @@ _<mark style="background-color:yellow;">注：【禁用事件】的设置我们�
 
 
 
-<mark style="background-color:red;">**拉环b：**</mark>
+<mark style="background-color:orange;">**拉环b：**</mark>
 
 拉环b受操作顺序的影响，需要分不同情况来设置事件，因此需要添加【条件判断】，来判断当前是哪种操作顺序。
 
 首先选中拉环b图层-添加事件-按下
 
+
+
 <mark style="color:red;">**条件判断1**</mark>
-
-1）添加条件判断【拉环a=true】、【拉环c=false】
-
-_<mark style="background-color:yellow;">注：也就是当拉环a已被按下，拉环c没被按下，即操作顺序为【a-b-c】时，按下拉环b会触发什么反馈</mark>_
 
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
 
 </div>
+
+1）添加条件判断【拉环a=true】、【拉环c=false】
+
+_<mark style="background-color:yellow;">注：也就是当拉环a已被按下，拉环c没被按下，即操作顺序为【a-b-c】时，按下拉环b会触发什么反馈</mark>_
 
 2）同样，添加响应事件-赋值，为【按下拉环b】赋值【true】；添加禁用事件，选择禁用【拉环b的按下事件】
 
@@ -197,17 +201,19 @@ _<mark style="background-color:yellow;">注：0.6s即序列帧水落下的时长
 
 </div>
 
+
+
 <mark style="color:red;">**条件判断2**</mark>
-
-1）添加条件判断【拉环a=true】、【拉环c=true】
-
-_<mark style="background-color:yellow;">注：也就是当拉环a和拉环c都被按下，即操作顺序为【a-c-b】或【c-a-b】时，按下拉环b会触发什么反馈</mark>_
 
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
 
 </div>
+
+1）添加条件判断【拉环a=true】、【拉环c=true】
+
+_<mark style="background-color:yellow;">注：也就是当拉环a和拉环c都被按下，即操作顺序为【a-c-b】或【c-a-b】时，按下拉环b会触发什么反馈</mark>_
 
 2）同样添加响应事件-赋值，为【按下拉环b】赋值【true】；添加禁用事件，选择禁用【拉环b的按下事件】
 
@@ -222,6 +228,8 @@ _<mark style="background-color:yellow;">注：也就是当拉环a和拉环c都�
 <figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+
 
 <mark style="color:red;">**条件判断3**</mark>
 
@@ -240,23 +248,25 @@ _<mark style="background-color:yellow;">注：也就是当拉环a没有被按下
 
 
 
-<mark style="background-color:red;">**拉环c：**</mark>
+<mark style="background-color:orange;">**拉环c：**</mark>
 
 拉环c受操作顺序的影响，需要分不同情况来设置事件，因此需要添加【条件判断】，来判断当前是哪种操作顺序。
 
 首先选中拉环c图层-添加事件-按下
 
+
+
 <mark style="color:red;">**条件判断1**</mark>
-
-1）添加条件判断【拉环b=true】
-
-_<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被拉出后才可拉动，所以我们只需要添加一个【拉环b=true】的条件判断，就可以代表拉环a和拉环b都已被按下。也就是当操作顺序为【a-b-c】时，按下拉环c会触发什么反馈</mark>_
 
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
 
 </div>
+
+1）添加条件判断【拉环b=true】
+
+_<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被拉出后才可拉动，所以我们只需要添加一个【拉环b=true】的条件判断，就可以代表拉环a和拉环b都已被按下。也就是当操作顺序为【a-b-c】时，按下拉环c会触发什么反馈</mark>_
 
 2）同样添加响应事件-赋值，为【按下拉环c】赋值【true】；添加禁用事件，选择禁用【拉环c的按下事件】
 
@@ -272,17 +282,19 @@ _<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被�
 
 </div>
 
+
+
 <mark style="color:red;">**条件判断2**</mark>
-
-1）添加条件判断【拉环b=false】
-
-_<mark style="background-color:yellow;">注：也就是当拉环b没有被按下，操作顺序为【a-c-b】或【c-a-b】时，按下拉环c会触发什么反馈（实际不受拉环a影响）</mark>_
 
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
 
 </div>
+
+1）添加条件判断【拉环b=false】
+
+_<mark style="background-color:yellow;">注：也就是当拉环b没有被按下，操作顺序为【a-c-b】或【c-a-b】时，按下拉环c会触发什么反馈（实际不受拉环a影响）</mark>_
 
 2）同样添加响应事件-赋值，为【按下拉环c】赋值【true】；添加禁用事件，选择禁用【拉环c的按下事件】
 
