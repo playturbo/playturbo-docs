@@ -72,6 +72,12 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 </div>
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置1.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
 3）自定义参数
 
 参数的类型有单选项、多选项、单选下拉、多选下拉和数值，可以在 Build 界面选择对应参数的 CopyCode 按钮获取并在游戏中添加设置，参数的变化会在游戏中呈现出来。
@@ -96,7 +102,11 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 新试玩
 
-![](<../../.gitbook/assets/10 (20).png>)
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 5）Reload
 
@@ -174,7 +184,11 @@ this.onGameRetry 添加重新试玩监听，onGameRetry 为重新试玩监听的
 
 6）在需要设置参数的地方完成参数的设置后点击 active 激活参数
 
-![](<../../.gitbook/assets/11 (10).png>)
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置3.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 \*第三方 SDK
 
@@ -186,7 +200,11 @@ this.onGameRetry 添加重新试玩监听，onGameRetry 为重新试玩监听的
 
 <mark style="color:red;">@研发人员</mark> 完成参数配置后，点击 Build\&Upload 按钮，开始上传录屏项目，点击后需要耐心等待几分钟：
 
-![](<../../.gitbook/assets/12 (14).png>)
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/三、构建和上传.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 1）如果构建成功，则会在 Unity 控制台打印结果，同时将尝试上传到playturbo平台，如果上传成功即可在playturbo平台看到项目状态是【已上传】
 
@@ -200,6 +218,10 @@ this.onGameRetry 添加重新试玩监听，onGameRetry 为重新试玩监听的
 
 <mark style="color:red;">@设计人员</mark> 在playturbo【录屏项目】页面，点击"+"号创建版本后，即可开始录制视频
 
-![](<../../.gitbook/assets/14 (1).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/14 (1).png" alt="">
+
+</div>
 
 ![](<../../.gitbook/assets/15 (12).png>)
