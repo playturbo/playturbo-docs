@@ -36,7 +36,11 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 1）打开 https://playturbo.mindworks-creative.com 登录自己的订阅账号，点击【录屏项目】
 
-![](<../../.gitbook/assets/4 (22).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/4 (22).png" alt="" width="197">
+
+</div>
 
 2）点击右上角的【+新建项目】，填写【基本信息】与【录屏参数】完成项目的创建
 
@@ -46,17 +50,27 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 1）在Unity项目打开 MindWorks>Build，进入登录页面，输入自己的订阅账号登录插件，会进入到项目列表 Project List 中
 
-![](<../../.gitbook/assets/6 (11).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/6 (11).png" alt="" width="357">
+
+</div>
 
 \*搜索功能：可通过输入项目的id 或者 name 搜索到对应的项目
 
-![](<../../.gitbook/assets/7 (5).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/7 (5).png" alt="" width="413">
+
+</div>
 
 2）在Project List会看到对应的项目，点击select进入Build界面，可以看到@设计人员 在playturbo平台创建的项目信息、产品信息、以及设定的参数信息
 
-![](<../../.gitbook/assets/8 (19).png>)
+<div align="left">
 
-![](<../../.gitbook/assets/9 (18).png>)
+<img src="../../.gitbook/assets/8 (19).png" alt="">
+
+</div>
 
 3）自定义参数
 
