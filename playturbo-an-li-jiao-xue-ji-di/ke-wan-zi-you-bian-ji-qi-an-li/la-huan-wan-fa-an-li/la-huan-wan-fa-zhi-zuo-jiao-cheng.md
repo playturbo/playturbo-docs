@@ -167,7 +167,7 @@ _<mark style="background-color:yellow;">注：【禁用事件】的设置我们�
 
 
 
-<mark style="background-color:orange;">**拉环b：**</mark>
+<mark style="background-color:orange;">**Part2：拉环b**</mark>
 
 拉环b受操作顺序的影响，需要分不同情况来设置事件，因此需要添加【条件判断】，来判断当前是哪种操作顺序。
 
@@ -248,7 +248,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环a没有被按下
 
 
 
-<mark style="background-color:orange;">**拉环c：**</mark>
+<mark style="background-color:orange;">**Part3：拉环c**</mark>
 
 拉环c受操作顺序的影响，需要分不同情况来设置事件，因此需要添加【条件判断】，来判断当前是哪种操作顺序。
 
