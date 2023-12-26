@@ -18,13 +18,17 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 1）Unity 需要安装 WebGL Build Support 模块
 
-![](<../../.gitbook/assets/1 (21).png>)
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/1-2. 安装插件1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 2）运行 Unity 项目，打开 Window > Package Manager，然后点击左上角的"+"
 
 号选择 Add Package from disk
 
-![](<../../.gitbook/assets/2 (22).png>)
+<figure><img src="../../.gitbook/assets/1-2. 安装插件2.png" alt=""><figcaption></figcaption></figure>
 
 3）选择并打开 Unity 录屏插件根目录中的 package.json 文件，选择后会自动安装Mindworks插件，然后会显示在上方菜单栏中
 
@@ -48,19 +52,25 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 ### 2. <mark style="color:red;">@研发人员</mark> 参数配置
 
-1）在Unity项目打开 MindWorks>Build，进入登录页面，输入自己的订阅账号登录插件，会进入到项目列表 Project List 中
+1）在Unity项目打开 MindWorks>生成，进入登录页面，输入自己的订阅账号登录插件，会进入到项目列表 Project List 中
 
 <div align="left">
 
-<img src="../../.gitbook/assets/6 (11).png" alt="" width="357">
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置1 (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-\*搜索功能：可通过输入项目的id 或者 name 搜索到对应的项目
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置2 (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+\*搜索功能：可通过输入项目的id 或者 名字 搜索到对应的项目
 
 <div align="left">
 
-<img src="../../.gitbook/assets/7 (5).png" alt="" width="413">
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置3 (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -68,7 +78,7 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 <div align="left">
 
-<img src="../../.gitbook/assets/8 (19).png" alt="">
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置4 (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -104,7 +114,7 @@ description: '@研发人员 需要配合进行参数的配置工作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2. @研发人员 参数配置2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -202,7 +212,7 @@ this.onGameRetry 添加重新试玩监听，onGameRetry 为重新试玩监听的
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/三、构建和上传.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/三、构建和上传.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
