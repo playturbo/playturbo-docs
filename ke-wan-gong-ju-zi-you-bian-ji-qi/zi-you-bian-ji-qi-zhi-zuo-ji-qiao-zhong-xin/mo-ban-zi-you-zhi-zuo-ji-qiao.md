@@ -69,7 +69,7 @@ description: '#自由编辑器 #模板自由制作'
 * 可以新增粒子特效，并调整其位置大小到合适
 * 同样，对于不需要的粒子特效，可以将其图层隐藏或调整该图层透明度为0
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.事件设置
 

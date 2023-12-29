@@ -49,7 +49,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
