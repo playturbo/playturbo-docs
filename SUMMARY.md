@@ -182,7 +182,7 @@
       * [初级教学-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/README.md)
         * [2D playable《三选一多场景》教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/2d-playable-san-xuan-yi-duo-chang-jing-jiao-cheng.md)
     * [消除玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/README.md)
-      * [棋盘组件功能](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-gong-neng.md)
+      * [棋盘组件-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md)
     * [跑酷玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/README.md)
       * [《情侣翻越 1》跑酷视频（分段）](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/qing-lv-fan-yue-1-pao-ku-shi-pin-fen-duan.md)
       * [《情侣翻越 2》特效粒子替换](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/qing-lv-fan-yue-2-te-xiao-li-zi-ti-huan.md)

@@ -54,7 +54,11 @@ description: '#自由编辑器 #模板自由制作'
 
 【拼图类】：方形拼图/轮播拼图挑战
 
-【消除类】：方正点消/糖果三消/清屏方正点消/自由落体点消/连线消消乐/有奖连线消
+【消除类】：糖果三消/三消清理障碍/方正点消/点消解围/清屏方正点消/自由落体点消/刷新道具点消/射球消除砖块/连线掉落消除v1/连线掉落消除v2/连线掉落消除v3
+
+**注：在【可玩模板】界面点击【快捷排版】，即可快速筛选出支持棋盘组件的模板哦！**
+
+<figure><img src="../../../../../.gitbook/assets/image (1302).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -123,4 +127,4 @@ description: '#自由编辑器 #模板自由制作'
 
 <figure><img src="../../../../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
 
-关于棋盘功能也有教学视频，可查看[qi-pan-zu-jian-gong-neng.md](../../../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-gong-neng.md "mention")
+关于棋盘功能也有教学视频，可查看[qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md](../../../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md "mention")
