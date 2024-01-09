@@ -18,7 +18,9 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 ## <mark style="color:blue;">二、迭代内容概括</mark>
 
-本案例使用模板【方正点消】进行迭代，主要展示<mark style="color:red;">如何调整</mark><mark style="color:red;">**消除玩法**</mark><mark style="color:red;">模板的棋盘与元素布局</mark>
+本案例使用模板【方正点消】进行迭代，主要展示<mark style="color:red;">如何通过棋盘组件功能调整</mark><mark style="color:red;">**消除玩法**</mark><mark style="color:red;">模板的棋盘与元素布局</mark>
+
+迭代内容主要包含以下步骤：
 
 **1.编辑网格**
 
@@ -45,6 +47,8 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 为新增的礼盒增加退场事件
 
 **7.横屏排版**
+
+调整完竖屏，需切换至横屏对排版进行微调
 
 关于棋盘组件的功能介绍可查看[wan-fa-mo-ban](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban/ "mention")
 
@@ -82,11 +86,11 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 <figure><img src="../../../.gitbook/assets/image (1309).png" alt=""><figcaption></figcaption></figure>
 
-替换完5种元素的图片，我们选中【消除元素1】，然后点击上方的【选择】按钮，在棋盘**已启用的格子上**进行拖动或点击，即可调整该元素的布局。然后再依次选中其他消除元素进行布局调整
+替换完5种元素的图片，我们选中【消除元素1】，然后点击上方的【选择】按钮，在棋盘**已启用的格子上**进行拖动或点击，即可调整**该元素**的布局。然后再依次选中其他消除元素进行布局调整
 
 <figure><img src="../../../.gitbook/assets/image (1313).png" alt=""><figcaption></figcaption></figure>
 
-注：若使用【按权重排版】功能，系统将会按照您填写的权重快速随机生成元素布局，在本案例中，我们选择不使用该功能
+注：若使用【按权重排版】功能，系统将会按照您填写的权重快速随机生成元素布局，在本案例中，我们不使用该功能
 
 <figure><img src="../../../.gitbook/assets/image (1311).png" alt=""><figcaption></figcaption></figure>
 
@@ -96,7 +100,7 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 ### 3.**替换棋盘背景图片**
 
-因棋盘属于核心玩法内容，相关资产不在左侧图层区，而是位于【玩法模板】的【玩法编辑】中。我们点击进入【玩法编辑】
+棋盘属于核心玩法内容，相关资产若不在左侧图层区，则位于【玩法模板】的【玩法编辑】中。我们点击进入【玩法编辑】
 
 <figure><img src="../../../.gitbook/assets/image (1315).png" alt=""><figcaption></figcaption></figure>
 
@@ -124,20 +128,24 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 ### 6.调整事件
 
-点击场景1的【事件】，在【奖励反馈】处添加响应事件【从头播放全部动画】，选择组图层【Box】，及礼盒的退场动画
+点击场景1的【事件】，在【奖励反馈】处添加响应事件【从头播放全部动画】，选择组图层【Box】，即礼盒的退场动画
 
 <figure><img src="../../../.gitbook/assets/image (1325).png" alt=""><figcaption></figcaption></figure>
 
 ### 7.横屏排版
 
-完成以上内容的调整，我们切换至横屏对新增的资产进行调整。直接选中大组，点击【复用竖屏位置尺寸配置】按钮即可
+完成以上内容的调整，我们切换至横屏对新增的资产进行排版调整。直接选中大组【group\_box】，点击【复用竖屏位置尺寸配置】按钮即可一键排版
 
 <figure><img src="../../../.gitbook/assets/image (1326).png" alt=""><figcaption></figcaption></figure>
 
-到此，就完成了本案例模板自由制作的全部内容。
+到此，本案例模板自由制作的全部内容就完成了。
 
 
 
 ## <mark style="color:blue;">四、演示录屏</mark>
+
+针对棋盘组件功能，这里还有演示录屏供您参考学习
+
+视频详细记录了棋盘组件的使用步骤，演示速度基本没有调整，以便您可以跟着视频一步步操作（如果您已经对某一步骤能熟悉操作，可酌情跳过）
 
 {% embed url="https://mmp-cdn.rayjump.com/res_store/2014305/656dcdc25d613.mp4" %}
