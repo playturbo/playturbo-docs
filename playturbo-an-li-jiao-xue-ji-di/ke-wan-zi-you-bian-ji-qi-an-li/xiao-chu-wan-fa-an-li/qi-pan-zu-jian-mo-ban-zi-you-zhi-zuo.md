@@ -139,13 +139,3 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 <figure><img src="../../../.gitbook/assets/image (1326).png" alt=""><figcaption></figcaption></figure>
 
 到此，本案例模板自由制作的全部内容就完成了。
-
-
-
-## <mark style="color:blue;">四、演示录屏</mark>
-
-针对棋盘组件功能，这里还有演示录屏供您参考学习
-
-视频详细记录了棋盘组件的使用步骤，演示速度基本没有调整，以便您可以跟着视频一步步操作（如果您已经对某一步骤能熟悉操作，可酌情跳过）
-
-{% embed url="https://mmp-cdn.rayjump.com/res_store/2014305/656dcdc25d613.mp4" %}

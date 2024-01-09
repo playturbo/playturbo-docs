@@ -127,4 +127,10 @@ description: '#自由编辑器 #模板自由制作'
 
 <figure><img src="../../../../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
 
-关于棋盘功能也有教学视频，可查看[qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md](../../../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md "mention")
+**5）补充：演示录屏**
+
+针对棋盘组件功能，这里还有演示录屏供您参考学习
+
+视频详细记录了棋盘组件的使用步骤，演示速度基本没有调整，以便您可以跟着视频一步步操作（如果您已经对某一步骤能熟悉操作，可酌情跳过）
+
+{% embed url="https://mmp-cdn.rayjump.com/res_store/2014305/656dcdc25d613.mp4" %}
