@@ -20,5 +20,5 @@ description: '#自由编辑器'
 
 [quan-ju-bian-liang.md](quan-ju-bian-liang.md "mention")
 
-[wan-fa-mo-ban](wan-fa-mo-ban/ "mention")
+[wan-fa-mo-ban.md](wan-fa-mo-ban.md "mention")
 

@@ -30,7 +30,7 @@ description: '#自由编辑器'
 
 ### <mark style="color:blue;">5.资产在模板中找不到</mark>
 
-<table><thead><tr><th width="193.33333333333331"> </th><th width="412">具体描述</th><th>截图</th></tr></thead><tbody><tr><td><strong>问题</strong></td><td><strong>在使用某模板进行模板自由制作时，某个图片或其他资产找不到在哪？</strong></td><td>/</td></tr><tr><td>解决方法</td><td><p>可从以下方向逐一排查：</p><ul><li>在左侧【图层区】一一查看；</li><li>若【图层区】确认没有该资产，则可能位于【玩法模板】内；</li><li>若【玩法模板】也没有，则代表无该资产坑位（因为部分模板的核心玩法由开发通过代码写死，在自由编辑器内无法或不推荐修改，否则会报错，因此我们不展示该资产坑位）</li></ul></td><td><p></p><p><img src="../../.gitbook/assets/image (1045).png" alt="" data-size="original"></p></td></tr><tr><td>关于解决方法的详细介绍可查看<span data-gb-custom-inline data-tag="emoji" data-code="1f449">👉</span></td><td><a data-mention href="../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban/">wan-fa-mo-ban</a></td><td>/</td></tr></tbody></table>
+<table><thead><tr><th width="193.33333333333331"> </th><th width="412">具体描述</th><th>截图</th></tr></thead><tbody><tr><td><strong>问题</strong></td><td><strong>在使用某模板进行模板自由制作时，某个图片或其他资产找不到在哪？</strong></td><td>/</td></tr><tr><td>解决方法</td><td><p>可从以下方向逐一排查：</p><ul><li>在左侧【图层区】一一查看；</li><li>若【图层区】确认没有该资产，则可能位于【玩法模板】内；</li><li>若【玩法模板】也没有，则代表无该资产坑位（因为部分模板的核心玩法由开发通过代码写死，在自由编辑器内无法或不推荐修改，否则会报错，因此我们不展示该资产坑位）</li></ul></td><td><p></p><p><img src="../../.gitbook/assets/image (1045).png" alt="" data-size="original"></p></td></tr><tr><td>关于解决方法的详细介绍可查看<span data-gb-custom-inline data-tag="emoji" data-code="1f449">👉</span></td><td><a data-mention href="../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban.md">wan-fa-mo-ban.md</a></td><td>/</td></tr></tbody></table>
 
 
 

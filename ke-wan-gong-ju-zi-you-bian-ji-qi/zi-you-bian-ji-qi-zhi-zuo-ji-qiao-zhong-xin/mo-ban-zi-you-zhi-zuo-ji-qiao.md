@@ -51,7 +51,7 @@ description: '#自由编辑器 #模板自由制作'
 
 * 若该位置有动画参数，则代表可以调整
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 若该位置无动画参数，则可能由代码控制，不可以调整
 
@@ -69,7 +69,7 @@ description: '#自由编辑器 #模板自由制作'
 * 可以新增粒子特效，并调整其位置大小到合适
 * 同样，对于不需要的粒子特效，可以将其图层隐藏或调整该图层透明度为0
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.事件设置
 
@@ -80,7 +80,7 @@ description: '#自由编辑器 #模板自由制作'
 * 若该位置有事件参数，则可以调整
 * 若该位置无事件参数，则可能由代码控制，不可以调整
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2）新增事件
 
@@ -178,4 +178,4 @@ description: '#自由编辑器 #模板自由制作'
 
 注：极少模板的部分资产可能在【玩法模板】中也没有，这是因为该资产由开发通过代码控制，在自由编辑器内无法或不推荐修改，否则容易报错，因此我们不展示该资产坑位。
 
-关于【玩法模板】的详细内容可查看[wan-fa-mo-ban](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban/ "mention")
+关于【玩法模板】的详细内容可查看[wan-fa-mo-ban.md](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")

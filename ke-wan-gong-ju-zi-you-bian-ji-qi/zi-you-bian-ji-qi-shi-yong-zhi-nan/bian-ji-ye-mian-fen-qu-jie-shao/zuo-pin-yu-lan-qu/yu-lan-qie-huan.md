@@ -46,7 +46,7 @@ description: '#自由编辑器'
 
 ## 快捷排版
 
-【快捷排版】按钮仅在**模板自由制作**中出现，具体操作可查看[wan-fa-mo-ban](../ding-bu-zi-chan-ku/wan-fa-mo-ban/ "mention")
+【快捷排版】按钮仅在**模板自由制作**中出现，具体操作可查看[wan-fa-mo-ban.md](../ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")
 
 
 
