@@ -145,7 +145,7 @@ description: '#自由编辑器 #模板自由制作 #模板自由制作'
 
 
 
-#### 1-1）**触发事件：开始画线**
+#### <mark style="background-color:orange;">1-1）</mark><mark style="background-color:orange;">**触发事件：开始画线**</mark>
 
 需要选择开始画线的区域并设置响应事件
 
@@ -159,7 +159,7 @@ description: '#自由编辑器 #模板自由制作 #模板自由制作'
 
 </div>
 
-#### 1-2）**触发事件：画线完成**
+#### <mark style="background-color:orange;">1-2）</mark><mark style="background-color:orange;">**触发事件：画线完成**</mark>
 
 需选择「是否匹配」以及「配对方式」下的「配对关系」或「配对类别」
 
@@ -204,41 +204,73 @@ description: '#自由编辑器 #模板自由制作 #模板自由制作'
 
 
 
+#### <mark style="background-color:orange;">2-1）</mark><mark style="background-color:orange;">**响应事件：抹除连线线条**</mark>
 
+需要选择抹除的「配对关系」。
 
+该事件的响应结果为：所选择的配对关系中，**已画完的线条**会被抹除。
 
-
-
-
-#### 3）**响应事件：抹除连线线条**
-
-需要选择抹除的「配对」。该事件的响应结果为：指定配对已画完成的线条被抹除
+<mark style="color:red;">**注意：该响应事件仅对「直线」生效，对「自由绘制」不生效**</mark>
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (24) (1).png" alt="" width="477"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1332).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### 4）**响应事件：修改连线线条样式**
+#### <mark style="background-color:orange;">2-2）</mark><mark style="background-color:orange;">**响应事件：修改连线线条样式**</mark>
 
-需要选择修改的「区域」。该事件的响应结果为：该区域开始画出的线，及已经画完成的线条，修改样式为制定样式
+需要选择修改的「起止区域」并设置线条样式。
+
+该事件的响应结果为：所选择区域**开始画出的线及已经画完的线**，样式会修改为指定样式。
+
+<mark style="color:red;">**注意：该响应事件**</mark>
+
+* <mark style="color:red;">**针对「直线」：已画的和未画的线都生效**</mark>
+* <mark style="color:red;">**针对「自由绘制」：已画的线不生效，未画的线生效**</mark>
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt="" width="316"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1333).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### 5）**响应事件：启用/禁用配对关系**
+#### <mark style="background-color:orange;">2-3）</mark><mark style="background-color:orange;">**响应事件：**</mark><mark style="background-color:orange;">修改已连线配对的线条样式</mark>
 
-需要选择启用/禁用的「配对」
+需要选择修改的「配对关系」并设置线条样式。
+
+该事件的响应结果为：所选择的配对关系中，**已画完的线条**会被修改为指定样式
+
+<mark style="color:red;">**注意：该响应事件仅对「直线」生效，对「自由绘制」不生效**</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (1330).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="background-color:orange;">2-4）</mark><mark style="background-color:orange;">**响应事件：启用/禁用配对关系**</mark>
+
+需要选择启用或禁用的「配对关系」。
 
 * 若选择「禁用」，该事件的响应结果为：该配对关系，不再能够开始画线和结束画线
-* 若选择「启用」，该事件的响应结果为：取消配对的「禁用」
+* 若选择「启用」，该事件的响应结果为：取消该配对关系的「禁用」事件
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt="" width="323"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1329).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="background-color:orange;">2-5）</mark><mark style="background-color:orange;">**响应事件：启用/禁用起止区域**</mark>
+
+需要选择启用或禁用的「起止区域」。
+
+* 若选择「禁用」，该事件的响应结果为：该起止区域，不再能够开始画线
+* 若选择「启用」，该事件的响应结果为：取消该区域的「禁用」事件
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (1331).png" alt=""><figcaption></figcaption></figure>
 
 </div>
