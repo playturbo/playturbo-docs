@@ -24,7 +24,7 @@ description: '#换肤编辑器'
 ### STEP2 填写Mintegral账号信息
 
 * 如果你的Playturbo账号和Mintegral账号是同一个，则不需要填写额外的信息，直接选中账号即可
-* 选择推送到其他账号是，则需要填写投放账号的密码信息
+* 选择推送到其他账号时，则需要填写投放账号的密码信息
 
 <div align="left">
 
@@ -55,7 +55,7 @@ description: '#换肤编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/4 (30).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/4 (30).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
