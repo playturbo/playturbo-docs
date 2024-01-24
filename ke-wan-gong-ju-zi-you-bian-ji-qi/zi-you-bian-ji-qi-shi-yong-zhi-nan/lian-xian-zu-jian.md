@@ -165,9 +165,15 @@ description: '#自由编辑器 #模板自由制作'
 需选择「是否匹配」以及「配对方式」下的「配对关系」或「配对类别」
 
 * 若选择「匹配」-「配对关系」（支持单选或多选），还需选择具体是哪一组或哪几组配对关系
-* 若选择「匹配」-「配对类别」，还需选择配对类别是true或者false（注意：）
+* 若选择「匹配」-「配对类别」，还需选择配对类别是true或者false
+
+<mark style="color:red;">**注意:**</mark><mark style="color:red;">这里的true/false对应的是我们在前面「起止区域」部分所设置的配对关系的属性。</mark>在【画线回家】模板中，「配对1 -> 3」和「配对2-> 4」的类别为true，「配对1 -> 4」和「配对2-> 3」的类别为false
+
+<figure><img src="../../.gitbook/assets/image (1337).png" alt=""><figcaption></figcaption></figure>
 
 **触发时机为：**<mark style="color:red;">**当已选择的配对关系或配对类别画线完成时**</mark>
+
+**注意：**当我们多选了「配对关系」或者选择了某一「配对类别」时，只要<mark style="color:red;">其中任意一组「配对关系」完成画线</mark>，响应事件即会生效
 
 <div align="left">
 
@@ -179,7 +185,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="background-color:yellow;">当设置「匹配」→「配对关系」→「配对1 -> 3」，响应事件为「跳转下一场景」时：则在区域1开始画线到区域3成功完成画线后，会跳转到下一场景</mark>
 
-<mark style="background-color:yellow;">当设置「匹配」→「配对类别」→「true」，响应事件为「跳转下一场景」时：则在成功完成类别为True 的「1->3」或「2->4」</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**任意**</mark><mark style="background-color:yellow;">一组画线时，都会跳转到下一场景</mark>
+<mark style="background-color:yellow;">当设置「匹配」→「配对类别」→「true」，响应事件为「跳转下一场景」时：则在成功完成类别为true 的「1->3」</mark><mark style="color:red;background-color:yellow;">**或**</mark><mark style="background-color:yellow;">「2->4」</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**任意**</mark><mark style="background-color:yellow;">一组画线时，都会跳转到下一场景</mark>
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
@@ -202,6 +208,14 @@ description: '#自由编辑器 #模板自由制作'
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+<mark style="color:red;">**注意：**</mark>「画线类别-false」和「不匹配」的区别：
+
+「画线类别-false」 ：属于「配对关系」的一种（如模板中的配对1 -> 4）
+
+「不匹配」：不包含任意一种「配对关系」（如模板中的配对1 -> 2）
+
+
 
 
 
