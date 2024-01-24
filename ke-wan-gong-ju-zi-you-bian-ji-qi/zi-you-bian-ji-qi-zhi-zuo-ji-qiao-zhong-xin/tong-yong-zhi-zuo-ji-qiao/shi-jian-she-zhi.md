@@ -6,26 +6,30 @@ description: '#自由编辑器'
 
 ## 1. 全局变量-累计次数
 
-### <mark style="background-color:orange;">应用场景：</mark><mark style="color:red;">多次交互后，触发某种反馈</mark>
+### <mark style="background-color:orange;">1) 应用场景：</mark><mark style="color:red;">想实现“多次交互后，触发某种反馈”的效果</mark>
 
 * 例子1：点击找到5个目标物品后，跳转应用商店
 * 例子2：将3块拼图全部成功放置到正确位置后，出现彩带粒子特效
 * 例子3：点击\[生成]按钮，每点一次就出现一个新角色
 * ... ...
 
-### <mark style="background-color:orange;">案例预览</mark>
+### <mark style="background-color:orange;">2) 案例预览</mark>
 
-我们会以模板[【考眼力找物品】](http://tinyurl.com/5n82cjma)为例，进行简易版的制作，重点讲解如何通过【全局变量】实现以上列举内容的逻辑制作。
+我们将以模板[【考眼力找物品】](http://tinyurl.com/5n82cjma)为例，进行简易版的制作，<mark style="color:red;">重点讲解如何通过【全局变量】实现此类玩法的逻辑制作</mark>。当您遇到需要制作“累计次数来实现xx效果”时，不妨试试此制作技巧噢!
 
-简易版玩法流程：
+[简易版](http://tinyurl.com/556k7nyx)玩法流程：
 
 * 在画面中点击寻找猫咪
-* 正确点击猫咪一次，播放星星粒子反馈，已找到的文本数量+1
-* 累计找到三只猫咪，跳转结束页面
+* 每找到一只猫咪，播放星星粒子反馈，已找到的文本数量+1
+* 累计找到三只猫咪后，跳转结束页面
 
+<div align="left">
 
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="background-color:orange;">操作步骤</mark>
+</div>
+
+### <mark style="background-color:orange;">3) 操作步骤</mark>
 
 #### <mark style="color:red;">**Step1：添加全局变量**</mark>
 
@@ -77,13 +81,10 @@ description: '#自由编辑器'
 
 * 继续添加响应事件 -  【显示素材】cat1 - 【隐藏素材】star1
 * 添加完成后，我们点击【复制】按钮，复制该按下事件
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 * 然后依次粘贴到图层【cat2】和【cat3】，并更改对应生效的素材为cat2/star2、cat3/star3
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1346).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 <div align="left">
 
@@ -92,5 +93,3 @@ description: '#自由编辑器'
 </div>
 
 完成以上内容的设置，我们的素材就制作完成了。
-
-此类玩法的制作逻辑都是相同的，当您遇到需要“制作累计次数来实现xx效果”的问题时，不妨试试此制作技巧。
