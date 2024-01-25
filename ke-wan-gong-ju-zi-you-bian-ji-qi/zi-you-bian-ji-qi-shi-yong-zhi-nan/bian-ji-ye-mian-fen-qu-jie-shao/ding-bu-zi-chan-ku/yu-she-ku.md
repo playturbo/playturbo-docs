@@ -2,20 +2,25 @@
 description: '#自由编辑器'
 ---
 
-# 场景模板
+# 预设库
 
-入口：顶部资产库>>>场景模板
+入口：顶部资产库>>>预设库
 
-<figure><img src="../../../../.gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1368).png" alt=""><figcaption></figcaption></figure>
 
-## 场景模板是什么
+## <mark style="color:blue;">一、关于预设库</mark>
 
-* 我们将一些实用的、常用的场景编辑成模板（如操作指引、结束页），方便您在制作时直接添加相应模板即可调用该场景，无需自己从头制作
-* 场景模板由Mindworks定期更新，您可自由选择使用
+* Playturbo将一些实用的、常用的内容(如操作指引、结束页)编辑成预设，方便您在制作时能够将其快速添加到自己的项目中，直接使用，显著提高您的制作效率
+* 各类预设不定期更新，您可自由选择使用
+* <mark style="color:red;">**注意：**</mark><mark style="color:red;">当您选择添加预设</mark>预，伴随该，该伴随设<mark style="color:red;">时会新增出一个场景，并非只新增某个元素。因此我们建议您在开始制作时，就考虑好是否要使用场景模板，如使用，则要在开始就添加场景模板，然后再继续在该场景内进行其他内容制作。</mark>
 
 
 
-## 场景模板涵盖的类别
+## <mark style="color:blue;">二、预设库</mark>
+
+##
+
+## <mark style="color:blue;">的类别</mark>
 
 ### 1、操作指引
 
@@ -77,4 +82,3 @@ description: '#自由编辑器'
 
 ## 场景模板使用注意
 
-<mark style="color:red;">当您添加场景模板时，会新增出一个场景，并非只新增某个元素。因此我们建议您在开始制作时，就考虑好是否要使用场景模板，如使用，则要在开始就添加场景模板，然后再继续在该场景内进行其他内容制作。</mark>

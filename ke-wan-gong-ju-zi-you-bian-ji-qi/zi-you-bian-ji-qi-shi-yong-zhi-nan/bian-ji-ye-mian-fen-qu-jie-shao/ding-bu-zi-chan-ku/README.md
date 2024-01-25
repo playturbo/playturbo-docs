@@ -16,7 +16,7 @@ description: '#自由编辑器'
 
 [shou-shi-qu-yu.md](shou-shi-qu-yu.md "mention")
 
-[chang-jing-mo-ban.md](chang-jing-mo-ban.md "mention")
+[yu-she-ku.md](yu-she-ku.md "mention")
 
 [quan-ju-bian-liang.md](quan-ju-bian-liang.md "mention")
 
