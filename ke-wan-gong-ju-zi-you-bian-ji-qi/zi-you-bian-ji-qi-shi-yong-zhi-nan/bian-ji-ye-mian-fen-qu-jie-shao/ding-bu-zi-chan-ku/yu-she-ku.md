@@ -8,77 +8,71 @@ description: '#自由编辑器'
 
 <figure><img src="../../../../.gitbook/assets/image (1368).png" alt=""><figcaption></figcaption></figure>
 
+
+
 ## <mark style="color:blue;">一、关于预设库</mark>
 
-* Playturbo将一些实用的、常用的内容(如操作指引、结束页)编辑成预设，方便您在制作时能够将其快速添加到自己的项目中，直接使用，显著提高您的制作效率
-* 各类预设不定期更新，您可自由选择使用
-* <mark style="color:red;">**注意：**</mark><mark style="color:red;">当您选择添加预设</mark>预，伴随该，该伴随设<mark style="color:red;">时会新增出一个场景，并非只新增某个元素。因此我们建议您在开始制作时，就考虑好是否要使用场景模板，如使用，则要在开始就添加场景模板，然后再继续在该场景内进行其他内容制作。</mark>
+* Playturbo将一些实用的、常用的内容(如操作指引、结束页)编辑成预设，您在制作时可以将其快速添加到自己的项目中，直接使用，显著提高您的制作效率
+* 各类预设不定期更新，可随时查看使用
+* <mark style="color:red;">**注意：**</mark><mark style="color:red;">当您要添加预设时，预设并非直接被添加到当前场景，而是会新增出一个带有该预设的新场景。因此我们建议您在开始制作时，就考虑好是否要使用预设，如使用，则要在一开始就添加，然后再继续在该场景内进行其他内容制作</mark>
 
 
 
-## <mark style="color:blue;">二、预设库</mark>
+## <mark style="color:blue;">二、添加预设</mark>
 
-##
-
-## <mark style="color:blue;">的类别</mark>
-
-### 1、操作指引
-
-包含点击指引、双击指引、八字指引、滑动指引、多选项指引、不规则指引、开箱指引等
+* 点击「预设库」，将出现「预设库」窗口
+* 每种类型的预设默认展示6个，可点击「全部」按钮，展示该类别下的所有预设
+* 也可通过搜索或筛选标签的方式，快速查找所需预设
+* 点击「+」号，该预设就会作为场景加入到项目中，可以进一步编辑该场景
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (705).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### 2、常驻信息
-
-常驻信息一般包含产品icon、产品名称、常驻下载按钮
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (399).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### 3、结束页
-
-包含产品信息结束页、结算展示结束页、奖励展示结束页、福利展示结束页等
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### 4、进度条
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### 5、错误反馈
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### 6、其他
-
-包含产品元素轮播、游戏角色说明、音谱等
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1370).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 
 
-## 场景模板使用注意
+## <mark style="color:blue;">三、预设类别</mark>
 
+当前共有“玩法功能”“页面布局”“操作指引”“即时反馈”四种类型的预设
+
+### 1、玩法功能
+
+包含：循环播放、进度条、倒计时相关预设
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1371).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### 2、页面布局
+
+包含：产品信息、奖励结算、胜利结算、失败结算相关预设
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1372).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### 3、操作指引
+
+包含：摇杆、选择、滑动、长按、点击相关预设
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1373).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### 4、即时反馈
+
+包含：错误、正确相关预设
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1374).png" alt=""><figcaption></figcaption></figure>
+
+</div>
