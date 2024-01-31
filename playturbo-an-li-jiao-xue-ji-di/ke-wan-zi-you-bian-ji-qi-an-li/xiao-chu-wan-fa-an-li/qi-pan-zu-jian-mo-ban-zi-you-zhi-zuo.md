@@ -138,4 +138,12 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 <figure><img src="../../../.gitbook/assets/image (1326).png" alt=""><figcaption></figcaption></figure>
 
-到此，本案例模板自由制作的全部内容就完成了。
+
+
+## <mark style="color:blue;">**四、演示录屏**</mark> <a href="#ypqot" id="ypqot"></a>
+
+注：本视频为以上图文教程的**演示录屏**，仅有画面内容，未添加配音；
+
+视频详细记录了模板自由制作的迭代过程，演示速度基本没有调整，以方便您可以跟着视频一步步操作（如果已能对某一步骤熟悉操作，可酌情跳过）
+
+{% embed url="https://mmp-cdn.rayjump.com/res_store/2071993/65ba3125a596e.mp4" %}

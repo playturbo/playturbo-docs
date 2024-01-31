@@ -186,6 +186,7 @@
     * [消除玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/README.md)
       * [棋盘组件-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md)
     * [跑酷玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/README.md)
+      * [《左右选择跑酷》-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/zuo-you-xuan-ze-pao-ku-mo-ban-zi-you-zhi-zuo.md)
       * [《情侣翻越 1》跑酷视频（分段）](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/qing-lv-fan-yue-1-pao-ku-shi-pin-fen-duan.md)
       * [《情侣翻越 2》特效粒子替换](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/qing-lv-fan-yue-2-te-xiao-li-zi-ti-huan.md)
     * [装扮玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/zhuang-ban-wan-fa-an-li/README.md)
