@@ -44,53 +44,90 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 ## <mark style="color:blue;">**三、迭代内容详解**</mark> <a href="#ypqot" id="ypqot"></a>
 
-接下来，我们将配图详细介绍每一步骤。
+接下来，我们将配图详细介绍每一个步骤。
 
 ### 1.场景及资产 <a href="#aqu3j" id="aqu3j"></a>
 
-<mark style="color:red;">**Tips：**</mark>在开始调整前，我们可先统一将新的资产上传到【项目资产】，方便后续替换或新增资产
+#### 1）替换资产
+
+<mark style="background-color:yellow;">注：【替换资产】这一步骤有两种方式可以选择，具体可查看</mark>[#id-1.-zi-chan-ti-huan-ji-qiao](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#id-1.-zi-chan-ti-huan-ji-qiao "mention")
+
+<mark style="background-color:yellow;">在本案例中，我们选择先使用【换肤编辑器】完成所有资产的替换，再【复制到自由制作】完成后续制作</mark>
+
+
+
+<mark style="background-color:red;">1-1）图片资产</mark>
+
+* 鼠标悬浮在【+】号图标处，可查看当前图片资产坑位的尺寸要求，按照规定尺寸上传资产可以更好地适配模板哦！
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1387).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### **1）替换资产**
+* 以背景图为例，点击【替换】
+* 选择【我的资产库】-【本地上传】，导入我们提前准备好的背景图片
+* 点击图片右下角的【+】号，在弹出的图片裁剪窗口确认无误后，点击【确定】即可成功替换
 
-主要替换的资产有：背景图/背景音乐/视频/音效/手指图片(杀虫水)/指引文本/logo/下载按钮
+<figure><img src="../../../.gitbook/assets/image (1388).png" alt=""><figcaption></figcaption></figure>
 
-* 选中需要替换的资产图层，点击右侧【替换】按钮，调起资产库弹窗
-* 在【项目资产】一栏选择要替换的资产，点击【+】按钮即可完成替换
+* 对于不需要的图片(如福利卡坑位)，可以选择隐藏或替换为透明图片
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1390).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 文本可直接选中图层，在右侧文本框直接进行修改
-* 调整完文本内容和样式，我们可顺便点击【应用到其他语言】按钮，后续调整其他语言样式时会更加方便快捷
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-#### **2）新增场景**
+<mark style="background-color:red;">1-2）文本资产</mark>
 
-在场景缩略图处右键选择【新建场景】或直接点击【+】按钮，即可在当前场景下增加一个新的场景
+* 对于不需要的文本(如免责声明)，可以选择隐藏或直接清除文本内容
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
 
-#### **3）新增资产**
+<figure><img src="../../../.gitbook/assets/image (1381).png" alt=""><figcaption></figcaption></figure>
 
-场景1：警示图片/求救文案/求救音效
+</div>
 
-场景2：logo/下载按钮
+* 对于需要调整的文本，可直接在文本框修改文本内容
+* 点击文本旁的笔刷图标，可微调该文本的样式
 
-* 点击打开【项目资产】窗口，添加所需资产
-* 调整位置及大小
-* <mark style="color:red;">**注意：**</mark>在新增资产时需关注是否要调整屏幕适配方式（默认居中），如需要，可在调整资产时一并调整
+<div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1389).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+本案例需要替换的资产主要是图片及文本，按照以上操作方法，依次完成所有资产的替换即可。完成替换后，我们点击右上方的【···】，选择【复制到自由制作】，点击确认后即可进入自由编辑器进行后续内容的制作
+
+<figure><img src="../../../.gitbook/assets/image (1391).png" alt=""><figcaption></figcaption></figure>
+
+需要注意：【左右选择跑酷】模板是基于21点玩法制作的，在【换肤编辑器】中的卡牌坑位有重叠，导致“X8”和“X32”无法同时显示，需要进入自由编辑器另做替换
+
+* 点击【玩法模板】 - 【玩法编辑】
+* 选中【Level\_2】组下的图层【6】，点击【替换】完成“X32”图片的替换
+* 然后【返回项目编辑】即可
+
+<figure><img src="../../../.gitbook/assets/image (1392).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1393).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### **2）新增资产**
+
+场景2：跳转按钮
+
+* 点击打开【项目资产】窗口，上传跳转按钮图片
+* 添加到场景2中，并调整位置及大小
+* 新增文本“DOWNLOAD”，并在右侧调整其内容和样式
+
+<figure><img src="../../../.gitbook/assets/image (1395).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### 2.动画及特效 <a href="#ssrbm" id="ssrbm"></a>
 
