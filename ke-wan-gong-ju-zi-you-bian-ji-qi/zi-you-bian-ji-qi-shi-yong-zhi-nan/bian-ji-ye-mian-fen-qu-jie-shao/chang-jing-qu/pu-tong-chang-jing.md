@@ -84,7 +84,7 @@ description: '#自由编辑器'
 * 固定步骤：每个步骤1个场景
 * 有一定的自由度：核心玩法放1个场景，结束页单独1个场景
 
-详细内容可查看 [chang-jing-zhi-zuo.md](../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/chang-jing-zhi-zuo.md "mention")
+详细内容可查看 [zhi-zuo-ji-qiao-chang-jing-zhi-zuo.md](../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-chang-jing-zhi-zuo.md "mention")
 
 
 
