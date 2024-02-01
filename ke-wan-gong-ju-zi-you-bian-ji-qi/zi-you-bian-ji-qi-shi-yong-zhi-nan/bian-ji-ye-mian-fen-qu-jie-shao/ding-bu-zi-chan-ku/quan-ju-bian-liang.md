@@ -131,6 +131,6 @@ description: '#自由编辑器'
 
 ## 四、全局变量功能教学视频
 
-[jin-jie-quan-ju-bian-liang-gong-neng.md](../../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/zhuang-ban-wan-fa-an-li/jin-jie-quan-ju-bian-liang-gong-neng.md "mention")
+[jin-jie-huan-zhuang-da-pei-quan-ju-bian-liang-yan-shi-lu-ping.md](../../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/zhuang-ban-wan-fa-an-li/jin-jie-huan-zhuang-da-pei-quan-ju-bian-liang-yan-shi-lu-ping.md "mention")
 
 {% embed url="https://mmp-cdn.rayjump.com/res_store/1863758/646dd95fc8ac1.mp4" %}
