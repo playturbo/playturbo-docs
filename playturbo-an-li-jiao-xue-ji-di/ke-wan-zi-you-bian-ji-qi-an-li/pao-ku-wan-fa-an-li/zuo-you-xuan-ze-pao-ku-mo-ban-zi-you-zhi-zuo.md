@@ -16,7 +16,7 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 模板迭代后的改动，主要在以下几方面：
 
-### 1.场景及资产 <a href="#yjysk" id="yjysk"></a>
+#### 1.资产替换与新增 <a href="#yjysk" id="yjysk"></a>
 
 1）替换资产——序列帧/静帧图片/文本
 
@@ -24,37 +24,41 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 3）新增资产——场景2新增一个跳转按钮
 
-### 2.动画及特效 <a href="#hndzz" id="hndzz"></a>
+#### 2.动画设置 <a href="#hndzz" id="hndzz"></a>
 
 新增动画——为场景2的跳转按钮增加动画
 
-### 3.事件设置 <a href="#ylidl" id="ylidl"></a>
+#### 3.事件设置 <a href="#ylidl" id="ylidl"></a>
 
 新增事件——为场景2的跳转按钮增加跳转事件
 
-### 4.文本翻译 <a href="#cs5zi" id="cs5zi"></a>
+#### 4.多语言翻译 <a href="#cs5zi" id="cs5zi"></a>
 
-将修改及新增后的中文文本翻译为英文，并微调格式
+将修改及新增后的文本翻译为多语言版本，并微调格式
 
-### 5.横屏适配 <a href="#gqxtf" id="gqxtf"></a>
+#### 5.横屏适配 <a href="#gqxtf" id="gqxtf"></a>
 
-对每个场景的横屏进行排版调整
+对新增资产的横屏排版适配进行调整
 
 
 
 ## <mark style="color:blue;">**三、迭代内容详解**</mark> <a href="#ypqot" id="ypqot"></a>
 
-接下来，我们将配图详细介绍每一个步骤。
+接下来，我们将配图详细介绍每一个步骤
 
-### 1.场景及资产 <a href="#aqu3j" id="aqu3j"></a>
+### 1.资产替换与新增 <a href="#aqu3j" id="aqu3j"></a>
 
 #### 1）替换资产
 
-<mark style="background-color:yellow;">注：【替换资产】这一步骤有两种方式可以选择，具体可查看</mark>[#id-1.-zi-chan-ti-huan-ji-qiao](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#id-1.-zi-chan-ti-huan-ji-qiao "mention")
+注：【替换资产】这一步骤有两种方式可以选择，具体可查看[#id-1.-zi-chan-ti-huan-ji-qiao](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#id-1.-zi-chan-ti-huan-ji-qiao "mention")
 
-<mark style="background-color:yellow;">在本案例中，我们选择先使用【换肤编辑器】完成所有资产的替换，再【复制到自由制作】完成后续制作</mark>
+在本案例中，我们选择先使用【换肤编辑器】完成所有资产的替换，再【复制到自由制作】完成后续迭代。首先，选中模板，选择【换肤制作】 - 【普通制作】
 
+<div align="left">
 
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 <mark style="background-color:red;">1-1）图片资产</mark>
 
@@ -101,14 +105,16 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 </div>
 
-本案例需要替换的资产主要是图片及文本，按照以上操作方法，依次完成所有资产的替换即可。完成替换后，我们点击右上方的【···】，选择【复制到自由制作】，点击确认后即可进入自由编辑器进行后续内容的制作
+本案例需要替换的资产类型主要是图片及文本，按照以上操作方法，依次替换所有资产即可。
+
+完成替换后，我们点击右上方的【···】，选择【复制到自由制作】，点击确认后即可进入自由编辑器进行后续内容的制作
 
 <figure><img src="../../../.gitbook/assets/image (1391).png" alt=""><figcaption></figcaption></figure>
 
-需要注意：【左右选择跑酷】模板是基于21点玩法制作的，在【换肤编辑器】中的卡牌坑位有重叠，导致“X8”和“X32”无法同时显示，需要进入自由编辑器另做替换
+需要注意：【左右选择跑酷】模板是基于21点玩法制作的，在【换肤编辑器】中的卡牌坑位有重叠，导致“X8”和“X32”无法同时替换，需要进入自由编辑器对其中一个图片坑位另做替换
 
 * 点击【玩法模板】 - 【玩法编辑】
-* 选中【Level\_2】组下的图层【6】，点击【替换】完成“X32”图片的替换
+* 选中【Level\_2】组下的图层【6】，点击【替换】，完成“X32”图片的替换
 * 然后【返回项目编辑】即可
 
 <figure><img src="../../../.gitbook/assets/image (1392).png" alt=""><figcaption></figcaption></figure>
@@ -119,99 +125,87 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 #### **2）新增资产**
 
-场景2：跳转按钮
+场景2新增资产：跳转按钮
 
 * 点击打开【项目资产】窗口，上传跳转按钮图片
 * 添加到场景2中，并调整位置及大小
 * 新增文本“DOWNLOAD”，并在右侧调整其内容和样式
+* 将新增按钮编组，并拖拽放置于\[pop-ups]组内
 
-<figure><img src="../../../.gitbook/assets/image (1395).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
-### 2.动画及特效 <a href="#ssrbm" id="ssrbm"></a>
+### 2.动画设置 <a href="#ssrbm" id="ssrbm"></a>
 
-#### **1）修改动画**
+为场景2新增的跳转按钮增加动画
 
-将手指（杀虫水）动画由“位移缓动”替换为“缩放缓动”，并重新调整位置及参数。参数设置如下：
+* 选中原有按钮组\[btn\_last]，点击上方复制按钮
+* 再选中新增按钮组\[btn\_download]，点击上方粘贴按钮，选择【仅粘贴图层动画】，即可快速完成动画的设置
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-#### **2）新增动画**
+* 因我们想实现两组按钮交替缩放的动画效果，可通过调整其中一个按钮组的“脉冲向前”动画来实现
+* 如将新增按钮组\[btn\_download]的起始比例由“1”调整为“1.1”，结束比例由“1.1”调整为“1”即可
 
-2-1）为一张警示图片增加“强调动画-闪烁”。参数设置如下：
+<div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-设置完成后，我们点击复制动画按钮，将该闪烁动画粘贴到另外三张警示图片上：按住Ctrl键(苹果电脑需按钮Command键)，选中另外三张图片的图层，点击上方【粘贴-仅粘贴图层动画】即可
+</div>
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-2-2）为求救文本增加“位移缓动”动画。参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
-
-2-3）为结束页下载按钮增加“缩放缓动”动画。参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.事件设置 <a href="#xhudq" id="xhudq"></a>
 
-#### **1）修改事件**
+为场景2新增的跳转按钮增加跳转事件
 
-1-1）将场景1的图层事件“按下”整个复制到场景2，作为场景事件：
+* 同样，可通过\[复制-粘贴]功能快速完成
+* 上一步骤，我们已经复制了按钮组\[btn\_last]，所以直接选中\[btn\_download]，点击粘贴按钮，选择【仅粘贴图层事件】，即可快速完成事件的设置
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
-1-2）将场景1的图层事件“按下”的响应事件修改为“跳转下一场景”，并添加响应事件“暂停播放求救音效”
 
-<div align="left">
+### 4.多语言翻译 <a href="#fgprf" id="fgprf"></a>
 
-<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### **2）新增事件**
-
-为场景2的下载按钮增加事件“按下-跳转应用商店”
-
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-
-### 4.文本翻译 <a href="#fgprf" id="fgprf"></a>
+完成以上内容的调整后，我们可对有修改及新增的文本进行多语言翻译
 
 * 点击【全局设置】，在【默认语言】处点击笔刷图标，调起文本翻译窗口
+* 选择目标语言英语，在此只勾选有修改和新增的文本即可，然后点击【翻译】按钮进行智能翻译
+* 若对翻译结果不满意，可直接在文本框内进行微调，调整完毕后点击【提交】，多语言翻译即生效
+* 选中文本图层，在右侧参数设置区可微调文本样式
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+* 若想新增语言，点击【添加语言】即可
+* 翻译步骤同上
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 选择目标语言英语，并勾选所有文本，点击【翻译(内测)】按钮进行智能翻译
-* 若对翻译结果不满意，我们可直接在文本框内进行微调
-* 调整完毕后，点击【提交】，多语言翻译即生效
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (47).png" alt="" width="470"><figcaption></figcaption></figure>
-
-</div>
-
-* 然后我们点击切换到英语版本下预览，对英语文本的样式进行微调
-
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 ### 5.横屏适配 <a href="#sl2ai" id="sl2ai"></a>
 
-* <mark style="color:red;">注意：每个场景竖屏调整完成后，均需进行横屏排版（建议多使用“复用竖屏位置尺寸配置”按钮）</mark>
-* <mark style="color:red;">同时需注意横屏下各图层的屏幕适配方式是否正确</mark>
+对新增资产的横屏排版适配进行调整
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+* 选中新增按钮组\[btn\_download]，点击右侧【复用竖屏位置尺寸配置】，一键调整
+* 然后分别调整两个按钮组到适当位置即可
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### 6.**整体预览** <a href="#ozdcc" id="ozdcc"></a>
 
 全部调整完成后，我们对不同机型/不同语言/横竖屏进行整体预览试玩
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1396).png" alt=""><figcaption></figcaption></figure>
