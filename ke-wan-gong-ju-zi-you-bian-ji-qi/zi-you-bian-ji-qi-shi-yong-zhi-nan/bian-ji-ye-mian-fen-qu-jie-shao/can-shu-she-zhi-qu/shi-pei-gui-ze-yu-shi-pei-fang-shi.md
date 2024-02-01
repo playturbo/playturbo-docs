@@ -18,7 +18,7 @@ description: '#自由编辑器'
 
 <figure><img src="../../../../.gitbook/assets/视觉问题4.png" alt=""><figcaption></figcaption></figure>
 
-###
+
 
 ### **2.默认适配方案**
 
@@ -29,7 +29,7 @@ description: '#自由编辑器'
 
 <figure><img src="../../../../.gitbook/assets/视觉问题5.png" alt=""><figcaption></figcaption></figure>
 
-###
+
 
 ### **3.四边适配**
 

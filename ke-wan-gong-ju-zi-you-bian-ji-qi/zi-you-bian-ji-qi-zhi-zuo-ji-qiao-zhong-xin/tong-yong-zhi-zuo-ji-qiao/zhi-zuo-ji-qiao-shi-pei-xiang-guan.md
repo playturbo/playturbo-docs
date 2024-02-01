@@ -2,7 +2,7 @@
 description: '#自由编辑器'
 ---
 
-# 适配相关
+# 制作技巧-适配相关
 
 ## <mark style="color:blue;">一、适配方向</mark>
 
@@ -51,7 +51,7 @@ description: '#自由编辑器'
 
 </div>
 
-**Tips：**通常，我们会将添加在场景中的背景图片尺寸做大一些，在制作时拉出画布外，以适应不同机型下的预览。当图片尺寸为1800\*1800时，基本可以保证覆盖到所有机型。
+<mark style="color:red;">**Tips：**</mark>通常，我们会将添加在场景中的背景图片尺寸做大一些，在制作时拉出画布外，以适应不同机型下的预览。当图片尺寸为1800\*1800时，基本可以保证覆盖到所有机型。
 
 <figure><img src="../../../.gitbook/assets/image (1281).png" alt=""><figcaption></figcaption></figure>
 
@@ -59,11 +59,15 @@ description: '#自由编辑器'
 
 ### 2.屏幕适配方式
 
+关于屏幕适配方式的功能介绍可查看[shi-pei-gui-ze-yu-shi-pei-fang-shi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/shi-pei-gui-ze-yu-shi-pei-fang-shi.md "mention")
+
 所有图层的屏幕适配方式默认“水平居中&垂直居中”，即无论在哪种机型下预览素材，该图层都会位于屏幕最中心位置
 
 <figure><img src="../../../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
 
-部分图层，我们在制作时需要调整其屏幕适配方式，以保证在不同机型预览下的视觉效果。常见需要调整屏幕适配方式的图层有：常驻信息、免责声明。
+部分图层，我们在制作时需要调整其屏幕适配方式，以保证在不同机型预览下的视觉效果。
+
+常见需要调整屏幕适配方式的图层有：常驻信息、免责声明
 
 #### 1）常驻信息（包含产品信息&下载按钮）
 
@@ -77,11 +81,9 @@ description: '#自由编辑器'
 
 **注：**默认\[屏幕适配方式]参数横竖屏拆分。若图层在横竖屏下的位置不一致，则需分开设置屏幕适配方式；若一致，可取消勾选拆分
 
-关于适配的更多内容还可查看[shi-pei-gui-ze-yu-shi-pei-fang-shi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/shi-pei-gui-ze-yu-shi-pei-fang-shi.md "mention")
 
 
-
-### 3.视频适配
+### 3.视频适配技巧
 
 因视频的尺寸是固定的，无法像图片一样通过拉伸去适配所有机型。因此，在视频的适配上我们有以下两点制作技巧供您参考(以下截图仅做方法展示)：
 
