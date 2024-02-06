@@ -2,7 +2,7 @@
 description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 ---
 
-# 《左右选择跑酷》-模板自由制作
+# 《左右选择跑酷》模板自由制作
 
 ## <mark style="color:blue;">**一、对比展示**</mark> <a href="#aluje" id="aluje"></a>
 
@@ -56,7 +56,7 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

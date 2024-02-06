@@ -2,7 +2,7 @@
 description: '#自由编辑器'
 ---
 
-# 事件设置
+# 制作技巧-事件设置
 
 ## 1. 全局变量-累计次数
 
@@ -25,7 +25,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

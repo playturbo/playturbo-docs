@@ -2,7 +2,7 @@
 description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 ---
 
-# 拉环玩法-制作教程
+# 拉环玩法-全局变量制作教程
 
 温馨提示：本案例以拉环玩法为例，讲解**“多种操作顺序，触发多种结果”**的全局变量制作方法，但实际也适用于同类操作逻辑的其他玩法哦！
 
@@ -19,10 +19,10 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                                   | 竖屏                                                                                                     | 横屏                                                                                                     |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| <img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
-| 扫码试玩                                                                                       | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                    | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                    |
+| 手机试玩效果最佳                                                                                   | 竖屏                                                                                                         | 横屏                                                                                                     |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| <img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
+| 扫码试玩                                                                                       | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                        | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                    |
 
 
 
@@ -65,7 +65,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 * 场景2：成功结束页面
 * 场景3：失败结束页面
 
-<table data-full-width="false"><thead><tr><th width="120">场景名称</th><th width="296">场景1-拉环玩法</th><th width="165">场景2-成功结束页面</th><th>场景3-失败结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td><p>玩家拉动拉环，触发相应反馈；</p><p>存在多种操作顺序，触发多种结果</p></td><td>成功结束页面</td><td>失败结束页面</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>背景图、拉环、石头</p><p><strong>序列帧：</strong></p><ul><li>火：下落*1组</li><li>水：下落*1组</li><li>金币：下落*3组（①从头落到底、②从头落到中间、③从中间落到底）</li><li>金额：数字滚动*1组</li></ul></td><td>-</td><td>-</td></tr><tr><td><strong>核心动画</strong></td><td><p>拉环：位移缓动+透明度缓动</p><p>石头：淡入</p></td><td>-</td><td>-</td></tr><tr><td><strong>核心事件</strong></td><td><p>全局变量：布尔值类型</p><p>触发对象：图层-拉环a/拉环b/拉环c</p><p>触发事件：按下+条件判断</p><p>响应事件：赋值/禁用事件/播放动画&#x26;序列帧</p></td><td>-</td><td>-</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="120">场景名称</th><th width="296">场景1-拉环玩法</th><th width="165">场景2-成功结束页面</th><th>场景3-失败结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td><p>玩家拉动拉环，触发相应反馈；</p><p>存在多种操作顺序，触发多种结果</p></td><td>成功结束页面</td><td>失败结束页面</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>背景图、拉环、石头</p><p><strong>序列帧：</strong></p><ul><li>火：下落*1组</li><li>水：下落*1组</li><li>金币：下落*3组（①从头落到底、②从头落到中间、③从中间落到底）</li><li>金额：数字滚动*1组</li></ul></td><td>-</td><td>-</td></tr><tr><td><strong>核心动画</strong></td><td><p>拉环：位移缓动+透明度缓动</p><p>石头：淡入</p></td><td>-</td><td>-</td></tr><tr><td><strong>核心事件</strong></td><td><p>全局变量：布尔值类型</p><p>触发对象：图层-拉环a/拉环b/拉环c</p><p>触发事件：按下+条件判断</p><p>响应事件：赋值/禁用事件/播放动画&#x26;序列帧</p></td><td>-</td><td>-</td></tr></tbody></table>
 
 
 
