@@ -205,6 +205,7 @@
   * [创意洞察](qi-ta-jiao-cheng/chuang-yi-dong-cha/README.md)
     * [数据总览](qi-ta-jiao-cheng/chuang-yi-dong-cha/shu-ju-zong-lan.md)
     * [试玩素材分析](qi-ta-jiao-cheng/chuang-yi-dong-cha/shi-wan-su-cai-fen-xi.md)
+    * [用户旅程分析](qi-ta-jiao-cheng/chuang-yi-dong-cha/yong-hu-lv-cheng-fen-xi.md)
     * [数据时区说明](qi-ta-jiao-cheng/chuang-yi-dong-cha/shu-ju-shi-qu-shuo-ming.md)
   * [创意洞察-通用埋点使用建议](qi-ta-jiao-cheng/chuang-yi-dong-cha-tong-yong-mai-dian-shi-yong-jian-yi/README.md)
     * [通用埋点-分析思路](qi-ta-jiao-cheng/chuang-yi-dong-cha-tong-yong-mai-dian-shi-yong-jian-yi/tong-yong-mai-dian-fen-xi-si-lu.md)
