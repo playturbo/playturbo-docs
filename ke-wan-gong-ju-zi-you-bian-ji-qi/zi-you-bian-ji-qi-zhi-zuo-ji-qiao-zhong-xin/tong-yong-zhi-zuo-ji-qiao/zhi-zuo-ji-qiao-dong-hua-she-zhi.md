@@ -4,8 +4,6 @@ description: '#自由编辑器'
 
 # 制作技巧-动画设置
 
-##
-
 ## <mark style="color:blue;">一、效果实现</mark>
 
 ### 1.常用操作指引（手指动画）
@@ -22,9 +20,9 @@ description: '#自由编辑器'
 
 2）为人物图层添加动画-通用-缩放缓动，具体参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (1263).png" alt=""><figcaption></figcaption></figure>
-
 注：可根据实际需求，通过调整【结束比例】来控制人物缩放幅度的大小
+
+<figure><img src="../../../.gitbook/assets/image (1263).png" alt=""><figcaption></figcaption></figure>
 
 
 
