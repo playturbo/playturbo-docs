@@ -14,6 +14,8 @@ description: '#自由编辑器 #空白制作'
 
 新建项目后，首先点击【项目资产】，导入提前准备好的所有资产。部分通用资产也可通过【资产库】获取使用。
 
+🌟帮助中心文档指路：[xiang-mu-zi-chan.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/xiang-mu-zi-chan.md "mention") [zi-chan-ku](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/zi-chan-ku/ "mention")
+
 <figure><img src="../../../.gitbook/assets/image (1397).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.搭建场景
@@ -22,6 +24,8 @@ description: '#自由编辑器 #空白制作'
 
 * 在右侧添加背景音乐与背景图片
 * 在左侧【全局场景】下添加常驻信息，如产品信息、下载按钮、免责声明文本
+
+🌟帮助中心文档指路：[quan-ju-she-zhi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/chang-jing-qu/quan-ju-she-zhi.md "mention")
 
 <figure><img src="../../../.gitbook/assets/image (1399).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,6 +44,8 @@ description: '#自由编辑器 #空白制作'
 * 场景2：结束页面。可从【预设库】内选取预设直接使用
 * 注意：若使用预设，建议在此步骤就添加(因为添加预设是会新增出一个带有该预设的新场景)。预设添加成功后，我们可对部分资产进行微调，同时可删除原有的场景2
 
+🌟帮助中心文档指路：[pu-tong-chang-jing.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/chang-jing-qu/pu-tong-chang-jing.md "mention") [tu-ceng-de-xiang-guan-cao-zuo.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/tu-ceng-qu/tu-ceng-de-xiang-guan-cao-zuo.md "mention") [yu-she-ku.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/yu-she-ku.md "mention")
+
 <figure><img src="../../../.gitbook/assets/image (1401).png" alt=""><figcaption></figcaption></figure>
 
 
@@ -54,30 +60,37 @@ description: '#自由编辑器 #空白制作'
 <figure><img src="../../../.gitbook/assets/image (1403).png" alt=""><figcaption></figcaption></figure>
 
 * 同样，对个别需要调整【屏幕适配方式】的图层进行设置
+* 各场景的横屏排版与适配都同理
 
 <figure><img src="../../../.gitbook/assets/image (1404).png" alt=""><figcaption></figcaption></figure>
 
-各场景的横屏排版与适配都同理。完成所有横屏的调整后，我们开始设置动画。
+🌟帮助中心文档指路： [shi-pei-gui-ze-yu-shi-pei-fang-shi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/shi-pei-gui-ze-yu-shi-pei-fang-shi.md "mention") [zhi-zuo-ji-qiao-shi-pei-xiang-guan.md](zhi-zuo-ji-qiao-shi-pei-xiang-guan.md "mention")
 
 
 
 ## <mark style="color:blue;">三、动效设置</mark>
 
+完成所有横屏的调整后，我们开始设置动效。
+
 ### 1.添加动画
 
 选中需要设置动画的图层，点击【添加动画】，并选择合适的动画，调整相应参数
+
+🌟帮助中心文档指路： [dong-hua.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/can-shu-lei-xing-jie-shao/dong-hua.md "mention")
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 2.添加粒子特效
 
-若需添加粒子特效，可从【资产库】的【粒子】一栏选取。添加到画布后，调整其位置即可。
+若需添加粒子特效，可从【资产库】的【粒子】一栏选取。添加到画布后，调整其位置即可
 
 注意：调整完竖屏，还需调整横屏下的粒子位置
 
+🌟帮助中心文档指路： [li-zi-can-shu](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/tu-ceng/wai-guan/li-zi-can-shu/ "mention")
+
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-所有动效设置完成，我们进行最重要的一步——事件设置
+所有动效设置完成，我们进行最重要的一步——事件设置。
 
 
 
@@ -85,11 +98,13 @@ description: '#自由编辑器 #空白制作'
 
 通常，我们会按照试玩的顺序依次进行事件设置。可根据实际需求，将事件设置在图片上、组上、手势区域上、场景上等等。建议每完成一部分事件设置，就及时预览，查看事件设置是否符合您的需求，如有问题也方便及时调整。
 
+🌟帮助中心文档指路： [pu-tong-shi-jian](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/can-shu-lei-xing-jie-shao/shi-jian/pu-tong-shi-jian/ "mention") [quan-ju-bian-liang.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md "mention")
+
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**注意：**</mark>记得勾选最后的结束页面为【结束场景】，或手动添加【上报试玩结束】
 
-详细内容可查看[#shang-bao-shi-wan-jie-shu](../../zuo-pin-zhi-zuo-zhong-yao-ti-shi.md#shang-bao-shi-wan-jie-shu "mention")
+🌟帮助中心文档指路：[#shang-bao-shi-wan-jie-shu](../../zuo-pin-zhi-zuo-zhong-yao-ti-shi.md#shang-bao-shi-wan-jie-shu "mention")
 
 <div align="left">
 
@@ -106,7 +121,7 @@ description: '#自由编辑器 #空白制作'
 * 点击【添加语言】，调起文本翻译窗口，可选择要生成的新的目标语言
 * 也可在【默认语言】处删除不需要的语言版本
 
-具体操作步骤可查看[duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/quan-ju-chang-jing/quan-ju-she-zhi/duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md "mention")
+🌟帮助中心文档指路：[duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/quan-ju-chang-jing/quan-ju-she-zhi/duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md "mention")
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -137,6 +152,8 @@ description: '#自由编辑器 #空白制作'
 <figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="519"><figcaption></figcaption></figure>
 
 </div>
+
+🌟帮助中心文档指路： [xiang-mu-xin-xi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/xiang-mu-xin-xi.md "mention")
 
 
 
