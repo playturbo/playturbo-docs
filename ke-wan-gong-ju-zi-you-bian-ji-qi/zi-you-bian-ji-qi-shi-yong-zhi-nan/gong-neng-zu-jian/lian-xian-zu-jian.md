@@ -8,13 +8,13 @@ description: '#自由编辑器 #模板自由制作'
 
 入口2：图层区>>>连线组件
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ## <mark style="color:blue;">一、连线组件通俗介绍</mark>
 
-* **「连线组件」仅存在于**<mark style="color:red;">**部分画线玩法的模板**</mark>**中，可通过【模板自由制作】进入**
+* **「连线组件」仅存在于**<mark style="color:red;">**部分连线玩法的模板**</mark>**中，可通过【模板自由制作】进入**
 * 适用于如连线配对、连连看等<mark style="color:red;">有固定可连线区域</mark>或<mark style="color:red;">固定配对组合</mark>的玩法
 * 基于现有的「连线组件」，您可调整模板的可画线范围、画线的起止区域及样式、配对关系、连线类型等内容
 
@@ -33,7 +33,7 @@ description: '#自由编辑器 #模板自由制作'
 * 屏幕适配方式：和各图层的外观参数相同，可调整该连线组件的屏幕适配方式
 * 缩放比例：和各图层的外观参数相同，可调整该连线组件的比例
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -41,7 +41,7 @@ description: '#自由编辑器 #模板自由制作'
 
 「起止区域」是连线组件独有的参数，一个连线组件有若干个起止区域和配对关系
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **1）起止区域**
 
@@ -58,7 +58,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -80,7 +80,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -92,7 +92,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="background-color:yellow;">通过以上配对关系，素材可以从区域1、2拖拽画出线，若最终手指松开的位置在区域3、4内，则画线被保留，并触发相应的事件，否则画线不保留</mark>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -105,7 +105,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -120,7 +120,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -134,13 +134,13 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -156,7 +156,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -171,7 +171,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="color:red;">**注意:**</mark><mark style="color:red;">这里的true/false对应的是我们在前面「起止区域」部分所设置的配对关系的属性。</mark>在【画线回家】模板中，「配对1 -> 3」和「配对2-> 4」的类别为true，「配对1 -> 4」和「配对2-> 3」的类别为false
 
-<figure><img src="../../.gitbook/assets/image (1337).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1337).png" alt=""><figcaption></figcaption></figure>
 
 **触发时机为：**<mark style="color:red;">**当已选择的配对关系或配对类别画线完成时**</mark>
 
@@ -179,7 +179,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -189,7 +189,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="background-color:yellow;">当设置「匹配」→「配对类别」→「true」，响应事件为「跳转下一场景」时：则在成功完成类别为true 的「1->3」</mark><mark style="color:red;background-color:yellow;">**或**</mark><mark style="background-color:yellow;">「2->4」</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**任意**</mark><mark style="background-color:yellow;">一组画线时，都会跳转到下一场景</mark>
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * 若选择「不匹配」，直接添加对应响应事件即可
 
@@ -197,7 +197,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -207,7 +207,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -231,7 +231,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1332).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1332).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -248,7 +248,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1333).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1333).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -262,7 +262,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1330).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1330).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -275,7 +275,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1329).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1329).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -288,6 +288,6 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1331).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1331).png" alt=""><figcaption></figcaption></figure>
 
 </div>
