@@ -6,7 +6,7 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 ## <mark style="color:blue;">**一、对比展示**</mark> <a href="#aluje" id="aluje"></a>
 
-我们先来看一下使用**模板自由制作**前后的对比：[迭代前](http://tinyurl.com/yc7c3hh8) VS [迭代后](http://tinyurl.com/bdfa8ec2)
+我们先来看一下使用**模板自由制作**前后的对比：[迭代前](http://tinyurl.com/yc7c3hh8) VS [迭代后](http://tinyurl.com/4wtn5nap)
 
 <figure><img src="../../../.gitbook/assets/image (1379).png" alt=""><figcaption></figcaption></figure>
 
@@ -22,15 +22,15 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 2）隐藏资产——原模板为网赚类型，迭代后我们隐藏了网赚相关元素
 
-3）新增资产——场景2新增一个跳转按钮
+3）新增资产——场景1新增光芒图片；场景2新增一个跳转按钮
 
 #### 2.动画设置 <a href="#hndzz" id="hndzz"></a>
 
-新增动画——为场景2的跳转按钮增加动画
+新增动画——为第二个序列帧球和光芒图片增加退场动画；为场景2的跳转按钮增加缩放动画
 
 #### 3.事件设置 <a href="#ylidl" id="ylidl"></a>
 
-新增事件——为场景2的跳转按钮增加跳转事件
+新增事件——在场景1原有事件下新增第二个序列帧球消失的响应事件；为场景2的跳转按钮增加跳转事件
 
 #### 4.多语言翻译 <a href="#cs5zi" id="cs5zi"></a>
 
@@ -56,7 +56,7 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -125,7 +125,14 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 #### **2）新增资产**
 
-场景2新增资产：跳转按钮
+**2-1）场景1新增资产：光芒过渡图片**
+
+* 选中原有图层\[player\_card\_light]，删除其"透明度缓动"动画
+* 复制该图层到图层\[xlz\_Player\_card\_5]之下，然后隐藏原图层
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+**2-2）场景2新增资产：跳转按钮**
 
 * 点击打开【项目资产】窗口，上传跳转按钮图片
 * 添加到场景2中，并调整位置及大小
@@ -134,7 +141,7 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -142,19 +149,29 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 ### 2.动画设置 <a href="#ssrbm" id="ssrbm"></a>
 
-为场景2新增的跳转按钮增加动画
+#### 1）为第二个序列帧球和光芒图片增加退场动画
+
+* 选中场景1中的图层\[xlz\_Player\_card\_5]，添加动画-退场动画-淡出。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* 选中刚刚复制出来的图层\[player\_card\_light\_end]，添加动画-退场动画-淡入淡出。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+#### 2）为场景2新增的跳转按钮增加动画
 
 * 选中原有按钮组\[btn\_last]，点击上方复制按钮
 * 再选中新增按钮组\[btn\_download]，点击上方粘贴按钮，选择【仅粘贴图层动画】，即可快速完成动画的设置
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 因我们想实现两组按钮交替缩放的动画效果，可通过调整其中一个按钮组的“脉冲向前”动画来实现
 * 如将新增按钮组\[btn\_download]的起始比例由“1”调整为“1.1”，结束比例由“1.1”调整为“1”即可
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -162,12 +179,19 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 ### 3.事件设置 <a href="#xhudq" id="xhudq"></a>
 
-为场景2新增的跳转按钮增加跳转事件
+#### 1）场景1新增响应事件
 
-* 同样，可通过\[复制-粘贴]功能快速完成
+* 点击场景1的【事件】
+* 在【第2次奖励反馈】下添加响应事件-从头播放全部动画，依次选择图层\[xlz\_Player\_card\_5]和\[player\_card\_light\_end]即可
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+#### 2）场景2新增跳转事件
+
+* 同动画，可通过\[复制-粘贴]功能快速完成
 * 上一步骤，我们已经复制了按钮组\[btn\_last]，所以直接选中\[btn\_download]，点击粘贴按钮，选择【仅粘贴图层事件】，即可快速完成事件的设置
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
