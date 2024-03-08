@@ -120,3 +120,13 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览
 
 <figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## <mark style="color:blue;">**六、演示录屏**</mark> <a href="#ypqot" id="ypqot"></a>
+
+注：本视频为以上图文教程的**演示录屏**，仅有画面内容，未添加配音；
+
+视频详细记录了本案例空白制作的操作过程，演示速度基本没有调整，以方便您可以跟着视频一步步操作（如果您已能对某一步骤熟悉操作，可酌情跳过）
+
+{% embed url="https://mmp-cdn.rayjump.com/res_store/2110668/65eaae046dd0e.mp4" %}
