@@ -8,7 +8,7 @@ description: '#换肤编辑器 #自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -26,7 +26,7 @@ description: '#换肤编辑器 #自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="327"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="327"><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,7 +42,7 @@ description: '#换肤编辑器 #自由编辑器'
 
 2）在[「试玩素材分析」](shi-wan-su-cai-fen-xi.md)页面，自定义列选择「素材名称」时，点击表格中的「分析」按钮，跳转到该页面
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**注：**</mark>**创意版本ID**用于标识创意的唯一性。创意展示层面相同的素材，共用一个创意版本ID。
 

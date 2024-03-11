@@ -12,4 +12,4 @@ description: 项目新建成功后，会自动进入项目编辑页面
 * 下方轨道区：对添加到轨道的元素进行时间轴上的操作，包括删除、移动、分割、复制等
 * 上方操作栏：可以对项目进行操作，包括：返回到项目页、重命名项目、进入【创意制作】或【字幕&配音】、文本翻译、保存项目、导出为作品、查看该项目的导出列表
 
-<figure><img src="../../../.gitbook/assets/image (1437).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

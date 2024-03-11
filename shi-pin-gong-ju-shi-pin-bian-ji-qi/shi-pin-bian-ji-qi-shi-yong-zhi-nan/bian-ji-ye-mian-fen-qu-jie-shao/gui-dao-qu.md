@@ -105,4 +105,4 @@
 
 <figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
 
-（有关时序叉乘的更多内容可移步[创建资源组](../chang-yong-gong-neng/pi-liang-zu-he-gong-neng/zi-yuan-zu-bian-ji/chuang-jian-zi-yuan-zu.md)模块进行查阅）
+（有关时序叉乘的更多内容可移步[创建资源组](../chang-yong-gong-neng/pi-liang-zu-he-gong-neng/zi-yuan-zu-bian-ji/chuang-jian-zi-chan-zu.md)模块进行查阅）

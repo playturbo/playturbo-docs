@@ -2,7 +2,7 @@
 description: 您的个人素材仓库，可以在此对您的个人素材进行相关操作
 ---
 
-# 素材库
+# 资产库
 
 ## 1.素材上传
 
@@ -10,20 +10,20 @@ description: 您的个人素材仓库，可以在此对您的个人素材进行�
 
 <div align="left">
 
-<img src="../../../../.gitbook/assets/0 (108).png" alt="" width="281">
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="318"><figcaption></figcaption></figure>
 
 </div>
 
 #### a.点击上传 <a href="#ceeux" id="ceeux"></a>
 
-* 点击素材库，在个人文件夹中选择需要上传的素材文件
+* 点击资产库，在个人文件夹中选择需要上传的素材文件
 * 素材开始上传
 * 部分素材需要上传和转码过程，请耐心等待
 * 转码完成后即可在项目中使用
 
 #### b.拖拽上传 <a href="#u65129569" id="u65129569"></a>
 
-* 直接将个人文件夹中的素材拖拽到素材库区域
+* 直接将个人文件夹中的素材拖拽到资产库区域
 * 素材开始上传
 * 部分素材需要上传和转码过程，请耐心等待
 * 转码完成后即可在项目中使用
@@ -52,10 +52,10 @@ description: 您的个人素材仓库，可以在此对您的个人素材进行�
 ## 4.智能分镜
 
 * 点击素材右下角左侧的剪刀图标，可对素材进行智能分镜处理
-* 详细内容可查看AI功能下的[智能分镜](su-cai-ku.md#zhi-neng-fen-jing)
+* 详细内容可查看AI功能下的[智能分镜](zi-chan-ku.md#zhi-neng-fen-jing)
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/2 (24).png" alt="" width="289"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
