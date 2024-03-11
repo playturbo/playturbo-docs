@@ -30,7 +30,7 @@ description: 如果您有组内资源有进一步精细调整的需求，可进�
 
 ### 3.调整资源轨道
 
-您可以对资源进行轨道区上的裁切，其中虚线代表资源组的当前时长
+您可以对资源进行轨道区上的裁切，其中虚线代表资产组的当前时长
 
 <figure><img src="../../../../../../.gitbook/assets/image (552).png" alt=""><figcaption></figcaption></figure>
 

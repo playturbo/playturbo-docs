@@ -4,7 +4,7 @@ description: 以视频镜头的切换作为分割点，将一条视频拆分为�
 
 # 智能分镜
 
-* 点击【素材库】-【项目素材】，选中待分镜的视频资源
+* 点击【资产库】-【项目素材】，选中待分镜的视频资源
 * 点击视频资源上的剪刀图标，即【智能分镜】按钮
 
 <figure><img src="../../../../.gitbook/assets/image (568).png" alt=""><figcaption></figcaption></figure>

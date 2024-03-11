@@ -27,7 +27,7 @@ description: 创建资产组，以便放置批量替换的同类型资源
 ## 2.资产组的操作
 
 * 可对资产组进行重命名、删除、添加至轨道的操作
-* 点击「+」号，将未添加到轨道的资源组添加到轨道
+* 点击「+」号，将未添加到轨道的资产组添加到轨道
 
 <figure><img src="../../../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
 
