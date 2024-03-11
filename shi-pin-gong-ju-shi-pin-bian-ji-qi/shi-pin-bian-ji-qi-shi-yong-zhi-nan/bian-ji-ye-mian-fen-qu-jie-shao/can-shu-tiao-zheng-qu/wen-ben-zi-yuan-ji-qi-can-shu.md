@@ -79,13 +79,15 @@ c. 若字体被删除，再次打开项目则会弹出字体丢失弹窗，需�
 
 ### 动画参数 <a href="#ubb1c0abd" id="ubb1c0abd"></a>
 
-* 文本仅支持添加循环动画
-* 循环动画添加于整段文本元素
-* 每类动画只能选择其中一个动画资源
-* 可编辑动画快慢
+* 文本支持添加动画，包含：入场、出场、组合、循环 四种动画
+* 入场动画添加于文本元素开头
+* 出场动画添加于文本元素结尾
+* 循环、组合动画添加于整段文本元素
+* 入场动画和出场动画可同时添加在文本元素上
+* 选中一个动画后，可编辑动画快慢
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30).png" alt="" width="255"><figcaption></figcaption></figure>
 
 </div>

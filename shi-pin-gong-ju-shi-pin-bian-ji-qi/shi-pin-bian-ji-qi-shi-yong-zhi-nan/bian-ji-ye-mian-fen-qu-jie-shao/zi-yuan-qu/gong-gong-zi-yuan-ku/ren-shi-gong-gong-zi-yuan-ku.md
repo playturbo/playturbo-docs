@@ -7,7 +7,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/0 (103).png" alt="" width="293">
+<figure><img src="../../../../../.gitbook/assets/image.png" alt="" width="315"><figcaption></figcaption></figure>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/1 (9).png" alt="" width="283">
+<figure><img src="../../../../../.gitbook/assets/image (1).png" alt="" width="315"><figcaption></figcaption></figure>
 
 </div>
 
@@ -31,7 +31,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/2 (52).png" alt="" width="292">
+<figure><img src="../../../../../.gitbook/assets/image (2).png" alt="" width="314"><figcaption></figcaption></figure>
 
 </div>
 
@@ -41,7 +41,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/3 (24).png" alt="" width="293">
+<figure><img src="../../../../../.gitbook/assets/image (3).png" alt="" width="310"><figcaption></figcaption></figure>
 
 </div>
 
@@ -52,7 +52,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/4 (32).png" alt="" width="290">
+<figure><img src="../../../../../.gitbook/assets/image (4).png" alt="" width="311"><figcaption></figcaption></figure>
 
 </div>
 
@@ -62,7 +62,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/5 (33).png" alt="" width="288">
+<figure><img src="../../../../../.gitbook/assets/image (5).png" alt="" width="311"><figcaption></figcaption></figure>
 
 </div>
 
@@ -73,7 +73,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/6 (1).png" alt="">
+<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -81,7 +81,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/7 (30).png" alt="" width="293">
+<figure><img src="../../../../../.gitbook/assets/image (7).png" alt="" width="314"><figcaption></figcaption></figure>
 
 </div>
 

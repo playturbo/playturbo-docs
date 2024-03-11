@@ -10,7 +10,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="color:red;">**Tips：**</mark>在开始调整前，我们可先统一将新的资产上传到【项目资产】，方便后续替换或新增资产
 
-<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **1）替换资产**
 
@@ -202,7 +202,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

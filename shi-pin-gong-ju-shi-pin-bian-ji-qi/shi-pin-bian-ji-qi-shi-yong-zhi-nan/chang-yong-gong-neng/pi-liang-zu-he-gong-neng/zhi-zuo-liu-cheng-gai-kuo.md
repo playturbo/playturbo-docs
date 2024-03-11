@@ -6,4 +6,8 @@ description: 轻松上手，高效输出！
 
 ### 简单的制作流程梳理
 
-<figure><img src="../../../../.gitbook/assets/批量组合制作流程.png" alt="" width="563"><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/批量组合制作流程.png" alt=""><figcaption></figcaption></figure>
+
+</div>

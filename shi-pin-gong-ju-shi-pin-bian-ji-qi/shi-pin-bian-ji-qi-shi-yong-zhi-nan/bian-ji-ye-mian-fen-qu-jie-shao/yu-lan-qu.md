@@ -1,17 +1,13 @@
 # 预览区
 
-中间预览区分为以下六部分：预览框、播放与进度条、适配方式、画布比例、缩放比例、全屏预览
+中间预览区分为以下五部分：预览框、播放与进度条、画布比例、缩放比例、全屏预览
 
 ## 1.预览框 <a href="#u66777755" id="u66777755"></a>
 
-<div align="left">
-
-<img src="../../../.gitbook/assets/0 (66).png" alt="" width="563">
-
-</div>
-
 * 预览框内展示当前时间游标所在位置的所有元素
 * 预览框内可选中元素并编辑大小、位置
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### 1）选中元素 <a href="#dgrub" id="dgrub"></a>
 
@@ -28,60 +24,41 @@
 
 ## 2.播放与进度条
 
-<div align="left">
-
-<img src="../../../.gitbook/assets/1 (34).png" alt="" width="563">
-
-</div>
-
 * 点击播放，可对加入轨道的素材进行预览
 * 点击暂停，可停止播放
 * 按下键盘的空格键，也可以实现播放和暂停
 * 进度条表示当前所在的时间位置，和时间游标所在的位置相同
 * 可通过调整轨道区的时间游标，调整进度条
 
-## 3.适配方式
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<div align="left">
+## 3.画布比例
 
-<img src="../../../.gitbook/assets/2 (69).png" alt="" width="563">
-
-</div>
-
-* 适配方式影响切换比例时的元素位置和大小 变化的方式
-* 选择高度适配时，切换画布比例，元素在高度上最大化填充画布
-* 选择宽度适配时，切换画布比例，元素在宽度上最大化填充画布
-
-## 4.画布比例
-
-<div align="left">
-
-<img src="../../../.gitbook/assets/3 (6).png" alt="" width="299">
-
-</div>
-
-* 可调整画布比例
-* 画布内元素的大小和位置也会相应改变
+* 可同时新建多个尺寸的画布
+* 联动按钮可以将多个画布联动到一起，画布联动后，使得相同素材只需在一个画布中进行调整，其他联动画布也会随之变动
+* 删除按钮可以将不需要的尺寸删除
 * 可选的画布比例：16:9/9:16/4:3/3:4/4:5/1:2/1:1
 
-## 5.缩放比例
-
 <div align="left">
 
-<img src="../../../.gitbook/assets/4 (40).png" alt="" width="329">
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+## 4.缩放比例
 
 * 影响预览区的展示比例，该数字越大，则预览区缩放越大
 * 可选范围50%～200%
 
-## 6.全屏预览
-
 <div align="left">
 
-<img src="../../../.gitbook/assets/5 (13).png" alt="" width="563">
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
+## 5.全屏预览
+
 * 点击右下角图标即可进入全屏预览
 * 再次点击右下角图标可返回编辑页面
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>

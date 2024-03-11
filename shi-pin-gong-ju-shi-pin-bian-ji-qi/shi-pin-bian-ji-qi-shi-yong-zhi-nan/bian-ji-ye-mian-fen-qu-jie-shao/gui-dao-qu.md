@@ -19,24 +19,33 @@
 
 <div align="left">
 
-<img src="../../../.gitbook/assets/1 (16).png" alt="" width="563">
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 删除：对轨道区内选中的素材进行删除
-* 设为资源组：选中轨道区内的素材，点击该按钮即可将资源设为资源组；点击鼠标右键也可以将资源设为资源组
+* 设为资产组：选中轨道区内的素材，点击该按钮即可将资源设为资产组；点击鼠标右键也可以将资源设为资产组
 
 <div align="left">
 
-<img src="../../../.gitbook/assets/2 (66).png" alt="" width="394">
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 折叠/展开音轨：对轨道区内的音频资源进行折叠/展开处理
-
-![](<../../../.gitbook/assets/3 (34).png>) ![](<../../../.gitbook/assets/4 (8).png>)
-
 * 缩放轨道比例：点击 - + 号进行轨道比例的缩放，也可直接滑动调整
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (21).png" alt="" width="524"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (22).png" alt="" width="449"><figcaption></figcaption></figure>
+
+</div>
 
 ## 2.轨道时间轴
 
@@ -47,10 +56,13 @@
 
 * 不同类型的资源位于不同的轨道上
 * 分别有以下类型轨道：视频、图片、文本、音频、滤镜
-* 每种轨道的数量上限为10条
 * 单条轨道内可容纳同种类型的多个资源
 
-![](<../../../.gitbook/assets/5 (25).png>)
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### 1）延长&缩短该素材时长 <a href="#mo3ch" id="mo3ch"></a>
 
@@ -72,21 +84,38 @@
 
 * 仅适用于视频元素
 * 可点击右键分离音频，则该段视频本身的音频被分离出，成为一个独立的音频元素
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 * 可再次右键复原音频
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/6 (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### 5）替换资产 <a href="#x5v38" id="x5v38"></a>
+
+* 右键点击替换资产，可以从本地或资产库中上传资源替换原有资产
 
 <div align="left">
 
-<img src="../../../.gitbook/assets/7 (14).png" alt="" width="563">
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-### 5）静音 <a href="#x5v38" id="x5v38"></a>
+### 6）静音 <a href="#x5v38" id="x5v38"></a>
 
 * 仅适用于视频轨道和音频轨道
 * 点击静音按钮，即可对该轨道的所有素材静音
@@ -98,11 +127,15 @@
 
 </div>
 
-### 6）时序叉乘
+### 7）时序叉乘
 
 * 主轨道上的资源组支持设置【时序叉乘】
 * 导出时，将开启参与叉乘的片段打乱重组，从而增加视频的组合数
 
-<figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
 
-（有关时序叉乘的更多内容可移步[创建资源组](../chang-yong-gong-neng/pi-liang-zu-he-gong-neng/zi-yuan-zu-bian-ji/chuang-jian-zi-chan-zu.md)模块进行查阅）
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+（有关时序叉乘的更多内容可查看 [chuang-jian-zi-chan-zu.md](../chang-yong-gong-neng/pi-liang-zu-he-gong-neng/zi-chan-zu-bian-ji/chuang-jian-zi-chan-zu.md "mention") [cha-cheng-shi-xu-cha-cheng-gong-neng-jiao-cheng.md](../../../playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/cha-cheng-shi-xu-cha-cheng-gong-neng-jiao-cheng.md "mention")）

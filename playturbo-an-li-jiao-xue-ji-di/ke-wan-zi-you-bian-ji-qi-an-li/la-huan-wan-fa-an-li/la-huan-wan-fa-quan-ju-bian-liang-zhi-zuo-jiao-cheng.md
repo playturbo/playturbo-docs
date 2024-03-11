@@ -19,10 +19,10 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                                               | 竖屏                                                                                                                             | 横屏                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
-| 扫码试玩                                                                                                   | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                                            | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                                    |
+| 手机试玩效果最佳                                                                                                   | 竖屏                                                                                                                                 | 横屏                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
+| 扫码试玩                                                                                                       | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                                                | [点击试玩](http://tinyurl.com/26ffjzyf)                                                                                        |
 
 
 
@@ -49,7 +49,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -65,7 +65,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 * 场景2：成功结束页面
 * 场景3：失败结束页面
 
-<table data-full-width="false"><thead><tr><th width="120">场景名称</th><th width="296">场景1-拉环玩法</th><th width="165">场景2-成功结束页面</th><th>场景3-失败结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td><p>玩家拉动拉环，触发相应反馈；</p><p>存在多种操作顺序，触发多种结果</p></td><td>成功结束页面</td><td>失败结束页面</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>背景图、拉环、石头</p><p><strong>序列帧：</strong></p><ul><li>火：下落*1组</li><li>水：下落*1组</li><li>金币：下落*3组（①从头落到底、②从头落到中间、③从中间落到底）</li><li>金额：数字滚动*1组</li></ul></td><td>-</td><td>-</td></tr><tr><td><strong>核心动画</strong></td><td><p>拉环：位移缓动+透明度缓动</p><p>石头：淡入</p></td><td>-</td><td>-</td></tr><tr><td><strong>核心事件</strong></td><td><p>全局变量：布尔值类型</p><p>触发对象：图层-拉环a/拉环b/拉环c</p><p>触发事件：按下+条件判断</p><p>响应事件：赋值/禁用事件/播放动画&#x26;序列帧</p></td><td>-</td><td>-</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="120">场景名称</th><th width="296">场景1-拉环玩法</th><th width="165">场景2-成功结束页面</th><th>场景3-失败结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td><p>玩家拉动拉环，触发相应反馈；</p><p>存在多种操作顺序，触发多种结果</p></td><td>成功结束页面</td><td>失败结束页面</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>背景图、拉环、石头</p><p><strong>序列帧：</strong></p><ul><li>火：下落*1组</li><li>水：下落*1组</li><li>金币：下落*3组（①从头落到底、②从头落到中间、③从中间落到底）</li><li>金额：数字滚动*1组</li></ul></td><td>-</td><td>-</td></tr><tr><td><strong>核心动画</strong></td><td><p>拉环：位移缓动+透明度缓动</p><p>石头：淡入</p></td><td>-</td><td>-</td></tr><tr><td><strong>核心事件</strong></td><td><p>全局变量：布尔值类型</p><p>触发对象：图层-拉环a/拉环b/拉环c</p><p>触发事件：按下+条件判断</p><p>响应事件：赋值/禁用事件/播放动画&#x26;序列帧</p></td><td>-</td><td>-</td></tr></tbody></table>
 
 
 
@@ -91,7 +91,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 4）调整横屏排版及屏幕适配方式
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -101,21 +101,21 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 依次为拉环a/b/c添加动画-通用-位移缓动+透明度缓动，模拟拉环被拉出后的路径。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.石头**
 
 为石头添加动画-进场动画-淡入。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.**序列帧**
 
 将水/火/金币/金额所有序列帧的参数调整为【关闭入场自动播放】【关闭无限循环】，并隐藏金币②和③的序列帧图层
 
-<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -133,7 +133,7 @@ description: '#自由编辑器 #空白制作 #全局变量 #进阶难度'
 
 3）按照以上步骤，再依次添加拉环b/拉环c的全局变量
 
-<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.设置触发与响应事件**
 
@@ -143,7 +143,7 @@ _<mark style="background-color:yellow;">如为拉环a添加事件【按下】并
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -163,7 +163,7 @@ _<mark style="background-color:yellow;">注：【禁用事件】的设置我们�
 
 4）继续添加响应事件-从头播放拉环a的全部动画（位移缓动+透明度缓动）-显示并播放序列帧火落下-隐藏操作指引
 
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -179,7 +179,7 @@ _<mark style="background-color:yellow;">注：【禁用事件】的设置我们�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -197,7 +197,7 @@ _<mark style="background-color:yellow;">注：0.6s即序列帧水落下的时长
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -207,7 +207,7 @@ _<mark style="background-color:yellow;">注：0.6s即序列帧水落下的时长
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -225,7 +225,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环a和拉环c都�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -242,7 +242,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环a没有被按下
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -260,7 +260,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环a没有被按下
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -278,7 +278,7 @@ _<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -288,7 +288,7 @@ _<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -302,7 +302,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环b没有被按下
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -314,7 +314,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环b没有被按下
 
 2）还可对不同机型/不同语言/横竖屏进行整体预览
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

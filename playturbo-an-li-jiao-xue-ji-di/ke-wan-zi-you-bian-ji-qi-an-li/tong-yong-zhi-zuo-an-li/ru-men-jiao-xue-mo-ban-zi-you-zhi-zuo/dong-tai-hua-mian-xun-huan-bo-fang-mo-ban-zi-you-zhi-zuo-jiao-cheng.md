@@ -10,7 +10,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -71,20 +71,20 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 文本可直接选中图层，在右侧文本框直接进行修改
 * 调整完文本内容和样式，我们可顺便点击【应用到其他语言】按钮，后续调整其他语言样式时会更加方便快捷
 
-<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2）新增场景**
 
 在场景缩略图处右键选择【新建场景】或直接点击【+】按钮，即可在当前场景下增加一个新的场景
 
-<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3）新增资产**
 
@@ -96,7 +96,7 @@ description: '#自由编辑器 #模板自由制作'
 * 调整位置及大小
 * <mark style="color:red;">**注意：**</mark>在新增资产时需关注是否要调整屏幕适配方式（默认居中），如需要，可在调整资产时一并调整
 
-<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.动画及特效 <a href="#ssrbm" id="ssrbm"></a>
 
@@ -104,25 +104,25 @@ description: '#自由编辑器 #模板自由制作'
 
 将手指（杀虫水）动画由“位移缓动”替换为“缩放缓动”，并重新调整位置及参数。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2）新增动画**
 
 2-1）为一张警示图片增加“强调动画-闪烁”。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 
 设置完成后，我们点击复制动画按钮，将该闪烁动画粘贴到另外三张警示图片上：按住Ctrl键(苹果电脑需按钮Command键)，选中另外三张图片的图层，点击上方【粘贴-仅粘贴图层动画】即可
 
-<figure><img src="../../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 
 2-2）为求救文本增加“位移缓动”动画。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 2-3）为结束页下载按钮增加“缩放缓动”动画。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.事件设置 <a href="#xhudq" id="xhudq"></a>
 
@@ -130,15 +130,15 @@ description: '#自由编辑器 #模板自由制作'
 
 1-1）将场景1的图层事件“按下”整个复制到场景2，作为场景事件：
 
-<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
 1-2）将场景1的图层事件“按下”的响应事件修改为“跳转下一场景”，并添加响应事件“暂停播放求救音效”
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -146,7 +146,7 @@ description: '#自由编辑器 #模板自由制作'
 
 为场景2的下载按钮增加事件“按下-跳转应用商店”
 
-<figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.文本翻译 <a href="#fgprf" id="fgprf"></a>
 
@@ -154,7 +154,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -164,26 +164,26 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (47).png" alt="" width="470"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (47) (1).png" alt="" width="470"><figcaption></figcaption></figure>
 
 </div>
 
 * 然后我们点击切换到英语版本下预览，对英语文本的样式进行微调
 
-<figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 5.横屏适配 <a href="#sl2ai" id="sl2ai"></a>
 
 * <mark style="color:red;">注意：每个场景竖屏调整完成后，均需进行横屏排版（建议多使用“复用竖屏位置尺寸配置”按钮）</mark>
 * <mark style="color:red;">同时需注意横屏下各图层的屏幕适配方式是否正确</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6.**整体预览** <a href="#ozdcc" id="ozdcc"></a>
 
 全部调整完成后，我们对不同机型/不同语言/横竖屏进行整体预览试玩
 
-<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

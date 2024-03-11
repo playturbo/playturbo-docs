@@ -25,7 +25,7 @@
 
 * 设置淡入淡出后的音量波形
 
-![](<../../../../.gitbook/assets/2 (26).png>)
+<figure><img src="../../../../.gitbook/assets/2 (26).png" alt=""><figcaption></figcaption></figure>
 
 ### 变速参数 <a href="#udd6f6383" id="udd6f6383"></a>
 

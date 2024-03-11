@@ -2,25 +2,25 @@
 
 对操作栏可进行以下操作：返回项目页、项目重命名、切换【创意制作】与【字幕&配音】界面、文本翻译、保存、查看导出列表、项目导出
 
-![](<../../../../.gitbook/assets/0 (8).png>)
+<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 ## 1.返回项目页 <a href="#ud09125d0" id="ud09125d0"></a>
 
-* 点击左上角的图标或我的项目，均可从编辑页返回视频项目页
+* 点击左上角的图标可从编辑页返回视频项目页
 
 <div align="left">
 
-<img src="../../../../.gitbook/assets/1 (94).png" alt="">
+<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 ## 2.项目重命名
 
-* 点击项目名右侧的笔刷图标，可对项目进行重命名
+* 点击项目名，可对项目进行重命名
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/2 (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -31,7 +31,11 @@
 * 【创意制作】环节即为原视频编辑
 * 【字幕&配音】环节，可为视频添加字幕，或为字幕进行配音
 
-![](<../../../../.gitbook/assets/4 (39).png>)
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### 2）添加字幕的两种方式：手动添加字幕和智能识别字幕
 

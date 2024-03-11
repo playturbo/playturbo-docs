@@ -9,7 +9,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/0 (138).png" alt="" width="293">
+<figure><img src="../../../../../.gitbook/assets/image (8).png" alt="" width="302"><figcaption></figcaption></figure>
 
 </div>
 
@@ -19,7 +19,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/1 (69).png" alt="" width="292">
+<figure><img src="../../../../../.gitbook/assets/image (9).png" alt="" width="309"><figcaption></figcaption></figure>
 
 </div>
 
@@ -28,7 +28,11 @@
 * 点击搜索框内的筛选按钮
 * 可对该资源的其他标签分类进行筛选
 
-![](<../../../../../.gitbook/assets/2 (83).png>)
+<div align="left">
+
+<figure><img src="../../../../../.gitbook/assets/image (10).png" alt="" width="312"><figcaption></figcaption></figure>
+
+</div>
 
 ### 4.预览资源
 
@@ -38,7 +42,7 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/3 (20).png" alt="" width="315">
+<figure><img src="../../../../../.gitbook/assets/image (11).png" alt="" width="309"><figcaption></figcaption></figure>
 
 </div>
 
@@ -51,12 +55,6 @@
 
 <div align="left">
 
-<img src="../../../../../.gitbook/assets/4 (23).png" alt="" width="563">
+<figure><img src="../../../../../.gitbook/assets/image (12).png" alt="" width="326"><figcaption></figcaption></figure>
 
 </div>
-
-#### &#x20;<a href="#u0889575d" id="u0889575d"></a>
-
-#### &#x20;<a href="#u8ac2e5c6" id="u8ac2e5c6"></a>
-
-#### &#x20;<a href="#u5b9eeb1e" id="u5b9eeb1e"></a>
