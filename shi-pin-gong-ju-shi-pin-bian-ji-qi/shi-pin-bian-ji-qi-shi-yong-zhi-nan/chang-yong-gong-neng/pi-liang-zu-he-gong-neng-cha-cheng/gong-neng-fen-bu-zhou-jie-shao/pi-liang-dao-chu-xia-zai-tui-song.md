@@ -6,7 +6,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -14,13 +14,13 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 预览无误可以勾选该视频方便后续导出
 
-<figure><img src="../../../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.批量导出视频
 
@@ -29,7 +29,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -43,7 +43,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -51,7 +51,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -60,12 +60,12 @@
 * 点击【导出列表】中的黄色箭头可以跳转到【导出&下载历史】界面，点击「视频项目」，在此页面您可以查看到所有项目的导出任务的进度
 * 也可以进一步切换到「作品」页，查看所有导出视频的进度
 
-<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.批量下载与推送
 
 「导出成功」的任务，可以进行批量的「下载」和「推送至Mintegral
 
-<figure><img src="../../../../.gitbook/assets/image (590).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (590).png" alt=""><figcaption></figcaption></figure>

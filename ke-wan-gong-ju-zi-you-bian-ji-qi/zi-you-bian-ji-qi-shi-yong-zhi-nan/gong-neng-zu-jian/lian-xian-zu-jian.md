@@ -33,7 +33,7 @@ description: '#自由编辑器 #模板自由制作'
 * 屏幕适配方式：和各图层的外观参数相同，可调整该连线组件的屏幕适配方式
 * 缩放比例：和各图层的外观参数相同，可调整该连线组件的比例
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -92,7 +92,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="background-color:yellow;">通过以上配对关系，素材可以从区域1、2拖拽画出线，若最终手指松开的位置在区域3、4内，则画线被保留，并触发相应的事件，否则画线不保留</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

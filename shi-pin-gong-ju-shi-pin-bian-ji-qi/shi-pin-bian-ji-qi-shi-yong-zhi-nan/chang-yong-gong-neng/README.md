@@ -2,7 +2,7 @@
 
 **目前视频编辑器的常用功能主要分为两部分：**
 
-[pi-liang-zu-he-gong-neng](pi-liang-zu-he-gong-neng/ "mention")
+[pi-liang-zu-he-gong-neng-cha-cheng](pi-liang-zu-he-gong-neng-cha-cheng/ "mention")
 
 [ai-gong-neng](ai-gong-neng/ "mention")
 

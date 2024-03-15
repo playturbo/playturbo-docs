@@ -8,6 +8,6 @@ description: 轻松上手，高效输出！
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/批量组合制作流程.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/批量组合制作流程.png" alt=""><figcaption></figcaption></figure>
 
 </div>
