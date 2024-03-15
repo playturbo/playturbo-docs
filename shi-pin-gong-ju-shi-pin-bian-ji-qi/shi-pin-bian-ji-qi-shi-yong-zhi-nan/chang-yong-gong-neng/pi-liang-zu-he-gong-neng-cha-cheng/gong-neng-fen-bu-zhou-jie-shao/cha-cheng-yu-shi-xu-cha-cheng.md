@@ -1,10 +1,19 @@
 # 叉乘与时序叉乘
 
-## 5.时序叉乘
+## <mark style="color:blue;">叉乘</mark>
 
-* 主轨道上的资产组支持设置时序叉乘
-* 至少添加两个资产组
-* 原转场效果可能会受影响
+* 当有【资产组】被添加至轨道后，即会自动开启【叉乘】功能
+* 预览界面下方会通过【单个比例的组合视频数】，显示当前尺寸下一共可以叉乘出多少个素材
+* 将鼠标悬浮在【资产组组合数】，可查看叉乘的计算方式
+
+<figure><img src="../../../../../.gitbook/assets/image (1442).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## <mark style="color:blue;">时序叉乘</mark>
+
+* <mark style="color:red;">少需要添加两个资产组</mark>才到主轨道可启【时序叉乘】
+* 开启后，添加的原转场效果可能会受影响
 
 <figure><img src="../../../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
 
