@@ -214,3 +214,11 @@ _（因为我们设置了“抬起”碎片后重新出现操作指引的定时�
 全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览
 
 <figure><img src="../../../../.gitbook/assets/image (1162).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## <mark style="color:blue;">六、资源提供</mark>
+
+在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器
+
+{% file src="../../../../.gitbook/assets/拖拽到指定位置放置_资源.zip" %}
