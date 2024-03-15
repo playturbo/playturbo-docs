@@ -4,7 +4,7 @@ description: 简单认识资产组
 
 # 什么是资产组
 
-## <mark style="color:blue;">什么是【资产组】</mark> <a href="#rpykv" id="rpykv"></a>
+## <mark style="color:blue;">什么是资产组</mark> <a href="#rpykv" id="rpykv"></a>
 
 * 资产组是批量制作中的一个重要概念，组内包含若干个在组合生成作品时可替换的资源
 * 若有n个加入轨道的资产组，每个资产组内的资源数量分别为m1、m2、m3……、mn，则最终组合视频数量为:m1\*m2\*m3\*……\*mn
