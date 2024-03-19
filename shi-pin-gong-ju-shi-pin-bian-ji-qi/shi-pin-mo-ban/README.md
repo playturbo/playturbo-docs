@@ -2,7 +2,7 @@
 
 入口：左侧菜单栏>>>模板库>>>视频模板
 
-<figure><img src="../.gitbook/assets/image (1348).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1348).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -15,7 +15,7 @@
   * 快速替换：对模板中的视频、图片、文字、音频元素进行替换，快速产出视频素材
   * 视频剪辑：基于该模板创建视频项目，可以对视频中的元素及布局、时间轴等元素进行高自由度的任意编辑
 
-<figure><img src="../.gitbook/assets/image (1350).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1350).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -29,7 +29,7 @@
 
 入口2：点击打开模板弹窗，选择 「快速替换」
 
-<figure><img src="../.gitbook/assets/image (1351).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1351).png" alt=""><figcaption></figcaption></figure>
 
 选择需要生成的视频比例，则会创建一个快速替换项目
 
@@ -37,7 +37,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1352).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1352).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -49,7 +49,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1377).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1377).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -59,7 +59,7 @@
 
 1）进入快速替换项目页
 
-<figure><img src="../.gitbook/assets/image (1353).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 2）添加需要替换的视频、图片、音频、文本素材（注:同一个坑位的多个文本，其字体、字号等参数相同）
 
@@ -67,7 +67,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1354).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1354).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -75,7 +75,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1355).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1355).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -83,7 +83,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1356).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1356).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -91,11 +91,19 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1357).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1357).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
-4）点击「导出」按钮，即可导出视频
+4）多语言裂变
+
+对于视频有多语言版本需求的，在完成以上操作后，可点击【下一步】按钮进入【多语言裂变】界面，对视频内的文本/视频配音进行多种语言的翻译裂变
+
+功能详情可查看[gong-neng-jie-shao-duo-yu-yan-lie-bian.md](gong-neng-jie-shao-duo-yu-yan-lie-bian.md "mention")
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+5）完成所有编辑，即可点击「导出」按钮，导出视频
 
 * 添加的素材数量和添加的尺寸数，决定导出的视频数量
 * 如一个图片坑位共3个资源，一个视频坑位2个资源，共导出9:16 / 3:4 / 16:9 3个尺寸，则总计导出2\*_3\*_3 = 18个视频
@@ -103,7 +111,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1358).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1358).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -111,7 +119,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1360).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1360).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -129,7 +137,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1361).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1361).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -137,7 +145,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1362).png" alt="" width="440"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1362).png" alt="" width="440"><figcaption></figcaption></figure>
 
 </div>
 
@@ -149,7 +157,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1378).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1378).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -159,13 +167,13 @@
 
 1）视频剪辑的基本操作同视频编辑器
 
-<figure><img src="../.gitbook/assets/image (1363).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1363).png" alt=""><figcaption></figcaption></figure>
 
 2）资产替换功能：可将加入轨道的资产替换为指定资产（公共资产需要在轨道区替换）
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1375).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1375).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -176,7 +184,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1365).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1365).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -187,7 +195,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1366).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1366).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -195,6 +203,6 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1367).png" alt="" width="532"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1367).png" alt="" width="532"><figcaption></figcaption></figure>
 
 </div>
