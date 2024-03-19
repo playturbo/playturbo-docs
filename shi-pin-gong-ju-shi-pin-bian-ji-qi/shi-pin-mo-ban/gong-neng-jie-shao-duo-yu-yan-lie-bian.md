@@ -2,7 +2,7 @@
 
 入口：【视频模板-快速替换】模块，在完成【素材上传】部分后，点击界面右上方的【下一步】进入**【多语言裂变】**
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -23,14 +23,112 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
 ### 2.进入多语言裂变界面
 
 * 左侧展示所有素材的翻译结果，右侧展示已上传素材及语言版本及尺寸情况
-* 在【】可以选择某种素材是否进行「翻译」。在最右侧进行每种语言、尺寸的切换预览
+* 在【已上传素材】下，可以对文本和视频选择是否进行【翻译】
+* 在下方可进行每种语言、尺寸的切换预览和新增
 
 <figure><img src="../../.gitbook/assets/image (1445).png" alt=""><figcaption></figcaption></figure>
 
+### 3.调整文本翻译结果
+
+* 若对文本的翻译结果不满意，可以点击该素材的输入框进行人工校正
+* 或使用AI功能，对翻译结果进行重新翻译、丰富内容或精简内容的处理
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### 4.调整视频翻译结果
+
+* 对于视频的翻译结果，在图示位置会展示每个语种视频翻译的待优化字幕数量
+* 点击「编辑」按钮可进入「视频多语言详情」页面进行精细优化
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+#### 1）视频多语言详情 - 角色
+
+* 视频多语言详情按智能识别出的每句话进行分段，并进行每段语音的角色识别
+* 如需对每句话进行拆分/调整角色，请点击「角色」按钮，进行添加新角色或选择现有角色
+* 调整后每个语言版本的每个角色，都会使用同一种配音
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 2）视频多语言详情 - 音色
+
+* 点击文本上方的音色按钮，可通过【选择音色】对该角色进行音色调整（注:克隆音色暂不支持）
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="337"><figcaption></figcaption></figure>
+
+</div>
+
+* 对于部分音色，还支持风格和角色的进一步调整
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+#### 3）视频多语言详情 - 字幕内容
+
+* 对识别出的原语言字幕结果，您可以确认识别效果并进行以下操作：
+  * AI扩写、AI缩写
+  * 合并到上句、合并到下句
+  * 分割为两句
+  * 向上/向下添加句子 （需上/下 有时间间隔插入句子）
+* 修改完成后请点击【翻译其他语言】，将修改结果应用到其他语言
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="350"><figcaption></figcaption></figure>
+
+</div>
+
+* 每种语言的每句语音，都会根据时长进行字数推荐
+* 可根据推荐字数情况，进行文本的手动修改，或AI扩写、缩写、重写
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+#### 4）视频多语言详情 - 字幕样式
+
+* 点击【字幕样式】，在这里调整的字幕样式将会应用于所有语言版本
+* 可调整是否显示字幕
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+#### 5）视频多语言详情 - 查找替换
+
+* 点击【查找】按钮可对特定文本进行查找与替换
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+#### 6）视频多语言详情 - 更新配音
+
+* 字幕或配音修改后，请点击【更新配音】按钮进行配音的更新
+* 可在右侧预览不同语种的视频效果
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+### 5.导出
+
+完成各项编辑后，点击【导出】按钮，即可进行多比例、多语言视频素材的导出
+
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
