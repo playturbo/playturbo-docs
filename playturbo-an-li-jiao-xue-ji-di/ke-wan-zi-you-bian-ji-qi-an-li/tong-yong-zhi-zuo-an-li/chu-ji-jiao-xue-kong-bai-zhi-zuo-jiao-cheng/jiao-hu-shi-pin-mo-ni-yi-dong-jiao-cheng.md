@@ -21,7 +21,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 | 手机试玩效果最佳                                                                           | 竖屏                                                                                | 横屏                                                                                 |
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| <img src="../../../../.gitbook/assets/image (13).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"> |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"> |
 | 扫码试玩                                                                               | [点击试玩](https://tinyurl.com/3tndebp6)                                              | [点击试玩](https://tinyurl.com/3tndebp6)                                               |
 
 
@@ -56,13 +56,13 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 **场景拆分：**因本案例玩法较简单，我们只需用 1 个场景来制作即可
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家按下就播放视频，抬手就暂停播放视频，以此来模拟玩家实时交互的效果</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>进度条、操作指引</p><p><strong>视频：</strong>初始视频1、核心视频2、核心视频3</p><p><mark style="color:red;">注：因为我们对本案例的DEMO有"核心视频播放4s后,有一次强制跳转"的设定，为了便于理解和制作，将核心视频拆分成了两段(核心视频2总时长为4s)。若您不需要中途的强制跳转，只需准备一段核心视频即可</mark></p></td></tr><tr><td><strong>核心动画</strong></td><td><p>进度条：缩放缓动</p><p>手指指引：位移缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：视频图层</p><p>触发事件：按下；抬起</p><p>响应事件：继续播放视频；暂停播放视频</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家按下就播放视频，抬手就暂停播放视频，以此来模拟玩家实时交互的效果</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>操作指引、进度条</p><p><strong>视频：</strong>初始视频1、核心视频2、核心视频3</p><p><mark style="color:red;">注：因为我们对本案例的DEMO有"核心视频播放4s后,有一次强制跳转"的设定，为了便于理解和制作，将核心视频拆分成了两段(核心视频2总时长为4s)。若您不需要中途的强制跳转，只需准备一段核心视频即可</mark></p></td></tr><tr><td><strong>核心动画</strong></td><td><p>操作指引：位移缓动</p><p>进度条：缩放缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：视频图层</p><p>触发事件：按下；抬起</p><p>响应事件：继续播放视频；暂停播放视频</p></td></tr></tbody></table>
 
 
 
 ## <mark style="color:blue;">五、制作指南</mark> <a href="#cria2" id="cria2"></a>
 
-\*核心部分为Step3【事件设置】
+\*核心内容为Step3【事件设置】
 
 ### Step1 - 场景搭建 <a href="#wepzn" id="wepzn"></a>
 
@@ -80,21 +80,21 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <mark style="color:red;">温馨提示："进度条"和"操作指引"相关资产，都可从【预设库】直接获取哦！</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 2）调整各资产到合适的位置大小
 
 3）根据资产类型对资产进行编组、排序、命名
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 4）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 5）调整屏幕适配方式：在本案例中，我们想要竖屏下的产品信息始终位于屏幕底部，所以我们要调整其适配方式。直接选中该图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -108,17 +108,17 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 1）选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，参数设置如下(手指横向移动动画)：
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 2）选中手指组\[gf\_1]，添加动画-通用-位移缓动，参数设置如下(手指纵向移动动画)：
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.指引文案**
 
 选中指引文本\[tguidelines]，添加动画-强调动画-上下来回，参数设置如下（设置完成后可隐藏整个指引组，在后续通过事件控制）：
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.进度条(选做)
 
@@ -126,42 +126,174 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 注意：进度条图片左右需贴边，不能留空
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 2）添加动画-通用-缩放缓动，参数设置如下：
 
 注意：这里的【持续时间】代表的是进度条加载到头所需的总时长。在本案例中，我们设定了"在进度条快加载完时，玩家不能再交互"，也就是当所有视频播放结束后，进度条需要差一截才到头，所以就需要"进度条播放的总时长＞所有视频加起来的总时长"。本案例的三段视频总时长为8.7s左右，所以在这里我们可以将进度条的【持续时间】设置为10s或更长
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 #### 4.角色(选做)
 
 1）选中角色图片\[role\_1]，将其【锚点】修改为（50,100），并取消勾选【参数横竖屏拆分】
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 2）添加动画-通用-缩放缓动，参数设置如下（设置完成后可隐藏该图层，在后续通过事件控制）：
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### <mark style="background-color:red;">Step3 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
+本案例的所有事件集中设置在三个视频图层上以及场景1上，我们按操作顺序依次讲解
 
+#### <mark style="color:red;">1.图层: video\_01（初始视频1）</mark>
 
-####
+1）选中图层\[video\_01]，添加事件-开始时
 
+* 添加响应事件：从头播放进度条动画
 
+<div align="left">
 
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+</div>
 
+2）添加事件-结束时
 
+* 添加响应事件：隐藏初始视频1；显示核心视频2、显示角色图片、显示操作指引组
+* 添加响应事件：从头播放所有指引相关动画；同时暂停播放进度条动画
 
+<div align="left">
 
+<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-\
+</div>
 
+#### <mark style="color:red;">2.图层: video\_02（核心视频2）</mark>
+
+1）选中图层\[video\_02]，添加事件-按下
+
+* 添加响应事件：设置埋点，修改埋点名称为"玩家第一次按下"
+* 添加响应事件：隐藏角色图片、隐藏操作指引组
+* 添加响应事件：继续播放核心视频2；并播放进度条动画和一次点击音效
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）添加事件-抬起
+
+* 添加响应事件：暂停播放视频核心视频2
+* 添加响应事件：显示操作指引组；并从头播放操作指引相关动画；同时暂停播放进度条动画
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+3）复制事件：复制\[video\_01]的"结束时"事件
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+粘贴事件：选中\[video\_02]，粘贴 - 仅粘贴图层事件
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 修改响应事件为：隐藏核心视频2；显示核心视频3；并删除显示角色图片
+* 添加响应事件：跳转应用商店（此步骤就是前面提到的"强制跳转"）
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">3.图层: video\_03（核心视频3）</mark>
+
+1）复制事件：复制整个图层\[video\_02]
+
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+2）粘贴事件：选中\[video\_03]，粘贴 - 仅粘贴图层事件（即一键粘贴该图层的所有事件）
+
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+3）事件-按下
+
+* 修改响应事件为：继续播放视频\[video\_03]；删除埋点事件、删除隐藏角色图片；
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+4）事件-抬起
+
+* 修改响应事件为：暂停播放视频\[video\_03]
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+5）事件-结束时
+
+* 删除响应事件：删除隐藏视频\[video\_02]、删除显示视频\[video\_03]、删除跳转应用商店
+* 添加响应事件：禁用\[video\_03]的按下事件、禁用\[video\_03]的抬起事件（在设置完下一步的场景事件后，还需在这里添加一个响应事件"启用场景1的按下事件"）
+
+<mark style="background-color:yellow;">注：这代表当最后一段视频播放结束，该视频的"按下/抬起"事件将不再生效，场景1的"按下"事件(即跳转事件)开始生效</mark>
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">4.场景: Scene 1</mark>
+
+1）点击场景1 ，添加事件-按下
+
+* 添加响应事件：跳转应用商店
+* 添加响应事件：上报试玩结束
+* 添加响应事件：从头播放一次点击音效
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）添加事件-定时触发
+
+* 设置执行延迟时间为0s
+* 添加响应事件：禁用场景1的按下事件
+
+<mark style="background-color:yellow;">注：这代表一进入试玩，场景1的"按下"事件(即跳转事件)即被禁用，不会生效。然后我们在核心视频3的"结束时"事件下添加"启用场景1的按下事件"</mark>
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
 
 
 
@@ -171,7 +303,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 
 

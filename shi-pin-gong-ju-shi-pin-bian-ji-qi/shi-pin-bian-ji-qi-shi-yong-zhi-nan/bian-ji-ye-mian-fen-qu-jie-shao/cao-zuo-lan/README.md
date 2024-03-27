@@ -2,7 +2,7 @@
 
 对操作栏可进行以下操作：返回项目页、项目重命名、切换【创意制作】与【字幕&配音】界面、文本翻译、保存、查看导出列表、项目导出
 
-<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 1.返回项目页 <a href="#ud09125d0" id="ud09125d0"></a>
 
@@ -10,7 +10,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -20,7 +20,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -33,7 +33,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

@@ -10,7 +10,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -71,20 +71,20 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 文本可直接选中图层，在右侧文本框直接进行修改
 * 调整完文本内容和样式，我们可顺便点击【应用到其他语言】按钮，后续调整其他语言样式时会更加方便快捷
 
-<figure><img src="../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (32) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2）新增场景**
 
 在场景缩略图处右键选择【新建场景】或直接点击【+】按钮，即可在当前场景下增加一个新的场景
 
-<figure><img src="../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3）新增资产**
 
@@ -96,7 +96,7 @@ description: '#自由编辑器 #模板自由制作'
 * 调整位置及大小
 * <mark style="color:red;">**注意：**</mark>在新增资产时需关注是否要调整屏幕适配方式（默认居中），如需要，可在调整资产时一并调整
 
-<figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.动画及特效 <a href="#ssrbm" id="ssrbm"></a>
 
@@ -104,7 +104,7 @@ description: '#自由编辑器 #模板自由制作'
 
 将手指（杀虫水）动画由“位移缓动”替换为“缩放缓动”，并重新调整位置及参数。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (35) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2）新增动画**
 

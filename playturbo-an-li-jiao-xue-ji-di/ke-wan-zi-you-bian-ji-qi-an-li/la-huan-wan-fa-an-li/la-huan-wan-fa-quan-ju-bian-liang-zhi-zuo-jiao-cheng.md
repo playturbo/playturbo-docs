@@ -163,7 +163,7 @@ _<mark style="background-color:yellow;">注：【禁用事件】的设置我们�
 
 4）继续添加响应事件-从头播放拉环a的全部动画（位移缓动+透明度缓动）-显示并播放序列帧火落下-隐藏操作指引
 
-<figure><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -179,7 +179,7 @@ _<mark style="background-color:yellow;">注：【禁用事件】的设置我们�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -197,7 +197,7 @@ _<mark style="background-color:yellow;">注：0.6s即序列帧水落下的时长
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -207,7 +207,7 @@ _<mark style="background-color:yellow;">注：0.6s即序列帧水落下的时长
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -225,7 +225,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环a和拉环c都�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -242,7 +242,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环a没有被按下
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -260,7 +260,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环a没有被按下
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -278,7 +278,7 @@ _<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -288,7 +288,7 @@ _<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
 
 </div>
 
@@ -302,7 +302,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环b没有被按下
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -314,7 +314,7 @@ _<mark style="background-color:yellow;">注：也就是当拉环b没有被按下
 
 2）还可对不同机型/不同语言/横竖屏进行整体预览
 
-<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
