@@ -4,7 +4,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1446).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -42,14 +42,14 @@
 * 若对文本的翻译结果不满意，可以点击该素材的输入框进行人工校正
 * 或使用AI功能，对翻译结果进行重新翻译、丰富内容或精简内容的处理
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.调整视频翻译结果
 
 * 对于视频的翻译结果，在图示位置会展示每个语种视频翻译的待优化字幕数量
 * 点击「编辑」按钮可进入「视频多语言详情」页面进行精细优化
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 1）视频多语言详情 - 角色
 

@@ -189,6 +189,7 @@
         * [《2步滑动交互视频》模板自由制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/ru-men-jiao-xue-mo-ban-zi-you-zhi-zuo/2-bu-hua-dong-jiao-hu-shi-pin-mo-ban-zi-you-zhi-zuo-jiao-cheng.md)
       * [初级教学-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/README.md)
         * [2D playable《三选一多场景》教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/2d-playable-san-xuan-yi-duo-chang-jing-jiao-cheng.md)
+        * [交互视频《模拟移动》教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/jiao-hu-shi-pin-mo-ni-yi-dong-jiao-cheng.md)
     * [消除玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/README.md)
       * [棋盘组件-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md)
     * [跑酷玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/README.md)

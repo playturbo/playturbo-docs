@@ -7,7 +7,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="315"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="315"><figcaption></figcaption></figure>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="315"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="315"><figcaption></figcaption></figure>
 
 </div>
 
@@ -31,7 +31,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="314"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="314"><figcaption></figcaption></figure>
 
 </div>
 

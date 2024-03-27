@@ -10,7 +10,7 @@ description: 您的个人素材仓库，可以在此对您的个人素材进行�
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="318"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="318"><figcaption></figcaption></figure>
 
 </div>
 

@@ -101,7 +101,7 @@
 
 功能详情可查看[gong-neng-jie-shao-duo-yu-yan-lie-bian.md](gong-neng-jie-shao-duo-yu-yan-lie-bian.md "mention")
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5）完成所有编辑，即可点击「导出」按钮，导出视频
 
