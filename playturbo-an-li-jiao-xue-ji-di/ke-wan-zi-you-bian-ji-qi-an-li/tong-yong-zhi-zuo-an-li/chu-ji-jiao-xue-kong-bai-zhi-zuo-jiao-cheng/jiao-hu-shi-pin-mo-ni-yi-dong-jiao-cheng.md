@@ -4,7 +4,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 # 交互视频《模拟移动》教程
 
-温馨提示：本篇教程主要讲解**如何通过交互视频来实现模拟玩家实时操作的效果**，建议搭配DEMO食用效果更佳哦！
+温馨提示：本篇教程主要讲解**如何通过交互视频来实现"模拟玩家实时操作"的效果**，建议搭配DEMO食用效果更佳哦！
 
 ## <mark style="color:blue;">一、特征标签</mark> <a href="#nubzy" id="nubzy"></a>
 
@@ -19,10 +19,10 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                      | 竖屏                                                                                | 横屏                                                                                 |
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| <img src="../../../../.gitbook/assets/image.png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"> |
-| 扫码试玩                                                                          | [点击试玩](https://tinyurl.com/3tndebp6)                                              | [点击试玩](https://tinyurl.com/3tndebp6)                                               |
+| 手机试玩效果最佳                                                                           | 竖屏                                                                                | 横屏                                                                                 |
+| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| <img src="../../../../.gitbook/assets/image (13).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"> |
+| 扫码试玩                                                                               | [点击试玩](https://tinyurl.com/3tndebp6)                                              | [点击试玩](https://tinyurl.com/3tndebp6)                                               |
 
 
 
@@ -36,9 +36,11 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 3）玩家全屏任意按下，播放【对抗丧尸视频】<mark style="background-color:yellow;">（核心视频2）</mark>，同时加载进度条；每当玩家抬起，暂停播放【对抗丧尸视频】，同时进度条停止加载，并出现【操作指引】
 
-4）当【对抗丧尸视频】播放4s后，会自动跳转一次商店，玩家从商店返回可继续试玩
+4）视频播放结束，自动跳转商店，玩家从商店返回可继续试玩
 
-5）当视频播放结束，即成功解锁“收银台”后，播放【胜利反馈】，然后进入假关卡结束页面
+5）玩家全屏任意按下，播放【对抗丧尸视频】<mark style="background-color:yellow;">（核心视频3）</mark>，同时加载进度条；每当玩家抬起，暂停播放【对抗丧尸视频】，同时进度条停止加载，并出现【操作指引】
+
+6）视频播放结束，进度条停止加载，并出现【操作指引】，玩家按下即跳转商店
 
 <div align="left">
 
@@ -52,17 +54,19 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 **核心思想：**场景拆分逻辑清晰，图层结构简单，单个场景里的动画和事件尽可能少
 
-**场景拆分：**因本案例玩法简单，我们只需用 1 个场景来制作即可
+**场景拆分：**因本案例玩法较简单，我们只需用 1 个场景来制作即可
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td><p>玩家拉动拉环，触发相应反馈；</p><p>存在多种操作顺序，触发多种结果</p></td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>背景图、拉环、石头</p><p><strong>序列帧：</strong></p><ul><li>火：下落*1组</li><li>水：下落*1组</li><li>金币：下落*3组（①从头落到底、②从头落到中间、③从中间落到底）</li><li>金额：数字滚动*1组</li></ul></td></tr><tr><td><strong>核心动画</strong></td><td><p>拉环：位移缓动+透明度缓动</p><p>石头：淡入</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>全局变量：布尔值类型</p><p>触发对象：图层-拉环a/拉环b/拉环c</p><p>触发事件：按下+条件判断</p><p>响应事件：赋值/禁用事件/播放动画&#x26;序列帧</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家按下就播放视频，抬手就暂停播放视频，以此来模拟玩家实时交互的效果</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>进度条、操作指引</p><p><strong>视频：</strong>初始视频1、核心视频2、核心视频3</p><p><mark style="color:red;">注：因为我们对本案例的DEMO有"核心视频播放4s后,有一次强制跳转"的设定，为了便于理解和制作，将核心视频拆分成了两段(核心视频2总时长为4s)。若您不需要中途的强制跳转，只需准备一段核心视频即可</mark></p></td></tr><tr><td><strong>核心动画</strong></td><td><p>进度条：缩放缓动</p><p>手指指引：位移缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：视频图层</p><p>触发事件：按下；抬起</p><p>响应事件：继续播放视频；暂停播放视频</p></td></tr></tbody></table>
 
 
 
 ## <mark style="color:blue;">五、制作指南</mark> <a href="#cria2" id="cria2"></a>
 
-\*重点讲解Step3【逻辑设置】
+\*核心部分为Step3【事件设置】
 
 ### Step1 - 场景搭建 <a href="#wepzn" id="wepzn"></a>
+
+建议您在创建项目后，先将所有资产上传进【项目资产】内，方便后续添加使用
 
 #### **1.全局设置**
 
@@ -70,251 +74,109 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 2）在【全局场景】下添加常驻下载按钮、logo等产品信息
 
-#### **2.场景1-3**
+#### **2.场景1**
 
-1）分别在场景1、场景2、场景3内添加相应资产
+1）将所需视频、图片添加进场景1
+
+<mark style="color:red;">温馨提示："进度条"和"操作指引"相关资产，都可从【预设库】直接获取哦！</mark>
+
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 2）调整各资产到合适的位置大小
 
 3）根据资产类型对资产进行编组、排序、命名
 
-4）调整横屏排版及屏幕适配方式
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+4）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
 
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+5）调整屏幕适配方式：在本案例中，我们想要竖屏下的产品信息始终位于屏幕底部，所以我们要调整其适配方式。直接选中该图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
 
-### Step2 - 动效设置 <a href="#tpuup" id="tpuup"></a>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-#### **1.**拉环a/b/c
 
-依次为拉环a/b/c添加动画-通用-位移缓动+透明度缓动，模拟拉环被拉出后的路径。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+### Step2 - 动画设置 <a href="#tpuup" id="tpuup"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+在本案例中，需要设置动画的资产有：指引手指、指引文案、进度条(选做)、角色(选做)
 
-#### **2.石头**
+<mark style="color:red;">温馨提示：若您使用了预设，则无需自己设置动画！</mark>
 
-为石头添加动画-进场动画-淡入。参数设置如下：
+#### **1.指引手指**
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+1）选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，参数设置如下(手指横向移动动画)：
 
-#### 3.**序列帧**
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-将水/火/金币/金额所有序列帧的参数调整为【关闭入场自动播放】【关闭无限循环】，并隐藏金币②和③的序列帧图层
+2）选中手指组\[gf\_1]，添加动画-通用-位移缓动，参数设置如下(手指纵向移动动画)：
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
+#### **2.指引文案**
 
+选中指引文本\[tguidelines]，添加动画-强调动画-上下来回，参数设置如下（设置完成后可隐藏整个指引组，在后续通过事件控制）：
 
-### <mark style="color:red;background-color:red;">Step3 - 逻辑设置</mark> <a href="#umduz" id="umduz"></a>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-有关【全局变量】的功能介绍可查看 [quan-ju-bian-liang.md](../../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md "mention")
+#### 3.进度条(选做)
 
-#### **1.添加全局变量**
+1）选中进度条图片\[progress\_bar]，将其【锚点】修改为（0,50），并取消勾选【参数横竖屏拆分】
 
-我们共添加3个全局变量，来分别代表拉环a/拉环b/拉环c
+注意：进度条图片左右需贴边，不能留空
 
-1）点击【全局变量】-【添加变量】
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-2）输入变量名称（如key\_a\_switch）- 选择变量类型为【布尔值】 - 选择初始值为【false】 - 保存
+2）添加动画-通用-缩放缓动，参数设置如下：
 
-3）按照以上步骤，再依次添加拉环b/拉环c的全局变量
+注意：这里的【持续时间】代表的是进度条加载到头所需的总时长。在本案例中，我们设定了"在进度条快加载完时，玩家不能再交互"，也就是当所有视频播放结束后，进度条需要差一截才到头，所以就需要"进度条播放的总时长＞所有视频加起来的总时长"。本案例的三段视频总时长为8.7s左右，所以在这里我们可以将进度条的【持续时间】设置为10s或更长
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-#### **2.设置触发与响应事件**
+#### 4.角色(选做)
 
-上一步，我们将变量拉环a/b/c的初始值设为了【false】，在后续的事件设置中，我们会一直用到响应事件【赋值】，根据不同的操作，通过【赋值】来调整三个变量的【false或true】。
+1）选中角色图片\[role\_1]，将其【锚点】修改为（50,100），并取消勾选【参数横竖屏拆分】
 
-_<mark style="background-color:yellow;">如为拉环a添加事件【按下】并【赋值=true】，那么这就意味着：【true】=按了拉环a；【false】=没按拉环a。由此通过【true/false】来判断某根拉环是否已被拉出。</mark>_
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<div align="left">
+2）添加动画-通用-缩放缓动，参数设置如下（设置完成后可隐藏该图层，在后续通过事件控制）：
 
-<figure><img src="../../../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-</div>
 
 
+### <mark style="background-color:red;">Step3 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-<mark style="background-color:orange;">**Part1：拉环a**</mark>
 
-根据三根拉环的摆放位置，我们可以看出，无论是哪种操作顺序，拉动拉环a的结果只有一种（即序列帧火落下），不受拉环b与拉环c的影响，因此拉环a的事件设置比较简单。
 
-1）选中拉环a图层-添加事件-按下
+####
 
-2）添加响应事件-赋值，为【按下拉环a】赋值【true】
 
-3）继续添加响应事件-禁用事件，选择禁用【拉环a的按下事件】，也就是当前触发事件
 
-_<mark style="background-color:yellow;">注：【禁用事件】的设置我们可以通俗理解为：仅允许拉环a被拉动一次。即拉动一次以后该事件会被禁止使用，避免出现玩家可以无限次拉动拉环a的情况。</mark>_
 
-4）继续添加响应事件-从头播放拉环a的全部动画（位移缓动+透明度缓动）-显示并播放序列帧火落下-隐藏操作指引
 
-<figure><img src="../../../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<mark style="background-color:orange;">**Part2：拉环b**</mark>
 
-拉环b受操作顺序的影响，需要分不同情况来设置事件，因此需要添加【条件判断】，来判断当前是哪种操作顺序。
+\
 
-首先选中拉环b图层-添加事件-按下
-
-
-
-<mark style="color:red;">**条件判断1**</mark>
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
-
-</div>
-
-1）添加条件判断【拉环a=true】、【拉环c=false】
-
-_<mark style="background-color:yellow;">注：也就是当拉环a已被按下，拉环c没被按下，即操作顺序为【a-b-c】时，按下拉环b会触发什么反馈</mark>_
-
-2）同样，添加响应事件-赋值，为【按下拉环b】赋值【true】；添加禁用事件，选择禁用【拉环b的按下事件】
-
-3）继续添加响应事件-从头播放拉环b的全部动画-显示并播放序列帧水落下-隐藏操作指引
-
-4）添加响应事件-执行延迟，设置0.6s后从头播放石头的淡入动画
-
-_<mark style="background-color:yellow;">注：0.6s即序列帧水落下的时长</mark>_
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-
-
-<mark style="color:red;">**条件判断2**</mark>
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
-
-</div>
-
-1）添加条件判断【拉环a=true】、【拉环c=true】
-
-_<mark style="background-color:yellow;">注：也就是当拉环a和拉环c都被按下，即操作顺序为【a-c-b】或【c-a-b】时，按下拉环b会触发什么反馈</mark>_
-
-2）同样添加响应事件-赋值，为【按下拉环b】赋值【true】；添加禁用事件，选择禁用【拉环b的按下事件】
-
-3）继续添加响应事件 - 从头播放拉环b的全部动画- 显示并播放序列帧水落下-显示并播放序列帧金币③ - 隐藏序列帧金币② - 隐藏操作指引
-
-4）添加响应事件-执行延迟，设置0.6s后从头播放石头的淡入动画 - 隐藏序列帧金币③
-
-5）添加响应事件-执行延迟，设置1s后跳转到指定场景3，即失败结束页面
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-
-
-<mark style="color:red;">**条件判断3**</mark>
-
-1）添加条件判断【拉环a=false】
-
-_<mark style="background-color:yellow;">注：也就是当拉环a没有被按下时，按下拉环b会触发什么反馈（不受拉环c影响）</mark>_
-
-2）添加响应事件 - 从头播放错误音效 - 播放震屏反馈\
-
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-
-
-<mark style="background-color:orange;">**Part3：拉环c**</mark>
-
-拉环c受操作顺序的影响，需要分不同情况来设置事件，因此需要添加【条件判断】，来判断当前是哪种操作顺序。
-
-首先选中拉环c图层-添加事件-按下
-
-
-
-<mark style="color:red;">**条件判断1**</mark>
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>【a-b-c】为正确操作顺序</p></figcaption></figure>
-
-</div>
-
-1）添加条件判断【拉环b=true】
-
-_<mark style="background-color:yellow;">注：因拉环b只有在拉环a已被拉出后才可拉动，所以我们只需要添加一个【拉环b=true】的条件判断，就可以代表拉环a和拉环b都已被按下。也就是当操作顺序为【a-b-c】时，按下拉环c会触发什么反馈</mark>_
-
-2）同样添加响应事件-赋值，为【按下拉环c】赋值【true】；添加禁用事件，选择禁用【拉环c的按下事件】
-
-3）继续添加响应事件 - 从头播放拉环c的全部动画 - 显示并播放序列帧金币① - 隐藏操作指引
-
-4）添加响应事件-执行延迟，设置0.6s后显示并播放序列帧奖励金额
-
-5）添加响应事件-执行延迟，设置1s后跳转到指定场景2，即成功结束页面
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-
-
-<mark style="color:red;">**条件判断2**</mark>
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p>【a-c-b】【c-a-b】都为错误操作顺序</p></figcaption></figure>
-
-</div>
-
-1）添加条件判断【拉环b=false】
-
-_<mark style="background-color:yellow;">注：也就是当拉环b没有被按下，操作顺序为【a-c-b】或【c-a-b】时，按下拉环c会触发什么反馈（实际不受拉环a影响）</mark>_
-
-2）同样添加响应事件-赋值，为【按下拉环c】赋值【true】；添加禁用事件，选择禁用【拉环c的按下事件】
-
-3）继续添加响应事件 - 从头播放拉环c的全部动画 - 显示并播放序列帧金币② - 隐藏序列帧金币① - 隐藏操作指引
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 
 
 ### Step4 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
 
-1）全部制作完成后，建议将拉环操作顺序的6种可能性都一一试玩一遍，检查有无问题
+1）建议在制作过程中，每完成一部分操作，就及时预览，检查设置是否正确
 
-2）还可对不同机型/不同语言/横竖屏进行整体预览
+2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 
 
-## <mark style="color:blue;">**六、演示录屏**</mark> <a href="#ypqot" id="ypqot"></a>
+## <mark style="color:blue;">六、资源提供</mark>
 
-注：本视频为以上图文教程的**演示录屏**，仅有画面内容，未添加配音；
+在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
-视频详细记录了本案例空白制作的操作过程，演示速度基本没有调整，方便您查看学习（如果您已能对某一步骤熟悉操作，可酌情跳过）
-
-此外，在演示录屏下方还为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器
-
-{% embed url="https://mmp-cdn.rayjump.com/res_store/2042921/659649194b0d7.mp4" %}
-
-{% file src="../../../../.gitbook/assets/拉环玩法空白制作教程_资源.zip" %}
+{% file src="../../../../.gitbook/assets/模拟移动交互视频_资源.zip" %}

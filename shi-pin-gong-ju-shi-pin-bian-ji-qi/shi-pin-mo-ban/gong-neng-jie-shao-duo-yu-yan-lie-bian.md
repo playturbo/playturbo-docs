@@ -4,7 +4,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1446).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -25,7 +25,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,14 +42,14 @@
 * 若对文本的翻译结果不满意，可以点击该素材的输入框进行人工校正
 * 或使用AI功能，对翻译结果进行重新翻译、丰富内容或精简内容的处理
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.调整视频翻译结果
 
 * 对于视频的翻译结果，在图示位置会展示每个语种视频翻译的待优化字幕数量
 * 点击「编辑」按钮可进入「视频多语言详情」页面进行精细优化
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 1）视频多语言详情 - 角色
 
@@ -60,7 +60,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -70,7 +70,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="337"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="337"><figcaption></figcaption></figure>
 
 </div>
 
@@ -78,7 +78,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -93,7 +93,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="350"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="350"><figcaption></figcaption></figure>
 
 </div>
 
@@ -103,7 +103,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -112,7 +112,7 @@
 * 点击【字幕样式】，在这里调整的字幕样式将会应用于所有语言版本
 * 可调整是否显示字幕
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 也可在上一级多语言裂变界面进行【字幕样式】的调整
 
@@ -128,7 +128,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -137,10 +137,10 @@
 * 字幕或配音修改后，请点击【更新配音】按钮进行配音的更新
 * 可在右侧预览不同语种的视频效果
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 5.导出
 
 完成各项编辑后，点击【导出】按钮，即可进行多比例、多语言视频素材的导出
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
