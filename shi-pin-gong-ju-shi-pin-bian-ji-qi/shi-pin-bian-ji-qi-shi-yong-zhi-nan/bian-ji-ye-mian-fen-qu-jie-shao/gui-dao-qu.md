@@ -138,4 +138,4 @@
 
 </div>
 
-（有关时序叉乘的更多内容可查看 [chuang-jian-zi-chan-zu.md](../chang-yong-gong-neng/pi-liang-zu-he-gong-neng-cha-cheng/gong-neng-fen-bu-zhou-jie-shao/chuang-jian-zi-chan-zu.md "mention") [cha-cheng-shi-xu-cha-cheng-gong-neng-jiao-cheng.md](../../../playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/cha-cheng-shi-xu-cha-cheng-gong-neng-jiao-cheng.md "mention")）
+（有关时序叉乘的更多内容可查看 [chuang-jian-zi-chan-zu.md](../chang-yong-gong-neng/pi-liang-zu-he-gong-neng-cha-cheng/gong-neng-fen-bu-zhou-jie-shao/chuang-jian-zi-chan-zu.md "mention") [gong-neng-jiao-cheng-cha-cheng-shi-xu-cha-cheng.md](../../../playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/gong-neng-jiao-cheng-cha-cheng-shi-xu-cha-cheng.md "mention")）
