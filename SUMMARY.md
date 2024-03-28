@@ -156,7 +156,7 @@
         * [智能配音](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/chang-yong-gong-neng/ai-gong-neng/zhi-neng-pei-yin.md)
         * [智能分镜](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/chang-yong-gong-neng/ai-gong-neng/zhi-neng-fen-jing.md)
   * [视频模板](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/README.md)
-    * [布局模板](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/bu-ju-mo-ban.md)
+    * [多比例模板](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/duo-bi-li-mo-ban.md)
     * [多语言裂变](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/duo-yu-yan-lie-bian.md)
 * [💡 录屏工具-录屏编辑器](lu-ping-gong-ju-lu-ping-bian-ji-qi/README.md)
   * [制作流程概括](lu-ping-gong-ju-lu-ping-bian-ji-qi/zhi-zuo-liu-cheng-gai-kuo/README.md)
