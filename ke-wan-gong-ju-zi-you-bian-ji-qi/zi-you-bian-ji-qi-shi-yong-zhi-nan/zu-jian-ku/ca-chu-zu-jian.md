@@ -57,7 +57,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="background-color:red;">I. 擦除笔触设置</mark>
+#### <mark style="background-color:red;">擦除笔触设置</mark>
 
 「擦除笔触设置」包含：笔触样式、跟手图片。其决定了擦除时手指移动过程中笔触的实际形状、大小及样式
 
@@ -79,10 +79,119 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 * 决定擦除过程中跟随手指移动的图片样式（与擦除笔触无关），非必需上传
 * 若添加跟手图片，可点击图片，在弹窗内修改其尺寸、旋转角度、跟手锚点等外观参数
-* 跟手锚点：决定了擦除时笔触出现的位置，可移动绿点进行调整
+* 跟手锚点：即笔触中心点，决定了在擦除时笔触出现的位置。可移动绿点进行调整
 
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+
+
+#### <mark style="background-color:red;">组件图层(蒙层与底图)</mark>
+
+组件图层包含蒙层与底图
+
+**1）蒙层（对应组件图层下的Mask）**
+
+* 蒙层即"可被擦除的对象"
+* 可上传单张或多张静帧图片共同作为蒙层
+* 可通过开关按钮决定蒙层是默认启用或禁用。禁用后，可通过事件控制在特定时机下再启用
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1459).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 点击蒙层，可在弹窗内设置蒙层外观、动画等参数
+* 支持在画布区直接拖拽蒙层图片来调整蒙层位置
+* 擦除过程中，当擦除笔触移动到蒙层上时，根据笔触大小和轨迹将擦除蒙层（若蒙层多张图片发生了重叠，则重叠部分会被一并擦除）
+
+<figure><img src="../../../.gitbook/assets/image (1461).png" alt=""><figcaption></figcaption></figure>
+
+**2）底图（对应组件图层下的Buttom image）**
+
+* 底图即"不可擦除/不可被遮挡的对象"，会始终处于蒙层下方
+* 底图支持上传单张或多张静帧图片、动图、序列帧
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1462).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 点击底图，可在弹窗内设置底图外观、动画等参数
+* 同样支持在画布区直接拖拽底图来调整位置
+* 擦除过程中，当上方蒙层被擦除时，底图会随之显现
+
+<figure><img src="../../../.gitbook/assets/image (1463).png" alt=""><figcaption></figcaption></figure>
+
+**3）自定义图层**
+
+支持添加自定义图层分组。添加时需要设定其【分组名称】及【是否可以被擦除】
+
+* 可被擦除：相当于蒙层。在擦除过程中，该分组下的所有图层都可以被擦除
+* 不可擦除：相当于底图。不可以被擦除
+
+<figure><img src="../../../.gitbook/assets/image (1465).png" alt=""><figcaption></figcaption></figure>
+
+自定义图层的适用场景：可用于设置某些特殊图层
+
+如障碍物：既不是蒙层，也不是底图，但不可擦除，然后可通过事件设置来控制擦除时碰到该图层会触发某种效果
+
+
+
+#### <mark style="background-color:red;">事件判定</mark>
+
+判定某个区域擦除是否达到了某个百分比（如蒙层是否擦除了80%），并以此作为后续事件的触发条件
+
+举例：如设置"抬手时判定"、"蒙层区域擦除超过80%时"触发后续的跳转场景事件。这里的「超过80%」的判断，就需要通过「事件判定」参数来设置
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1467).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**1）判断时机**
+
+分为抬手时判定和擦除过程实时判定
+
+* 抬手时判定：在擦除抬手时进行判定，判定区域擦除情况是否达到设定阶段
+* 擦除过程实时判定：在擦除过程中实时计算，判定区域擦除情况是否达到设定阶段(该选项可能会引起性能问题，建议非必要不设置为实时判定)
+
+**2）事件判定**
+
+2-1）判定区域选择：可选择若干个蒙层图层，或若干个自定义判定区域
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1468).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="background-color:yellow;">自定义判定区域</mark>
+
+* 添加自定义判定区域：可点击【添加/管理自定义判定区域】调起弹窗，然后点击【添加自定义判定区域】，并编辑名称、添加矩形，完成添加
+* 添加矩形：点击「添加矩形」，在画布中添加若干个矩形并编辑其位置、大小。若添加了多个矩形，范围会取多个矩形的并集
+* 每个自定义区域可进行预览、编辑、复制、删除
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1470).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+阶段设置：
+
+1. 通过「新增阶段」按钮，新增阶段。
+2. 通过设定每个节点的百分比，设定阶段的具体数值。（如图中，到达20%为阶段1；到达80%为阶段2）
+
+
+
+
+
