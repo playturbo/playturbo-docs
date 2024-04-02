@@ -6,7 +6,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 入口：玩法模板>>>组件库>>>擦除组件
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -37,7 +37,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 * 组件是否启用：可在「外观」参数下通过调节此开关来启用/禁用擦除组件（默认启用）
 * 其他参数的使用同常规图层一样，在此不作说明
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.参数: 动画
 
@@ -55,7 +55,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <mark style="color:red;">注意：「擦除设置」为擦除组件最核心的参数，请务必将各部分设置完成</mark>
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="background-color:red;">Part1：擦除笔触设置</mark>
 
@@ -69,7 +69,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="545"><figcaption><p>不同的笔触样式效果对比</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="545"><figcaption><p>不同的笔触样式效果对比</p></figcaption></figure>
 
 </div>
 
@@ -83,7 +83,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -219,9 +219,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 4）未到达某一阶段：根据「事件判定」中设置的条件，若未到达某一阶段，视为触发未到达某一阶段
 
-对于以上触发事件，均可设置「只生效一次」。若未勾选，则该事件可反复触发；若勾选，则只触发一次。
-
-对于触发事件到达/未到达某一阶段，还需要选择对应的「事件判定」和「阶段选择」
+<mark style="color:red;">注：对于以上触发事件，均可设置「只生效一次」。若未勾选，则该事件可反复触发；若勾选，则只触发一次。</mark>
 
 <div align="left">
 
@@ -233,9 +231,9 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 #### <mark style="background-color:red;">5-2）响应事件</mark>
 
-擦除组件独特的「响应事件」包含：启用/禁用擦除组件、清除擦除痕迹、显示/隐藏分组、启用/禁用可被擦除分组、显示并播放/暂停播放 分组的全部序列帧、播放/暂停播放/继续播放 分组的单个/全部动画、替换跟手图片 七类。
+擦除组件独特的「响应事件」包含：①启用/禁用擦除组件、②清除擦除痕迹、③显示/隐藏分组、④启用/禁用可被擦除分组、⑤显示并播放/暂停播放 分组的全部序列帧、⑥播放/暂停播放/继续播放 分组的单个/全部动画、⑦替换跟手图片 七类。
 
-以上响应事件，在添加了「擦除组件」的前提下，可以设置在任意位置
+以上响应事件，在添加了「擦除组件」的前提下，均可被添加设置
 
 <div align="left">
 
@@ -247,7 +245,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 触发后，擦除组件可以被禁用或再次启用
 
-如设置：抬手-禁用擦除组件，则代表在擦除完抬手时，擦除组件将被禁用，不再生效
+_如设置：抬手-禁用擦除组件，则代表在擦除完抬手时，擦除组件将被禁用，不再生效_
 
 <div align="left">
 
@@ -259,7 +257,13 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 触发后，会清除组件内已完成的擦除痕迹
 
-设置该响应事件的效果如图
+_如设置：抬手-清除擦除痕迹，则效果对比如图所示_
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 <div align="left">
 
@@ -269,28 +273,62 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 **3）显示/隐藏分组**
 
-需选择某个分组（蒙层、底图或自定义图层），显示/隐藏该分组下的所有图层
+需选择具体某个分组(蒙层、底图或自定义分组)，触发后，即可显示或隐藏对应分组
 
-如触发「隐藏分组下所有图层」，并选择蒙层，则效果为 如图1 至图2
+_如设置：到达某一阶段后-隐藏蒙层_
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **4）启用/禁用可被擦除分组**
 
-需选择某个可被擦除的分组（蒙层或可被擦除的自定义分组），使之允许被擦除/不允许被擦除
+需选择具体某个可被擦除的分组(蒙层或自定义分组），触发后，使之允许被擦除/不允许被擦除
 
-如触发「禁用可被擦除分组」，并选择对象为蒙层，则在试玩过程中蒙层无法被擦除。反之则可以被擦除。（默认启用）
+_如设置：到达某一阶段后-禁用蒙层，则在擦除到达指定阶段后，蒙层不能再被擦除掉_
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **5）显示并播放/暂停播放 分组的全部序列帧**
 
-需选择某个分组，播放/暂停播放 某个分组下的所有序列帧图层
+需选择具体某个分组，触发后，可播放/暂停播放 此分组下的所有序列帧图层
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **6）播放/暂停播放/继续播放 分组的单个/全部动画**
 
-需选择某个分组，播放/暂停播放/继续播放，某个分组下的单个/全部图层的动画
+需选择具体某个分组，触发后，可播放/暂停播放/继续播放 此分组下的单个/全部图层的动画
 
-比如播放蒙层图层的「透明度进入」动画，所有的蒙层图层播放该动画
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **7）替换跟手图片**
 
-需选择跟手图片，替换跟手图片为另一张图片
+需选择具体某张跟手图片，触发后，当前跟手图片将被替换为此处设置的这张图片
 
-如示例，触发后跟手图片由图1变成图2
+_如示例：触发后跟手图片由左图变成右图_
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
