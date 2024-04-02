@@ -57,7 +57,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="background-color:red;">擦除笔触设置</mark>
+#### <mark style="background-color:red;">Part1：擦除笔触设置</mark>
 
 「擦除笔触设置」包含：笔触样式、跟手图片。其决定了擦除时手指移动过程中笔触的实际形状、大小及样式
 
@@ -89,7 +89,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 
 
-#### <mark style="background-color:red;">组件图层(蒙层与底图)</mark>
+#### <mark style="background-color:red;">Part2：组件图层(蒙层与底图)</mark>
 
 组件图层包含蒙层与底图
 
@@ -143,7 +143,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 
 
-#### <mark style="background-color:red;">事件判定</mark>
+#### <mark style="background-color:red;">Part3：事件判定</mark>
 
 判定某个区域擦除是否达到了某个百分比（如蒙层是否擦除了80%），并以此作为后续事件的触发条件
 
