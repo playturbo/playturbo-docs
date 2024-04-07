@@ -195,6 +195,8 @@
         * [交互视频《模拟移动》教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/jiao-hu-shi-pin-mo-ni-yi-dong-jiao-cheng.md)
     * [消除玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/README.md)
       * [棋盘组件-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md)
+    * [擦除玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ca-chu-wan-fa-an-li/README.md)
+      * [擦除组件-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ca-chu-wan-fa-an-li/ca-chu-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md)
     * [跑酷玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/README.md)
       * [《左右选择跑酷》模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/zuo-you-xuan-ze-pao-ku-mo-ban-zi-you-zhi-zuo.md)
       * [《情侣翻越 1》跑酷视频（分段）](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/qing-lv-fan-yue-1-pao-ku-shi-pin-fen-duan.md)
