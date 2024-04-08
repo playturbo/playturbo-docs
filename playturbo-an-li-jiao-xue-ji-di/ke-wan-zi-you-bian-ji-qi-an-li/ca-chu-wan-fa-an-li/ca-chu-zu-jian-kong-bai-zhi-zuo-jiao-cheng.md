@@ -30,7 +30,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 **我们在开始制作之前先对本案例的玩法逻辑进行简单的梳理：**
 
-1）进入试玩，展示【美女被遮挡画面】
+1）进入试玩，展示【美女被遮挡画面】，美女角色默认进行序列帧播放
 
 2）出现【操作指引】，引导玩家滑动擦除遮罩
 
@@ -66,45 +66,61 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 建议您在创建项目后，先将所有资产上传进【项目资产】内，方便后续添加使用
 
-#### **1.全局设置**
+#### **1.全局场景**
 
 1）在【全局设置】中添加背景音乐、背景图片
 
-2）在【全局场景】下添加常驻下载按钮、logo等产品信息
+2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整排版与适配
 
-#### **2.场景1**
+<figure><img src="../../../.gitbook/assets/image (1507).png" alt=""><figcaption></figcaption></figure>
 
-1）将所需视频、图片添加进场景1
+#### **2.普通场景**
 
-<mark style="color:red;">温馨提示："进度条"和"操作指引"相关资产，都可从【预设库】直接获取哦！</mark>
+1）<mark style="color:red;">添加擦除组件：</mark>点击【玩法模板】，在【组件库】下将擦除组件添加进场景1
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1509).png" alt=""><figcaption></figcaption></figure>
 
-2）调整各资产到合适的位置大小
+2）将指引手、指引文案和底板、重玩按钮、音效相继添加进场景1
 
-3）根据资产类型对资产进行编组、排序、命名
+3）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+4）将爱心粒子特效先设为"隐藏"状态，在后续我们通过事件来控制粒子的显示和播放
 
-4）将核心视频(核心视频2+核心视频3)设为"隐藏"状态，并关闭【入场自动播放】，在后续通过事件来控制视频的显示和播放
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../../.gitbook/assets/image (1510).png" alt=""><figcaption></figcaption></figure>
 
 5）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1511).png" alt=""><figcaption></figcaption></figure>
 
-6）调整屏幕适配方式：在本案例中，我们想要竖屏下的产品信息始终位于屏幕底部，所以我们要调整其适配方式。直接选中该图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
+6）调整屏幕适配方式：在本案例中，我们想要横屏下的重玩按钮组和指引文本组始终位于屏幕底部，所以我们要调整其适配方式。依次选中图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1512).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### Step2 - 动画设置 <a href="#tpuup" id="tpuup"></a>
+### Step2 - 组件参数设置 <a href="#tpuup" id="tpuup"></a>
+
+1. 点击右上方【擦除设置】，进入擦除组件参数编辑面板
+
+<figure><img src="../../../.gitbook/assets/image (1513).png" alt=""><figcaption></figcaption></figure>
+
+2. 依次在**擦除层（Mask）**中添加擦除飘带图片，在**底图层（Bottom image）**中添加角色序列帧图片，然后将资产调整到合适的位置大小
+
+<figure><img src="../../../.gitbook/assets/image (1514).png" alt=""><figcaption></figcaption></figure>
+
+3. 然后我们根据实际需求，调整【擦除笔触设置】。在本案例中，我们选择使用60\*60大小的圆形笔触，不添加跟手图片
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1515).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+
+
+### 动画设置 <a href="#tpuup" id="tpuup"></a>
 
 在本案例中，需要设置动画的资产有：指引手指、指引文案、进度条(选做)、角色(选做)
 
