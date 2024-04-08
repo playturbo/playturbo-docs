@@ -60,7 +60,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 ## <mark style="color:blue;">五、制作指南</mark> <a href="#cria2" id="cria2"></a>
 
-\*核心内容为Step3【事件设置】
+\*核心内容为Step2【组件参数设置】和Step5【事件设置】
 
 ### Step1 - 场景搭建 <a href="#wepzn" id="wepzn"></a>
 
@@ -70,13 +70,13 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 1）在【全局设置】中添加背景音乐、背景图片
 
-2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整排版与适配
+2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整位置大小
 
 <figure><img src="../../../.gitbook/assets/image (1507).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.普通场景**
 
-1）<mark style="color:red;">添加擦除组件：</mark>点击【玩法模板】，在【组件库】下将擦除组件添加进场景1
+1）添加擦除组件：点击【玩法模板】，在【组件库】下将擦除组件添加进场景1
 
 <figure><img src="../../../.gitbook/assets/image (1509).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,21 +84,13 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 3）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
 
-4）将爱心粒子特效先设为"隐藏"状态，在后续我们通过事件来控制粒子的显示和播放
+4）在本案例中，我们只需要一个普通场景，所以可以删除场景2
 
-<figure><img src="../../../.gitbook/assets/image (1510).png" alt=""><figcaption></figcaption></figure>
-
-5）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
-
-<figure><img src="../../../.gitbook/assets/image (1511).png" alt=""><figcaption></figcaption></figure>
-
-6）调整屏幕适配方式：在本案例中，我们想要横屏下的重玩按钮组和指引文本组始终位于屏幕底部，所以我们要调整其适配方式。依次选中图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
-
-<figure><img src="../../../.gitbook/assets/image (1512).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### Step2 - 组件参数设置 <a href="#tpuup" id="tpuup"></a>
+### <mark style="color:red;">Step2 - 组件参数设置</mark> <a href="#tpuup" id="tpuup"></a>
 
 1. 点击右上方【擦除设置】，进入擦除组件参数编辑面板
 
@@ -106,7 +98,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 2. 依次在**擦除层（Mask）**中添加擦除飘带图片，在**底图层（Bottom image）**中添加角色序列帧图片，然后将资产调整到合适的位置大小
 
-<figure><img src="../../../.gitbook/assets/image (1514).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 3. 然后我们根据实际需求，调整【擦除笔触设置】。在本案例中，我们选择使用60\*60大小的圆形笔触，不添加跟手图片
 
@@ -116,148 +108,103 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 </div>
 
+4. 针对擦除层进行**事件判定**设置
 
+1）判断时机：在本案例中，我们想要在擦除过程中实时判定擦除进度，所以我们选择判断时机为【擦除过程实时判定】
 
-
-
-### 动画设置 <a href="#tpuup" id="tpuup"></a>
-
-在本案例中，需要设置动画的资产有：指引手指、指引文案、进度条(选做)、角色(选做)
-
-<mark style="color:red;">温馨提示：若您使用了预设，则无需自己设置动画！</mark>
-
-#### **1.指引手指**
-
-1）选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，参数设置如下(手指横向移动动画)：
-
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
-
-2）选中手指组\[gf\_1]，添加动画-通用-位移缓动，参数设置如下(手指纵向移动动画)：
-
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-
-#### **2.指引文案**
-
-选中指引文本\[tguidelines]，添加动画-强调动画-上下来回，参数设置如下（设置完成后可隐藏整个指引组，在后续通过事件控制）：
-
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
-
-#### 3.进度条(选做)
-
-1）选中进度条图片\[progress\_bar]，将其【锚点】修改为（0,50），并取消勾选【参数横竖屏拆分】
-
-注意：进度条图片左右需贴边，不能留空
-
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
-
-2）添加动画-通用-缩放缓动，参数设置如下：
-
-注意：这里的【持续时间】代表的是进度条加载到头所需的总时长。在本案例中，我们设定了"在进度条快加载完时，玩家不能再交互"，也就是当所有视频播放结束后，进度条需要差一截才到头，所以就需要"进度条播放的总时长＞所有视频加起来的总时长"。本案例的三段视频总时长为8.7s左右，所以在这里我们可以将进度条的【持续时间】设置为10s或更长
-
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
-
-#### 4.角色(选做)
-
-1）选中角色图片\[role\_1]，将其【锚点】修改为（50,100），并取消勾选【参数横竖屏拆分】
-
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
-
-2）添加动画-通用-缩放缓动，参数设置如下（设置完成后可隐藏该图层，在后续通过事件控制）：
-
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
-
-
-
-### <mark style="background-color:red;">Step3 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
-
-本案例的所有事件集中设置在三个视频图层上以及场景1上，我们按操作顺序依次讲解
-
-#### <mark style="color:red;">1.图层: video\_01（初始视频1）</mark>
-
-1）选中图层\[video\_01]，添加事件-开始时
-
-* 添加响应事件：从头播放进度条动画
+2）添加事件判定：在本案例中，我们想要实现"当擦除面积达到60%时，触发相应反馈"，所以在这里，我们选择要判定的区域为擦除层"erase\_mask"，然后点击【新增阶段】，将阶段1设置为60%
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-2）添加事件-结束时
+完成以上，我们擦除组件的基本参数就设置好了。
 
-* 添加响应事件：隐藏初始视频1；显示核心视频2、显示角色图片、显示操作指引组
-* 添加响应事件：从头播放所有指引相关动画；同时暂停播放进度条动画
+
+
+
+
+### Step3 - 横竖屏适配 <a href="#tpuup" id="tpuup"></a>
+
+完成竖屏的排版后，我们还需对"横屏的排版"以及"横竖屏的屏幕适配方式"进行调整
+
+#### 1.调整横屏排版
+
+1）切换到横屏模式，选中所有最高层级的图层(包含擦除组件图层)
+
+2）使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】，让画面展示出完整的擦除组件相关内容
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+3）同理，我们再切换到【全局场景】，选择LOGO和常驻下载按钮组，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+#### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
+
+1）在本案例中，我们想让常驻信息在竖屏下依次贴顶、贴底适配，在横屏下靠左上角适配，所以我们分别调整横竖屏下的屏幕适配方式
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="color:red;">2.图层: video\_02（核心视频2）</mark>
+2）在场景1中，我们想要横屏下的重玩按钮组和指引文本组始终位于屏幕底部，所以我们依次将其屏幕适配方式调整为贴底适配（其他图层默认居中适配，无需调整）
 
-1）选中图层\[video\_02]，添加事件-按下
+<figure><img src="../../../.gitbook/assets/image (1512).png" alt=""><figcaption></figcaption></figure>
 
-* 添加响应事件：设置埋点，修改埋点名称为"玩家第一次按下"
-* 添加响应事件：隐藏角色图片、隐藏操作指引组
-* 添加响应事件：继续播放核心视频2；并播放进度条动画和一次点击音效
+
+
+### Step4 - 动效设置 <a href="#tpuup" id="tpuup"></a>
+
+在本案例中，我们用到的动画和粒子特效有：美女序列帧(底图层)动画、指引手指动画、重玩按钮组动画、爱心粒子特效
+
+#### **1.美女序列帧**
+
+1）在擦除组件中点击底图层（Bottom image）的美女序列帧，在弹窗面板中选择【动画】
+
+2）然后我们依次添加**缩放动画和位移动画，**作为角色擦除成功后的展示动画效果
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+3）动画参数设置如下：
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="556"><figcaption></figcaption></figure>
 
 </div>
 
-2）添加事件-抬起
+#### **2.指引手指**
 
-* 添加响应事件：暂停播放视频核心视频2
-* 添加响应事件：显示操作指引组；并从头播放操作指引相关动画；同时暂停播放进度条动画
+在图层区选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为指引动画，参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+#### **3.重玩按钮组**
+
+1）选中重玩按钮组\[group\_retry\_btn]，添加透明度动画，作为重玩按钮的渐显出场效果，然后添加缩放动画，引导用户点击重玩
+
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+2）动画参数设置如下：
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
-3）复制事件：复制\[video\_01]的"结束时"事件
+#### 4.爱心粒子特效
 
-<div align="left">
+1）打开公共粒子库，选择添加爱心粒子，以增强露出美女图片后的画面氛围
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-</div>
-
-粘贴事件：选中\[video\_02]，粘贴 - 仅粘贴图层事件
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-* 修改响应事件为：隐藏核心视频2；显示核心视频3；并删除显示角色图片
-* 添加响应事件：跳转应用商店（此步骤就是前面提到的"强制跳转"）
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### <mark style="color:red;">3.图层: video\_03（核心视频3）</mark>
-
-1）复制事件：复制整个图层\[video\_02]
-
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-2）粘贴事件：选中\[video\_03]，粘贴 - 仅粘贴图层事件（即一键粘贴该图层的所有事件）
-
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-3）事件-按下
-
-* 修改响应事件为：继续播放视频\[video\_03]；删除埋点事件、删除隐藏角色图片；
+2）然后将爱心粒子特效设为"隐藏"状态，在后续我们通过事件来控制粒子的显示和播放
 
 <div align="left">
 
@@ -265,67 +212,82 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 </div>
 
-4）事件-抬起
 
-* 修改响应事件为：暂停播放视频\[video\_03]
 
-<div align="left">
+### <mark style="color:red;">Step5 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+本案例与事件设置相关的内容有：开始擦除时隐藏操作指引并播放擦除音效；抬手时暂停播放擦除音效；当擦除区域达到60%时擦除层消失，同时显示并播放重玩按钮组动画、美女展示动画、爱心粒子特效、美女害羞音效。接下来，我们按顺序依次讲解
 
-</div>
+#### <mark style="color:red;">1.图层: 擦除组件</mark>
 
-5）事件-结束时
+1）选中擦除组件图层，点击【添加事件】，选择触发事件为**【开始擦除】**
 
-* 删除响应事件：删除隐藏视频\[video\_02]、删除显示视频\[video\_03]、删除跳转应用商店
-* 添加响应事件：禁用\[video\_03]的按下事件、禁用\[video\_03]的抬起事件（在设置完下一步的场景事件后，还需在这里添加一个响应事件"启用场景1的按下事件"）
-
-<mark style="background-color:yellow;">注：这代表当最后一段视频播放结束，该视频的"按下/抬起"事件将不再生效，场景1的"按下"事件(即跳转事件)开始生效</mark>
+* 依次添加响应事件：隐藏指引文本组、隐藏指引手指组、从头播放擦除音效
+* 擦除音效的参数设置为【无限循环】
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="color:red;">4.场景: Scene 1</mark>
+2）继续【添加事件】，选择触发事件为**【抬手时】**
 
-1）点击场景1 ，添加事件-按下
-
-* 添加响应事件：跳转应用商店
-* 添加响应事件：上报试玩结束
-* 添加响应事件：从头播放一次点击音效
+* 添加响应事件：暂停播放擦除音效
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-2）添加事件-定时触发
+3）继续【添加事件】，选择触发事件为**【到达某一阶段】**
 
-* 设置执行延迟时间为0s
-* 添加响应事件：禁用场景1的按下事件
-
-<mark style="background-color:yellow;">注：这代表一进入试玩，场景1的"按下"事件(即跳转事件)即被禁用，不会生效。然后我们在核心视频3的"结束时"事件下添加"启用场景1的按下事件"</mark>
+* 注意：因为擦除面积达到目标后，反馈只需触发一次，所以在这里我们勾选该事件"只生效一次"
+* 选择【事件判定1】，然后选择【阶段1: 60%】
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+* 依次添加响应事件：隐藏擦除组Mask、播放美女序列帧分组的全部动画、从头播放重玩按钮组的全部动画、显示并播放爱心粒子特效、从头播放美女害羞音效
+* 音效的参数设置为【关闭无限循环】，并【禁用其他音效】
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">2.图层: 重玩按钮组</mark>
+
+选中重玩按钮组，点击【添加事件】，选择触发事件为**【按下】**
+
+依次添加响应事件：跳转应用商店、上报试玩结束
+
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="color:red;">3.图层: 常驻下载按钮组</mark>
+
+选中常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
+
+添加响应事件：跳转应用商店
+
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
 
 
 
-### Step4 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
+### Step6 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
 
 1）建议在制作过程中，每完成一部分操作，就及时预览，检查设置是否正确
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -333,4 +295,4 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
-{% file src="../../../.gitbook/assets/模拟移动交互视频_资源.zip" %}
+{% file src="../../../.gitbook/assets/擦除组件空白制作_资源.zip" %}

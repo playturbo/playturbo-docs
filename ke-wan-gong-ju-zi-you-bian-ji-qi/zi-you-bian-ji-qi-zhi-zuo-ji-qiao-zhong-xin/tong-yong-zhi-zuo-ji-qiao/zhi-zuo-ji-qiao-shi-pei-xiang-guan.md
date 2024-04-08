@@ -15,7 +15,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="351"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="351"><figcaption></figcaption></figure>
 
 </div>
 
