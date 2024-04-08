@@ -13,7 +13,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 * 【交互方式】：开始擦除/到达某一阶段
 * 【自由度】：固定流程
 * 【核心资产】：图片
-* 【核心功能】：到达某一阶段-隐藏蒙层
+* 【核心功能】：到达某一阶段-隐藏擦除层
 
 
 
@@ -54,7 +54,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 **场景拆分：**因本案例玩法较简单，我们只需用 1 个场景来制作即可
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/Animation1 (1).gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家在遮罩位置任意滑动擦除遮罩，来显示出完整的美女图片</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">遮罩</mark>、操作指引、下载按钮</p><p><strong>序列帧：</strong><mark style="color:red;">美女底图</mark></p><p><strong>视听包装：</strong>爱心粒子特效、擦除音效、美女害羞音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p>手指指引：位移缓动</p><p>美女放大出现：缩放缓动+位移缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：擦除组件Erase Component</p><p>触发事件：到达某一阶段</p><p>响应事件：隐藏蒙层</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/Animation1 (1).gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家在遮罩位置任意滑动擦除遮罩，来显示出完整的美女图片</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">遮罩(擦除层)</mark>、操作指引、重玩按钮</p><p><strong>序列帧：</strong><mark style="color:red;">美女底图</mark></p><p><strong>视听包装：</strong>爱心粒子特效、擦除音效、美女害羞音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p>手指指引：位移缓动</p><p>美女放大出现：缩放缓动+位移缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：擦除组件Erase Component</p><p>触发事件：到达某一阶段</p><p>响应事件：隐藏擦除层</p></td></tr></tbody></table>
 
 
 
@@ -92,15 +92,15 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 ### <mark style="color:red;">Step2 - 组件参数设置</mark> <a href="#tpuup" id="tpuup"></a>
 
-1. 点击右上方【擦除设置】，进入擦除组件参数编辑面板
+1.点击右上方【擦除设置】，进入擦除组件参数编辑面板
 
 <figure><img src="../../../.gitbook/assets/image (1513).png" alt=""><figcaption></figcaption></figure>
 
-2. 依次在**擦除层（Mask）**中添加擦除飘带图片，在**底图层（Bottom image）**中添加角色序列帧图片，然后将资产调整到合适的位置大小
+2.依次在**擦除层（Mask）**中添加擦除飘带图片，在**底图层（Bottom image）**中添加角色序列帧图片，然后将资产调整到合适的位置大小
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-3. 然后我们根据实际需求，调整【擦除笔触设置】。在本案例中，我们选择使用60\*60大小的圆形笔触，不添加跟手图片
+3.然后我们根据实际需求，调整【擦除笔触设置】。在本案例中，我们选择使用60\*60大小的圆形笔触，不添加跟手图片
 
 <div align="left">
 
@@ -108,7 +108,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 </div>
 
-4. 针对擦除层进行**事件判定**设置
+4.针对擦除层进行**事件判定**设置
 
 1）判断时机：在本案例中，我们想要在擦除过程中实时判定擦除进度，所以我们选择判断时机为【擦除过程实时判定】
 
@@ -166,7 +166,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 1）在擦除组件中点击底图层（Bottom image）的美女序列帧，在弹窗面板中选择【动画】
 
-2）然后我们依次添加**缩放动画和位移动画，**作为角色擦除成功后的展示动画效果
+2）然后我们依次添加缩放动画和位移动画，作为角色擦除成功后的展示动画效果
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -216,7 +216,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 ### <mark style="color:red;">Step5 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-本案例与事件设置相关的内容有：开始擦除时隐藏操作指引并播放擦除音效；抬手时暂停播放擦除音效；当擦除区域达到60%时擦除层消失，同时显示并播放重玩按钮组动画、美女展示动画、爱心粒子特效、美女害羞音效。接下来，我们按顺序依次讲解
+本案例与事件设置相关的内容有：开始擦除时隐藏操作指引并播放擦除音效；抬手时暂停播放擦除音效；当擦除区域达到60%时擦除层消失，同时显示并播放相关反馈。接下来，我们按顺序依次讲解
 
 #### <mark style="color:red;">1.图层: 擦除组件</mark>
 
@@ -261,6 +261,8 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 </div>
 
+
+
 #### <mark style="color:red;">2.图层: 重玩按钮组</mark>
 
 选中重玩按钮组，点击【添加事件】，选择触发事件为**【按下】**
@@ -268,6 +270,8 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 依次添加响应事件：跳转应用商店、上报试玩结束
 
 <figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+
 
 #### <mark style="color:red;">3.图层: 常驻下载按钮组</mark>
 
@@ -278,6 +282,8 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
+
+
 
 
 
