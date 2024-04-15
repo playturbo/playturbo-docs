@@ -19,10 +19,10 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                          | 竖屏                                                                                 | 横屏                                                                                  |
-| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/image (1516).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation (1).gif" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation2 (3).gif" alt="" data-size="original"> |
-| 扫码试玩                                                                              | [点击试玩](https://tinyurl.com/4r9rd9wm)                                               | [点击试玩](https://tinyurl.com/4r9rd9wm)                                                |
+| 手机试玩效果最佳                                                                          | 竖屏                                                                                | 横屏                                                                                   |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| <img src="../../../.gitbook/assets/image (1522).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation001.gif" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation00 (1).gif" alt="" data-size="original"> |
+| 扫码试玩                                                                              | [点击试玩](https://tinyurl.com/yf989yf6)                                              | [点击试玩](https://tinyurl.com/yf989yf6)                                                 |
 
 
 
@@ -56,7 +56,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 **场景拆分：**根据玩法梳理内容，我们可将本案例拆分为 2 个场景来制作，即核心玩法场景+结束页场景
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th width="321">场景1-核心玩法</th><th>场景2-结束页</th></tr></thead><tbody><tr><td><strong>效果预览</strong></td><td><img src="../../../.gitbook/assets/Animation (1).gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation3 (1).gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家依次拖动三个目标物品(白色盒子/绿色瓶子/褐色瓶子)到指定位置，即可成功放置完成消除；拖动其他物品则返回原位</td><td>结束页面: 奖励面板+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>操作指引、进度条</p><p><strong>视频：</strong>初始视频1、核心视频2、核心视频3</p></td><td></td></tr><tr><td><strong>核心动画</strong></td><td><p>操作指引：位移缓动</p><p>进度条：缩放缓动</p></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：视频图层</p><p>触发事件：按下；抬起</p><p>响应事件：继续播放视频；暂停播放视频</p></td><td></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="136">场景名称</th><th width="321">场景1-核心玩法</th><th>场景2-结束页</th></tr></thead><tbody><tr><td><strong>效果预览</strong></td><td><img src="../../../.gitbook/assets/Animation001.gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation3 (1).gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家依次拖动三个目标物品(白色盒子/绿色瓶子/褐色瓶子)到指定位置，即可成功放置完成消除；拖动其他物品则返回原位</td><td>结束页面: 奖励面板+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>货架、物品&#x26;物品外发光图片、指引手指</p><p><strong>粒子特效：</strong>消除反馈</p><p><strong>音效：</strong>按下拖拽音效、消除音效</p></td><td><p><strong>静帧图片：</strong>弹窗面板、奖励图片、跳转按钮</p><p><strong>粒子特效：</strong>胜利反馈</p><p><strong>音效：</strong>胜利音效</p></td></tr><tr><td><strong>核心动画</strong></td><td>手指指引：位移+透明度+旋转缓动</td><td><p>奖励面板：缩放+透明度缓动</p><p>跳转按钮：缩放+透明度缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：单个物品</p><p>触发事件：拖拽；拖拽到指定位置</p><p>响应事件：隐藏素材；显示素材；赋值(全局变量)</p></td><td><p>触发对象：场景2</p><p>触发事件：按下</p><p>响应事件：跳转应用商店；上报试玩结束</p></td></tr></tbody></table>
 
 
 
@@ -74,39 +74,49 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 2）在【全局场景】下添加常驻下载按钮、logo等产品信息
 
+<figure><img src="../../../.gitbook/assets/image (1518).png" alt=""><figcaption></figcaption></figure>
+
 #### **2.场景1**
 
-1）将所需视频、图片添加进场景1
+1）将与核心玩法相关的资产添加进场景1
 
-<mark style="color:red;">温馨提示："进度条"和"操作指引"相关资产，都可从【预设库】直接获取哦！</mark>
+2）调整各资产到合适的位置大小，根据资产类型对资产进行编组、排序、命名
 
-<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<mark style="color:red;">**注意:**</mark>&#x20;
 
-2）调整各资产到合适的位置大小
+<mark style="color:red;">**a.**</mark> <mark style="color:red;"></mark><mark style="color:red;">此类玩法(指在玩家交互后,物品位置发生改变的玩法)的制作逻辑为 "在不同位置添加相同的物品，然后先隐藏放置后的物品，再通过事件设置显示放置后的物品，隐藏原位置的物品"，以此来实现目标效果</mark>
 
-3）根据资产类型对资产进行编组、排序、命名
+因此，"可被拖拽放置的物品"就需要准备两张相同的图片资源。在本案例中，我们想要物品在拖拽过程中有外发光效果，所以各准备了一张普通物品图片以及一张物品外发光图片
 
-<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其层级是在其他所有物品之上的"。图层层级的关系，所以每个物品也都需要准备两张相同的图片资源，通过事件设置将"正在拖拽的物品"
 
-4）将核心视频(核心视频2+核心视频3)设为"隐藏"状态，并关闭【入场自动播放】，在后续通过事件来控制视频的显示和播放
+另外，因为有三次不同位置的手指指引，所以手指图层也需要添加三个
+
+<figure><img src="../../../.gitbook/assets/image (1519).png" alt=""><figcaption></figcaption></figure>
+
+3）调整图层初始状态：将核心视频(核心视频2+核心视频3)设为"隐藏"状态，并关闭【入场自动播放】，在后续通过事件来控制视频的显示和播放
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1521).png" alt="" width="559"><figcaption></figcaption></figure>
 
 </div>
 
-5）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
 
-<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+5）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
 
 6）调整屏幕适配方式：在本案例中，我们想要竖屏下的产品信息始终位于屏幕底部，所以我们要调整其适配方式。直接选中该图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### Step2 - 动画设置 <a href="#tpuup" id="tpuup"></a>
+
+
+
+### Step2 - 动效设置 <a href="#tpuup" id="tpuup"></a>
 
 在本案例中，需要设置动画的资产有：指引手指、指引文案、进度条(选做)、角色(选做)
 
