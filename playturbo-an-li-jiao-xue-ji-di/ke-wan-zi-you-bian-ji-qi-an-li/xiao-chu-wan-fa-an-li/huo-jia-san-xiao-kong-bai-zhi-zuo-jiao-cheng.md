@@ -62,7 +62,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 ## <mark style="color:blue;">五、制作指南</mark> <a href="#cria2" id="cria2"></a>
 
-\*核心内容为Step3【事件设置】
+\*核心内容为Step4【事件设置】
 
 ### Step1 - 场景搭建 <a href="#wepzn" id="wepzn"></a>
 
@@ -84,91 +84,127 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <mark style="color:red;">**注意:**</mark>&#x20;
 
-<mark style="color:red;">**a.**</mark> <mark style="color:red;"></mark><mark style="color:red;">此类玩法(指在玩家交互后,物品位置发生改变的玩法)的制作逻辑为 "在不同位置添加相同的物品，然后先隐藏放置后的物品，再通过事件设置显示放置后的物品，隐藏原位置的物品"，以此来实现目标效果</mark>
+a. <mark style="color:red;">此类玩法(指在玩家交互后,物品位置发生改变的玩法)的制作逻辑为 "在不同位置添加相同的物品，然后先隐藏放置后的物品，再通过事件设置显示放置后的物品，隐藏原位置的物品"，以此来实现目标效果</mark>
 
-因此，"可被拖拽放置的物品"就需要准备两张相同的图片资源。在本案例中，我们想要物品在拖拽过程中有外发光效果，所以各准备了一张普通物品图片以及一张物品外发光图片
+因此，"可被拖拽并放置的物品"就需要准备两张相同的图片资源。在本案例中，我们想要物品在拖拽过程中有外发光效果，所以各准备了一张普通物品图片以及一张物品外发光图片
 
-b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其层级是在其他所有物品之上的"。图层层级的关系，所以每个物品也都需要准备两张相同的图片资源，通过事件设置将"正在拖拽的物品"
+b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其层级是在其他所有物品之上的"。<mark style="color:red;">因图层有前后顺序的层级影响，所以每个物品也都需要准备两张相同的图片资源，将其中一张设为"可被拖动的物品"，另一张则设为"不可被拖动/仅在原地显示的物品"，然后将前者所有的图片编组，并将其层级置于后者的上方</mark>
 
-另外，因为有三次不同位置的手指指引，所以手指图层也需要添加三个
+c. 因为有三次不同位置的手指指引，所以手指图片也需要添加三个
 
-<figure><img src="../../../.gitbook/assets/image (1519).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1523).png" alt=""><figcaption><p>示意图</p></figcaption></figure>
 
-3）调整图层初始状态：将核心视频(核心视频2+核心视频3)设为"隐藏"状态，并关闭【入场自动播放】，在后续通过事件来控制视频的显示和播放
+3）调整图层初始状态：将所有可被拖动的物品(即层级较高的)设为"隐藏"状态，将所有不可被拖动的物品(即层级较低的)设为"显示"状态；将指引手指1和3设为"隐藏"状态，指引手指2设为"显示"状态。后续我们将通过事件来控制这些图层的隐藏/显示
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1521).png" alt="" width="559"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1524).png" alt="" width="464"><figcaption></figcaption></figure>
 
 </div>
 
+#### **3.场景2**
+
+1）将与结束页面相关的资产添加进场景2
+
+2）同样的，调整各资产到合适的位置大小，根据资产类型对资产进行编组、排序、命名
+
+<figure><img src="../../../.gitbook/assets/image (1525).png" alt=""><figcaption></figcaption></figure>
 
 
 
+### Step2 - 横竖屏适配 <a href="#tpuup" id="tpuup"></a>
 
-5）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
+完成所有竖屏的排版后，我们还需对"横屏的排版"以及"横竖屏的屏幕适配方式"进行调整
 
-6）调整屏幕适配方式：在本案例中，我们想要竖屏下的产品信息始终位于屏幕底部，所以我们要调整其适配方式。直接选中该图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
+#### 1.调整横屏排版
 
+1）切换到横屏模式，选中所有最高层级的图层
 
+2）使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】即可
 
+3）全局场景和场景2同理
 
+<figure><img src="../../../.gitbook/assets/image (1526).png" alt=""><figcaption></figcaption></figure>
 
+#### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
+在本案例中，我们想要竖屏下的产品信息始终位于屏幕最上方，所以我们要调整其适配方式。直接在竖屏模式下选中产品信息组\[group\_product]，在右侧【屏幕适配方式】处点击向上图标即可完成设置（其他图层默认居中适配，无需调整）
 
-### Step2 - 动效设置 <a href="#tpuup" id="tpuup"></a>
-
-在本案例中，需要设置动画的资产有：指引手指、指引文案、进度条(选做)、角色(选做)
-
-<mark style="color:red;">温馨提示：若您使用了预设，则无需自己设置动画！</mark>
-
-#### **1.指引手指**
-
-1）选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，参数设置如下(手指横向移动动画)：
-
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
-
-2）选中手指组\[gf\_1]，添加动画-通用-位移缓动，参数设置如下(手指纵向移动动画)：
-
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-
-#### **2.指引文案**
-
-选中指引文本\[tguidelines]，添加动画-强调动画-上下来回，参数设置如下（设置完成后可隐藏整个指引组，在后续通过事件控制）：
-
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
-
-#### 3.进度条(选做)
-
-1）选中进度条图片\[progress\_bar]，将其【锚点】修改为（0,50），并取消勾选【参数横竖屏拆分】
-
-注意：进度条图片左右需贴边，不能留空
-
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
-
-2）添加动画-通用-缩放缓动，参数设置如下：
-
-注意：这里的【持续时间】代表的是进度条加载到头所需的总时长。在本案例中，我们设定了"在进度条快加载完时，玩家不能再交互"，也就是当所有视频播放结束后，进度条需要差一截才到头，所以就需要"进度条播放的总时长＞所有视频加起来的总时长"。本案例的三段视频总时长为8.7s左右，所以在这里我们可以将进度条的【持续时间】设置为10s或更长
-
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
-
-#### 4.角色(选做)
-
-1）选中角色图片\[role\_1]，将其【锚点】修改为（50,100），并取消勾选【参数横竖屏拆分】
-
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
-
-2）添加动画-通用-缩放缓动，参数设置如下（设置完成后可隐藏该图层，在后续通过事件控制）：
-
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1527).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### <mark style="background-color:red;">Step3 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
+### Step3 - 动效设置 <a href="#tpuup" id="tpuup"></a>
 
-本案例的所有事件集中设置在三个视频图层上以及场景1上，我们按操作顺序依次讲解
+在本案例中，使用到的动效如下：
 
-#### <mark style="color:red;">1.图层: video\_01（初始视频1）</mark>
+动画：手指指引、奖励面板+跳转按钮
+
+粒子特效：消除反馈(星星粒子)、结束页胜利反馈(星星/彩带粒子)
+
+#### **1.动画:**&#x20;
+
+**1-1）手指指引**
+
+1）选中手指组\[hand\_1]，依次添加动画-通用-位移缓动、透明度缓动，来作为手指及物品的指引动画，参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1529).png" alt=""><figcaption><p>位移缓动</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1530).png" alt=""><figcaption><p>透明度缓动</p></figcaption></figure>
+
+2）选做：再选中手指图片\[gf\_hand1]，添加动画-通用-旋转缓动，参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1528).png" alt=""><figcaption></figcaption></figure>
+
+3）hand2 和hand3 的动画设置同理，可直接复制-粘贴，然后调整位移动画的"位移距离"即可
+
+
+
+**1-2）奖励面板+跳转按钮**
+
+1）选中奖励面板组\[board]，依次添加动画-通用-缩放缓动、透明度缓动，来作为入场动画
+
+<figure><img src="../../../.gitbook/assets/image (1533).png" alt=""><figcaption></figcaption></figure>
+
+2）参数设置如下：
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1534).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+3）复制该组图层的动画到跳转按钮组\[btn\_download]，然后再添加一个缩放动画，作为入场后的循环指引动画
+
+<figure><img src="../../../.gitbook/assets/image (1536).png" alt=""><figcaption></figcaption></figure>
+
+#### **2.粒子特效**
+
+**2-1）消除反馈**
+
+1）在【公共资产库】中选择合适的粒子特效并添加
+
+2）因本案例有3处不同的消除区域，所以需要再复制两个粒子图层
+
+3）依次调整三个粒子特效的位置到对应区域，然后进行编组
+
+4）将三个粒子特效设为"隐藏"状态，后续我们通过事件来控制粒子的显示和播放
+
+<figure><img src="../../../.gitbook/assets/image (1531).png" alt=""><figcaption></figcaption></figure>
+
+**2-2）结束页胜利反馈**
+
+同理，对场景2中的胜利反馈粒子特效进行设置（注:场景2的粒子特效因为是入场自动播放的，也可以直接设为"显示"状态）
+
+<figure><img src="../../../.gitbook/assets/image (1532).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### <mark style="background-color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
+
+本案例的所有事件集中设置在"所有可被拖动的物品组"以及"场景"上，我们按操作顺序依次讲解
+
+#### <mark style="color:red;">1.场景: Scene 1</mark>
 
 1）选中图层\[video\_01]，添加事件-开始时
 
@@ -176,7 +212,7 @@ b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1537).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -184,12 +220,6 @@ b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其�
 
 * 添加响应事件：隐藏初始视频1；显示核心视频2、显示角色图片、显示操作指引组
 * 添加响应事件：从头播放所有指引相关动画；同时暂停播放进度条动画
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 #### <mark style="color:red;">2.图层: video\_02（核心视频2）</mark>
 
@@ -199,77 +229,31 @@ b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其�
 * 添加响应事件：隐藏角色图片、隐藏操作指引组
 * 添加响应事件：继续播放核心视频2；并播放进度条动画和一次点击音效
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 2）添加事件-抬起
 
 * 添加响应事件：暂停播放视频核心视频2
 * 添加响应事件：显示操作指引组；并从头播放操作指引相关动画；同时暂停播放进度条动画
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 3）复制事件：复制\[video\_01]的"结束时"事件
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 粘贴事件：选中\[video\_02]，粘贴 - 仅粘贴图层事件
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 * 修改响应事件为：隐藏核心视频2；显示核心视频3；并删除显示角色图片
 * 添加响应事件：跳转应用商店（此步骤就是前面提到的"强制跳转"）
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 #### <mark style="color:red;">3.图层: video\_03（核心视频3）</mark>
 
 1）复制事件：复制整个图层\[video\_02]
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 2）粘贴事件：选中\[video\_03]，粘贴 - 仅粘贴图层事件（即一键粘贴该图层的所有事件）
-
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）事件-按下
 
 * 修改响应事件为：继续播放视频\[video\_03]；删除埋点事件、删除隐藏角色图片；
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 4）事件-抬起
 
 * 修改响应事件为：暂停播放视频\[video\_03]
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 5）事件-结束时
 
@@ -277,12 +261,6 @@ b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其�
 * 添加响应事件：禁用\[video\_03]的按下事件、禁用\[video\_03]的抬起事件（在设置完下一步的场景事件后，还需在这里添加一个响应事件"启用场景1的按下事件"）
 
 <mark style="background-color:yellow;">注：这代表当最后一段视频播放结束，该视频的"按下/抬起"事件将不再生效，场景1的"按下"事件(即跳转事件)开始生效</mark>
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 #### <mark style="color:red;">4.场景: Scene 1</mark>
 
@@ -292,12 +270,6 @@ b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其�
 * 添加响应事件：上报试玩结束
 * 添加响应事件：从头播放一次点击音效
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 2）添加事件-定时触发
 
 * 设置执行延迟时间为0s
@@ -305,17 +277,11 @@ b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其�
 
 <mark style="background-color:yellow;">注：这代表一进入试玩，场景1的"按下"事件(即跳转事件)即被禁用，不会生效。然后我们在核心视频3的"结束时"事件下添加"启用场景1的按下事件"</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
 
 
 
-### Step4 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
+### Step5 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
 
 1）建议在制作过程中，每完成一部分操作，就及时预览，检查设置是否正确
 
