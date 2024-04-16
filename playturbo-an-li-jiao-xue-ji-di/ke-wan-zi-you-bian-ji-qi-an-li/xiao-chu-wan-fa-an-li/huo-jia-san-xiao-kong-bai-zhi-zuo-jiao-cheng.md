@@ -376,7 +376,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="548"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1538).png" alt="" width="522"><figcaption></figcaption></figure>
 
 </div>
 
@@ -387,7 +387,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1539).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

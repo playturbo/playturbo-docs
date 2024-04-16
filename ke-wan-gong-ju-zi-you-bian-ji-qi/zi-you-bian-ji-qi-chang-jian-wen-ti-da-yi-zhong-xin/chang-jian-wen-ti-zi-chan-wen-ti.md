@@ -2,7 +2,7 @@
 description: '#自由编辑器'
 ---
 
-# 资产问题
+# 常见问题-资产问题
 
 ### <mark style="color:blue;">1.资产上传失败/提示文件类型不支持</mark>
 
@@ -24,7 +24,7 @@ description: '#自由编辑器'
 
 ### <mark style="color:blue;">4.资产层级问题</mark>
 
-<table><thead><tr><th width="193.33333333333331"> </th><th width="412">具体描述</th><th>截图</th></tr></thead><tbody><tr><td><strong>问题-1</strong></td><td><strong>在全局场景添加的产品信息或其他资产，默认层级是在普通场景之上的，怎么调整？</strong></td><td><img src="../../.gitbook/assets/image (103).png" alt="" data-size="original"></td></tr><tr><td>解决方法</td><td><ul><li>点击进入普通场景，在右侧参数设置区的【场景设置】中进行调整</li><li>可以选择将【全局场景】置于场景顶层；或置于场景底层</li><li>注意：勾选后仅对当前场景生效</li></ul></td><td><img src="../../.gitbook/assets/image (100).png" alt="" data-size="original"></td></tr><tr><td><strong>问题-2</strong></td><td><strong>怎么实现“视频置顶效果”或“视频在某张图片之上的效果”？</strong></td><td><img src="../../.gitbook/assets/image (1237).png" alt="" data-size="original"></td></tr><tr><td>解决方法</td><td><ul><li>可以通过【全局设置】上传背景图片，来实现“视频位于图片之上”的效果</li><li>因视频资产的层级默认是在所有图层之下的，仅【全局设置】的背景图片和背景颜色的层级能够置于视频之下，其他资产不可以</li></ul></td><td><img src="../../.gitbook/assets/image (1238).png" alt="" data-size="original"></td></tr><tr><td>关于解决方法的详细介绍可查看<span data-gb-custom-inline data-tag="emoji" data-code="1f449">👉</span></td><td><a data-mention href="../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/pu-tong-chang-jing/chang-jing-she-zhi.md">chang-jing-she-zhi.md</a> <a data-mention href="../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/pu-tong-chang-jing/chang-jing-she-zhi.md#quan-ju-chang-jing">#quan-ju-chang-jing</a></td><td>/</td></tr></tbody></table>
+<table><thead><tr><th width="193.33333333333331"> </th><th width="412">具体描述</th><th>截图</th></tr></thead><tbody><tr><td><strong>问题-1</strong></td><td><strong>在全局场景添加的产品信息或其他资产，默认层级是在普通场景之上的，怎么调整？</strong></td><td><img src="../../.gitbook/assets/image (103).png" alt="" data-size="original"></td></tr><tr><td>解决方法</td><td><ul><li>点击进入普通场景，在右侧参数设置区的【场景设置】中进行调整</li><li>可以选择将【全局场景】置于场景顶层；或置于场景底层</li><li>注意：勾选后仅对当前场景生效</li></ul></td><td><img src="../../.gitbook/assets/image (100).png" alt="" data-size="original"></td></tr><tr><td><strong>问题-2</strong></td><td><strong>怎么实现“视频置顶效果”或“视频在某张图片之上的效果”？</strong></td><td><img src="../../.gitbook/assets/image (1237).png" alt="" data-size="original"></td></tr><tr><td>解决方法</td><td><ul><li>可以通过【全局设置】上传背景图片，来实现“视频位于图片之上”的效果（因视频资产的层级默认是在所有图层之下的，仅【全局设置】的背景图片和背景颜色的层级能够置于视频之下）</li><li>若图片不是作为背景图片，可以在本地先将该图片进行裁剪，镂空，预留出视频的位置。然后再导入工具内继续制作</li></ul></td><td><p><img src="../../.gitbook/assets/image (1238).png" alt="" data-size="original"></p><p><img src="../../.gitbook/assets/image (1540).png" alt=""></p></td></tr><tr><td>关于解决方法的详细介绍可查看<span data-gb-custom-inline data-tag="emoji" data-code="1f449">👉</span></td><td><a data-mention href="../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/pu-tong-chang-jing/chang-jing-she-zhi.md">chang-jing-she-zhi.md</a> <a data-mention href="../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/pu-tong-chang-jing/chang-jing-she-zhi.md#quan-ju-chang-jing">#quan-ju-chang-jing</a></td><td>/</td></tr></tbody></table>
 
 
 
