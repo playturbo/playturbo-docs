@@ -82,13 +82,13 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 2）调整各资产到合适的位置大小，根据资产类型对资产进行编组、排序、命名
 
-<mark style="color:red;">**注意:**</mark>&#x20;
+<mark style="color:orange;">**注意:**</mark>&#x20;
 
-a. <mark style="color:red;">此类玩法(指在玩家交互后,物品位置发生改变的玩法)的制作逻辑为 "在不同位置添加相同的物品，然后先隐藏放置后的物品，再通过事件设置显示放置后的物品，隐藏原位置的物品"，以此来实现目标效果</mark>
+a. 此类玩法(指在玩家交互后,物品位置发生改变的玩法)的制作逻辑为 "在不同位置添加相同的物品，然后先隐藏放置后的物品，再通过事件设置显示放置后的物品，隐藏原位置的物品"，以此来实现目标效果
 
 因此，"可被拖拽并放置的物品"就需要准备两张相同的图片资源。在本案例中，我们想要物品在拖拽过程中有外发光效果，所以各准备了一张普通物品图片以及一张物品外发光图片
 
-b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其层级是在其他所有物品之上的"。<mark style="color:red;">因图层有前后顺序的层级影响，所以每个物品也都需要准备两张相同的图片资源，将其中一张设为"可被拖动的物品"，另一张则设为"不可被拖动/仅在原地显示的物品"，然后将前者所有的图片编组，并将其层级置于后者的上方</mark>
+b. 此外在本案例中，我们想要实现"在拖拽起某个物品后，其层级是在其他所有物品之上的"。<mark style="color:orange;">因图层有前后顺序的层级影响，所以每个物品也都需要准备两张相同的图片资源，将其中一张设为"可被拖动的物品"，另一张则设为"不可被拖动/仅在原地显示的物品"，然后将前者所有的图片编组，并将其层级置于后者的上方</mark>
 
 c. 因为有三次不同位置的手指指引，所以手指图片也需要添加三个
 
@@ -112,6 +112,8 @@ c. 因为有三次不同位置的手指指引，所以手指图片也需要添�
 
 
 
+
+
 ### Step2 - 横竖屏适配 <a href="#tpuup" id="tpuup"></a>
 
 完成所有竖屏的排版后，我们还需对"横屏的排版"以及"横竖屏的屏幕适配方式"进行调整
@@ -131,6 +133,8 @@ c. 因为有三次不同位置的手指指引，所以手指图片也需要添�
 在本案例中，我们想要竖屏下的产品信息始终位于屏幕最上方，所以我们要调整其适配方式。直接在竖屏模式下选中产品信息组\[group\_product]，在右侧【屏幕适配方式】处点击向上图标即可完成设置（其他图层默认居中适配，无需调整）
 
 <figure><img src="../../../.gitbook/assets/image (1527).png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -178,6 +182,8 @@ c. 因为有三次不同位置的手指指引，所以手指图片也需要添�
 
 <figure><img src="../../../.gitbook/assets/image (1536).png" alt=""><figcaption></figcaption></figure>
 
+
+
 #### **2.粒子特效**
 
 **2-1）消除反馈**
@@ -200,100 +206,250 @@ c. 因为有三次不同位置的手指指引，所以手指图片也需要添�
 
 
 
+
+
 ### <mark style="background-color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-本案例的所有事件集中设置在"所有可被拖动的物品组"以及"场景"上，我们按操作顺序依次讲解。
+本案例的所有事件集中设置在"所有可被拖动的物品组"以及"场景"上，我们按操作顺序依次讲解
+
+<mark style="background-color:green;">**Part1：全局变量**</mark>
 
 首先，因为要实现：
 
 a. 计算成功操作次数：玩家每完成一组消除，星星数量+1；当完成三组消除(即星星数量为3)时，进入结束页面
 
-b. 无操作指引：当玩家完成任意一组消除后，出现下一组手指指引；玩家每3秒钟内无任何操作时，出现手指指引
+b. 无操作指引：当玩家完成任意一组消除后，出现下一组手指指引；玩家每3秒钟内无任何操作时，出现对应手指指引
 
-要想实现以上效果，就需要使用[【全局变量】](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md)
-
-
-
-
-
-
-
-
-
-#### <mark style="color:red;">1.场景: Scene 1</mark>
-
-1）选中图层\[video\_01]，添加事件-开始时
-
-* 添加响应事件：从头播放进度条动画
+要想实现以上效果，就需要使用[【全局变量】](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md)，以下是对本案例所使用到的全局变量的梳理，我们以其中一个物品为例，展开介绍（若您在制作时不需要相关效果，可直接删除相关变量）
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1537).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-2）添加事件-结束时
+#### <mark style="color:red;">1.添加全局变量</mark>
 
-* 添加响应事件：隐藏初始视频1；显示核心视频2、显示角色图片、显示操作指引组
-* 添加响应事件：从头播放所有指引相关动画；同时暂停播放进度条动画
+1）点击上方【全局变量】图标，添加变量
 
-#### <mark style="color:red;">2.图层: video\_02（核心视频2）</mark>
+2）填写变量名称，如Cumulative\_times，并设置变量类型与初始值，保存
 
-1）选中图层\[video\_02]，添加事件-按下
+3）按照同样的方法，依次添加Guidelines与Corresponding\_finger两个变量
 
-* 添加响应事件：设置埋点，修改埋点名称为"玩家第一次按下"
-* 添加响应事件：隐藏角色图片、隐藏操作指引组
-* 添加响应事件：继续播放核心视频2；并播放进度条动画和一次点击音效
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="266"><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### <mark style="color:red;">2.为所有"可被拖动的物品组"添加触发事件与响应事件</mark>
+
+以第一个物品即道具6\[Proper6\_a1]为例，选中该组图层
+
+1）添加事件-拖拽，选择拖拽方向为"任意方向"
+
+* 添加响应事件：赋值，赋值Guidelines=2 (对应: 玩家有操作，隐藏整个手指组并取消计时)
+* 添加响应事件：显示外发光道具6；隐藏原位置道具6；隐藏初始外发光道具1(白色盒子)
+* 添加响应事件：从头播放1次按下音效
 
 2）添加事件-抬起
 
-* 添加响应事件：暂停播放视频核心视频2
-* 添加响应事件：显示操作指引组；并从头播放操作指引相关动画；同时暂停播放进度条动画
+* 添加响应事件：赋值，赋值Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)
+* 添加响应事件：显示原位置道具6；隐藏外发光道具6
 
-3）复制事件：复制\[video\_01]的"结束时"事件
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-粘贴事件：选中\[video\_02]，粘贴 - 仅粘贴图层事件
+3）快速复制事件给其他所有"可被拖动的物品组"
 
-* 修改响应事件为：隐藏核心视频2；显示核心视频3；并删除显示角色图片
-* 添加响应事件：跳转应用商店（此步骤就是前面提到的"强制跳转"）
+* 设置好以上两类事件，点击复制图层\[Proper6\_a1]
 
-#### <mark style="color:red;">3.图层: video\_03（核心视频3）</mark>
+<div align="left">
 
-1）复制事件：复制整个图层\[video\_02]
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-2）粘贴事件：选中\[video\_03]，粘贴 - 仅粘贴图层事件（即一键粘贴该图层的所有事件）
+</div>
 
-3）事件-按下
+* 按住Ctrl键，全选所有"可被拖动的物品组"
+* 点击粘贴按钮，选择【仅粘贴图层事件】
 
-* 修改响应事件为：继续播放视频\[video\_03]；删除埋点事件、删除隐藏角色图片；
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-4）事件-抬起
+* 这样，所有"可被拖动的物品组"都有了对应的拖拽事件与抬起事件
+* 然后将每个物品组所对应的响应对象进行微调即可
 
-* 修改响应事件为：暂停播放视频\[video\_03]
+<div align="left">
 
-5）事件-结束时
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-* 删除响应事件：删除隐藏视频\[video\_02]、删除显示视频\[video\_03]、删除跳转应用商店
-* 添加响应事件：禁用\[video\_03]的按下事件、禁用\[video\_03]的抬起事件（在设置完下一步的场景事件后，还需在这里添加一个响应事件"启用场景1的按下事件"）
+</div>
 
-<mark style="background-color:yellow;">注：这代表当最后一段视频播放结束，该视频的"按下/抬起"事件将不再生效，场景1的"按下"事件(即跳转事件)开始生效</mark>
 
-#### <mark style="color:red;">4.场景: Scene 1</mark>
 
-1）点击场景1 ，添加事件-按下
+#### <mark style="color:red;">3.为三个"可被拖动并放置的物品组"添加触发事件与响应事件</mark>
 
-* 添加响应事件：跳转应用商店
-* 添加响应事件：上报试玩结束
-* 添加响应事件：从头播放一次点击音效
+以白色盒子即道具1\[Proper1\_a2]为例，选中该组图层
 
-2）添加事件-定时触发
+1）添加事件-拖拽到指定位置
 
-* 设置执行延迟时间为0s
-* 添加响应事件：禁用场景1的按下事件
+2）编辑指定区域，并选择拖拽方向为"任意方向"
 
-<mark style="background-color:yellow;">注：这代表一进入试玩，场景1的"按下"事件(即跳转事件)即被禁用，不会生效。然后我们在核心视频3的"结束时"事件下添加"启用场景1的按下事件"</mark>
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 添加响应事件：设置埋点，并填入埋点名称如"玩家正确放置白色盒子"
+* 添加响应事件：赋值，赋值Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)；赋值Cumulative\_times+1 (对应: 已完成一组消除)；赋值Corresponding\_finger=2  (对应: ≠1,白色盒子已消除，显示指引手指2或3)
+* 添加响应事件：禁用道具1白色盒子\[Proper1\_a2]的拖拽事件与抬起事件
+* 添加响应事件：隐藏外发光道具1白色盒子；显示放置后的道具1
+* 添加响应事件：执行延迟0.1s后，隐藏第三个格子整个组\[proper\_C]；同时显示并播放消除粒子特效；从头播放1次消除音效
+
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+3）快速复制事件给其他两个"可被拖动并放置的物品组"
+
+* 点击复制\[Proper1\_a2]的"拖拽到指定位置"事件
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 按住Ctrl键，选中两外两个组\[Proper2\_a3]和\[Proper3\_a3\_yes]
+* 点击粘贴按钮，选择【仅粘贴图层事件】
+* 然后依次将两个物品组所对应的响应对象进行微调
+
+4）<mark style="color:orange;">**注意：**</mark><mark style="color:orange;">在前期玩法梳理阶段，我们设定了"只有当绿色瓶子完成消除后，褐色瓶子的拖拽事件才生效"，所以对应地，相关指引手指的出现也是有先后顺序的，所以hand2和hand3不需要用全局变量来控制，只需在绿色瓶子被"拖拽到指定位置"后，隐藏hand2并显示hand3就可以</mark>
+
+因此，我们需要对道具2\[Proper2\_a3]的响应事件进行额外调整
+
+* 在执行延迟后添加响应事件：隐藏hand2；显示hand3
+* 添加响应事件：隐藏"仅可被拖动"的道具3；显示"可被拖动并放置"的道具3
+
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+以上，我们就完成了所有"可被拖动的物品组"的事件设置。接下来，我们在场景上添加事件
+
+
+
+#### <mark style="color:red;">4.在"场景1"下添加条件判断与响应事件</mark>
+
+选中场景1 - 添加事件 - 条件判断
+
+**1）条件判断1-3：计算成功操作次数**
+
+* 编辑条件判断1为：Cumulative\_times=1 (对应: 玩家已完成一组消除)
+* 勾选"只生效一次"
+* 添加响应事件：隐藏文本0；显示文本1
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 同理，依次添加条件判断2和条件判断3，并设置对应文本的显示/隐藏
+* 在条件判断3额外添加响应事件：执行延迟0.7s后，跳转到下一场景
+
+<mark style="color:orange;">注：也就是当玩家累计完成三组消除后，进入结束页面</mark>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+<mark style="color:orange;">**注意：**</mark><mark style="color:orange;">前面有提到，hand2和hand3有出现的先后顺序，所以不需要用全局变量来控制。和"无操作指引"相关的变量仅用来判断道具1的状态：如果道具1未完成放置就显示hand1并播放其动画；如果道具1完成了放置就隐藏hand1，显示组\[hand\_2\_3]，并播放对应动画（组里hand2和hand3的状态由道具2的拖拽控制）</mark>
+
+按照这个逻辑，我们设置条件判断4-7
+
+**2）条件判断4-5：无操作指引（控制是否要出现无操作指引）**
+
+* 编辑条件判断4：Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)。添加响应事件：执行延迟3s后，显示整个手指组；从头播放对应手指指引动画
+* 编辑条件判断5：Guidelines=2 (对应: 玩家有操作，隐藏整个手指组并取消计时)。添加响应事件：隐藏整个手指组；取消3s执行延迟
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="548"><figcaption></figcaption></figure>
+
+</div>
+
+**3）条件判断6-7：无操作指引（控制实际要出现哪一个手指）**
+
+* 编辑条件判断6：Corresponding\_finger=1 (对应: 白色盒子还未消除，显示初始指引手指1)。添加响应事件：显示hand1；隐藏组\[hand\_2\_3]
+* 编辑条件判断7：Corresponding\_finger≠1 (对应: 白色盒子已消除，显示指引手指2或3)。添加响应事件：隐藏hand1；显示组\[hand\_2\_3]
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+<mark style="background-color:green;">**Part2：普通事件**</mark>
+
+#### <mark style="color:red;">1.场景: Scene 1</mark>
+
+1）选中场景1 - 添加事件 - 定时触发
+
+2）添加响应事件：执行延迟0s即入场时，显示外发光道具1；显示并播放hand1全部动画
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">2.场景: Scene 2</mark>
+
+1）同理，选中场景2 - 添加事件 - 定时触发
+
+2）添加响应事件：执行延迟0s即入场时，从头播放1次胜利音效；显示并播放彩带粒子特效；从头播放奖励面板与跳转按钮的全部动画
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:orange;">说明：以上两组【定时触发】事件，是针对"进入场景时需要立即播放相关效果"的设置。您也可以不设置这两组事件，在Step1-场景搭建时，将对应素材设置为"显示"状态/打开入场自动播放即可</mark>
+
+3）继续在场景2下添加事件 - 按下
+
+4）添加响应事件：设置埋点4，并填写埋点名称如"结束页触发跳转"
+
+5）添加响应事件：上报试玩结束；跳转应用商店
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">3.图层：常驻下载按钮组</mark>
+
+1）进入全局场景，选择图层\[group\_download]
+
+2）添加事件 - 按下
+
+3）添加响应事件 - 跳转应用商店
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
+
+
 
 
 
@@ -303,7 +459,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -311,4 +467,4 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
-{% file src="../../../.gitbook/assets/模拟移动交互视频_资源.zip" %}
+{% file src="../../../.gitbook/assets/货架三消空白制作_资源.zip" %}
