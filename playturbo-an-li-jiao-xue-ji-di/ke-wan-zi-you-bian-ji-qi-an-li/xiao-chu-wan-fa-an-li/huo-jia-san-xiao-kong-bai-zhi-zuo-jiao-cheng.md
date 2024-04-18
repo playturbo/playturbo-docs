@@ -224,7 +224,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -238,7 +238,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="266"><figcaption></figcaption></figure>
 
 </div>
 
@@ -259,7 +259,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 * 添加响应事件：赋值，赋值Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)
 * 添加响应事件：显示原位置道具6；隐藏外发光道具6
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）快速复制事件给其他所有"可被拖动的物品组"
 
@@ -267,21 +267,21 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 按住Ctrl键，全选所有"可被拖动的物品组"
 * 点击粘贴按钮，选择【仅粘贴图层事件】
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 这样，所有"可被拖动的物品组"都有了对应的拖拽事件与抬起事件
 * 然后将每个物品组所对应的响应对象进行微调即可
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -297,7 +297,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -307,7 +307,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 * 添加响应事件：隐藏外发光道具1白色盒子；显示放置后的道具1
 * 添加响应事件：执行延迟0.1s后，隐藏第三个格子整个组\[proper\_C]；同时显示并播放消除粒子特效；从头播放1次消除音效
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）快速复制事件给其他两个"可被拖动并放置的物品组"
 
@@ -315,7 +315,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
