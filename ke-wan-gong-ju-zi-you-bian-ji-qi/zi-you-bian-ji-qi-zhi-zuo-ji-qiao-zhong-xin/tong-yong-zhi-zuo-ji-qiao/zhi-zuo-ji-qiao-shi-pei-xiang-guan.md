@@ -106,14 +106,10 @@ description: '#自由编辑器'
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-② 添加填充图片
-
 * 在视频高度小于1800不足以覆盖到所有机型时，我们可在视频的上下两端添加图片进行填充，这样在大尺寸机型下预览时，可以利用这些填充图片来弥补画面的留白
 * 建议尽量使用与视频画面一致的图片，来保证衔接处的自然
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-③ 添加常驻内容
 
 * 添加常驻内容，如产品信息、下载按钮等，并调整位置，进行编组
 * 将产品信息组放在画面内留白较多的位置进行填补，如放在画面最下方，然后调整其屏幕适配方式
@@ -143,57 +139,87 @@ description: '#自由编辑器'
 
 
 
+### <mark style="color:red;">2.方形视频</mark>
+
+#### 1）效果预览
+
+| 竖屏iPhone                                                                          | 竖屏Android                                                                         | 竖屏iPad                                                                            | 横屏iPhone                                                                          | 横屏Android                                                                         | 横屏iPad                                                                            |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image (1541).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1542).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1543).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1546).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1545).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1544).png" alt="" data-size="original"> |
+
+#### 2）制作技巧 (参照DEMO场景2)
+
+<mark style="background-color:yellow;">2-1）竖屏</mark>
+
+* 同样，导入方形视频后，先将视频调整到合适的位置大小
+* 建议宽度至少为750，铺满画布
+
+<figure><img src="../../../.gitbook/assets/image (1553).png" alt=""><figcaption></figcaption></figure>
+
+* 可以看出，此时的画布留白较多，看起来很空，所以需要我们添加一些内容来丰富画面
+* 同样地，可以添加产品信息，并将其设置为贴底适配；然后在产品信息之上添加指引文本
+* 还可以将视频内的部分元素分离出来，改在自由编辑器内单独制作。如本案例中的金额面板，可以单独添加在画面上方
+
+<figure><img src="../../../.gitbook/assets/image (1554).png" alt=""><figcaption></figcaption></figure>
+
+* 设置好"画布内"的内容，我们再导入图片对"画布外"也就是视频的左右两侧进行填充
+* 调整图片的位置大小，让图片宽度和视频的宽度一致，然后将图片拖出画布外，贴紧画布的左右
+
+<figure><img src="../../../.gitbook/assets/image (1555).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="background-color:yellow;">2-2）横屏</mark>
+
+同样，完成竖屏的调整，我们还需切换至横屏模式进行微调（建议多使用"复制竖屏位置尺寸配置"功能）
+
+* 由于金额面板比较长，不适用于横屏排版，所以我们在横屏下单独添加一张方形的面板图片
+* 然后选中方形面板图片，勾选右侧的"\[显示隐藏参数]横竖屏拆分"，将竖屏下的状态设为"隐藏"；同样的方法，将矩形面板图片在横屏状态下设为"隐藏"
+* 视排版情况，也可将下载按钮在横屏状态下设为"隐藏"
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1557).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 然后仅需将左右两侧的填充图片分别移动到画布的上下方，贴紧画布即可
+* 可以多多使用[参考线](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/zuo-pin-yu-lan-qu/can-kao-xian.md)，便于图层快速对齐
+
+<figure><img src="../../../.gitbook/assets/image (1556).png" alt=""><figcaption></figcaption></figure>
 
 
 
+### <mark style="color:red;">3.横版视频</mark>
 
+#### 1）效果预览
 
+| 竖屏iPhone                                                                          | 竖屏Android                                                                         | 竖屏iPad                                                                            | 横屏iPhone                                                                          | 横屏Android                                                                         | 横屏iPad                                                                            |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image (1547).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1548).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1549).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1552).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1551).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (1550).png" alt="" data-size="original"> |
 
+#### 2）制作技巧 (参照DEMO场景3)
 
+横版视频的适配方法和方形视频大体上是相同的
 
+<mark style="background-color:yellow;">2-1）竖屏</mark>
 
+* 导入横版视频后，先将视频调整到合适的位置大小
+* 在本案例中，我们需要让核心视觉元素(老虎机)居中，所以视频的位置会比较靠左
 
+<figure><img src="../../../.gitbook/assets/image (1558).png" alt=""><figcaption></figcaption></figure>
 
+* 和方形视频的排版与适配相同，我们依次添加产品信息、指引文本、金额面板以及左右两侧的填充图片
+* 将各资产调整到合适的位置大小，并合理排序、编组
+* 若画布中的部分内容也需要遮挡，可将图片移入画布内
 
-2.方形视频
+<figure><img src="../../../.gitbook/assets/image (1559).png" alt=""><figcaption></figcaption></figure>
 
-| 竖屏iPhone | 竖屏Android | 竖屏iPad | 横屏iPhone | 横屏Android | 横屏iPad |
-| -------- | --------- | ------ | -------- | --------- | ------ |
-|          |           |        |          |           |        |
+<mark style="background-color:yellow;">2-2）横屏</mark>
 
-3.横版视频
+同样，完成竖屏的调整，我们还需切换至横屏模式进行微调
 
-| 竖屏iPhone | 竖屏Android | 竖屏iPad | 横屏iPhone | 横屏Android | 横屏iPad |
-| -------- | --------- | ------ | -------- | --------- | ------ |
-|          |           |        |          |           |        |
+* 由于视频本身是横版的，在横屏状态下，主要将视频调整到合适的位置大小就可以，尽量铺满画布
+* 其他在竖屏状态下添加的内容可以视情况进行隐藏
 
+<figure><img src="../../../.gitbook/assets/image (1561).png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-
-
-
-
-注：
-
-
-
-
-
-
-
-#### 1）调整原视频
-
-* 此方法适用于原视频可以被一定范围内放大尺寸 或 原视频内部分UI可单独制作
-* 为了美观，建议先在外部调整视频尺寸或为视频上下部分添加遮罩，然后导出视频
-* 将处理后的视频导入自由编辑器，直接调整位置尺寸即可
-* 最终预览效果可参考iPad机型
-
-#### 2）不调整原视频
-
-* 此方法适用于原视频需要被完整展示，不可被遮挡
-* 需要先在画布内将视频调整到合适的位置大小
-* 然后准备两张和视频同色的图片进行填充，放置于视频上下两端，并调整位置
+总之，在使用视频制作时，我们应尽量让画面的排版看起来协调、美观。当留白过多时，记得适当添加一些元素来丰富画面；当视频尺寸覆盖不到画布以外的区域时，也记得使用图片进行填充，以保证更佳的视觉效果！
