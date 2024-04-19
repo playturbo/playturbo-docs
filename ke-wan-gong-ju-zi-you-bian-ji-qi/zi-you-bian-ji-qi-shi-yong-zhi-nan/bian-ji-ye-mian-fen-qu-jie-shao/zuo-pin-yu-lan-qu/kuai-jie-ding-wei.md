@@ -58,3 +58,9 @@ description: '#自由编辑器'
 <figure><img src="../../../../.gitbook/assets/image (1568).png" alt=""><figcaption></figcaption></figure>
 
 在您完成素材制作进行预览时，可点击【埋点日志】调起窗口，实时查看"基础埋点"与"自定义埋点"的分布情况
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Animation (3).gif" alt="" width="539"><figcaption></figcaption></figure>
+
+</div>

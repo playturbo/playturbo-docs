@@ -45,7 +45,7 @@
         * [项目信息](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/xiang-mu-xin-xi.md)
         * [预览](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/yu-lan.md)
         * [保存](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/bao-cun.md)
-        * [下载&推送](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/xia-zai-tui-song.md)
+        * [下载&推送](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/xia-zai.md)
       * [作品预览区](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/zuo-pin-yu-lan-qu/README.md)
         * [预览切换](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/zuo-pin-yu-lan-qu/yu-lan-qie-huan.md)
         * [包体预估](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/zuo-pin-yu-lan-qu/bao-ti-yu-gu.md)
