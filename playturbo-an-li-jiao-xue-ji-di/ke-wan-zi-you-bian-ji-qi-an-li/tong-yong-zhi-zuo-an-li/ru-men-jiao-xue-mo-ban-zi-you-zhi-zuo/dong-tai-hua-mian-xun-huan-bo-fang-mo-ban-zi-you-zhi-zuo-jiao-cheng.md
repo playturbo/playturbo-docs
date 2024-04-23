@@ -130,15 +130,15 @@ description: '#自由编辑器 #模板自由制作'
 
 1-1）将场景1的图层事件“按下”整个复制到场景2，作为场景事件：
 
-<figure><img src="../../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (40) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (41) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1-2）将场景1的图层事件“按下”的响应事件修改为“跳转下一场景”，并添加响应事件“暂停播放求救音效”
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (44) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
