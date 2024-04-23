@@ -33,7 +33,7 @@
 * 叉乘：资产组在时间轴上的排列顺序是固定不变的，仅资产组内的素材参与排列组合
 * 时序叉乘：开启后，不仅资产组内的素材进行组合，资产组在时间轴上的排列顺序也会被打乱重组，从而增加视频的组合数
 
-相关教程可查看 [gong-neng-jiao-cheng-cha-cheng-shi-xu-cha-cheng.md](../../../../../playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/gong-neng-jiao-cheng-cha-cheng-shi-xu-cha-cheng.md "mention")
+相关教程可查看 [gong-neng-jiao-cheng-cha-cheng-shi-xu-cha-cheng.md](../../../../../playturbo-an-li-jiao-xue-ji-di/shi-pin-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/gong-neng-jiao-cheng-cha-cheng-shi-xu-cha-cheng.md "mention")
 
 <div align="left">
 

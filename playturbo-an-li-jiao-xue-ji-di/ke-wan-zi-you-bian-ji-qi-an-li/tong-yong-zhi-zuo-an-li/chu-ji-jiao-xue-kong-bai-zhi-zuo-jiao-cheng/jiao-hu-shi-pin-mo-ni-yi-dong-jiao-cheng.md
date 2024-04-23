@@ -19,10 +19,10 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                           | 竖屏                                                                                | 横屏                                                                                 |
-| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"> |
-| 扫码试玩                                                                               | [点击试玩](https://tinyurl.com/3tndebp6)                                              | [点击试玩](https://tinyurl.com/3tndebp6)                                               |
+| 手机试玩效果最佳                                                                               | 竖屏                                                                                | 横屏                                                                                 |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| <img src="../../../../.gitbook/assets/image (35) (1).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"> |
+| 扫码试玩                                                                                   | [点击试玩](https://tinyurl.com/3tndebp6)                                              | [点击试玩](https://tinyurl.com/3tndebp6)                                               |
 
 
 
@@ -80,29 +80,29 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <mark style="color:red;">温馨提示："进度条"和"操作指引"相关资产，都可从【预设库】直接获取哦！</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (23) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）调整各资产到合适的位置大小
 
 3）根据资产类型对资产进行编组、排序、命名
 
-<figure><img src="../../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (22) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4）将核心视频(核心视频2+核心视频3)设为"隐藏"状态，并关闭【入场自动播放】，在后续通过事件来控制视频的显示和播放
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 5）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
 
-<figure><img src="../../../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 6）调整屏幕适配方式：在本案例中，我们想要竖屏下的产品信息始终位于屏幕底部，所以我们要调整其适配方式。直接选中该图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (25) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -116,17 +116,17 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 1）选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，参数设置如下(手指横向移动动画)：
 
-<figure><img src="../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）选中手指组\[gf\_1]，添加动画-通用-位移缓动，参数设置如下(手指纵向移动动画)：
 
-<figure><img src="../../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.指引文案**
 
 选中指引文本\[tguidelines]，添加动画-强调动画-上下来回，参数设置如下（设置完成后可隐藏整个指引组，在后续通过事件控制）：
 
-<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.进度条(选做)
 
@@ -134,23 +134,23 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 注意：进度条图片左右需贴边，不能留空
 
-<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）添加动画-通用-缩放缓动，参数设置如下：
 
 注意：这里的【持续时间】代表的是进度条加载到头所需的总时长。在本案例中，我们设定了"在进度条快加载完时，玩家不能再交互"，也就是当所有视频播放结束后，进度条需要差一截才到头，所以就需要"进度条播放的总时长＞所有视频加起来的总时长"。本案例的三段视频总时长为8.7s左右，所以在这里我们可以将进度条的【持续时间】设置为10s或更长
 
-<figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 4.角色(选做)
 
 1）选中角色图片\[role\_1]，将其【锚点】修改为（50,100），并取消勾选【参数横竖屏拆分】
 
-<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）添加动画-通用-缩放缓动，参数设置如下（设置完成后可隐藏该图层，在后续通过事件控制）：
 
-<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -166,7 +166,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -177,7 +177,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -191,7 +191,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -202,7 +202,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -210,7 +210,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -218,7 +218,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -227,7 +227,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -235,11 +235,11 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 1）复制事件：复制整个图层\[video\_02]
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）粘贴事件：选中\[video\_03]，粘贴 - 仅粘贴图层事件（即一键粘贴该图层的所有事件）
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）事件-按下
 
@@ -247,7 +247,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -257,7 +257,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -270,7 +270,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -284,7 +284,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -297,7 +297,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -311,7 +311,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #简单难度'
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

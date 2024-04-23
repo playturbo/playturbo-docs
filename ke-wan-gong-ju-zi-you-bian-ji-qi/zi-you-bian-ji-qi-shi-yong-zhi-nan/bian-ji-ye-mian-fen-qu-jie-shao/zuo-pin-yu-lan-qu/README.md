@@ -4,7 +4,7 @@ description: '#自由编辑器'
 
 # 作品预览区
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>作品预览区</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (39).png" alt=""><figcaption><p>作品预览区</p></figcaption></figure>
 
 作品预览区由【画布】【场景视图】【横竖屏编辑模式】【多语言预览】【播放场景】【快捷排版】【包体预估】【快捷定位】【画布预览尺寸】【帮助中心】【画布标尺】【参考线】12个小模块组成，此区域是编辑器最核心的操作区域
 
@@ -23,4 +23,4 @@ description: '#自由编辑器'
 * 选中图层后，可直接拖动调整其位置
 * 选中图层后，可通过拖拽四角的小方块调整图层的大小（按住Shift键拖拽时可等比例缩放）
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

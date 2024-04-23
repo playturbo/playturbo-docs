@@ -88,6 +88,6 @@ c. 若字体被删除，再次打开项目则会弹出字体丢失弹窗，需�
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt="" width="255"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (30) (1) (1).png" alt="" width="255"><figcaption></figcaption></figure>
 
 </div>

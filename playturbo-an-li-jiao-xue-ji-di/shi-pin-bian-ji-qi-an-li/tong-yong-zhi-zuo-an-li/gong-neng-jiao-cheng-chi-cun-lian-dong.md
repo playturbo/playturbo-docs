@@ -8,11 +8,13 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1449).png" alt="" width="374"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1449).png" alt="" width="374"><figcaption></figcaption></figure>
 
 </div>
 
-## 操作步骤
+
+
+## <mark style="color:blue;">操作指南</mark> <a href="#orsiz" id="orsiz"></a>
 
 ### 1.添加多尺寸 <a href="#i1oir" id="i1oir"></a>
 
@@ -24,7 +26,7 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1450).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1450).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -32,7 +34,7 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1451).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1451).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,7 +44,7 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1452).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1452).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -50,7 +52,7 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1457).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1457).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -63,14 +65,14 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1453).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1453).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 画布联动后，相同素材只需在**一个**画布中进行位置大小的调整，其他联动画布即会随之变动
 * <mark style="color:red;">注意：只有素材的</mark><mark style="color:red;">**位置大小**</mark><mark style="color:red;">会受联动影响，其他调整不会受影响</mark>
 
-<figure><img src="../../.gitbook/assets/03.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/03.gif" alt=""><figcaption></figcaption></figure>
 
 #### **2）取消联动**
 
@@ -79,7 +81,7 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1455).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1455).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -87,6 +89,6 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/02.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/02.gif" alt=""><figcaption></figcaption></figure>
 
 </div>
