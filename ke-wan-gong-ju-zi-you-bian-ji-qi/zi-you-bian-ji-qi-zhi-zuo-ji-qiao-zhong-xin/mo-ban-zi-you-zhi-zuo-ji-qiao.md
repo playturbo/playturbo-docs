@@ -4,7 +4,33 @@ description: '#自由编辑器 #模板自由制作'
 
 # 模板自由制作技巧
 
-## <mark style="color:blue;">一、调整顺序建议</mark>
+## <mark style="color:blue;">一、调整自由度需知</mark>
+
+### 1.不建议自由调整
+
+因可玩模板中大部分模板是由 设计+开发 共同完成的，核心玩法基本由代码控制，若您随意调整可能会导致模板报错，无法正常使用。<mark style="color:red;">因此在您使用模板进行</mark><mark style="color:red;">**【自由制作】**</mark><mark style="color:red;">时，我们建议您参照以下调整自由度来对模板进行调整</mark>
+
+<table><thead><tr><th width="237"></th><th width="183">普通场景</th><th>玩法模板</th></tr></thead><tbody><tr><td>替换资产</td><td>可以</td><td>可以</td></tr><tr><td>新增资产</td><td>可以</td><td>不建议（可在普通场景新增）</td></tr><tr><td>新增场景</td><td>可以（不影响核心玩法的情况下,可以在开头/结尾新增场景）</td><td>不建议（可在普通场景新增）</td></tr><tr><td>其他非删除操作(如调整资产位置/大小;隐藏资产)</td><td>可以</td><td>不建议（适当操作,尽量避免大动作调整）</td></tr><tr><td>删除资产</td><td>不建议 (可以隐藏)</td><td>十分不建议，高几率报错</td></tr><tr><td>调整动画</td><td>可以（若"动画"参数一栏有相关动画）</td><td>不建议（适当操作）</td></tr><tr><td>新增动画</td><td>可以</td><td>不建议（适当操作）</td></tr><tr><td>调整事件</td><td>可以（若"事件"参数一栏有相关事件）</td><td>暂不支持</td></tr><tr><td>新增事件</td><td>可以</td><td>暂不支持</td></tr></tbody></table>
+
+注：模板是否包含【玩法模板】，可查阅 [ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md](../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md "mention")&#x20;
+
+
+
+### 2.支持自由调整
+
+少部分模板由设计独立完成，支持您随意调整。当前这类模板有：
+
+《动态画面循环播放》、《二选一决策》、《2步滑动交互视频》、《3步点击交互视频》、《多结局交互视频》
+
+《点击物品后隐藏》、《拖拽到指定位置放置》、《多要素点击切换》、《丝滑循环展示》、《扭蛋机》
+
+《多组合装扮》、《梦想装修》、《美妆擦除》、《厨房经营v2》、《放置经营餐厅》、《合成进化升级》
+
+《看图选答题》、《多选问答题》、《模拟清理工具》、《模拟来电》、《滑屏社交》
+
+
+
+## <mark style="color:blue;">二、调整顺序建议</mark>
 
 在您使用【模板自由制作】进行素材迭代时，我们通常建议您按照以下步骤进行制作，可以保证操作的有序和便捷
 
@@ -123,7 +149,7 @@ description: '#自由编辑器 #模板自由制作'
 
 
 
-## <mark style="color:blue;">二、资产替换需知</mark>
+## <mark style="color:blue;">三、资产替换需知</mark>
 
 ### 1.资产替换技巧
 
