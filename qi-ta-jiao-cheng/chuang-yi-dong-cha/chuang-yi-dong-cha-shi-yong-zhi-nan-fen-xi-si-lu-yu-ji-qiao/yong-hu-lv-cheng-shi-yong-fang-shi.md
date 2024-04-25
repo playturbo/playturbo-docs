@@ -67,19 +67,131 @@
 
 ### 1.案例预览
 
-[点击预览](https://tinyurl.com/3utmxvw6)
+| 手机试玩效果最佳                                                                   | 竖屏                                                                             | 横屏                                                                                              |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image.png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (3).png" alt="" data-size="original"> | <p></p><p><img src="../../../.gitbook/assets/image (1628).png" alt="" data-size="original"></p> |
+| 扫码试玩                                                                       | [点击试玩](https://tinyurl.com/5bfn8zfv)                                           | [点击试玩](https://tinyurl.com/5bfn8zfv)                                                            |
+
+
+
+### 2.案例问题总结
+
+分析案例的用户旅程图可得出：
+
+#### <mark style="color:red;">**1）素材核心问题**</mark>
+
+* 问题1：首次成功放置武器后，有较多用户试玩动力不足，导致流失；
+* 问题2：游戏难度较高，失败数高于胜利数，且失败页诱导效果不佳；
+
+_\*具体解析见第三部分：3.用户旅程具体分析_
+
+#### <mark style="color:red;">2）</mark><mark style="color:red;">**优化策略**</mark>
+
+<mark style="background-color:yellow;">【问题1】</mark>
+
+* 当前3种武器外观和攻击方式比较雷同，可通过拉开武器差异或增加猎奇武器的方式，增添趣味性，提升用户尝试继续放置武器的动力；
+* 当前杀敌反馈平淡，可强化射击特效或添加combo统计效果，提升操作爽感，让用户在成就感驱动下继续交互；
+
+<mark style="background-color:yellow;">【问题2】</mark>
+
+* 考虑胜利页跳转效果较好，可通过降低敌人HP和攻击力等方式，降低游戏难度，提升胜利概率；
+* 同时，可以加强失败页的诱导力度，让失败的用户也有更高概率跳转商店，如设置挑衅文案；
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>当前案例的用户旅程图</p></figcaption></figure>
+
+
+
+### 3.用户旅程具体分析
+
+#### <mark style="color:red;">1）Part1：Action1流转到下一节点数高</mark>
+
+【相关指标】：流转到下一节点数
+
+【优化维度】：开头引导
+
+【数据含义】：1000个开始拖拽武器的用户，99.5%都成功放置了武器
+
+<mark style="color:orange;">【结论】：无须优化开头引导</mark>
+
+* 放置功能正常生效；
+* 放置指引清晰，基本不存在用户误解操作方式的情况；
+* 用户有欲望体验放置武器后的效果，极少有操作到一半时放弃或退出的情况；
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1628).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="391"><figcaption></figcaption></figure>
 
 </div>
 
 
 
+#### <mark style="color:red;">2）Part2：Action2流失数高</mark>
+
+【相关指标】：流失数
+
+【优化维度】：中途互动
+
+【数据含义】：
+
+* 试玩过程中，流失最严重的节点为Action2，流失率为30%；
+* 说明首次成功放置武器后，30%玩家没有继续交互；
+
+<mark style="color:orange;">【结论】：用户中途的试玩动力需要优化</mark>
+
+* 可能为操作步骤数过多、玩法理解成本高、内容趣味性低、操作反馈较弱等原因；
+* 对于本案例，Action2不存在新增游戏规则、且Action2前操作仅有1步；因此推测流失率高的主要原因为两方面：
+  * 1）内容存在重复性，导致新鲜感与趣味性下降；
+  * 2）操作反馈弱，用户未获得预期的射击爽感，无动力继续体验；
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
+#### <mark style="color:red;">3）Part3：胜利和失败结局，到达数差异大</mark>
+
+【相关指标】：到达数
+
+【优化维度】：游戏难度
+
+【数据含义】：
+
+* 游戏很难胜利：300个第二次放置武器（Action3）后继续试玩的用户中，只有100个抵达胜利页面（Action4），300个进入濒临失败的状态（Action6）；
+* 濒临失败但仍然继续互动的350个玩家，没有人成功挽回局面，350人全部进入了失败页（Action7）
+
+<mark style="color:orange;">【结论】：游戏难度过高，需考虑降低难度</mark>
+
+* 失败数远高于胜利数；
+* 需要结合后续Action的数据判断，如果失败结局的跳转效果不如胜利结局，是否需要调低难度，让更多用户胜利；
+
+_\*注：Action6到达数>300，因为Action3之外还有其他Action也可以流转到Action6；_
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
+#### <mark style="color:red;">4）Part4：胜利和失败结局，跳转效果有差异</mark>
+
+【相关指标】：流转到下一节点数、跳转数
+
+【优化维度】：结束页诱导效果
+
+【数据含义】：
+
+* 抵达失败页的用户，约有43%（14.3%+28.6%）直接跳转、或以点击重新挑战按钮（CTA）的形式跳转；
+* 抵达胜利页的用户，约有75%（50%+25%）直接跳转、或以点击CTA按钮的形式跳转；
+
+<mark style="color:orange;">【结论】：提高抵达胜利结局的概率、或者强化失败页的诱导力度，能提高试玩整体的跳转数据</mark>
+
+* 胜利结局对比失败结局，整体的诱导效果更好；
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>失败结局</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>胜利结局</p></figcaption></figure>
