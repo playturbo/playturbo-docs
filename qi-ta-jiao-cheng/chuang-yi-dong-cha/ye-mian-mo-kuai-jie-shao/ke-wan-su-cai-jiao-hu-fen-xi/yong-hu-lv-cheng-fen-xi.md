@@ -23,13 +23,13 @@
 
 进行用户旅程分析前请先选择要分析的素材。选择素材有两种方式：
 
-1）在页面右侧素材选择框中，先选择项目，再选择项目下的创意版本ID
+a. 在页面搜索框内输入项目关键词（产品名、版本名等），找到对应项目
 
-2）在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，自定义列选择「素材名称」时，点击表格中的「分析」按钮，跳转到该页面
+b.在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，自定义列选择「素材名称」时，点击表格中的「分析」按钮，跳转到该页面
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**注：**</mark>**创意版本ID**用于标识创意的唯一性。创意展示层面相同的素材，共用一个创意版本ID。
+注：其中，**创意版本ID**用于标识创意的唯一性。创意展示层面相同的素材，共用一个创意版本ID。
 
 如一个自由编辑项目，单次操作下载了Applovin、Facebook、Google，三个渠道的素材，虽然这些素材代码上稍有区别，但在创意呈现上是相同的，因此共用一个创意版本ID A；若在该项目中，替换/增加了视频/图片元件，修改了创意，再次导出，则创意版本ID则会改变为B。
 
@@ -37,23 +37,49 @@
 
 ### 2.配置用户旅程
 
-选择创意版本后，即会展示用户旅程
+#### 1）选择日期范围
 
-对于定制项目和换肤编辑项目，已经提前为您配置好用户旅程、无需手动配置。
+选择项目后，在右侧筛选有投放数据的日期范围，然后旅程图将会自动展示在下方
 
-对于自由编辑项目，默认会将所有自定义埋点顺序连接，这个顺序通常和实际的顺序不相同，需要您手动配置旅程。点击「编辑」按钮，即可进入编辑模式。
+<div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-**编辑用户旅程**
+</div>
 
-编辑方式：从某个节点后拖拽拉出线条，连接到另一个节点。
+#### **2）预览**
 
-例如素材共设置了4个埋点。埋点1:选择武器，埋点2:开始攻击，埋点3:击败敌人，埋点4:被敌人击败。
+点击右上角预览，可查看该项目的埋点日志，确认Action的位置和效果
 
-用户在实际的试玩过程中可能出现的旅程分支为 ：1-2-3或1-2-4。您需要在旅程编辑模式中，连接1-2、2-3、3-4三条线。
+<div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt="" width="529"><figcaption></figcaption></figure>
+
+</div>
+
+#### **3）编辑**
+
+* 点击【编辑】按钮，进入编辑模式，可对用户旅程进行调整
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 【编辑方式】：从某个节点后拖拽拉出线条，连接到另一个节点
+
+_例如素材共设置了4个埋点。埋点1:选择武器，埋点2:开始攻击，埋点3:击败敌人，埋点4:被敌人击败_
+
+_用户在实际的试玩过程中可能出现的旅程分支为 ：1-2-3或1-2-4。您需要在旅程编辑模式中，连接1-2、2-3、3-4三条线_
+
+* 编辑完成后，点击【展示旅程】，即可刷新保存调整后的用户旅程
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 
 
@@ -61,35 +87,35 @@
 
 #### 1）**数据筛选**
 
-可以对广告平台、手机系统、投放版位及投放地区进行筛选
+可以针对手机系统、广告类型、投放地区等不同维度进行筛选
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt="" width="545"><figcaption></figcaption></figure>
 
 </div>
 
 #### 2）**数据展示**
 
-对于每个事件节点，有4个数据指标：
+对于每个自定义埋点(Action)，有4个数据指标：
 
-* 到达数：触发了该事件节点的用户数
-* 流转到下一节点数：触发了该事件后，未触发跳转，流转到下一个节点的用户数
-* 流失数：触发了该事件节点后，未触发其他事件、未触发跳转商店的用户数
-* 跳转数：触发了该事件节点后，又触发了跳转商店事件的用户数
+* 到达数：触发了该action的用户总数；
+* 流转到下一节点数：触发该action后，还触发了其他action的用户数量；
+* 流失数：触发该action后，没有触发其他action或触发跳转的用户数量；
+* 跳转数：触发该action后至下个action前，跳转商店的用户数量（\*跳转后的触发的其他事件不会计入旅程统计）
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="290"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="290"><figcaption></figcaption></figure>
 
 </div>
 
-对于事件的每条连线，可以选中展示两个数据指标：
+对于action的每条连线，可以悬浮展示两个数据指标：
 
-* 流转数：触发了前一个事件后，再触发下一个事件的用户数。_例如连线2-3的数量，即为触发了事件2后，下一个事件为事件3的用户数_
-* 耗时：前一个事件到下一个事件的用户耗时。_如连线2-3的耗时为5s，则说明由事件2到事件3，用户消耗了5秒钟事件_
+* 流转数：触发了前一个action后，再触发下一个action的用户数。_例如连线2-3的数量，即为触发了action2后，下一个事件为action3的用户数_
+* 耗时：前一个action到下一个action的用户耗时。_如连线2-3的耗时为5s，则说明由action2到action3，用户消耗了5秒钟的时间_
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3）如何根据数据进行分析**
 

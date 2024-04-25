@@ -1,48 +1,26 @@
-# 用户旅程使用方式
+# 用户旅程使用建议
 
 ## <mark style="color:blue;">一、使用方式</mark>
 
 ### STEP1：配置自定义埋点与用户旅程 <a href="#lna3o" id="lna3o"></a>
 
-可直接查阅[yong-hu-lv-cheng-fen-xi.md](../ye-mian-mo-kuai-jie-shao/ke-wan-su-cai-jiao-hu-fen-xi/yong-hu-lv-cheng-fen-xi.md "mention")
+具体内容可查阅[yong-hu-lv-cheng-fen-xi.md](../ye-mian-mo-kuai-jie-shao/ke-wan-su-cai-jiao-hu-fen-xi/yong-hu-lv-cheng-fen-xi.md "mention")
 
 
 
 ### STEP2：查询用户旅程数据 <a href="#bpzyc" id="bpzyc"></a>
 
-查看用户旅程数据的步骤如下：
+* 进入Playturbo-创意洞察-试玩素材交互分析-用户旅程分析；
+* 搜索框内输入项目关键词（产品名、版本名等），找到对应项目；
+* 选择有投放数据的日期范围后，旅程图将自动在下方展示
 
-1）进入Playturbo-创意洞察-试玩素材交互分析-用户旅程分析；
-
-2）搜索框内输入项目关键词（产品名、版本名等），找到对应项目；
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1624).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-3）选择有投放数据的日期范围后，旅程图将自动在下方展示；
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1625).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-4）点击右上角预览，可确认Action的位置和效果；
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1626).png" alt="" width="332"><figcaption></figcaption></figure>
-
-</div>
+具体内容可查阅[yong-hu-lv-cheng-fen-xi.md](../ye-mian-mo-kuai-jie-shao/ke-wan-su-cai-jiao-hu-fen-xi/yong-hu-lv-cheng-fen-xi.md "mention")
 
 
 
 ### STEP3：分析用户旅程数据，定位优化空间 <a href="#dzkou" id="dzkou"></a>
 
-💡进入用户旅程分析界面后，可以通过以下4个核心指标对素材进行诊断；
+💡进入用户旅程分析界面后，可以通过以下4个核心指标对素材进行诊断：
 
 <table><thead><tr><th width="154">用户旅程指标</th><th width="231">定义</th><th>数据解读方式</th></tr></thead><tbody><tr><td><strong>到达数</strong></td><td>=触发了该action的用户总数；</td><td>到达数/到达率低，说明多数用户未抵达该节点，没有体验该action的内容；原因可能为没有选择该剧情分支、在前面步骤已流失、或前面步骤已跳转等；</td></tr><tr><td><strong>流转到下一节点数</strong></td><td>=触发该action后，还触发了其他action的用户数量；</td><td><p><mark style="color:orange;">流转到下一节点数高，代表多数用户没有在该步骤离开试玩，可能与该部分对用户吸引力高、理解成本低等因素相关；</mark></p><p>流转到下一节点数低，代表多数用户没有继续试玩；应当改为关注该action的流失数和跳转数指标，了解具体原因；</p></td></tr><tr><td><strong>流失数</strong></td><td>=触发该action后，没有触发其他action或触发跳转的用户数量；</td><td>流失数/流失率高，代表多数用户在该步骤停止交互，可能为试玩动力不足、无法理解试玩内容等原因导致；</td></tr><tr><td><strong>跳转数</strong></td><td><p>=触发该action后至下个action前，跳转商店的用户数量；</p><p>*跳转后的触发的其他事件不会计入旅程统计；</p></td><td><p><mark style="color:orange;">跳转数/跳转率高，说明该action后的跳转机制有正常生效，且多数用户成功跳转了商店；</mark></p><p>对于跳转操作相关的action，如果跳转数/跳转率低，可能为诱导机制理解成本过高、没有吸引力等原因，导致玩家没有做出触发跳转的操作；</p></td></tr></tbody></table>
 
@@ -53,16 +31,16 @@
 
 
 
-## <mark style="color:blue;">二、分析案例</mark>
+## <mark style="color:blue;">二、案例分析</mark>
 
 接下来，我们以【丧尸塔防】这条可玩素材为案例，进行用户旅程分析
 
 ### 1.案例预览
 
-| 手机试玩效果最佳                                                                   | 竖屏                                                                             | 横屏                                                                                              |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/image.png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (3).png" alt="" data-size="original"> | <p></p><p><img src="../../../.gitbook/assets/image (1628).png" alt="" data-size="original"></p> |
-| 扫码试玩                                                                       | [点击试玩](https://tinyurl.com/5bfn8zfv)                                           | [点击试玩](https://tinyurl.com/5bfn8zfv)                                                            |
+| 手机试玩效果最佳                                                                        | 竖屏                                                                                 | 横屏                                                                                              |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image (10).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"> | <p></p><p><img src="../../../.gitbook/assets/image (1628).png" alt="" data-size="original"></p> |
+| 扫码试玩                                                                            | [点击试玩](https://tinyurl.com/5bfn8zfv)                                               | [点击试玩](https://tinyurl.com/5bfn8zfv)                                                            |
 
 
 
@@ -89,7 +67,7 @@ _\*具体解析见第三部分：3.用户旅程具体分析_
 * 考虑胜利页跳转效果较好，可通过降低敌人HP和攻击力等方式，降低游戏难度，提升胜利概率；
 * 同时，可以加强失败页的诱导力度，让失败的用户也有更高概率跳转商店，如设置挑衅文案；
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>当前案例的用户旅程图</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>当前案例的用户旅程图</p></figcaption></figure>
 
 
 
@@ -111,7 +89,7 @@ _\*具体解析见第三部分：3.用户旅程具体分析_
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="391"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="391"><figcaption></figcaption></figure>
 
 </div>
 
@@ -137,7 +115,7 @@ _\*具体解析见第三部分：3.用户旅程具体分析_
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -163,7 +141,7 @@ _\*注：Action6到达数>300，因为Action3之外还有其他Action也可以�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -184,6 +162,6 @@ _\*注：Action6到达数>300，因为Action3之外还有其他Action也可以�
 
 * 胜利结局对比失败结局，整体的诱导效果更好；
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>失败结局</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>失败结局</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>胜利结局</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>胜利结局</p></figcaption></figure>

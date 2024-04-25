@@ -1,6 +1,6 @@
 # 创意洞察使用指南：分析思路与技巧
 
-[tong-yong-mai-dian-shi-yong-jian-yi](tong-yong-mai-dian-shi-yong-jian-yi/ "mention")
+[tong-yong-mai-dian-shi-yong-jian-yi.md](tong-yong-mai-dian-shi-yong-jian-yi.md "mention")
 
 <mark style="background-color:orange;">**整体使用思路——【从宏观到微观】**</mark>
 
@@ -11,7 +11,7 @@
 
 
 
-[yong-hu-lv-cheng-shi-yong-fang-shi.md](yong-hu-lv-cheng-shi-yong-fang-shi.md "mention")
+[yong-hu-lv-cheng-shi-yong-jian-yi.md](yong-hu-lv-cheng-shi-yong-jian-yi.md "mention")
 
 <mark style="background-color:orange;">**整体使用思路——【从整体到局部】**</mark>
 
