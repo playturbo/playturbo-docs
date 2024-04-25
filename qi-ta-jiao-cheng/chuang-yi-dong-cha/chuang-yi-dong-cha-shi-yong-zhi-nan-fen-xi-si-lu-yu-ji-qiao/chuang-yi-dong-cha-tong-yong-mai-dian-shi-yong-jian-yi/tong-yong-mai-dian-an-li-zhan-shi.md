@@ -25,13 +25,13 @@ description: '#换肤编辑器 #自由编辑器'
 * 线性：如存在固定的时序先后的埋点；将线性埋点按顺序排列时，可计算每个自定义环节的流失率、到达率；
 * 非线性：如不与流程固定挂钩的独立按钮；非线性埋点可用于与相关联的线性埋点对比，计算失败率等、特定道具使用率等特殊指标；
 
-<figure><img src="../../.gitbook/assets/0 (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/0 (153).png" alt=""><figcaption></figcaption></figure>
 
 ### **案例1：素材问题诊断**
 
 [案例预览](http://playable-portal.mintegral.com/viewer/mindwork-view.html?language=en,zh-cn,ja\&mw\_test=0\&orientation=3\&preview=true\&url=https://mmp-cdn.rayjump.com/ps/dist/1852184/23/05/05/m\_en\_HairSalon\_ZQNcwp7zk\_ios\_ty/m\_en\_HairSalon\_ZQNcwp7zk\_ios\_ty.html?preview=true\&itavideo=2\&vconsole=0\&mw\_test=0)
 
-![](<../../.gitbook/assets/image (138).png>)   ![](<../../.gitbook/assets/image (139).png>)
+![](<../../../../.gitbook/assets/image (138).png>)   ![](<../../../../.gitbook/assets/image (139).png>)
 
 **1）素材基础埋点**
 
@@ -82,7 +82,7 @@ _例如测试目标为“开头增加指引是否会让用户更愿意交互”�
 * 线性：如存在固定的时序先后的埋点；将线性埋点按顺序排列时，可计算每个自定义环节的流失率、到达率；
 * 非线性：如不与流程固定挂钩的独立按钮；非线性埋点可用于与相关联的线性埋点对比，计算失败率等、特定道具使用率等特殊指标；
 
-<figure><img src="../../.gitbook/assets/0 (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/0 (153).png" alt=""><figcaption></figcaption></figure>
 
 ### **案例2：A/B Test**
 
@@ -90,7 +90,7 @@ _例如测试目标为“开头增加指引是否会让用户更愿意交互”�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -100,7 +100,7 @@ _例如测试目标为“开头增加指引是否会让用户更愿意交互”�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
