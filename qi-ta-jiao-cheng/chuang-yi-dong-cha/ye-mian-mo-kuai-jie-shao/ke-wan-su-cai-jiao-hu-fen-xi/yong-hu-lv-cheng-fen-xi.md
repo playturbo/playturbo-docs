@@ -131,3 +131,7 @@ _用户在实际的试玩过程中可能出现的旅程分支为 ：1-2-3或1-2-
 ③ 不同分支间的对比
 
 可以对比不同分支的跳转率，若有某个分支的跳转率较高，可在素材制作上往该分支引导
+
+
+
+✨具体分析思路及案例可查看[yong-hu-lv-cheng-shi-yong-jian-yi.md](../../chuang-yi-dong-cha-shi-yong-zhi-nan-fen-xi-si-lu-yu-ji-qiao/yong-hu-lv-cheng-shi-yong-jian-yi.md "mention")
