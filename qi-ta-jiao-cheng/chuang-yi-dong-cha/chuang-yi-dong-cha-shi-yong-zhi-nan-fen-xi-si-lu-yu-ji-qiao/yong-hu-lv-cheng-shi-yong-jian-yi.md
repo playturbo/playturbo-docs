@@ -44,34 +44,27 @@
 
 
 
-### 2.案例问题总结
+### 2.用户旅程图
 
-分析案例的用户旅程图可得出：
+在本案例的项目中，我们设置了以下自定义埋点：
 
-#### <mark style="color:red;">**1）素材核心问题**</mark>
+* Action1：首次拖拽武器；Action2：首次成功放置武器；Action3：第二次成功放置武器
+* Action4：游戏胜利；Action5：胜利页点击CTA
+* Action6：敌人抵达我方基地；Action7：游戏失败；Action8：失败页点击重新挑战
 
-* 问题1：首次成功放置武器后，有较多用户试玩动力不足，导致流失；
-* 问题2：游戏难度较高，失败数高于胜利数，且失败页诱导效果不佳；
-
-_\*具体解析见第三部分：3.用户旅程具体分析_
-
-#### <mark style="color:red;">2）</mark><mark style="color:red;">**优化策略**</mark>
-
-<mark style="background-color:yellow;">【问题1】</mark>
-
-* 当前3种武器外观和攻击方式比较雷同，可通过拉开武器差异或增加猎奇武器的方式，增添趣味性，提升用户尝试继续放置武器的动力；
-* 当前杀敌反馈平淡，可强化射击特效或添加combo统计效果，提升操作爽感，让用户在成就感驱动下继续交互；
-
-<mark style="background-color:yellow;">【问题2】</mark>
-
-* 考虑胜利页跳转效果较好，可通过降低敌人HP和攻击力等方式，降低游戏难度，提升胜利概率；
-* 同时，可以加强失败页的诱导力度，让失败的用户也有更高概率跳转商店，如设置挑衅文案；
+由此，在配置用户旅程后，得到了如下用户旅程图：
 
 <figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>当前案例的用户旅程图</p></figcaption></figure>
 
 
 
-### 3.用户旅程具体分析
+### 3.分析思路概括
+
+具体内容可查阅[.](./ "mention")
+
+
+
+### 4.具体内容分析
 
 #### <mark style="color:red;">1）Part1：Action1流转到下一节点数高</mark>
 
@@ -165,3 +158,26 @@ _\*注：Action6到达数>300，因为Action3之外还有其他Action也可以�
 <figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>失败结局</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>胜利结局</p></figcaption></figure>
+
+
+
+### 5.问题总结&优化策略
+
+结合以上分析，我们可以得出如下结论：
+
+#### <mark style="color:red;">**1）素材核心问题**</mark>
+
+* 问题1：首次成功放置武器后，有较多用户试玩动力不足，导致流失；
+* 问题2：游戏难度较高，失败数高于胜利数，且失败页诱导效果不佳；
+
+#### <mark style="color:red;">2）</mark><mark style="color:red;">**优化策略**</mark>
+
+<mark style="background-color:yellow;">【问题1】</mark>
+
+* 当前3种武器外观和攻击方式比较雷同，可通过拉开武器差异或增加猎奇武器的方式，增添趣味性，提升用户尝试继续放置武器的动力；
+* 当前杀敌反馈平淡，可强化射击特效或添加combo统计效果，提升操作爽感，让用户在成就感驱动下继续交互；
+
+<mark style="background-color:yellow;">【问题2】</mark>
+
+* 考虑胜利页跳转效果较好，可通过降低敌人HP和攻击力等方式，降低游戏难度，提升胜利概率；
+* 同时，可以加强失败页的诱导力度，让失败的用户也有更高概率跳转商店，如设置挑衅文案
