@@ -68,7 +68,7 @@
 
 * 开头引导——Action1流转到下一节点数高，占比99.5%
 * 中途互动——Action2流失数高，流失率为30%
-* 不同结局——Action4(胜利结局)和Action5/6(失败结局)，到达数差异大；Action4→Action5(胜利结局)和Action7→Action8(失败结局)，跳转数有差异
+* 不同结局——Action4(胜利结局)和Action6/7(失败结局)，到达数差异大；Action4→Action5(胜利结局)和Action7→Action8(失败结局)，跳转数有差异
 
 接下来，我们具体展开分析
 
