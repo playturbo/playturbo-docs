@@ -1,13 +1,5 @@
 # 用户旅程使用方式
 
-<mark style="background-color:orange;">**整体使用思路——【**</mark><mark style="background-color:orange;">从整体到局部</mark><mark style="background-color:orange;">**】**</mark>
-
-1. 首先，纵观核心试玩流程相关的所有Action，定位用户流失最严重的环节，结合实际的埋点内容和创意内容，排查造成流失的因素；
-2. 通过开头环节相关的流失和跳转数据，可考察素材在吸睛度、引导效果、理解成本上是否符合预期；
-3. 如果素材根据用户操作不同，会导向不同结局（如胜利vs失败），可以了解平行剧情分支之间到达率和跳转率的差异，洞察玩家的交互倾向和不同结局的诱导效果；
-
-
-
 ## <mark style="color:blue;">一、使用方式</mark>
 
 ### STEP1：配置自定义埋点与用户旅程 <a href="#lna3o" id="lna3o"></a>
