@@ -1,10 +1,6 @@
----
-description: '#换肤编辑器 #自由编辑器'
----
+# 案例展示
 
-# 通用埋点-案例展示
-
-## 场景1：素材问题诊断
+## <mark style="color:blue;">一、场景1：素材问题诊断</mark>
 
 ### <mark style="color:orange;">**STEP1: 通过场景埋点，发现问题所属的试玩阶段**</mark>
 
@@ -55,7 +51,7 @@ description: '#换肤编辑器 #自由编辑器'
 
 
 
-## 场景2：A/B Test
+## <mark style="color:blue;">二、场景2：A/B Test</mark>
 
 💡如果想了解多个素材版本的A/B Test效果，可以直接**聚焦变量相关的试玩环节，对比该环节的自定义埋点数据情况**；
 

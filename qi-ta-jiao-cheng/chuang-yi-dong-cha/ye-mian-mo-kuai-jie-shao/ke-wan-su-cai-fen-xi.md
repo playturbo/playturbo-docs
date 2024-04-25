@@ -4,62 +4,48 @@ description: '#换肤编辑器 #自由编辑器'
 
 # 可玩素材分析
 
-入口：创意洞察>>>试玩素材分析
+## <mark style="color:blue;">一、页面整体介绍</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-## <mark style="color:blue;">试玩素材分析-页面整体介绍</mark>
-
-* 试玩素材分析页面，提供广告账号下的试玩素材的投放数据与交互数据的分析
+* 可玩素材分析页面，提供广告账号下的可玩素材的投放数据与交互数据的分析
 * 该页面同时支持分项目、模板、广告系列、广告计划、素材等多维度拆分，便于您细化分析素材的投放数据与交互数据
-* 每条试玩素材展示其投放数据及交互数据明细
+* 每条可玩素材展示其投放数据及交互数据明细
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (27) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **素材范围说明：**
 
-「已授权」的Mintegral、Unity账号下
+「已授权」的_Mintegral、Unity、IronSource、Applovin、Chartboost_账号下
 
 * 若该账号素材数据范围设置为「全部」，则展示该账号下全部素材的数据
 * 若该账号素材数据范围设置为「仅Playturbo素材」，则展示该账号下，由Playturbo产出的素材（包含定制素材）数据
 
 
 
-## <mark style="color:blue;">试玩素材分析-分模块介绍</mark>
+## <mark style="color:blue;">二、分模块介绍</mark>
 
-试玩素材分析页面包含三个模块：近7日数据、对比分析、详细数据
+可玩素材分析页面包含四个模块：投放数据、整体素材情况、单个产品素材情况、全部数据
 
-### 1.近7日数据概览
+### 1.投放数据
 
-近7日数据概览，为近7日所有试玩素材的数据汇总。
+需先选择广告平台，可选择「汇总」或其他单个平台，然后展示对应平台下的素材数据
 
-需先选择广告平台，可选择「汇总」、「Mintegral」或「Unity」，展示对应平台下的素材数据。
-
-#### 1）广告表现数据
+#### 1）投放数据
 
 展示数据包含 日均花费、日均展示数、日均转化数、展示转化率与转化数及其环比数据
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### 2）用户交互情况数据
+#### 2）可玩交互数据
 
-用户交互情况包含 首次交互率、试玩结束率、跳转率、首次交互时长、试玩时长及其环比数据
+可玩交互数据包含 首次交互率、试玩结束率、跳转率、首次交互时长、试玩时长及其环比数据
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -67,13 +53,13 @@ description: '#换肤编辑器 #自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
 
 
-### 2.对比分析
+### 2.整体/单个产品素材情况
 
 以柱状图或折线图的数据，支持对不同维度的素材数据进行展示
 
@@ -113,7 +99,7 @@ description: '#换肤编辑器 #自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="327"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="218"><figcaption></figcaption></figure>
 
 </div>
 
@@ -148,7 +134,7 @@ description: '#换肤编辑器 #自由编辑器'
 
 
 
-### 3.详细数据
+### 3.全部数据
 
 以表格的形式展示素材维度的详细数据
 
