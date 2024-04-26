@@ -48,9 +48,21 @@
 
 在本案例的项目中，我们设置了以下自定义埋点：
 
-* Action1：首次拖拽武器；Action2：首次成功放置武器；Action3：第二次成功放置武器
-* Action4：游戏胜利；Action5：胜利页点击CTA
-* Action6：敌人抵达我方基地；Action7：游戏失败；Action8：失败页点击重新挑战
+Action1：首次拖拽武器；
+
+Action2：首次成功放置武器；
+
+Action3：第二次成功放置武器
+
+Action4：游戏胜利；
+
+Action5：胜利页点击CTA
+
+Action6：敌人抵达我方基地；
+
+Action7：游戏失败；
+
+Action8：失败页点击重新挑战
 
 由此，在配置用户旅程后，得到了如下用户旅程图：
 

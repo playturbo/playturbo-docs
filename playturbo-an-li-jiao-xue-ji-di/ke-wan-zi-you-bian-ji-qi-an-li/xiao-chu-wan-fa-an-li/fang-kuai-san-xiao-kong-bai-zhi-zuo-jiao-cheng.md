@@ -2,27 +2,27 @@
 description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 ---
 
-# 《货架三消》空白制作教程
+# 《方块三消》空白制作教程
 
-温馨提示：本篇教程主要讲解**如何通过空白制作来做出"拖拽"三消玩法的2D素材**，建议搭配DEMO食用效果更佳哦！
+温馨提示：本篇教程主要讲解**如何通过空白制作来做出"点击"三消玩法的2D素材**，建议搭配DEMO食用效果更佳哦！
 
 ## <mark style="color:blue;">一、特征标签</mark> <a href="#nubzy" id="nubzy"></a>
 
 * 【制作难度】：⭐⭐⭐
 * 【适用产品】：消除玩法产品
-* 【交互方式】：拖拽到指定位置
-* 【自由度】：半自由
+* 【交互方式】：按下
+* 【自由度】：全自由
 * 【核心资产】：静帧图片
-* 【核心功能】：拖拽到指定位置-隐藏/显示素材；全局变量
+* 【核心功能】：按下-隐藏/显示素材；全局变量
 
 
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                          | 竖屏                                                                                | 横屏                                                                                   |
-| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| <img src="../../../.gitbook/assets/image (1522).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation001.gif" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation00 (1).gif" alt="" data-size="original"> |
-| 扫码试玩                                                                              | [点击试玩](https://tinyurl.com/yf989yf6)                                              | [点击试玩](https://tinyurl.com/yf989yf6)                                                 |
+| 手机试玩效果最佳                                                                          | 竖屏                                                                                  | 横屏                                                                                  |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image (1629).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation1 (3).gif" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation2 (4).gif" alt="" data-size="original"> |
+| 扫码试玩                                                                              | [点击试玩](https://tinyurl.com/bdhea2kb)                                                | [点击试玩](https://tinyurl.com/bdhea2kb)                                                |
 
 
 
@@ -30,21 +30,21 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 **我们在开始制作之前需要将本案例的玩法逻辑进行简单的梳理：**
 
-1）进入试玩，展示图示【货架初始画面】
+1）进入试玩，展示图示【方块初始画面】
 
-2）出现【操作指引】，引导玩家向下拖动白色盒子完成排序消除
+2）出现【操作指引】，引导玩家按下西瓜方块
 
-3）玩家拖动白色盒子到指定位置，播放【成功反馈】；否则返回原位
+3）玩家可按下任一明亮方块，按下后该方块即按顺序显示在【消除坑位】
 
-注意：①所有物品都能被拖拽，但只有拖拽正确才放置；②当绿色瓶子完成排序消除，褐色瓶子的拖拽事件即生效
+4）当【消除坑位】出现3个相同图案的方块时，播放【消除成功反馈】，同时进度条前进一段
 
-4）玩家每完成一组排序消除，星星数量+1；当玩家完成三组消除(即星星数量为"3/3")时，进入结束页面
+5-1）当玩家成功完成三组消除（进度条加载满），进入胜利结束页
 
-5）结束页面玩家全屏任意按下，跳转商店
+5-2）当【消除坑位】已满并且未出现3个相同图案的方块时，播放【失败反馈】，然后进入失败结束页
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1517).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1631).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -54,9 +54,9 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 **核心思想：**场景拆分逻辑清晰，图层结构简单，单个场景里的动画和事件尽可能少
 
-**场景拆分：**根据玩法梳理内容，我们可将本案例拆分为 2 个场景来制作，即核心玩法场景+结束页场景
+**场景拆分：**根据玩法梳理内容，我们可将本案例拆分为 3 个场景来制作，即1个核心玩法场景+2个结束场景
 
-<table data-full-width="false"><thead><tr><th width="136">场景名称</th><th width="321">场景1-核心玩法</th><th>场景2-结束页</th></tr></thead><tbody><tr><td><strong>效果预览</strong></td><td><img src="../../../.gitbook/assets/Animation001.gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation3 (1).gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家依次拖动三个目标物品(白色盒子/绿色瓶子/褐色瓶子)到指定位置，即可成功放置完成消除；拖动其他物品则返回原位</td><td>结束页面: 奖励面板+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>货架、物品&#x26;物品外发光图片、指引手指</p><p><strong>粒子特效：</strong>消除反馈</p><p><strong>音效：</strong>按下拖拽音效、消除音效</p></td><td><p><strong>静帧图片：</strong>弹窗面板、奖励图片、跳转按钮</p><p><strong>粒子特效：</strong>胜利反馈</p><p><strong>音效：</strong>胜利音效</p></td></tr><tr><td><strong>核心动画</strong></td><td>手指指引：位移+透明度+旋转缓动</td><td><p>奖励面板：缩放+透明度缓动</p><p>跳转按钮：缩放+透明度缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：单个物品</p><p>触发事件：拖拽；拖拽到指定位置</p><p>响应事件：隐藏素材；显示素材；赋值(全局变量)</p></td><td><p>触发对象：场景2</p><p>触发事件：按下</p><p>响应事件：跳转应用商店；上报试玩结束</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="117">场景名称</th><th width="243">场景1-核心玩法</th><th>场景2-胜利结束页</th><th>场景3-失败结束页</th></tr></thead><tbody><tr><td><strong>效果预览</strong></td><td><img src="../../../.gitbook/assets/image (1632).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1633).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1634).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家可点击任意方块，满足消除条件即原地消除；完成三组消除即成功，坑位已满未消除三组即失败</td><td>胜利页面: 开心gif+奖励文本+跳转按钮</td><td>失败页面: 哭泣gif+失败文本+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>多种方块、消除坑位、进度条</p><p><strong>粒子特效：</strong>消除反馈</p><p><strong>音效：</strong>点击音效、消除音效</p></td><td><p><strong>静帧图片：</strong>弹窗面板、奖励图片、跳转按钮</p><p><strong>粒子特效：</strong>胜利反馈</p><p><strong>音效：</strong>胜利音效</p></td><td></td></tr><tr><td><strong>核心动画</strong></td><td>手指指引：位移+透明度+旋转缓动</td><td><p>奖励面板：缩放+透明度缓动</p><p>跳转按钮：缩放+透明度缓动</p></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：单个物品</p><p>触发事件：拖拽；拖拽到指定位置</p><p>响应事件：隐藏素材；显示素材；赋值(全局变量)</p></td><td><p>触发对象：场景2</p><p>触发事件：按下</p><p>响应事件：跳转应用商店；上报试玩结束</p></td><td></td></tr></tbody></table>
 
 
 
