@@ -72,7 +72,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 在【全局设置】中添加背景音乐、背景图片
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.场景1**
 
@@ -84,13 +84,13 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <mark style="color:orange;">因此，除了初始界面要展示的方块外，每个消除坑位上都应添加所有可能出现的结果，也就是5张不同图案的方块图片；同理，上方6张灰色不可点击的图片也应该在同样的位置各添加一张正常图案的图片，来作为解除限制后方块变明亮的效果</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）调整图层初始状态：将消除坑位上的所有方块图片(4\*5=20个)设为"隐藏"状态；将所有灰色方块对应的明亮方块(6个)设为"隐藏"状态。后续我们将通过事件来控制这些图层的隐藏/显示。
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>其中一组图层示例</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>其中一组图层示例</p></figcaption></figure>
 
 </div>
 
@@ -100,9 +100,9 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 2）同样的，调整各资产到合适的位置大小，根据资产类型对资产进行编组、排序、命名
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>场景3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>场景3</p></figcaption></figure>
 
 
 
@@ -118,13 +118,13 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 3）场景2和场景3同理
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
 在本案例中，我们想要竖屏下的产品信息始终位于屏幕最上方，所以我们要调整其适配方式。直接在竖屏模式下选中产品信息组\[group\_information]，在右侧【屏幕适配方式】处点击向上图标即可完成设置（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -142,11 +142,11 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 1）选中手指图片\[hand]，添加动画-通用-位移缓动，来作为手指的循环指引动画。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）再选中手指组\[group\_gf]，添加动画-退场动画-淡出，作为玩家有效操作后手指退场的动画。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 **1-2）进度条**
 
@@ -156,7 +156,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <mark style="color:orange;">注意:因进度条需要播放3次才到终点，所以可将动画的"持续时间"设为0.9s，然后通过事件控制动画的播放时间(每次播0.3s)来实现目标效果</mark>
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 **1-3）胜利/失败反馈组**
 
@@ -170,7 +170,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="548"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt="" width="548"><figcaption></figcaption></figure>
 
 </div>
 
@@ -190,7 +190,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -200,7 +200,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -214,174 +214,189 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 首先，因为要实现：
 
-a. 计算成功操作次数：玩家每完成一组消除，星星数量+1；当完成三组消除(即星星数量为3)时，进入结束页面
+a. 放置坑位显示：判断玩家所有操作的可能性，来显示对应的结果
 
-b. 无操作指引：当玩家完成任意一组消除后，出现下一组手指指引；玩家每3秒钟内无任何操作时，出现对应手指指引
+b. 底层方块是否启用：判断底层方块状态，有遮挡时不可点击，无遮挡时可点击
 
-要想实现以上效果，就需要使用[【全局变量】](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md)，以下是对本案例所使用到的全局变量的梳理，我们以其中一个物品为例，展开介绍（若您在制作时不需要相关效果，可直接删除相关变量）
+c. 交互开关：消除中禁止点击方块，同时清空消除坑位
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+d. 计算成功消除次数：玩家每完成一组消除，进度条前进一段；完成三组消除后，进入结束页面
+
+要想实现以上效果，就需要使用[【全局变量】](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang.md)，以下是对本案例所使用到的全局变量的梳理，我们以其中一个方块为例，展开介绍
+
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="color:red;">1.添加全局变量</mark>
 
 1）点击上方【全局变量】图标，添加变量
 
-2）填写变量名称，如Cumulative\_times，并设置变量类型与初始值，保存
-
-3）按照同样的方法，依次添加Guidelines与Corresponding\_finger两个变量
+2）填写变量名称，如blockchose1，并设置变量类型与初始值，保存
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+3）按照同样的方法，依次添加其他类型的变量
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 
 
-#### <mark style="color:red;">2.为所有"可被拖动的物品组"添加触发事件与响应事件</mark>
+#### <mark style="color:red;">2.为其中一个"可被点击的方块"添加事件与条件判断</mark>
 
-以第一个物品即道具6\[Proper6\_a1]为例，选中该组图层
+以其中一个方块为例，选中方块2图层\[block2\_4]，添加事件-按下
 
-1）添加事件-拖拽，选择拖拽方向为"任意方向"
+<mark style="background-color:yellow;">因消除坑位共有4个，我们需要给每个方块设置4个条件判断来区分方块该被放置在哪个位置</mark>
 
-* 添加响应事件：赋值，赋值Guidelines=2 (对应: 玩家有操作，隐藏整个手指组并取消计时)
-* 添加响应事件：显示外发光道具6；隐藏原位置道具6；隐藏初始外发光道具1(白色盒子)
+1）添加条件判断1：blockchose1=0 且 eliminate=false (对应: 方块可点击，同时坑位1无方块)
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="347"><figcaption></figcaption></figure>
+
+</div>
+
+* 添加响应事件：赋值，赋值blockchose1=2(对应: 坑位1已放置方块2)
+* 添加响应事件：隐藏原位置方块2；显示坑位1上的方块2
 * 添加响应事件：从头播放1次按下音效
 
-2）添加事件-抬起
-
-* 添加响应事件：赋值，赋值Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)
-* 添加响应事件：显示原位置道具6；隐藏外发光道具6
-
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-3）快速复制事件给其他所有"可被拖动的物品组"
-
-* 设置好以上两类事件，点击复制图层\[Proper6\_a1]
-
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 按住Ctrl键，全选所有"可被拖动的物品组"
-* 点击粘贴按钮，选择【仅粘贴图层事件】
-
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-* 这样，所有"可被拖动的物品组"都有了对应的拖拽事件与抬起事件
-* 然后将每个物品组所对应的响应对象进行微调即可
+2）继续添加条件判断2：blockchose1≠0 且 blockchose2=0 且 eliminate=false (对应: 方块可点击，同时坑位1已有方块，坑位2无方块)
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="403"><figcaption></figcaption></figure>
 
 </div>
 
-
-
-#### <mark style="color:red;">3.为三个"可被拖动并放置的物品组"添加触发事件与响应事件</mark>
-
-以白色盒子即道具1\[Proper1\_a2]为例，选中该组图层
-
-1）添加事件-拖拽到指定位置
-
-2）编辑指定区域，并选择拖拽方向为"任意方向"
+* 同理，添加响应事件：赋值，赋值blockchose2=2(对应: 坑位2已放置方块2)
+* 添加响应事件：隐藏原位置方块2；显示坑位2上的方块2
+* 添加响应事件：从头播放1次按下音效
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 添加响应事件：设置埋点，并填入埋点名称如"玩家正确放置白色盒子"
-* 添加响应事件：赋值，赋值Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)；赋值Cumulative\_times+1 (对应: 已完成一组消除)；赋值Corresponding\_finger=2  (对应: ≠1,白色盒子已消除，显示指引手指2或3)
-* 添加响应事件：禁用道具1白色盒子\[Proper1\_a2]的拖拽事件与抬起事件
-* 添加响应事件：隐藏外发光道具1白色盒子；显示放置后的道具1
-* 添加响应事件：执行延迟0.1s后，隐藏第三个格子整个组\[proper\_C]；同时显示并播放消除粒子特效；从头播放1次消除音效
+3）同理，继续完成条件判断3和条件判断4的设置
 
-<figure><img src="../../../.gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+条件判断3对应: 方块可点击，同时坑位1、坑位2都已有方块，坑位3无方块
 
-3）快速复制事件给其他两个"可被拖动并放置的物品组"
+条件判断4对应: 方块可点击，同时坑位1、坑位2、坑位3都已有方块，坑位4无方块
 
-* 点击复制\[Proper1\_a2]的"拖拽到指定位置"事件
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### <mark style="color:red;">3.快速复制事件给其他"所有可被点击的方块"</mark>
+
+在本案例中，每个方块的事件设置都是相同的逻辑，所以在按照上面步骤完成一个方块的事件设置后：
+
+1）我们点击"复制"按钮复制整个"按下"事件
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+2）按住Ctrl键，全选所有可被点击的图片图层（包含灰色方块下的明亮方块）
+
+3）点击上方"粘贴"按钮，选择【仅粘贴图层事件】。这样，所有"可被点击的图片"都有了同一套逻辑的事件与条件判断
+
+4）然后逐一将每个方块的响应事件对应的响应对象进行微调即可
+
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+5）需注意：因上方的\[block4\_1]和\[block3\_2]两个方块直接影响"底层方块是否被启用"，所以需额外给这两个方块添加与之变量相关的响应事件
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 按住Ctrl键，选中两外两个组\[Proper2\_a3]和\[Proper3\_a3\_yes]
-* 点击粘贴按钮，选择【仅粘贴图层事件】
-* 然后依次将两个物品组所对应的响应对象进行微调
+分别给\[block3\_2]的每个条件判断下添加响应事件：赋值，赋值block3\_2=false (对应: block3\_2已不在场上,已放置到坑位)
 
-4）<mark style="color:orange;">**注意：**</mark><mark style="color:orange;">在前期玩法梳理阶段，我们设定了"只有当绿色瓶子完成消除后，褐色瓶子的拖拽事件才生效"，所以对应地，相关指引手指的出现也是有先后顺序的，所以hand2和hand3不需要用全局变量来控制，只需在绿色瓶子被"拖拽到指定位置"后，隐藏hand2并显示hand3就可以</mark>
+同理，给\[block4\_1]的每个条件判断下添加响应事件：赋值，赋值block4\_1=false (对应: block4\_1已不在场上,已放置到坑位)
 
-因此，我们需要对道具2\[Proper2\_a3]的响应事件进行额外调整
+后续，我们将通过场景1下的条件判断和响应事件来触发对应结果
 
-* 在执行延迟后添加响应事件：隐藏hand2；显示hand3
-* 添加响应事件：隐藏"仅可被拖动"的道具3；显示"可被拖动并放置"的道具3
+<div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-以上，我们就完成了所有"可被拖动的物品组"的事件设置。接下来，我们在场景上添加事件
+</div>
 
+以上，我们就完成了"所有可被点击的方块"的事件设置。接下来，我们在场景1上添加条件判断
 
 
-#### <mark style="color:red;">4.在"场景1"下添加条件判断与响应事件</mark>
+
+#### <mark style="color:red;">4.在"场景1"添加条件判断与响应事件</mark>
 
 选中场景1 - 添加事件 - 条件判断
 
-**1）条件判断1-3：计算成功操作次数**
+**1）条件判断1-4：消除中禁止点击方块，同时清空消除坑位**
 
-* 编辑条件判断1为：Cumulative\_times=1 (对应: 玩家已完成一组消除)
-* 勾选"只生效一次"
-* 添加响应事件：隐藏文本0；显示文本1
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-* 同理，依次添加条件判断2和条件判断3，并设置对应文本的显示/隐藏
-* 在条件判断3额外添加响应事件：执行延迟0.7s后，跳转到下一场景
-
-<mark style="color:orange;">注：也就是当玩家累计完成三组消除后，进入结束页面</mark>
+* 编辑条件判断1为：blockchose1=0 且 eliminate=true (对应: 方块不可点击，同时坑位1方块已消除)
+* 添加响应事件：逐一隐藏坑位1上五个不同图案的方块
+* 条件判断2/3/4同理
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 
 
-<mark style="color:orange;">**注意：**</mark><mark style="color:orange;">前面有提到，hand2和hand3有出现的先后顺序，所以不需要用全局变量来控制。和"无操作指引"相关的变量仅用来判断道具1的状态：如果道具1未完成放置就显示hand1并播放其动画；如果道具1完成了放置就隐藏hand1，显示组\[hand\_2\_3]，并播放对应动画（组里hand2和hand3的状态由道具2的拖拽控制）</mark>
+**2）条件判断5-8：消除结果与对应反馈**
 
-按照这个逻辑，我们设置条件判断4-7
-
-**2）条件判断4-5：无操作指引（控制是否要出现无操作指引）**
-
-* 编辑条件判断4：Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)。添加响应事件：执行延迟3s后，显示整个手指组；从头播放对应手指指引动画
-* 编辑条件判断5：Guidelines=2 (对应: 玩家有操作，隐藏整个手指组并取消计时)。添加响应事件：隐藏整个手指组；取消3s执行延迟
+* 编辑条件判断5：blockchose1≠0 且 blockchose1=blockchose2 且 blockchose1=blockchose3 (对应: 坑位1已有方块，同时坑位2/坑位3的方块图案与坑位1相同)
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1538).png" alt="" width="522"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>示例</p></figcaption></figure>
 
 </div>
 
-**3）条件判断6-7：无操作指引（控制实际要出现哪一个手指）**
-
-* 编辑条件判断6：Corresponding\_finger=1 (对应: 白色盒子还未消除，显示初始指引手指1)。添加响应事件：显示hand1；隐藏组\[hand\_2\_3]
-* 编辑条件判断7：Corresponding\_finger≠1 (对应: 白色盒子已消除，显示指引手指2或3)。添加响应事件：隐藏hand1；显示组\[hand\_2\_3]
+* 添加响应事件：赋值，赋值elimination\_time+1 (对应: 已完成一组消除)
+* 添加响应事件：赋值，赋值blockchose1/blockchose2/blockchose3=0、eliminate=true  (对应: 方块不可点击，同时前三个坑位为空)
+* 添加响应事件：显示并播放对应坑位的消除粒子特效、从头播放1次消除音效
+* 添加响应事件：执行延迟0.5s后，赋值，eliminate=false (对应: 方块可点击）
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1539).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 按照同样的逻辑，还需添加三个条件判断，即消除坑位为 "1-2-4"、"1-3-4"、"2-3-4"时
+* 所以，我们依次设置条件判断6/7/8
+
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+
+
+**3）条件判断9：消除失败**
+
+**4）条件判断10-12：消除成功次数对应反馈**
+
+**5）条件判断13-15：底层方块是否可点击**
+
+**6）条件判断16：埋点1相关**
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
