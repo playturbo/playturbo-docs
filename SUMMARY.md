@@ -242,7 +242,7 @@
   * [作品投放相关文档](qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/README.md)
     * [广告账户授权与素材推送](qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/guang-gao-zhang-hu-shou-quan-yu-su-cai-tui-song.md)
     * [可玩广告渠道上传规范](qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md)
-    * [MTG数据分析查看](qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/mtg-shu-ju-fen-xi-cha-kan.md)
+    * [Mintegral 数据分析查看](qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/mintegral-shu-ju-fen-xi-cha-kan.md)
   * [我的账号/我的项目](qi-ta-jiao-cheng/wo-de-zhang-hao-wo-de-xiang-mu/README.md)
     * [我的项目](qi-ta-jiao-cheng/wo-de-zhang-hao-wo-de-xiang-mu/wo-de-xiang-mu/README.md)
       * [项目查看](qi-ta-jiao-cheng/wo-de-zhang-hao-wo-de-xiang-mu/wo-de-xiang-mu/xiang-mu-cha-kan.md)

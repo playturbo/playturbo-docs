@@ -40,5 +40,5 @@ description: '#定制服务'
 
 ## 六、MTG数据分析查看
 
-数据查看和分析相关内容请跳转至 [mtg-shu-ju-fen-xi-cha-kan.md](../zuo-pin-tou-fang-xiang-guan-wen-dang/mtg-shu-ju-fen-xi-cha-kan.md "mention")
+数据查看和分析相关内容请跳转至 [mintegral-shu-ju-fen-xi-cha-kan.md](../zuo-pin-tou-fang-xiang-guan-wen-dang/mintegral-shu-ju-fen-xi-cha-kan.md "mention")
 
