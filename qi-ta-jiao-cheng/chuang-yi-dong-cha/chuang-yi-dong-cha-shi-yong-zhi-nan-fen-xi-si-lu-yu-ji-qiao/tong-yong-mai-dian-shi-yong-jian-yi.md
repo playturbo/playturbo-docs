@@ -4,7 +4,7 @@
 
 💡Playturbo事件分析看板中，可以通过趋势分析模块进行以下筛选，对比不同宏观维度的数据表现；
 
-<table data-full-width="false"><thead><tr><th width="153.33333333333331">维度</th><th width="168">示例</th><th>使用思路建议</th></tr></thead><tbody><tr><td>广告网络</td><td>MTG/Unity</td><td><ul><li>对比不同广告渠道的素材投放效果；</li><li>定位不同渠道的创意偏好</li></ul></td></tr><tr><td>投放地区</td><td>CN/US/JP</td><td><ul><li>不同地区的素材整体投放效果有什么差异；</li><li>每个地区使用哪些创意效果最好；</li></ul></td></tr><tr><td>手机系统</td><td>IOS/Android</td><td><ul><li>IOS与Android系统的素材投放效果是否存在明显差异；</li></ul></td></tr><tr><td>广告类型</td><td>IV/RV</td><td><ul><li>RV和IV版位的展示逻辑不同，建议分开进行数据对比</li><li>IV和RV版位之间素材投放效果有什么差异；</li><li>如有指标存在整体较高/较低的情况，是否为某一版位的特性导致；</li></ul></td></tr><tr><td>项目名称/关联产品</td><td>-</td><td><ul><li>产品当前的投放状态如何，不同产品间数据是否有差异；</li><li>哪些项目整体投放效果优秀，以测出稳定出量的创意方向；哪些项目数据低于预期，存在提升空间；</li></ul></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="153.33333333333331">维度</th><th width="168">示例</th><th>使用思路建议</th></tr></thead><tbody><tr><td>广告网络</td><td>Mintegral/Unity</td><td><ul><li>对比不同广告渠道的素材投放效果；</li><li>定位不同渠道的创意偏好</li></ul></td></tr><tr><td>投放地区</td><td>CN/US/JP</td><td><ul><li>不同地区的素材整体投放效果有什么差异；</li><li>每个地区使用哪些创意效果最好；</li></ul></td></tr><tr><td>手机系统</td><td>IOS/Android</td><td><ul><li>IOS与Android系统的素材投放效果是否存在明显差异；</li></ul></td></tr><tr><td>广告类型</td><td>IV/RV</td><td><ul><li>RV和IV版位的展示逻辑不同，建议分开进行数据对比</li><li>IV和RV版位之间素材投放效果有什么差异；</li><li>如有指标存在整体较高/较低的情况，是否为某一版位的特性导致；</li></ul></td></tr><tr><td>项目名称/关联产品</td><td>-</td><td><ul><li>产品当前的投放状态如何，不同产品间数据是否有差异；</li><li>哪些项目整体投放效果优秀，以测出稳定出量的创意方向；哪些项目数据低于预期，存在提升空间；</li></ul></td></tr></tbody></table>
 
 对于希望进一步了解数据表现的维度，建议参考下文思路推进跨素材和单条素材的分析；
 

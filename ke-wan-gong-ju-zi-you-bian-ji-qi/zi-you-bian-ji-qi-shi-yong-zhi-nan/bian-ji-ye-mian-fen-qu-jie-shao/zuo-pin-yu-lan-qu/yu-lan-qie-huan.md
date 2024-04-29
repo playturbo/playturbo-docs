@@ -23,7 +23,7 @@ description: '#自由编辑器'
 
 ## 二、横竖屏切换
 
-* 平台支持横屏&竖屏、横屏、竖屏3种适配方式[zuo-pin-zhi-zuo-xin-jian-zhi-nan.md](../../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md "mention")（注意：投MTG渠道必须选择横屏&竖屏）
+* 平台支持横屏&竖屏、横屏、竖屏3种适配方式[zuo-pin-zhi-zuo-xin-jian-zhi-nan.md](../../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md "mention")（注意：投Mintegral渠道必须选择横屏&竖屏）
 * 【横屏&竖屏】适配方式下，需要同时完成横屏和竖屏的场景制作，点击对应图标即可完成切换
 * 横屏模式下，竖屏图标不可点击
 * 竖屏模式下，横屏图标不可点击
