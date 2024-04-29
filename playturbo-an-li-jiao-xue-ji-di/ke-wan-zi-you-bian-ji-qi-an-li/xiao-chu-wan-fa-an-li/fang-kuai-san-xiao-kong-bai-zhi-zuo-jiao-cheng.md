@@ -84,13 +84,13 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <mark style="color:orange;">因此，除了初始界面要展示的方块外，每个消除坑位上都应添加所有可能出现的结果，也就是5张不同图案的方块图片；同理，上方6张灰色不可点击的图片也应该在同样的位置各添加一张正常图案的图片，来作为解除限制后方块变明亮的效果</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）调整图层初始状态：将消除坑位上的所有方块图片(4\*5=20个)设为"隐藏"状态；将所有灰色方块对应的明亮方块(6个)设为"隐藏"状态。后续我们将通过事件来控制这些图层的隐藏/显示。
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>其中一组图层示例</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>其中一组图层示例</p></figcaption></figure>
 
 </div>
 
@@ -100,9 +100,9 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 2）同样的，调整各资产到合适的位置大小，根据资产类型对资产进行编组、排序、命名
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>场景3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>场景3</p></figcaption></figure>
 
 
 
@@ -118,13 +118,13 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 3）场景2和场景3同理
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
 在本案例中，我们想要竖屏下的产品信息始终位于屏幕最上方，所以我们要调整其适配方式。直接在竖屏模式下选中产品信息组\[group\_information]，在右侧【屏幕适配方式】处点击向上图标即可完成设置（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -142,11 +142,11 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 1）选中手指图片\[hand]，添加动画-通用-位移缓动，来作为手指的循环指引动画。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）再选中手指组\[group\_gf]，添加动画-退场动画-淡出，作为玩家有效操作后手指退场的动画。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **1-2）进度条**
 
@@ -154,7 +154,7 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 2）添加动画-通用-缩放缓动，来作为进度条的前进动画。参数设置如下：
 
-<mark style="color:orange;">注意:因进度条需要播放3次才到终点，所以可将动画的"持续时间"设为0.9s，然后通过事件控制动画的播放时间(每次播0.3s)来实现目标效果</mark>
+<mark style="color:orange;">注意: 因进度条需要播放3次才到终点，所以可将动画的"持续时间"设为0.9s，然后通过事件控制动画的播放时间(每次播0.3s)来实现目标效果</mark>
 
 <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -234,7 +234,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -242,7 +242,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -258,7 +258,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="347"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt="" width="347"><figcaption></figcaption></figure>
 
 </div>
 
@@ -268,7 +268,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -276,7 +276,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="403"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt="" width="403"><figcaption></figcaption></figure>
 
 </div>
 
@@ -286,7 +286,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -316,7 +316,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-5）需注意：因上方的\[block4\_1]和\[block3\_2]两个方块直接影响"底层方块是否被启用"，所以需额外给这两个方块添加与之变量相关的响应事件
+**5）需注意：**因上方的\[block4\_1]和\[block3\_2]两个方块直接影响"底层方块是否被启用"，所以需额外给这两个方块添加与之变量相关的响应事件
 
 <div align="left">
 
@@ -373,13 +373,15 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 * 添加响应事件：显示并播放对应坑位的消除粒子特效、从头播放1次消除音效
 * 添加响应事件：执行延迟0.5s后，赋值，eliminate=false (对应: 方块可点击）
 
+<mark style="background-color:yellow;">注意：因消除清空的逻辑和点击放置的逻辑同时判断可能会出错，所以需要做个时间差(即延迟0.5s)在禁用点击的同时控制已消除的元素清空</mark>
+
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 按照同样的逻辑，还需添加三个条件判断，即消除坑位为 "1-2-4"、"1-3-4"、"2-3-4"时
+* 按照同样的逻辑，还需添加三个条件判断，即当消除坑位为 "1-2-4"、"1-3-4"、"2-3-4"时
 * 所以，我们依次设置条件判断6/7/8
 
 <figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
@@ -388,11 +390,58 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 **3）条件判断9：消除失败**
 
+* 编辑条件判断9：blockchose1≠0 且 blockchose2≠0 且 blockchose3≠0 且blockchose4≠0  (对应: 四个坑位都已放置方块)
+
+<mark style="background-color:yellow;">注意：因为我们在前面设置了"条件判断5-8：消除结果与对应反馈"，已经包含了可能出现的四种正确消除的结果，所以错误消除的条件判断，只需将所有坑位的变量设置为"≠0"即可</mark>
+
+* 注意，因"错误消除"只发生一次就要进入失败结束页，所以这里需要勾选"只生效一次"
+* 添加响应事件：赋值，赋值eliminate=true (对应: 不可点击)
+* 添加响应事件：播放震屏效果、从头播放1次错误音效
+* 添加响应事件：执行延迟0.5s后，跳转失败结束页面
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
 **4）条件判断10-12：消除成功次数对应反馈**
+
+* 编辑条件判断10为：elimination\_time=1  (对应: 完成一组消除)
+* 勾选"只生效一次"
+* 添加响应事件：设置埋点，编辑埋点名称为"成功消除一组方块"
+* 添加响应事件：从头播放进度条前进动画；执行延迟0.3s后，暂停播放进度条前进动画
+* 条件判断11/12同理，分别对应：完成两组消除、完成三组消除
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 **5）条件判断13-15：底层方块是否可点击**
 
+* 编辑条件判断13为：block4\_1=false (对应: 方块block4\_1已被放到坑位)
+* 勾选"只生效一次"
+* 添加响应事件：隐藏两个左边底层的灰色方块；显示两个左边底层的明亮方块
+* 条件判断14/15同理，分别对应：方块block3\_2已被放到坑位、方块block4\_1和block3\_2都已被放到坑位
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
 **6）条件判断16：埋点1相关**
+
+* 编辑条件判断16为：blockchose1≠0  (对应: 坑位1已有方块，即玩家第一次有效操作)
+* 勾选"只生效一次"
+* 添加响应事件：设置埋点，编辑埋点名称为"玩家按下第一个方块"
+* 添加响应事件：播放指引手指的淡出动画
 
 <div align="left">
 
@@ -404,61 +453,37 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 <mark style="background-color:green;">**Part2：普通事件**</mark>
 
-#### <mark style="color:red;">1.场景: Scene 1</mark>
+#### <mark style="color:red;">1.场景1：常驻下载按钮组</mark>
 
-1）选中场景1 - 添加事件 - 定时触发
-
-2）添加响应事件：执行延迟0s即入场时，显示外发光道具1；显示并播放hand1全部动画
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### <mark style="color:red;">2.场景: Scene 2</mark>
-
-1）同理，选中场景2 - 添加事件 - 定时触发
-
-2）添加响应事件：执行延迟0s即入场时，从头播放1次胜利音效；显示并播放彩带粒子特效；从头播放奖励面板与跳转按钮的全部动画
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<mark style="color:orange;">说明：以上两组【定时触发】事件，是针对"进入场景时需要立即播放相关效果"的设置。您也可以不设置这两组事件，在Step1-场景搭建时，将对应素材设置为"显示"状态/打开入场自动播放即可</mark>
-
-3）继续在场景2下添加事件 - 按下
-
-4）添加响应事件：设置埋点4，并填写埋点名称如"结束页触发跳转"
-
-5）添加响应事件：上报试玩结束；跳转应用商店
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### <mark style="color:red;">3.图层：常驻下载按钮组</mark>
-
-1）进入全局场景，选择图层\[group\_download]
+1）选中场景1中的常驻下载按钮组\[ctat]
 
 2）添加事件 - 按下
 
-3）添加响应事件 - 跳转应用商店
+3）添加响应事件：跳转应用商店
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">2.场景2/3：跳转按钮组</mark>
+
+1）选中场景2中的跳转按钮组\[group\_btn]
+
+2）添加事件 - 按下
+
+3）添加响应事件：设置埋点"结束页触发跳转"、跳转应用商店
+
+4）复制该事件到场景3的跳转按钮组
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
-
-
 
 
 
@@ -468,7 +493,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -476,4 +501,4 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
-{% file src="../../../.gitbook/assets/货架三消空白制作_资源.zip" %}
+{% file src="../../../.gitbook/assets/方块三消空白制作_资源.zip" %}
