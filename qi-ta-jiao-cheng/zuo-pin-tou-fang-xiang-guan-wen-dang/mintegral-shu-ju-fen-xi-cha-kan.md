@@ -37,7 +37,7 @@ description: '#订阅 #定制'
 
 <figure><img src="../../.gitbook/assets/d.png" alt=""><figcaption></figcaption></figure>
 
-**1）勾选对应的广告呈现类型，可查看不同素材组合具体的投放表现。MTG的广告呈现类型分为：**
+**1）勾选对应的广告呈现类型，可查看不同素材组合具体的投放表现。Mintegral的广告呈现类型分为：**
 
 * 标准创意：仅投放视频或者图片素材
 * 应用动态创意：投放展示中素材组合包含互动式结束页（iec）
