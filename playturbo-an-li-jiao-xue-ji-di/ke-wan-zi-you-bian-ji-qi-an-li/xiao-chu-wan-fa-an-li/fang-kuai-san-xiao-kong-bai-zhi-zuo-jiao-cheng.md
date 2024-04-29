@@ -158,6 +158,10 @@ description: '#自由编辑器 #空白制作 #消除玩法 #进阶难度'
 
 <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
+3）然后选中跟随进度条同步前进的星星图片\[progress]，添加动画-通用-位移缓动，同样将动画的持续时间设置为0.9s。具体参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1635).png" alt=""><figcaption></figcaption></figure>
+
 **1-3）胜利/失败反馈组**
 
 1）选中场景2的胜利反馈组\[group\_emojiAndText]，添加动画-通用-缩放缓动，来作为入场动画
@@ -369,7 +373,7 @@ d. 计算成功消除次数：玩家每完成一组消除，进度条前进一�
 </div>
 
 * 添加响应事件：赋值，赋值elimination\_time+1 (对应: 已完成一组消除)
-* 添加响应事件：赋值，赋值blockchose1/blockchose2/blockchose3=0、eliminate=true  (对应: 方块不可点击，同时前三个坑位为空)
+* 添加响应事件：赋值，赋值blockchose1/blockchose2/blockchose3=0、eliminate=true  (对应: 方块不可点击，同时清空前三个坑位)
 * 添加响应事件：显示并播放对应坑位的消除粒子特效、从头播放1次消除音效
 * 添加响应事件：执行延迟0.5s后，赋值，eliminate=false (对应: 方块可点击）
 
