@@ -224,7 +224,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -238,7 +238,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="266"><figcaption></figcaption></figure>
 
 </div>
 
@@ -259,7 +259,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 * 添加响应事件：赋值，赋值Guidelines=1 (对应: 玩家无操作，计时3秒后显示对应手指)
 * 添加响应事件：显示原位置道具6；隐藏外发光道具6
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）快速复制事件给其他所有"可被拖动的物品组"
 
@@ -267,21 +267,21 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 按住Ctrl键，全选所有"可被拖动的物品组"
 * 点击粘贴按钮，选择【仅粘贴图层事件】
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 这样，所有"可被拖动的物品组"都有了对应的拖拽事件与抬起事件
 * 然后将每个物品组所对应的响应对象进行微调即可
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -297,7 +297,7 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -451,8 +451,6 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 
 
 
-
-
 ### Step5 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
 
 1）建议在制作过程中，每完成一部分操作，就及时预览，检查设置是否正确
@@ -468,3 +466,19 @@ b. 无操作指引：当玩家完成任意一组消除后，出现下一组手�
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
 {% file src="../../../.gitbook/assets/货架三消空白制作_资源.zip" %}
+
+
+
+<mark style="background-color:blue;">**补充说明：**</mark>
+
+当前受工具功能限制，**暂时无法通过空白制作做出全自由的"货架三消玩法"的素材**(也就是像模板"货架物品三消"那样能拖动任意物品到任意位置)，因此，在您制作此类玩法的素材时，我们建议：
+
+1）优先使用模板[【货架物品三消】](https://tinyurl.com/65wy2v5m)进行 换肤制作 或 自由制作；
+
+2）若您想自行设计货架布局或加入其它玩法，则推荐您参考本案例DEMO和教程进行空白制作(拖拽到正确位置才放置，不正确就返回原位)
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>

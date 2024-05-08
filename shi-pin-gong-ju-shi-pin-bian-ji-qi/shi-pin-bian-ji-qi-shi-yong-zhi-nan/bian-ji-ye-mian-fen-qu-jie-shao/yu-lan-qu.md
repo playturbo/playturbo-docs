@@ -7,7 +7,7 @@
 * 预览框内展示当前时间游标所在位置的所有元素
 * 预览框内可选中元素并编辑大小、位置
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1）选中元素 <a href="#dgrub" id="dgrub"></a>
 

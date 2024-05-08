@@ -12,7 +12,7 @@ description: '#自由编辑器'
 
 
 
-## 一、获取链接/下载作品 <a href="#khhpw" id="khhpw"></a>
+## <mark style="color:blue;">一、获取链接/下载作品</mark> <a href="#khhpw" id="khhpw"></a>
 
 * 点击项目操作栏右侧的【下载】按钮
 * 勾选需要下载的渠道
@@ -29,7 +29,7 @@ description: '#自由编辑器'
 
 </div>
 
-## 二、压缩作品
+## <mark style="color:blue;">二、压缩作品</mark>
 
 当某渠道的包体超出包体限制大小时，可在弹窗内进行包体压缩（压缩方式默认为智能压缩）
 
@@ -59,7 +59,7 @@ description: '#自由编辑器'
 
 </div>
 
-## 三、推送作品到Mintegral平台
+## <mark style="color:blue;">三、推送作品到Mintegral平台</mark>
 
 <mark style="color:red;">**注意：**</mark>Mintegral渠道的文件无需下载，下载仅可用于内部存档，无法上传投放。建议直接使用【推送】功能，一键推送至Mintegral广告主自助投放平台进行内审并投放
 
@@ -103,6 +103,6 @@ description: '#自由编辑器'
 
 
 
-## 四、可玩广告渠道上传规范
+## <mark style="color:blue;">四、可玩广告渠道上传规范</mark>
 
 [ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md](../../../../qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md "mention")
