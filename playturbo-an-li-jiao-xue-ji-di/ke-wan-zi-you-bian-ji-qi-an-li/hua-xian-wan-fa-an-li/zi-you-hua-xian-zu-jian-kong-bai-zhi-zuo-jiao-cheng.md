@@ -140,7 +140,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
 
-场景1：粉刺针移动动画、指引文本移动动画、指引光圈闪烁动画
+场景1：粉刺针位移动画、指引文本位移动画、指引光圈闪烁动画
 
 场景2：反馈文本入场动画、彩带粒子、星星粒子
 
@@ -148,114 +148,112 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 #### **1.粉刺针：位移缓动**
 
-1）在擦除组件中点击底图层（Bottom image）的美女序列帧，在弹窗面板中选择【动画】
+1）选中粉刺针图片\[prop]，添加动画-通用-位移缓动，作为横向移动的指引动画
 
-2）然后我们依次添加缩放动画和位移动画，作为角色擦除成功后的展示动画效果
+2）复制该位移动画到粉刺针组图层\[group\_prop]，调整动画参数，作为纵向移动的指引动画
 
-3）动画参数设置如下：
+3）两个动画相结合，实现粉刺针的循环指引动画。具体参数设置如下：
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="554"><figcaption></figcaption></figure>
+
+</div>
 
 #### **2.**指引文本**：位移缓动**
 
-在图层区选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为指引动画，参数设置如下：
+选中指引文本\[text\_guidelines]，添加动画-通用-位移缓动，参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3.**指引光圈：透明度缓动
 
-1）选中重玩按钮组\[group\_retry\_btn]，添加透明度动画，作为重玩按钮的渐显出场效果，然后添加缩放动画，引导用户点击重玩
+选中指引光圈图片\[flash]，添加动画-通用-透明度缓动，以实现光圈的闪烁效果。参数设置如下：
 
-2）动画参数设置如下：
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 4.反馈文本：缩小出现
 
+选中场景2的反馈文本\[text\_welldone]，添加动画-进场动画-缩小出现，参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 #### 5.跳转按钮：脉冲向前
+
+选中场景3的跳转按钮组\[group\_download]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### 6.粒子特效：彩带粒子&星星粒子
 
-1）打开公共粒子库，选择添加爱心粒子，以增强露出美女图片后的画面氛围
+1）打开公共粒子库，选择并添加星星粒子，以增强结束页面的画面氛围
 
-2）
+2）调整粒子到合适的位置
 
-3）调整好竖屏的位置，还需切换到横屏进行调整
+3）同理，在场景2中添加彩带粒子和星星爆破粒子，以强化成功反馈的视觉效果
 
+4）调整好粒子竖屏的位置，还需切换到横屏进行调整
 
-
-
-
-
-
-
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### <mark style="color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-本案例与事件设置相关的内容有：开始擦除时隐藏操作指引并播放擦除音效；抬手时暂停播放擦除音效；当擦除区域达到60%时擦除层消失，同时显示并播放相关反馈。接下来，我们按顺序依次讲解
+本案例与事件设置相关的内容有：开始画线时隐藏操作指引、画线完成时跳转到下一场景、播放完成功反馈跳转到结束页面、结束页按下即跳转商店。接下来，我们按顺序依次讲解
 
-#### <mark style="color:red;">1.图层: 擦除组件</mark>
+#### <mark style="color:red;">1.图层: 自由画线组件</mark>
 
-1）选中擦除组件图层，点击【添加事件】，选择触发事件为**【开始擦除】**
+1）选中场景1中的自由画线组件图层，点击【添加事件】，选择触发事件为**【开始画线】**
 
-* 依次添加响应事件：隐藏指引文本组、隐藏指引手指组、从头播放擦除音效
-* 擦除音效的参数设置为【无限循环】
+* 添加响应事件：设置埋点，编辑埋点名称为"第一次有效操作"
+* 添加响应事件：隐藏粉刺针组图层、隐藏指引光圈、从头播放1次点击音效
 
-<div align="left">
+2）继续【添加事件】，选择触发事件为**【画线完成】**
 
-<figure><img src="../../../.gitbook/assets/image (18) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+* 添加响应事件：跳转到下一场景
 
-</div>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-2）继续【添加事件】，选择触发事件为**【抬手时】**
+#### 2.场景2
 
-* 添加响应事件：暂停播放擦除音效
+选中场景2，点击【添加事件】，选择触发事件为**【定时触发】**
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-3）继续【添加事件】，选择触发事件为**【到达某一阶段】**
-
-* 注意：因为擦除面积达到目标后，反馈只需触发一次，所以在这里我们勾选该事件"只生效一次"
-* 选择【事件判定1】，然后选择【阶段1: 60%】
+* 设置执行延迟时长为1s
+* 添加响应事件：跳转到下一场景
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (22) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 依次添加响应事件：隐藏擦除组Mask、播放美女序列帧分组的全部动画、从头播放重玩按钮组的全部动画、显示并播放爱心粒子特效、从头播放美女害羞音效
-* 音效的参数设置为【关闭无限循环】，并【禁用其他音效】
+#### 3.场景3
+
+选中场景3，点击【添加事件】，选择触发事件为**【按下】**
+
+* 添加响应事件：设置埋点，编辑埋点名称为"结束页触发跳转"
+* 添加响应事件：跳转应用商店
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (21) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
+#### 4.图层: 常驻下载按钮组
 
+选中"全局场景"下的常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
 
-#### <mark style="color:red;">2.图层: 重玩按钮组</mark>
+* 添加响应事件：跳转应用商店
 
-选中重玩按钮组，点击【添加事件】，选择触发事件为**【按下】**
+<div align="left">
 
-依次添加响应事件：跳转应用商店、上报试玩结束
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-#### <mark style="color:red;">3.图层: 常驻下载按钮组</mark>
-
-选中常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
-
-添加响应事件：跳转应用商店
-
-<figure><img src="../../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
+</div>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
-
-
 
 
 
@@ -265,7 +263,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -273,4 +271,4 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
-{% file src="../../../.gitbook/assets/擦除组件空白制作_资源.zip" %}
+{% file src="../../../.gitbook/assets/自由画线组件空白制作_资源.zip" %}

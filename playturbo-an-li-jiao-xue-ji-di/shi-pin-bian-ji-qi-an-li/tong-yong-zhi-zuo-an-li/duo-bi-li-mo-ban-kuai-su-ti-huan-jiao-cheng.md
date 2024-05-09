@@ -14,7 +14,7 @@ description: '#视频编辑器'
 
 我们先来看一下使用**快速替换**前后的对比：
 
-<table><thead><tr><th width="43">尺寸</th><th>9:16</th><th>3:4</th><th>4:5</th><th>1:1</th><th>16:9</th><th>4:3</th><th>2:1</th></tr></thead><tbody><tr><td>替换前</td><td><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (11) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (12) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (13) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td>替换后</td><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (19) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (18) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (17) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (16) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (15) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="43">尺寸</th><th>9:16</th><th>3:4</th><th>4:5</th><th>1:1</th><th>16:9</th><th>4:3</th><th>2:1</th></tr></thead><tbody><tr><td>替换前</td><td><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (12) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (13) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td>替换后</td><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (19) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (18) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (17) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (16) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (15) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt="" data-size="original"></td></tr></tbody></table>
 
 
 
@@ -158,15 +158,15 @@ description: '#视频编辑器'
 
 * 调整好所有参数后，点击【导出】
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 选择好导出的参数，点击【导出】
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 导出的素材可在右侧的导出面板查看导出状态
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **4-2）下载视频**
 
@@ -174,7 +174,7 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="399"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="399"><figcaption></figcaption></figure>
 
 </div>
 
@@ -182,6 +182,6 @@ description: '#视频编辑器'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
