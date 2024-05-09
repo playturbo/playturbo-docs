@@ -198,6 +198,8 @@
       * [棋盘组件-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md)
       * [《方块三消》空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/fang-kuai-san-xiao-kong-bai-zhi-zuo-jiao-cheng.md)
       * [《货架三消》空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/huo-jia-san-xiao-kong-bai-zhi-zuo-jiao-cheng.md)
+    * [画线玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/README.md)
+      * [自由画线组件-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/zi-you-hua-xian-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md)
     * [擦除玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ca-chu-wan-fa-an-li/README.md)
       * [擦除组件-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ca-chu-wan-fa-an-li/ca-chu-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md)
     * [跑酷玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/pao-ku-wan-fa-an-li/README.md)
