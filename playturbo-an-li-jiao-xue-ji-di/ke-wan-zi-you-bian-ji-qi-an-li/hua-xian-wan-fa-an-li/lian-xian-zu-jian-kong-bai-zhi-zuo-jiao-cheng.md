@@ -15,13 +15,13 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 * 【交互方式】：开始画线/画线完成
 * 【自由度】：全自由
 * 【核心资产】：图片
-* 【核心功能】：开始画线-隐藏指引；画线完成-播放反馈
+* 【核心功能】：开始画线-隐藏指引；画线完成-播放反馈；全局变量累计次数
 
 
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-<table><thead><tr><th width="214.33333333333331">手机试玩效果最佳</th><th width="237">竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (1652).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/1 (4).gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/2 (8).gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/mwfduke2">点击试玩</a></td><td><a href="https://tinyurl.com/mwfduke2">点击试玩</a></td></tr></tbody></table>
+<table><thead><tr><th width="218.33333333333331">手机试玩效果最佳</th><th width="243">竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (1652).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/1 (4).gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/2 (8).gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/mwfduke2">点击试玩</a></td><td><a href="https://tinyurl.com/mwfduke2">点击试玩</a></td></tr></tbody></table>
 
 
 
@@ -29,15 +29,15 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 **我们在开始制作之前先对本案例的玩法逻辑进行简单的梳理：**
 
-1）初始画面参考模板，引导玩家连线进行匹配
+1）进入试玩，展示三组待连线的元素
 
-2）玩家可从任一元素出发，进行连线匹配
+2）出现操作指引，引导玩家对其中一组元素进行连线配对
 
-3）匹配成功，播放【正确反馈】；匹配失败，播放【错误反馈】
+3）玩家可从任一元素出发，进行连线。配对成功，播放【正确反馈】，同时进度条前进一段；配对失败，播放【错误反馈】
 
-4）成功完成三组连线，进入结束页面
+4）成功完成三组连线配对后，进入结束页面
 
-5）结束页玩家按下即跳转
+5）结束页玩家按下即跳转商店
 
 <div align="left">
 
@@ -51,15 +51,15 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 **核心思想：**场景拆分逻辑清晰，图层结构简单，单个场景里的动画和事件尽可能少
 
-**场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为3个场景来制作
+**场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="120">场景名称</th><th width="226">场景1-核心玩法</th><th>场景2-结果反馈</th><th>场景3-结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1639).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1640).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1638).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>引导玩家在额头位置画线挤痘</td><td>玩家画线完成后播放成功反馈</td><td>产品信息+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>痘痘女孩、指引光圈和粉刺针</p><p><strong>视听包装：</strong>点击音效</p></td><td><p><strong>静帧图片：</strong>无痘女孩、反馈文本</p><p><strong>视听包装：</strong>成功音效、彩带粒子、星星粒子</p></td><td><p><strong>静帧图片：</strong>产品信息、跳转按钮</p><p><strong>视听包装：</strong>星星粒子</p></td></tr><tr><td><strong>核心动画</strong></td><td><p>粉刺针：位移缓动</p><p>指引文本：位移缓动</p><p>指引光圈：透明度缓动</p></td><td>反馈文本：缩小出现</td><td>跳转按钮：脉冲向前</td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：自由画线组件</p><p>Draw Lines Component</p><p>触发事件：画线完成</p><p>响应事件：跳转到下一场景</p></td><td><p>触发对象：场景2</p><p>触发事件：定时触发</p><p>响应事件：跳转到下一场景</p></td><td><p>触发对象：场景3</p><p>触发事件：按下</p><p>响应事件：跳转应用商店</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="142">场景名称</th><th>场景1-核心玩法</th><th>场景2-结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1655).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1656).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>引导玩家连线解谜</td><td>胜利反馈+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>多个连线元素、进度条、操作指引</p><p><strong>视听包装：</strong>按下音效、正确反馈音效、错误反馈音效</p></td><td><p><strong>静帧图片：</strong>胜利反馈面板、跳转按钮</p><p><strong>视听包装：</strong>彩带&#x26;烟花粒子、胜利音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p>指引手指：位移缓动+透明度缓动</p><p>指引文本：位移缓动</p><p>正确/错误反馈：缩小出现+淡出</p><p>进度条：缩放缓动</p></td><td><p>胜利反馈面板：缩小出现</p><p>跳转按钮：脉冲向前</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：连线组件</p><p>触发事件：画线完成</p><p>响应事件：播放反馈/禁用起止区域</p></td><td><p>触发对象：场景2</p><p>触发事件：按下</p><p>响应事件：跳转应用商店</p></td></tr></tbody></table>
 
 
 
 ## <mark style="color:blue;">五、制作指南</mark> <a href="#cria2" id="cria2"></a>
 
-\*核心内容为Step4【事件设置】
+\*核心内容为Step4【组件参数设置】和Step5 【事件设置】
 
 ### Step1 - 场景搭建 <a href="#wepzn" id="wepzn"></a>
 
@@ -71,8 +71,6 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整位置大小
 
-<figure><img src="../../../.gitbook/assets/image (1642).png" alt=""><figcaption></figcaption></figure>
-
 #### **2.普通场景**
 
 **2-1）场景1**
@@ -83,23 +81,13 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 <mark style="color:red;">**3）添加组件：**</mark>点击【玩法模板】，在【组件库】下添加 自由画线组件&#x20;
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1643).png" alt="" width="476"><figcaption></figcaption></figure>
-
-</div>
-
 <mark style="color:red;">**4）调整组件参数：**</mark>可直接 拖拽/拉伸 画布中的绿色矩形，将组件的位置大小调整到额头位置。然后设置画出线条的颜色和粗细即可
-
-<figure><img src="../../../.gitbook/assets/image (1644).png" alt=""><figcaption></figcaption></figure>
 
 **2-2）场景2**
 
 1）在场景2中添加结果反馈相关资产
 
 2）调整各资产到合适的位置大小
-
-<figure><img src="../../../.gitbook/assets/image (1647).png" alt=""><figcaption></figcaption></figure>
 
 **2-3）场景3**
 
@@ -108,8 +96,6 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 2）勾选场景3为【结束场景】，以便上报试玩结束
 
 3）取消启用场景3的【全局场景】
-
-<figure><img src="../../../.gitbook/assets/image (1648).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -123,10 +109,6 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 2）使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
-<figure><img src="../../../.gitbook/assets/image (1649).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (1650).png" alt=""><figcaption></figcaption></figure>
-
 3）同理，我们再依次切换到场景2、场景3和【全局场景】，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
 
 
@@ -134,8 +116,6 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
 在本案例中，我们想要竖屏下的常驻信息组始终位于各机型屏幕的顶部，所以我们调整其"屏幕适配方式"为贴顶适配（其他图层默认居中适配，无需调整）
-
-<figure><img src="../../../.gitbook/assets/image (1651).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -157,35 +137,21 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 3）两个动画相结合，实现粉刺针的循环指引动画。具体参数设置如下：
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="554"><figcaption></figcaption></figure>
-
-</div>
-
 #### **2.**指引文本**：位移缓动**
 
 选中指引文本\[text\_guidelines]，添加动画-通用-位移缓动，参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3.**指引光圈：透明度缓动
 
 选中指引光圈图片\[flash]，添加动画-通用-透明度缓动，以实现光圈的闪烁效果。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
-
 #### 4.反馈文本：缩小出现
 
 选中场景2的反馈文本\[text\_welldone]，添加动画-进场动画-缩小出现，参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-
 #### 5.跳转按钮：脉冲向前
 
 选中场景3的跳转按钮组\[group\_download]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 6.粒子特效：彩带粒子&星星粒子
 
@@ -197,11 +163,11 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 4）调整好粒子竖屏的位置，还需切换到横屏进行调整
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
+### <mark style="color:red;">Step4 - 组件参数设置</mark> <a href="#umduz" id="umduz"></a>
 
-### <mark style="color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
+### <mark style="color:red;">Step5 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
 本案例与事件设置相关的内容有：开始画线时隐藏操作指引、画线完成时跳转到下一场景、播放完成功反馈跳转到结束页面、结束页按下即跳转商店。接下来，我们按顺序依次讲解
 
@@ -216,20 +182,12 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 * 添加响应事件：跳转到下一场景
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
 #### 2.场景2
 
 选中场景2，点击【添加事件】，选择触发事件为**【定时触发】**
 
 * 设置执行延迟时长为1s
 * 添加响应事件：跳转到下一场景
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 #### 3.场景3
 
@@ -238,35 +196,23 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 * 添加响应事件：设置埋点，编辑埋点名称为"结束页触发跳转"
 * 添加响应事件：跳转应用商店
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 #### 4.图层: 常驻下载按钮组
 
 选中"全局场景"下的常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
 
 * 添加响应事件：跳转应用商店
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
 
 
 
-### Step5 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
+### Step6 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
 
 1）建议在制作过程中，每完成一部分操作，就及时预览，检查设置是否正确
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1657).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -274,4 +220,4 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
-{% file src="../../../.gitbook/assets/自由画线组件空白制作_资源.zip" %}
+{% file src="../../../.gitbook/assets/连线组件空白制作_资源.zip" %}
