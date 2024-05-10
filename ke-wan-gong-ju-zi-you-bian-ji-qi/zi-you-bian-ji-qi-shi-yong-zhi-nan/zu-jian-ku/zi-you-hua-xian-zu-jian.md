@@ -1,21 +1,27 @@
 ---
-description: '#自由编辑器 #模板自由制作'
+description: '#自由编辑器 #模板自由制作 #空白制作'
 ---
 
 # 自由画线组件
 
-入口1：作品预览区>>>设置画线线条
+✨模板自由制作入口：作品预览区>>>设置画线线条 或 图层区>>>Draw Lines Component
 
-入口2：图层区>>>Draw Lines Component
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+✨空白制作入口：玩法模板>>>组件库>>>自由画线组件
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="416"><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ## <mark style="color:blue;">一、自由画线组件通俗介绍</mark>
 
-* **「自由画线组件」仅存在于**<mark style="color:red;">**部分画线玩法的模板**</mark>**中，可通过【模板自由制作】进入**
-* 适用于如模板"画线救它"等能够<mark style="color:red;">在区域内自由画线</mark>的玩法。通过「自由画线组件」，实现在指定区域内自由画线，并根据线条触发各种效果（如根据画完的线条生成可碰撞的物体）
+* 适用于如模板"画线救它"等能够<mark style="color:red;">在区域内自由画线</mark>的玩法。通过「自由画线组件」，实现在指定区域内自由画线，并根据线条触发各种效果
+* 当前，【模板自由制作】和【空白制作】都支持使用"自由画线组件"。使用【模板自由制作】，您可以基于原模板的玩法对组件进行调整；使用【空白制作】，可以从零开始制作画线玩法的素材
 * 基于现有的「自由画线组件」，您可调整模板的可画线范围、线条样式等内容
 
 
@@ -52,7 +58,7 @@ description: '#自由编辑器 #模板自由制作'
 
 </div>
 
-#### 2）刚体类型
+#### 2）刚体类型(暂不支持调整)
 
 「刚体类型」可以决定画出的线条，是否具有刚体属性。共有四种类型可以选择：
 
@@ -66,8 +72,6 @@ description: '#自由编辑器 #模板自由制作'
 * 静态刚体：具有物理性质，会与其他的刚体发生碰撞，但静态刚体本身始终静止不动。如墙壁、地面等
 * 动力学刚体：有一定质量并在外力作用下运动，遵循牛顿定律的物体，会与其他类型的刚体发生碰撞并改变其速度。如自由下落的小球
 * 运动学刚体：不考虑物体受力情况和质量，以恒定的速度运动的物体，会与「动力学刚体」发生碰撞。如始终匀速运动的小球
-
-<mark style="background-color:yellow;">注：在【画线救它】模板中，暂不支持调整刚体类型</mark>
 
 <figure><img src="../../../.gitbook/assets/image (1413).png" alt=""><figcaption></figcaption></figure>
 

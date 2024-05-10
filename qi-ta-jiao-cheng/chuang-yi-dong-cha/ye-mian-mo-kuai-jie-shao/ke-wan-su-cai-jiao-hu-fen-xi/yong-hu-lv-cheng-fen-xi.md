@@ -27,7 +27,7 @@ a. 在页面搜索框内输入项目关键词（产品名、版本名等），�
 
 b.在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，自定义列选择「素材名称」时，点击表格中的「分析」按钮，跳转到该页面
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 注：其中，**创意版本ID**用于标识创意的唯一性。创意展示层面相同的素材，共用一个创意版本ID。
 
@@ -43,7 +43,7 @@ b.在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，自定义列
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
