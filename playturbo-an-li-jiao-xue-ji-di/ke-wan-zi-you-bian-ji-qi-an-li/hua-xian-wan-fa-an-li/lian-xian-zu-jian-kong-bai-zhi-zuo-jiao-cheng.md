@@ -139,7 +139,9 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 2）选中手指和指引线所在的组图层\[group\_hand]，添加动画-通用-透明度缓动，作为手指过渡和指引线闪烁的动画
 
-3）两个动画相结合，实现手指连线的循环指引动画。具体参数设置如下：
+3）两个动画相结合，实现手指连线的循环指引动画。具体参数设置如下
+
+<mark style="background-color:yellow;">注: 手指位移动画勾选了"\[位移距离]参数横竖屏拆分"，因此在完成竖屏的动画设置后，还需切换到横屏，对位移距离进行微调</mark>
 
 <figure><img src="../../../.gitbook/assets/image (1669).png" alt=""><figcaption></figcaption></figure>
 
@@ -177,68 +179,229 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 </div>
 
-2）因正确反馈和错误反馈的动画是相同的，因此可以复制图层\[feedback\_right]，选中错误反馈图片\[feedback\_wrong]，点击"粘贴-仅粘贴图层动画"，快速完成相同动画的制作
+2）因正确反馈和错误反馈的动画是相同的，因此可以复制动画到图层\[feedback\_wrong]，快速完成相同动画的制作
 
 <figure><img src="../../../.gitbook/assets/image (1675).png" alt=""><figcaption></figcaption></figure>
 
-#### 5.跳转按钮：脉冲向前
+#### 5.胜利反馈：缩小出现
 
-选中场景3的跳转按钮组\[group\_download]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
+选中场景2的胜利反馈组\[group\_end]，添加动画-进场动画-缩小出现，参数设置如下：
 
-#### 6.粒子特效：彩带粒子&星星粒子
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-1）打开公共粒子库，选择并添加星星粒子，以增强结束页面的画面氛围
+#### 6.跳转按钮：脉冲向前
+
+选中跳转按钮组\[group\_ctat]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### 7.粒子特效：彩带粒子&烟花粒子
+
+1）打开公共粒子库，选择并添加合适的粒子特效，以强化胜利的视觉效果
 
 2）调整粒子到合适的位置
 
-3）同理，在场景2中添加彩带粒子和星星爆破粒子，以强化成功反馈的视觉效果
+3）调整好竖屏粒子的位置，还需切换到横屏进行调整
 
-4）调整好粒子竖屏的位置，还需切换到横屏进行调整
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### <mark style="color:red;">Step4 - 组件参数设置</mark> <a href="#umduz" id="umduz"></a>
 
-<mark style="color:red;">**3）添加组件：**</mark>点击【玩法模板】，在【组件库】下添加 自由画线组件&#x20;
+完成以上内容的制作，我们开始对"连线玩法"最核心的内容——连线组件，进行添加和设置
 
-<mark style="color:red;">**4）调整组件参数：**</mark>可直接 拖拽/拉伸 画布中的绿色矩形，将组件的位置大小调整到额头位置。然后设置画出线条的颜色和粗细即可
+#### 1.添加组件
+
+在场景1中点击【玩法模板】，在【组件库】下添加 连线组件&#x20;
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="408"><figcaption></figcaption></figure>
+
+</div>
+
+#### **2.调整组件外观参数**
+
+可在右侧参数区 或 直接拖拽/拉伸画布中的绿色矩形，来调整组件的位置大小（组件的大小等于可画出线 的区域范围）
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+#### 3.设置起止区域
+
+1）因本案例共有6个待连线元素，所以我们共添加6个起止区域
+
+2）依次将起止区域调整到对应的位置和大小
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+3）设置"起止区域1"的线条样式，然后点击【应用到全部】，即可将6个区域的线条样式统一
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="245"><figcaption></figcaption></figure>
+
+</div>
+
+#### 4.设置配对关系
+
+1）点击【添加配对关系】，对"起止区域"的配对关系进行设置。本案例的配对关系如下：
+
+* 正确配对：区域1 → 区域5 / 区域2 → 区域4  / 区域3 → 区域6&#x20;
+* 错误配对：区域1 → 区域4&区域6 / 区域2 → 区域5&区域6  / 区域3 → 区域4&区域5
+
+<mark style="background-color:yellow;">注：除"正确配对"和"错误配对"的配对关系外，其他区域不能进行连线配对(如区域1 → 区域2)，因此无需添加其他配对关系</mark>
+
+2）以区域1为例，选择起止区域为"1 → 5"，并设置"配对类别"为TRUE；选择起止区域为"1 → 4&6"，并设置"配对类别"为FALSE
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+3）依次完成六组配对关系的设置（前三组为正确配对，后三组为错误配对）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+4）在本案例中，我们选择连线配对为"双向"，连线类型为"直线"
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### <mark style="color:red;">Step5 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-本案例与事件设置相关的内容有：开始画线时隐藏操作指引、画线完成时跳转到下一场景、播放完成功反馈跳转到结束页面、结束页按下即跳转商店。接下来，我们按顺序依次讲解
+完成组件的参数设置，我们开始用事件进行串联
 
-#### <mark style="color:red;">1.图层: 自由画线组件</mark>
+本案例设置的主要事件有：开始画线时隐藏操作指引、正确画线完成时播放正确反馈、错误画线完成时播放错误反馈并修改线条样式、全局变量计算正确连线的次数、结束页按下跳转商店。接下来，我们按顺序依次讲解
 
-1）选中场景1中的自由画线组件图层，点击【添加事件】，选择触发事件为**【开始画线】**
+#### 1.添加全局变量
 
-* 添加响应事件：设置埋点，编辑埋点名称为"第一次有效操作"
-* 添加响应事件：隐藏粉刺针组图层、隐藏指引光圈、从头播放1次点击音效
+1）点击上方【全局变量】图标，添加变量
 
-2）继续【添加事件】，选择触发事件为**【画线完成】**
+2）填写变量名称如DrawTime，设置变量类型为"数值"，初始值为"0"，保存
 
-* 添加响应事件：跳转到下一场景
+<mark style="background-color:yellow;">注: 此变量仅用来计算正确连线的次数。因在玩家交互前，是没有完成任何一组连线的，所以初始值设为0</mark>
 
-#### 2.场景2
+<div align="left">
 
-选中场景2，点击【添加事件】，选择触发事件为**【定时触发】**
+<figure><img src="../../../.gitbook/assets/image (14).png" alt="" width="543"><figcaption></figcaption></figure>
 
-* 设置执行延迟时长为1s
-* 添加响应事件：跳转到下一场景
+</div>
 
-#### 3.场景3
 
-选中场景3，点击【添加事件】，选择触发事件为**【按下】**
 
-* 添加响应事件：设置埋点，编辑埋点名称为"结束页触发跳转"
-* 添加响应事件：跳转应用商店
+#### <mark style="color:red;">2.图层事件: 连线组件Match Line Component</mark>
 
-#### 4.图层: 常驻下载按钮组
+1）选中场景1中的连线组件图层，点击【添加事件】，选择触发事件为**【开始画线】**
+
+* 全选所有起止区域 (因为前面我们选择了连线配对为"双向"，也就是从每个区域都可以画出线，所以这里我们全选所有起止区域)
+* 添加响应事件：设置埋点1，编辑埋点名称为"玩家第一次按下"
+* 添加响应事件：隐藏指引手指组、从头播放1次点击音效
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）继续【添加事件】，选择触发事件为**【画线完成】。**此事件我们对"正确配对关系1 → 5"进行设置
+
+* 依次选择：匹配 - 配对关系 - "1 → 5"
+* 添加响应事件：赋值。赋值变量DrawTime+1 (对应: 成功完成一组连线)
+* 添加响应事件：禁用起止区域1和起止区域5
+* 添加响应事件：从头播放正确反馈的全部动画、从头播放1次正确音效
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+3）复制并粘贴以上**【画线完成】**的事件，将"配对关系"和"禁用起止区域"的响应对象依次修改为"正确配对关系2 → 4""正确配对关系3 → 6"相关内容即可
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+4）最后添加触发事件**【画线完成】。**此事件我们统一对"三组错误配对关系"进行设置
+
+* 依次选择：匹配 - 配对类别 - FALSE
+* 添加响应事件：播放震屏效果、从头播放错误反馈的全部动画、从头播放1次错误音效
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 添加响应事件：修改已连线配对的线条样式，选择三组错误配对关系，并选择修改线条颜色为红色
+* 添加响应事件：执行延迟0.5s后，抹除红色线条、修改连线线条样式为初始的绿色、启用三组错误配对关系
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### 3.场景事件：条件判断
+
+1）在场景1下点击【添加事件】，选择触发事件为**【条件判断】**
+
+2）编辑条件判断1：DrawTime=1（即成功完成一组连线时，会触发什么反馈）
+
+3）勾选"只生效一次"
+
+* 添加响应事件：设置埋点2，编辑埋点名称为"成功完成一组连线"
+* 添加响应事件：播放进度条动画、执行延迟0.3s后暂停播放进度条动画
+
+4）同理，我们再依次设置条件判断2、条件判断3
+
+<mark style="background-color:yellow;">注: 当成功完成三组连线后需要进入结束页面，因此需要修改条件判断3最后的响应事件为"跳转到下一场景"</mark>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 4.场景2
+
+选中场景2，点击【添加事件】，选择触发事件为**【按下】**
+
+* 添加响应事件：设置埋点5，编辑埋点名称为"结束页触发跳转"
+* 添加响应事件：从头播放1次点击音效、跳转应用商店
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 5.图层: 常驻下载按钮组
 
 选中"全局场景"下的常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
 
 * 添加响应事件：跳转应用商店
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
 
