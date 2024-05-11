@@ -71,31 +71,29 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整位置大小
 
+<figure><img src="../../../.gitbook/assets/image (1663).png" alt=""><figcaption></figcaption></figure>
+
 #### **2.普通场景**
 
 **2-1）场景1**
 
-1）在场景1中添加核心玩法相关资产：痘痘女孩/指引光圈/粉刺针/指引文本/点击音效
+1）在场景1中添加核心玩法相关资产
 
 2）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
 
-<mark style="color:red;">**3）添加组件：**</mark>点击【玩法模板】，在【组件库】下添加 自由画线组件&#x20;
-
-<mark style="color:red;">**4）调整组件参数：**</mark>可直接 拖拽/拉伸 画布中的绿色矩形，将组件的位置大小调整到额头位置。然后设置画出线条的颜色和粗细即可
+<figure><img src="../../../.gitbook/assets/image (1662).png" alt=""><figcaption></figcaption></figure>
 
 **2-2）场景2**
 
-1）在场景2中添加结果反馈相关资产
+1）在场景2中添加胜利反馈相关资产和跳转按钮
 
-2）调整各资产到合适的位置大小
+2）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
 
-**2-3）场景3**
+3）勾选场景2为【结束场景】，以便上报试玩结束
 
-1）新建场景3，并添加产品信息相关资产
+4）取消启用场景2的【全局场景】
 
-2）勾选场景3为【结束场景】，以便上报试玩结束
-
-3）取消启用场景3的【全局场景】
+<figure><img src="../../../.gitbook/assets/image (1661).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -105,17 +103,25 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 #### 1.调整横屏排版
 
-1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含自由画线组件图层)
+1）在场景1中切换到横屏模式，选中所有最高层级的图层
 
 2）使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
-3）同理，我们再依次切换到场景2、场景3和【全局场景】，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
+<figure><img src="../../../.gitbook/assets/image (1664).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../../.gitbook/assets/image (1665).png" alt=""><figcaption></figcaption></figure>
 
+3）同理，我们再依次切换到场景2和全局场景，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
+
+<figure><img src="../../../.gitbook/assets/image (1666).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1667).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
-在本案例中，我们想要竖屏下的常驻信息组始终位于各机型屏幕的顶部，所以我们调整其"屏幕适配方式"为贴顶适配（其他图层默认居中适配，无需调整）
+在本案例中，我们想要竖屏下的常驻信息组始终位于各机型屏幕的底部，所以我们调整其"屏幕适配方式"为贴底适配（其他图层默认居中适配，无需调整）
+
+<figure><img src="../../../.gitbook/assets/image (1668).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -123,31 +129,57 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
 
-场景1：粉刺针位移动画、指引文本位移动画、指引光圈闪烁动画
+场景1：手指连线指引动画、指引文本位移动画、进度条前进动画、正确/错误反馈的入场/退场动画
 
-场景2：反馈文本入场动画、彩带粒子、星星粒子
+场景2：胜利反馈入场动画、跳转按钮指引动画、彩带粒子、烟花粒子
 
-场景3：跳转按钮缩放动画、星星粒子
+#### **1.指引手指：位移缓动&透明度缓动**
 
-#### **1.粉刺针：位移缓动**
+1）选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为手指移动的指引动画
 
-1）选中粉刺针图片\[prop]，添加动画-通用-位移缓动，作为横向移动的指引动画
+2）选中手指和指引线所在的组图层\[group\_hand]，添加动画-通用-透明度缓动，作为手指过渡和指引线闪烁的动画
 
-2）复制该位移动画到粉刺针组图层\[group\_prop]，调整动画参数，作为纵向移动的指引动画
+3）两个动画相结合，实现手指连线的循环指引动画。具体参数设置如下：
 
-3）两个动画相结合，实现粉刺针的循环指引动画。具体参数设置如下：
+<figure><img src="../../../.gitbook/assets/image (1669).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1670).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.**指引文本**：位移缓动**
 
-选中指引文本\[text\_guidelines]，添加动画-通用-位移缓动，参数设置如下：
+选中指引文本\[text\_guide]，添加动画-通用-位移缓动，参数设置如下：
 
-#### **3.**指引光圈：透明度缓动
+<figure><img src="../../../.gitbook/assets/image (1671).png" alt=""><figcaption></figcaption></figure>
 
-选中指引光圈图片\[flash]，添加动画-通用-透明度缓动，以实现光圈的闪烁效果。参数设置如下：
+#### **3.进度条**：缩放缓动
 
-#### 4.反馈文本：缩小出现
+1）选中进度条图片\[progress\_bar]，将其锚点修改为(0,50)，并重新调整位置
 
-选中场景2的反馈文本\[text\_welldone]，添加动画-进场动画-缩小出现，参数设置如下：
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1672).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）添加动画-通用-缩放缓动，作为进度条的前进动画，参数设置如下
+
+<mark style="background-color:yellow;">注: 因进度条需要播放3次才到终点，所以可将动画的"持续时间"设为0.9s，然后通过事件来控制每次动画的播放时长(0.3s)来实现目标效果</mark>
+
+<figure><img src="../../../.gitbook/assets/image (1673).png" alt=""><figcaption></figcaption></figure>
+
+#### 4.正确/错误反馈：缩小出现&淡出
+
+1）选中正确反馈图片\[feedback\_right]，依次添加动画"缩小出现"&"淡出"，作为正确反馈的出现和消失动画，参数设置如下：
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1674).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+2）因正确反馈和错误反馈的动画是相同的，因此可以复制图层\[feedback\_right]，选中错误反馈图片\[feedback\_wrong]，点击"粘贴-仅粘贴图层动画"，快速完成相同动画的制作
+
+<figure><img src="../../../.gitbook/assets/image (1675).png" alt=""><figcaption></figcaption></figure>
 
 #### 5.跳转按钮：脉冲向前
 
@@ -166,6 +198,12 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 
 ### <mark style="color:red;">Step4 - 组件参数设置</mark> <a href="#umduz" id="umduz"></a>
+
+<mark style="color:red;">**3）添加组件：**</mark>点击【玩法模板】，在【组件库】下添加 自由画线组件&#x20;
+
+<mark style="color:red;">**4）调整组件参数：**</mark>可直接 拖拽/拉伸 画布中的绿色矩形，将组件的位置大小调整到额头位置。然后设置画出线条的颜色和粗细即可
+
+
 
 ### <mark style="color:red;">Step5 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
