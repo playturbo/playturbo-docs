@@ -6,7 +6,7 @@ description: '#自由编辑器'
 
 事件，分为入门级与进阶级
 
-入门级：普通事件，包含[chu-fa-shi-jian.md](pu-tong-shi-jian/chu-fa-shi-jian.md "mention")与[xiang-ying-shi-jian.md](pu-tong-shi-jian/xiang-ying-shi-jian.md "mention")
+入门级：[pu-tong-shi-jian](pu-tong-shi-jian/ "mention")，包含 触发事件 与 响应事件
 
 进阶级：[quan-ju-bian-liang.md](../../../ding-bu-zi-chan-ku/quan-ju-bian-liang.md "mention")（有一定难度，建议先理解并掌握普通事件后再学习全局变量）
 
