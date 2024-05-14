@@ -25,9 +25,11 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (239).png" alt="" width="482"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1677).png" alt="" width="558"><figcaption><p><strong>各渠道包体大小限制可在"下载"时查看</strong></p></figcaption></figure>
 
 </div>
+
+
 
 ## <mark style="color:blue;">二、压缩作品</mark>
 

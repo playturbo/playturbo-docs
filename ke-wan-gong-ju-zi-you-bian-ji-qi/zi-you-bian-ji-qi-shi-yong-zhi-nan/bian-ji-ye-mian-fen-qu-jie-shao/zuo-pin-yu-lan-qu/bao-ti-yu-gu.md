@@ -34,7 +34,7 @@ description: '#自由编辑器'
 
 ## <mark style="color:blue;">**三、资产大小建议**</mark>
 
-1.当前，平台对不同类型资产的大小的上传有以下要求（[#bu-tong-lei-xing-zi-chan-de-ge-shi-yao-qiu](../ding-bu-zi-chan-ku/xiang-mu-zi-chan.md#bu-tong-lei-xing-zi-chan-de-ge-shi-yao-qiu "mention")）
+1.当前，平台对不同类型资产的大小的上传有以下要求（[#si-ge-lei-zi-chan-de-shang-chuan-ge-shi-yao-qiu](../ding-bu-zi-chan-ku/xiang-mu-zi-chan.md#si-ge-lei-zi-chan-de-shang-chuan-ge-shi-yao-qiu "mention")）
 
 * 视频：＜3M
 * 音频：＜1M
@@ -47,4 +47,10 @@ description: '#自由编辑器'
 * 压缩视频常用软件：Handbrake
 * 压缩图片常用网站：Tinyjpg.com
 
-<mark style="color:red;">**3.注意：**</mark><mark style="color:red;">若您在制作时，需要往项目内添加很多资产，建议在当前要求文件大小的基础上，先在外部</mark><mark style="color:red;">**进一步压缩文件**</mark><mark style="color:red;">，尽量控制包体大小在对应渠道所要求的范围内！</mark>
+<mark style="color:red;">**3.注意：**</mark><mark style="color:red;">若您在制作时，需要往项目内添加很多资产，建议在当前要求文件大小的基础上，先在外部</mark><mark style="color:red;">**进一步压缩文件**</mark><mark style="color:red;">，尽量控制包体大小在对应渠道所要求的范围内！（各渠道包体大小限制可在"下载"时查看）</mark>
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1677).png" alt="" width="558"><figcaption></figcaption></figure>
+
+</div>

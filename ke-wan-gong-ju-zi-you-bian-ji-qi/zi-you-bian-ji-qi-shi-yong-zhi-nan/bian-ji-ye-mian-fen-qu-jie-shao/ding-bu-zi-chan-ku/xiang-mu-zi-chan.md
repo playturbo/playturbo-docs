@@ -8,13 +8,17 @@ description: '#自由编辑器'
 
 <figure><img src="../../../../.gitbook/assets/image (1029).png" alt=""><figcaption></figcaption></figure>
 
+
+
+## <mark style="color:blue;">一、项目资产介绍</mark>
+
 * 「项目资产」包含当前项目下的所有资产，包括已经添加到画布的资产和已上传未添加到画布的资产
 * 所有已添加到画布的资产，会带有「已添加」的角标
 * 您上传的个人资产、使用的公共资产，以及使用模板项目创建的ps项目中自带的资产，都会出现在「项目资产」列表中
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (815).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (815).png" alt="" width="414"><figcaption></figcaption></figure>
 
 </div>
 
@@ -26,7 +30,9 @@ description: '#自由编辑器'
 
 </div>
 
-## 上传资产的两条路径
+
+
+## <mark style="color:blue;">二、上传资产的两条路径</mark>
 
 ### 1.本地上传
 
@@ -44,7 +50,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (729).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (729).png" alt="" width="233"><figcaption></figcaption></figure>
 
 </div>
 
@@ -56,13 +62,13 @@ description: '#自由编辑器'
 
 </div>
 
-## &#x20;<a href="#jjwkg" id="jjwkg"></a>
 
-## 项目资产的相关操作 <a href="#jjwkg" id="jjwkg"></a>
+
+## <mark style="color:blue;">三、项目资产的操作说明</mark> <a href="#jjwkg" id="jjwkg"></a>
 
 ### 1.添加资产到画布
 
-* 点击「项目资产」对应资产右下角的「+」号，即可将资产添加到当前场景的画布中
+点击「项目资产」对应资产右下角的「+」号，即可将资产添加到当前场景的画布中
 
 <div align="left">
 
@@ -80,7 +86,7 @@ description: '#自由编辑器'
 
 #### 替换资产的两种方式
 
-**1.本地上传**
+**1）本地上传**
 
 若为「本地上传」，则跳出本地上传弹窗，要求选择本地符合格式要求的同类型资源进行上传并替换
 
@@ -90,7 +96,7 @@ description: '#自由编辑器'
 
 </div>
 
-**2.从资产库选用**
+**2）从资产库选用**
 
 若为「从资产库选用」，则跳出弹窗，从「公共资产库」、「我的资产库」、「项目资产」中选择对应类型的资产进行替换
 
@@ -102,7 +108,7 @@ description: '#自由编辑器'
 
 ### 3.下载资产
 
-* 点击「项目资产」对应资产右上角的「...」号，选择下载，即可将该资产下载到本地
+点击「项目资产」对应资产右上角的「...」号，选择下载，即可将该资产下载到本地
 
 <div align="left">
 
@@ -135,39 +141,38 @@ description: '#自由编辑器'
 
 
 
-## 不同类型资产的格式要求
+## <mark style="color:blue;">四、各类资产的上传格式要求</mark>
 
-「项目资产」下细分视频、音频、图片、动图类别
+「项目资产」下细分视频、音频、图片、动图 四种类别
+
+<mark style="color:red;">温馨提示：若您在制作时，需要往项目内添加很多资产，建议在以下要求的文件大小的基础上，先在外部</mark><mark style="color:red;">**进一步压缩文件**</mark><mark style="color:red;">，尽量控制包体大小在对应渠道所要求的范围内!</mark> [bao-ti-yu-gu.md](../zuo-pin-yu-lan-qu/bao-ti-yu-gu.md "mention")[xia-zai.md](../xiang-mu-cao-zuo-lan/xia-zai.md "mention")
 
 ### 1.视频
 
-* 大小要求：3M以内
+* 格式：mp4
+* 大小要求：小于3M
 * 尺寸建议不大于750\*1334
 * 分辨率：建议低于1080P
 * 帧率：不能低于20，建议20—30
-* 格式：mp4
 
 ### 2.音频
 
-* 大小要求：1M以内
+* 格式：mp3格式效果佳
+* 大小要求：小于1M
 * 比特率：128kbps以内
-* 格式：导出mp3格式效果佳
 
 ### 3.图片
 
-* 大小要求：小于1M
 * 格式：PNG，JPG
+* 大小要求：小于1M
 
 ### 4.动图：分为序列帧和龙骨
 
-#### **4.1 序列帧**
+#### <mark style="color:red;background-color:red;">**4.1 序列帧**</mark>
 
-* 包含多个**png**的**zip**格式
-
-<mark style="color:red;">（特别提示：zip压缩包内只能包含1个文件夹 或 直接包含多个png文件）</mark>
-
+* 包含多个**png**的**zip**格式<mark style="color:red;">(特别提示：zip压缩包内只能包含1个文件夹 或 直接包含多个png文件)</mark>
 * 文件大小限制：最大8MB
-* 命名限制：png命名不能出现空格；同时需以数字结尾，且数字要按顺序进行编号
+* PNG命名限制：命名不能出现空格；同时需以数字结尾，且数字要按顺序进行编号
 * 上传后可在右侧参数调整区拖动调整序列帧的顺序
 
 #### 4.2 龙骨
