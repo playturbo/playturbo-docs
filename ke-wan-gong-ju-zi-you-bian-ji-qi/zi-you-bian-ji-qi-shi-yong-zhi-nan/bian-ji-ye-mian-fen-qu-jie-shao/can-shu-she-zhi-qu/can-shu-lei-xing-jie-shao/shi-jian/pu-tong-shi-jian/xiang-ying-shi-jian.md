@@ -68,7 +68,7 @@ description: '#自由编辑器'
 
 当前响应事件包含 12 种类别：【跳转及埋点】【图层】【定时器】【事件】【其他】【音效】【视频】【单个动画】【全部动画】【序列帧】【龙骨】【粒子特效】
 
-<table data-full-width="false"><thead><tr><th width="237">截图</th><th width="146">事件类别</th><th>类别细分</th></tr></thead><tbody><tr><td><img src="../../../../../../../.gitbook/assets/image (781).png" alt=""></td><td><strong>跳转及埋点</strong></td><td><p>跳转指定场景</p><p>跳转到下一场景</p><p>跳转到应用商店</p><p>上报试玩结束</p><p>设置埋点</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (163).png" alt=""></td><td><strong>图层</strong></td><td><p>设置位置</p><p>设置缩放</p><p>设置旋转</p><p>设置宽度</p><p>设置高度</p><p>显示&#x26;隐藏图层</p><p>设置透明度</p><p>设置颜色</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (681).png" alt=""></td><td><strong>定时器</strong></td><td><p>执行延迟</p><p>取消执行延迟</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (224).png" alt=""></td><td><strong>事件</strong></td><td><p>启用事件</p><p>禁用事件</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (219).png" alt=""></td><td><strong>其他</strong></td><td><p>震屏效果</p><p>赋值</p><p>重新试玩</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (396).png" alt=""></td><td><strong>单个动画</strong></td><td><p>播放单个动画</p><p>暂停播放单个动画</p><p>继续播放单个动画</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (607).png" alt=""></td><td><strong>全部动画</strong></td><td><p>从头播放全部动画</p><p>继续播放全部动画</p><p>暂停播放全部动画</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (223).png" alt=""></td><td><strong>粒子</strong></td><td><p>显示并播放粒子特效</p><p>暂停播放粒子特效</p><p>清除粒子特效</p><p>粒子出生颜色</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (222).png" alt=""></td><td><strong>序列帧</strong></td><td><p>显示并播放序列帧</p><p>暂停序列帧</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><strong>龙骨</strong></td><td><p>播放龙骨</p><p>暂停龙骨</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (220).png" alt=""></td><td><strong>视频</strong></td><td><p>从头播放视频</p><p>继续播放视频</p><p>暂停播放视频</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (221).png" alt=""></td><td><strong>音效</strong></td><td><p>从头播放音效</p><p>继续播放音效</p><p>暂停播放音效</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="237">截图</th><th width="146">事件类别</th><th>类别细分</th></tr></thead><tbody><tr><td><img src="../../../../../../../.gitbook/assets/image (781).png" alt=""></td><td><strong>跳转及埋点</strong></td><td><p>跳转指定场景</p><p>跳转到下一场景</p><p>跳转到应用商店</p><p>上报试玩结束</p><p>设置埋点</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (163).png" alt=""></td><td><strong>图层</strong></td><td><p>设置位置</p><p>设置缩放</p><p>设置旋转</p><p>设置宽度</p><p>设置高度</p><p>显示&#x26;隐藏图层</p><p>设置透明度</p><p>设置颜色</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (681).png" alt=""></td><td><strong>定时器</strong></td><td><p>执行延迟</p><p>取消执行延迟</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (224).png" alt=""></td><td><strong>事件</strong></td><td><p>启用事件</p><p>禁用事件</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (219).png" alt=""></td><td><strong>其他</strong></td><td><p>震屏效果</p><p>赋值</p><p>重新试玩</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (396).png" alt=""></td><td><strong>单个动画</strong></td><td><p>播放单个动画</p><p>暂停播放单个动画</p><p>继续播放单个动画</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (607).png" alt=""></td><td><strong>全部动画</strong></td><td><p>从头播放全部动画</p><p>继续播放全部动画</p><p>暂停播放全部动画</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (223).png" alt=""></td><td><strong>粒子</strong></td><td><p>显示并播放粒子特效</p><p>暂停播放粒子特效</p><p>清除粒子特效</p><p>粒子出生颜色</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (222).png" alt=""></td><td><strong>序列帧</strong></td><td><p>显示并播放序列帧</p><p>暂停序列帧</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><strong>龙骨</strong></td><td><p>播放龙骨</p><p>暂停龙骨</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (220).png" alt=""></td><td><strong>视频</strong></td><td><p>从头播放视频</p><p>继续播放视频</p><p>暂停播放视频</p></td></tr><tr><td><img src="../../../../../../../.gitbook/assets/image (221).png" alt=""></td><td><strong>音效</strong></td><td><p>从头播放音效</p><p>继续播放音效</p><p>暂停播放音效</p></td></tr></tbody></table>
 
 
 
@@ -176,7 +176,7 @@ description: '#自由编辑器'
 
 2）赋值：需选择对应的全局变量/运算方法/运算数
 
-注意：此响应事件需建立在已添加[全局变量](https://playturbo-doc.mindworks-creative.com/ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang)基础上，才可使用这一响应事件 (结合功能介绍文档查看 可以更快理解该触发事件哦)
+<mark style="color:red;">注意：此响应事件需建立在已添加全局变量的基础上，搭配"条件判断"来使用 (具体使用方法可结合查看</mark>[全局变量](https://playturbo-doc.mindworks-creative.com/ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/quan-ju-bian-liang)<mark style="color:red;">功能介绍文档)</mark>
 
 <div align="left">
 
@@ -184,159 +184,190 @@ description: '#自由编辑器'
 
 </div>
 
-3）重新试玩
+3）重新试玩：触发后，将重新进入试玩素材，从头试玩
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### 6.**单个动画**
 
-1）播放单个动画
+当某一图层添加了多个动画时，可通过此响应事件来控制单个动画的播放
 
-2）暂停播放单个动画
+1）播放单个动画：需选择响应对象和响应的单个动画
 
-3）继续播放单个动画
+2）暂停播放单个动画：需选择响应对象和响应的单个动画
+
+3）继续播放单个动画：需选择响应对象和响应的单个动画
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### 7.全部动画
 
-1）从头播放全部动画
+当某一图层添加了单个或多个动画，且这些动画是为了实现同一个效果而可以整体控制时，可通过此响应事件来控制该图层全部动画的播放
 
-2）继续播放全部动画
+1）从头播放全部动画：选择响应对象即可
 
-3）暂停播放全部动画
+2）继续播放全部动画：选择响应对象即可
+
+3）暂停播放全部动画：选择响应对象即可
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### 8.**粒子**
 
-1）显示并播放粒子特效
+1）显示并播放粒子特效：选择响应对象即可
 
-2）暂停播放粒子特效
+2）暂停播放粒子特效：选择响应对象即可
 
-3）清除粒子特效
+3）清除粒子特效：选择响应对象即可
 
-4）粒子出生颜色
+4）粒子出生颜色：选择响应对象后，点击图示色块选择粒子出生颜色
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (755).png" alt="" width="306"><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
+**补充：**添加粒子特效后，参数默认"自动播放1次"。如要修改，可选中粒子特效图层后，在右侧参数区进行调整
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
 ### 9.序列帧
 
-1）显示并播放序列帧
+1）显示并播放序列帧：需选择响应对象、选择是否循环播放该序列帧及播放次数、是否来回播放、播放完后是否隐藏该序列帧
 
-2）暂停序列帧
+<mark style="color:red;">注意："来回播放"指序列帧正序播放一次后再倒序播放一次，此为一个来回；仅"播放次数"大于1 时可开启"来回播放"</mark>
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）暂停序列帧：选择要暂停的响应对象即可
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**补充：**添加序列帧资产后，参数默认"自动且无限循环播放"。如要修改，可选中序列帧图层后，在右侧参数区进行调整
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### 10.龙骨
 
-1）播放龙骨
-
-2）暂停龙骨
+1）播放龙骨：需选择响应对象、动作名字、是否循环播放及播放速度
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
+2）暂停龙骨：选择要暂停的响应对象即可
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**补充：**添加龙骨资产后，参数默认"自动播放""播放速度1s"。如要修改，可选中龙骨图层后，在右侧参数区进行调整
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
 ### 11.视频
 
-1）从头播放视频
+1）从头播放视频：需选择响应对象、播放次数、是否循环播放、播放完成后是否保持视频尾帧
 
-2）继续播放视频
+<div align="left">
 
-3）暂停播放视频
+<figure><img src="../../../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）继续播放视频：选择响应对象即可
+
+3）暂停播放视频：选择响应对象即可
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**补充：**添加视频资产后，参数默认"自动播放1次""保持尾帧"。如要修改，可选中视频图层后，在右侧参数区进行调整
+
+<div align="left">
+
+<figure><img src="../../../../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### 12.音频
 
-1）从头播放音频
+1）从头播放音频：需选择响应对象、是否循环播放及播放次数
 
-2）继续播放音频
+<div align="left">
 
-3）暂停播放音频
+<figure><img src="../../../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
+</div>
 
+2）继续播放音频：选择响应对象即可
 
+3）暂停播放音频：需选择响应对象、暂停播放该音频后是否暂停当前场景全部音效
 
+<div align="left">
 
+<figure><img src="../../../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
+</div>
 
+**补充：**添加音频资产后，参数默认"不自动播放"。如要修改，可选中音频图层后，在右侧参数区进行调整
 
+<div align="left">
 
+<figure><img src="../../../../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-
-
-
-
-* 点击【添加响应事件】
-* 设置单个动画响应类型
-* 选择响应对象
-* 选择动画
-* 点击【保存】，即可完成单个动画响应设置
-
-
-
-
-
-1. 点击【添加响应事件】
-2. 设置全部动画响应类型
-3. 选择响应对象
-4. 点击【保存】，即可完成全部动画响应设置
-
-
-
-* 点击【添加响应事件】
-* 设置粒子特效响应类型
-* 选择响应对象/编辑粒子出身颜色
-* 点击【保存】，即可完成粒子特效响应设置
-
-
-
-1. 点击【添加响应事件】
-2. 设置序列帧响应类型
-3. 选择响应对象
-4. 设置是否循环/播放次数/是否来回播放/播放完后是否隐藏
-5. 点击【保存】，即可完成序列帧响应设置
-
-备注：序列帧参数默认入场自动播放且播放1次
-
-
-
-1. 点击【添加响应事件】
-2. 设置龙骨响应类型
-3. 选择响应对象
-4. 选择动作名字/是否循环/播放速度
-5. 点击【保存】，即可完成序列帧响应设置
-
-备注：龙骨参数默认入场自动播放
-
-
-
-* 点击【添加响应事件】
-* 设置视频响应类型
-* 选择响应对象
-* 编辑循环次数
-* 点击【保存】，即可完成视频响应设置
-
-
-
-
-
-1. 点击【添加响应事件】
-2. 设置音效响应类型
-3. 设置是否暂停当前音效/是否循环
-4. 点击【保存】，即可完成音频响应设置
-
-备注：默认不暂停、不循环当前音效
+</div>

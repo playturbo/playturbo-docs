@@ -6,7 +6,7 @@ description: '#自由编辑器'
 
 入口：项目操作栏>>>预览
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 点击【预览】按钮，跳转进入预览页面。您可选择【完整预览】或【从当前场景开始预览】
 
@@ -20,7 +20,7 @@ description: '#自由编辑器'
 * 点击选择想要预览的设备，即可完成预览设备更换
 * 当前预览界面支持预览iPhoneX/iPad/iPhone6/redmi/vivo五种机型下的效果<mark style="color:red;">（同比例的适配是可以随机型的不同等比放大的，因此当前的五种机型基本能够覆盖到市面上大部分机型的预览效果）</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**若您想预览其他机型下的效果：**</mark>
 
@@ -28,7 +28,7 @@ description: '#自由编辑器'
 
 2）或点击【在浏览器中打开】，然后按F12键进入开发者模式，可在上方切换更多机型进行预览
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/62.bmp" alt=""><figcaption></figcaption></figure>
 
@@ -41,7 +41,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -54,7 +54,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -68,7 +68,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -86,6 +86,6 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
