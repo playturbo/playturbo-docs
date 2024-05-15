@@ -64,7 +64,7 @@ description: '#自由编辑器'
 
 当前响应事件包含 13 种类别：【跳转及埋点】【图层】【定时器】【事件】【其他】【音效】【背景音乐】【视频】【单个动画】【全部动画】【序列帧】【龙骨】【粒子特效】
 
-<table data-full-width="false"><thead><tr><th width="237">截图</th><th width="146">事件类别</th><th>类别细分</th></tr></thead><tbody><tr><td><img src="../../../../../../.gitbook/assets/image (781).png" alt=""></td><td><strong>跳转及埋点</strong></td><td><p>跳转指定场景</p><p>跳转到下一场景</p><p>跳转到应用商店</p><p>上报试玩结束</p><p>设置埋点</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (163).png" alt=""></td><td><strong>图层</strong></td><td><p>设置位置</p><p>设置缩放</p><p>设置旋转</p><p>设置宽度</p><p>设置高度</p><p>显示&#x26;隐藏图层</p><p>设置透明度</p><p>设置颜色</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (681).png" alt=""></td><td><strong>定时器</strong></td><td><p>执行延迟</p><p>取消执行延迟</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (224).png" alt=""></td><td><strong>事件</strong></td><td><p>启用事件</p><p>禁用事件</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (219).png" alt=""></td><td><strong>其他</strong></td><td><p>震屏效果</p><p>赋值</p><p>重新试玩</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (396).png" alt=""></td><td><strong>单个动画</strong></td><td><p>播放单个动画</p><p>暂停播放单个动画</p><p>继续播放单个动画</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (607).png" alt=""></td><td><strong>全部动画</strong></td><td><p>从头播放全部动画</p><p>继续播放全部动画</p><p>暂停播放全部动画</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (223).png" alt=""></td><td><strong>粒子</strong></td><td><p>显示并播放粒子特效</p><p>暂停播放粒子特效</p><p>清除粒子特效</p><p>粒子出生颜色</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (222).png" alt=""></td><td><strong>序列帧</strong></td><td><p>显示并播放序列帧</p><p>暂停序列帧</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><strong>龙骨</strong></td><td><p>播放龙骨</p><p>暂停龙骨</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (220).png" alt=""></td><td><strong>视频</strong></td><td><p>从头播放视频</p><p>继续播放视频</p><p>暂停播放视频</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (221).png" alt=""></td><td><strong>音效</strong></td><td><p>从头播放音效</p><p>继续播放音效</p><p>暂停播放音效</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (1702).png" alt="" data-size="original"></td><td><strong>背景音乐</strong></td><td><p>从头播放背景音乐</p><p>继续播放背景音乐</p><p>暂停播放背景音乐</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="237">截图</th><th width="146">事件类别</th><th>类别细分</th></tr></thead><tbody><tr><td><img src="../../../../../../.gitbook/assets/image (781).png" alt=""></td><td><strong>跳转及埋点</strong></td><td><p>跳转指定场景</p><p>跳转到下一场景</p><p>跳转到应用商店</p><p>上报试玩结束</p><p>设置埋点</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (163).png" alt=""></td><td><strong>图层</strong></td><td><p>设置位置</p><p>设置缩放</p><p>设置旋转</p><p>设置宽度</p><p>设置高度</p><p>显示&#x26;隐藏图层</p><p>设置透明度</p><p>设置颜色</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (681).png" alt=""></td><td><strong>定时器</strong></td><td><p>执行延迟</p><p>取消执行延迟</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (224).png" alt=""></td><td><strong>事件</strong></td><td><p>启用事件</p><p>禁用事件</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (219).png" alt=""></td><td><strong>其他</strong></td><td><p>震屏效果</p><p>赋值</p><p>重新试玩</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (396).png" alt=""></td><td><strong>单个动画</strong></td><td><p>播放单个动画</p><p>暂停播放单个动画</p><p>继续播放单个动画</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (607).png" alt=""></td><td><strong>全部动画</strong></td><td><p>从头播放全部动画</p><p>继续播放全部动画</p><p>暂停播放全部动画</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (223).png" alt=""></td><td><strong>粒子</strong></td><td><p>显示并播放粒子特效</p><p>暂停播放粒子特效</p><p>清除粒子特效</p><p>粒子出生颜色</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (222).png" alt=""></td><td><strong>序列帧</strong></td><td><p>显示并播放序列帧</p><p>暂停序列帧</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td><td><strong>龙骨</strong></td><td><p>播放龙骨</p><p>暂停龙骨</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (220).png" alt=""></td><td><strong>视频</strong></td><td><p>从头播放视频</p><p>继续播放视频</p><p>暂停播放视频</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (221).png" alt=""></td><td><strong>音效</strong></td><td><p>从头播放音效</p><p>继续播放音效</p><p>暂停播放音效</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (1702).png" alt="" data-size="original"></td><td><strong>背景音乐</strong></td><td><p>从头播放背景音乐</p><p>继续播放背景音乐</p><p>暂停播放背景音乐</p></td></tr></tbody></table>
 
 
 
@@ -184,7 +184,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -202,7 +202,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -220,7 +220,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -238,7 +238,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -246,7 +246,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -260,7 +260,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -268,7 +268,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -276,7 +276,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -288,7 +288,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -296,7 +296,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -304,7 +304,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -316,7 +316,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -326,7 +326,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -334,7 +334,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -346,7 +346,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -356,7 +356,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -364,7 +364,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
