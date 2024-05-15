@@ -86,7 +86,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 4）在本案例中，我们只需要一个普通场景，所以可以删除场景2
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -98,7 +98,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 2.依次在**擦除层（Mask）**中添加擦除飘带图片，在**底图层（Bottom image）**中添加角色序列帧图片，然后将资产调整到合适的位置大小
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3.然后我们根据实际需求，调整【擦除笔触设置】。在本案例中，我们选择使用60\*60大小的圆形笔触，不添加跟手图片
 
@@ -116,7 +116,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -136,11 +136,11 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 2）使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】，让画面展示出完整的擦除组件相关内容
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）同理，我们再切换到【全局场景】，选择LOGO和常驻下载按钮组，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
@@ -148,7 +148,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -168,13 +168,13 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 2）然后我们依次添加缩放动画和位移动画，作为角色擦除成功后的展示动画效果
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）动画参数设置如下：
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="556"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="556"><figcaption></figcaption></figure>
 
 </div>
 
@@ -182,19 +182,19 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 在图层区选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为指引动画，参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3.重玩按钮组**
 
 1）选中重玩按钮组\[group\_retry\_btn]，添加透明度动画，作为重玩按钮的渐显出场效果，然后添加缩放动画，引导用户点击重玩
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）动画参数设置如下：
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -202,13 +202,13 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 1）打开公共粒子库，选择添加爱心粒子，以增强露出美女图片后的画面氛围
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）然后将爱心粒子特效设为"隐藏"状态，在后续我们通过事件来控制粒子的显示和播放
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -293,7 +293,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

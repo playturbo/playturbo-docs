@@ -8,7 +8,7 @@ description: '#自由编辑器 #模板自由制作'
 
 ✨模板自由制作入口2：直接点击画布旁的【快捷布局】图标即可进入组件
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -20,7 +20,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -36,7 +36,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -46,7 +46,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -54,7 +54,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="504"><figcaption></figcaption></figure>
 
 </div>
 
@@ -65,7 +65,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="492"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="492"><figcaption></figcaption></figure>
 
 </div>
 
@@ -73,9 +73,11 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+
 
 #### <mark style="color:red;">1.2 设置网格</mark>
 
@@ -83,9 +85,11 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+
 
 #### <mark style="color:red;">1.3 设置道路</mark>
 
@@ -97,7 +101,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -107,7 +111,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -118,7 +122,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -132,7 +136,7 @@ description: '#自由编辑器 #模板自由制作'
 
 此环节是对停车布局中需要进行解谜的主体元素进行摆放设置
 
-#### <mark style="color:red;">**2.1 设置主元素**</mark>
+#### <mark style="color:red;">**2.1 编辑主元素**</mark>
 
 模板内已添加好多个主元素分类，同时显示每个主元素对应的「占坑数量」
 
@@ -140,7 +144,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -148,7 +152,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -160,7 +164,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -171,13 +175,13 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 
 
-#### <mark style="color:red;">**2.2 调整网格中的主元素**</mark>
+#### <mark style="color:red;">**2.2 编辑网格中的主元素**</mark>
 
 **1）添加主元素到网格**
 
@@ -199,7 +203,17 @@ description: '#自由编辑器 #模板自由制作'
 
 </div>
 
-* 布置后 仍能对主元素进行"旋转"与"上下左右"的移动
+**2）调整主元素参数**
+
+* 添加主元素到网格后，选中该元素，可对主元素进行"旋转"与"上下左右"的移动
+*   点击编辑按钮，可选择是否启用【倒退设置】。启用则支持主元素反方向移动，关闭则不支持
+
+    * 原地调头：元素调转180度再继续前进
+
+    ![](../../../.gitbook/assets/image.png)
+
+    * 退后：元素不调转，按箭头指示的反方向运动
+* 点击【应用到全部】，可将【倒退设置】应用到所有主元素上
 
 <div align="left">
 
@@ -209,24 +223,160 @@ description: '#自由编辑器 #模板自由制作'
 
 
 
+#### <mark style="color:red;">2.3 编辑运动方向</mark> (在停车解谜v1模板中，此功能暂不展示且不支持修改)
+
+**1）启用运动方向**
+
+可选择是否启用「运动方向」：若启用，元素的运动方向则支持以下5个方向可以选择；若不启用，则仅支持直行这1个方向
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+**2）设置箭头**
+
+* 点击"+"符号调起资产库窗口，可从个人资产库、公共资产库选择图片上传
+* 依次上传所需的各个方向的箭头图片 <mark style="color:red;">(其中直行箭头的默认方向为"向上")</mark>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 点击替换按钮，可从个人资产库、公共资产库选择图片替换
+* 点击设置按钮，可对箭头图片进行裁切、重置、调整缩放比例的设置(缩放比例不支持拆分横竖屏设置)
+* 支持将当前箭头的外观参数【应用到所有箭头】
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 支持一键"显示/隐藏"所有箭头
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### <mark style="color:red;">2.4 设置障碍类</mark> (在停车解谜v1模板中，此功能暂不展示且不支持修改)
+
+**1）启用「设置障碍类」**
+
+可选择是否启用：若启用，可将部分网格设置为障碍，主元素运动时会被障碍阻挡
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+**2）设置障碍类**
+
+* 添加障碍类：启用后，点击编组按钮，新建障碍类分组
+* 输入分类名称及该分类下的障碍物所占据的网格数量
+* 点击「添加自定义元素类型」，可创建多个相同或不同网格数的障碍类分组
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 替换/复制/设置外观/删除障碍：操作方式同主元素一致
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 在画布中添加/编辑/删除障碍：操作方式同主元素一致
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+完成「布局元素」的设置，我们点击【下一步】，进行「出口」的设置
 
 
 
 
-3.元素的运动方向设置（需模版支持运动方向。当前停车解谜v1模板暂不支持该功能。）：点击网格内的元素，点击「编辑」按钮，即可编辑元素的运动方向。需为该元素选择一个运动方向。如果勾选了「倒退设置」，则运动时为反方向运动，有两种倒退方式：原地调头再前进 和 后退
 
-a.原地调头：则元素调转180度再继续前进。
+### 3.设置出口
 
-b.退后：元素不调转180度，按箭头指示的反方向运动。
+此环节是将停车布局中的某些网格设置为「出口」，主元素到达出口后将继续移动移出画布
 
-c.应用到全部按钮：将倒退设置应用到所有的元素上。
+#### <mark style="color:red;">3.1 设置出口类型</mark>
 
-4.运动方向设置：首先需模版支持「运动方向」配置，上传所需的各个方向箭头图片。（其中直行的默认方向为向上）。停车解谜v1模板暂不支持该功能。
+当前，存在两种类型的「出口」，可任选一种进行设置
 
-5.「障碍类」的设置，首先需模版支持「障碍类」（停车解谜v1模板暂不支持该功能的设置）：将部分网格设置为障碍，主体运动时会被障碍阻挡。
+* 图片：将选择的图片添加到网格中，最终出口将展示图片
+* 区域：将选择的区域添加到网格中，区域所在的位置即是出口（为了方便调整，区域在编辑时以半透明状态展示，但在实际试玩中不会展示也不会改变网格样式）
 
-a.首先勾选「设置障碍类」，并添加分组、命名
+<div align="left">
 
-b.在障碍类中添加障碍资源，并设置占坑数量
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-c.在画布中添加障碍，添加交互同主元素
+</div>
+
+
+
+#### <mark style="color:red;">3.2 编辑出口</mark>
+
+* 替换/删除"图片类出口"：操作方式同主元素一致
+* 调整"区域类出口"的预览颜色：点击调色盘按钮，选择颜色（仅作为制作时的预览样式）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="266"><figcaption></figcaption></figure>
+
+</div>
+
+* 在画布中添加/编辑/删除出口：操作方式同主元素一致
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="439"><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### <mark style="color:red;">3.3 设置出口方向</mark>
+
+「出口方向」，代表主元素运动到出口时，之后的运动方向。支持两种方向选择：
+
+* 任意朝向：元素运动到出口时，继续按原方向移动出画布
+* 固定朝向：元素运动到出口时，改变方向，按出口指定方向移动出画布
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### <mark style="color:red;">3.4 设置对应元素</mark>
+
+**1）一组出口对应一种或多种主元素，对应关系在「对应元素」中进行设置**
+
+以模板停车解谜v1为例，对应元素\[target\_car2]可以在红色区域出口驶出
+
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+**2）对应元素支持多选**
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+以上三部分的内容全部调整完成后，点击【完成】，快捷布局即生效
