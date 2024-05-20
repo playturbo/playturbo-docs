@@ -6,7 +6,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 ✨模板自由制作入口：作品预览区>>>设置画线线条 或 图层区>>>Draw Lines Component
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ✨空白制作入口：玩法模板>>>组件库>>>自由画线组件
 

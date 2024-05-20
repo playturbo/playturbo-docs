@@ -99,7 +99,7 @@
       * [连线组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/lian-xian-zu-jian.md)
       * [自由画线组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/zi-you-hua-xian-zu-jian.md)
       * [擦除组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ca-chu-zu-jian.md)
-      * [停车布局组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ting-che-bu-ju-zu-jian.md)
+      * [停车解密布局](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ting-che-jie-mi-bu-ju.md)
   * [自由编辑器-常见问题答疑中心](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-chang-jian-wen-ti-da-yi-zhong-xin/README.md)
     * [常见问题-资产问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-chang-jian-wen-ti-da-yi-zhong-xin/chang-jian-wen-ti-zi-chan-wen-ti.md)
     * [常见问题-动画问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-chang-jian-wen-ti-da-yi-zhong-xin/chang-jian-wen-ti-dong-hua-wen-ti.md)
