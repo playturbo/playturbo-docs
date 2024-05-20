@@ -2,17 +2,21 @@
 
 ## <mark style="color:blue;">一、页面整体介绍</mark>
 
-* 数据总览页面，提供广告账号的总体投放数据分析，您可以在这个页面，看到所有广告账号的投放情况
+* 提供广告账号的总体投放数据分析，您可以在这个页面，看到所有广告账号的投放情况
 * 该页面同时支持分广告平台、素材类型等维度，对投放数据做细分，便于您细化分析数据
 * 当前支持查看Mintegral & Unity两个平台的数据
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ## <mark style="color:blue;">二、分模块介绍</mark>
 
-数据总览页面包含三个模块：近7日数据、对比分析、详细数据
+【投放数据总览】页面包含三个模块：近7日数据、对比分析、详细数据
 
 ### 1.近7日数据
 
@@ -26,11 +30,11 @@
 
 #### 2）渠道与广告账号选择
 
-可以选择「Mintegral」、「Unity」下的若干个广告账号进行数据展示，也可以选择「汇总」，展示所有广告平台的所有账号数据
+可以选择「Mintegral」、「Unity」下的若干个广告账号进行数据展示；也可以选择「汇总」，展示所有广告平台的所有账号数据
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1705).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,15 +46,15 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1706).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-若选择的渠道为Mintegral，还将额外展示两个指标：曝光素材数 与 起量素材数
+若选择的渠道为「Mintegral」，还将额外展示两个指标：曝光素材数 与 起量素材数
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1707).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -59,6 +63,12 @@
 ### 2.对比分析
 
 以柱状图或折线图的数据，支持对不同维度的素材数据进行展示
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1708).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 #### 1）支持的图表形式
 
