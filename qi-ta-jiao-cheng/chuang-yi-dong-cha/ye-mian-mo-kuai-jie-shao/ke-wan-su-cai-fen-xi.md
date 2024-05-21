@@ -8,7 +8,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -31,23 +31,25 @@
 
 需先选择广告平台，可选择「汇总」或其他单个平台
 
-#### 1）投放数据
+#### 1.1 投放数据
 
 展示数据包含：日均花费、日均展示数、日均转化数、展示转化率与转化成本及其环比数据
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### 2）可玩交互数据
+
+
+#### 1.2 可玩交互数据
 
 可玩交互数据包含：首次交互率、试玩结束率、跳转率、首次交互时长、试玩时长及其环比数据
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -55,7 +57,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -63,59 +65,38 @@
 
 ### 2.整体/单个产品素材情况
 
-#### 1）支持的图表形式
+#### 2.1 整体素材情况
 
-支持**柱状图**和**折线图**两种图表形式，通过按钮切换
+1）分为「素材来源对比」和「素材转化情况」对比两张表
 
-* 柱状图的横轴为选择的维度，纵轴为选择的数据指标
-* 折线图的横轴为时间，纵轴为选择的数据指标，根据选择的维度，分成多条折线
+* 「素材来源对比」的维度为「素材来源」，分为Playturbo换肤、Playturbo自由编辑、MWS定制、广告平台上传四类素材
+* 「素材转化情况」的维度，在「汇总」页面为「创意」维度、在单个渠道页面为「广告素材」维度
 
-#### 2）**数据筛选**
+2）指标可自定义
 
-数据筛选，可对符合条件的素材数据进行筛选。可选筛选条件包含：素材类型、素材来源、可玩模板、项目名称、投放产品、广告系列、广告组、投放地区
+3）可点击切换折线图或柱状图
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### **3 ）**维度选择
 
-可选维度包含：广告平台、素材来源、可玩模板、项目名称、投放产品、广告系列、广告组、投放地区、广告类型、广告版位、广告
 
-<div align="left">
+#### 2.2 单个产品素材情况
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="218"><figcaption></figcaption></figure>
+1）分为「素材转化情况」和「素材起量情况」两张表
 
-</div>
+2）可选择已绑定的广告账号下的「投放产品」，进行分析
 
-部分维度选择时会有限制，可以查看叹号内的说明
+3）两张表的维度，在「汇总」页面为「创意」维度、在单个渠道页面为「广告素材」维度
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="349"><figcaption></figcaption></figure>
-
-</div>
-
-#### 4）指标选择
-
-指标的选择包含投放指标和交互指标。
-
-* 支持选择的投放指标包含：花费/日均花费、展示数/日均展示数、点击数/日均点击数、转化数/日均转化数、点击率、转化率、展示转化率、平均转化成本、平均千次展示成本、平均点击成本
-* 支持的交互指标包含：有效交互次数、首次交互率、试玩结束率、重新试玩率、跳转率/试玩时跳转率/试玩结束跳转率、交互前/交互后/试玩时/试玩结束流失率、首次交互时长、试玩时长
-
-#### 5）折线图的额外配置
-
-折线图，支持将横轴的时间 按天、按自然周或按自然月汇总合并
-
-* 按天：当时间<30天时，可选按天
-* 按自然周：当14天<时间<90天时，可选按自然周汇总。自然周为每周的周一至周日
-* 按月：当时间>90天，可选按自然月汇总。自然月为每月的第一天到最后一天
+4）同样，指标可自定义。可点击切换折线图或柱状图
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="314"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -123,35 +104,63 @@
 
 ### 3.全部数据
 
-以表格的形式展示素材维度的详细数据
-
-#### 1）数据筛选
-
-筛选条件同「对比分析」
-
-#### 2）自定义列 —— 素材信息与指标选择
-
-在「自定义列」中可以同时选择需要展示的素材信息和数据指标。数据维度为素材维度。在右侧可以拖拽调整维度/指标的顺序。
-
-指标的选择包含投放指标和交互指标：
-
-* 支持选择的投放指标包含：花费/日均花费、展示数/日均展示数、点击数/日均点击数、转化数/日均转化数、点击率、转化率、展示转化率、平均转化成本、平均千次展示成本、平均点击成本
-* 支持的交互指标包含：有效交互次数、首次交互率、试玩结束率、重新试玩率、跳转率/试玩时跳转率/试玩结束跳转率、交互前/交互后/试玩时/试玩结束流失率、首次交互时长、试玩时长
+以表格的形式展示多维度的详细数据，维度、筛选、指标支持自定义配置
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
-#### 3）维度与数据指标
+#### 3.1 全部数据表格-自定义
 
-进行数据筛选和自定义列之后，在表格中展示数据。
+1）点击「自定义报表」按钮，打开弹窗进行表格定义
 
-可以操作「导出数据」，将会生成一份excel文件。
+2）支持的筛选项如图所示
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+3）可点击「自定义列」，定义数据维度和指标
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+4）在「自定义列」中，可以同时选择需要展示的素材信息和数据指标。数据维度为素材维度
+
+5）在右侧可以拖拽调整维度/指标的顺序
+
+6）指标的选择包含投放指标和交互指标
+
+* 支持的投放指标包含：花费/日均花费、展示数/日均展示数、点击数/日均点击数、转化数/日均转化数、点击率、转化率、展示转化率、平均转化成本、平均千次展示成本、平均点击成本
+* 支持的交互指标包含：有效交互次数、首次交互率、试玩结束率、重新试玩率、跳转率/试玩时跳转率/试玩结束跳转率、交互前/交互后/试玩时/试玩结束流失率、首次交互时长、试玩时长
+
+7）点击「确定」，展示详细数据
+
+**注：**不同的渠道支持的维度、指标均不相同。如「Mintegral」、「Unity」渠道页，支持的维度和指标会更丰富，如需进行更详细的分析，建议进入对应的渠道tab页面
+
+
+
+#### 3.2 详细数据对应的图
+
+详细数据有对应的图，进行更直观的展示。其维度和筛选与上方表格相同
+
+支持选择其中一个指标，并且支持柱状图和折线图的切换
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>

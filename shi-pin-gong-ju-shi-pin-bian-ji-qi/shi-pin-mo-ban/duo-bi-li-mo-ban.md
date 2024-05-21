@@ -63,7 +63,7 @@ description: '#视频模板 #多比例模板 #快速替换 #视频剪辑'
 
 1）进入快速替换项目页
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）添加需要替换的视频、图片、音频、文本素材（注:同一个坑位的多个文本，其字体、字号等参数相同）
 
@@ -105,7 +105,7 @@ description: '#视频模板 #多比例模板 #快速替换 #视频剪辑'
 
 功能详情可查看[duo-yu-yan-lie-bian.md](duo-yu-yan-lie-bian.md "mention")
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5）完成所有编辑，即可点击「导出」按钮，导出视频
 
