@@ -8,7 +8,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -54,7 +54,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1707).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -78,78 +78,64 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* 折线图的横轴为时间，纵轴为选择的数据指标，根据选择的维度，分成多条折线
+* 折线图的横轴为时间，纵轴为选择的数据指标。根据选择的维度，分成多条折线
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 #### 2）数据筛选
 
-数据筛选，可对符合条件的素材数据进行筛选。可选筛选条件包含：素材类型
+可从"素材类型"中选择，对符合条件的素材数据进行筛选
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1298).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1298).png" alt="" width="379"><figcaption></figcaption></figure>
 
 </div>
 
 #### 3）维度选择
 
-可选维度包含：广告平台、素材类型、广告版位、广告呈现类型
+可选维度包含：素材类型、广告平台
+
+\*广告平台：仅当最上方广告平台为"汇总"，且进行了"素材类型"的筛选时可选
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="321"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-维度限制：
+#### 4）数据图表
 
-1.广告平台：仅当最上方广告平台为汇总，且进行了素材类型的筛选时可选
-
-2.广告版位：仅当最上方广告平台为Mintegral，且进行了素材类型的筛选时可选
-
-3.广告呈现类型：仅当最上方广告平台为Mintegral，且进行了素材类型的筛选时可选
-
-#### 4）指标选择
-
-支持选择的指标包含：消耗、曝光数、点击数、安装数、点击率、安装率、曝光安装率、平均安装成本、平均千次曝光成本、平均点击成本
-
-#### 5）折线图的额外配置 <a href="#v19gv" id="v19gv"></a>
-
-折线图，支持将横轴的时间 按天、按自然周或按自然月汇总合并
-
-* 按天：当时间<30天时，可选按天
-* 按自然周：当14天<时间<90天时，可选按自然周汇总。自然周为每周的周一至周日
-* 按月：当时间>90天，可选按自然月汇总。自然月为每月的第一天到最后一天
+默认展示四张图表，分别为：展示数、点击率、展示转化率、转化成本
 
 
 
 ### 3.详细数据表格
 
-以表格的形式呈现上方「对比分析」的详细数据
+以表格的形式呈现详细数据
 
 #### 1）数据筛选
 
 无需进行数据筛选，筛选条件同上方的「对比分析」
 
-#### 2）维度与数据指标
+#### 2）表格数据
 
-维度选择同上方的「对比分析」。若选择为「折线图」，则会将数据以 「对比分析」选择的维度 \* 日期 进行聚合分组。
+表格内的维度固定，为素材类型
 
-表格内的数据指标固定，为消耗、曝光数、点击数、安装数、点击率、安装率、曝光安装率、平均安装成本、平均千次曝光成本、平均点击成本
+表格数据指标固定，为消耗、曝光数、点击数、安装数、点击率、安装率、曝光安装率、平均安装成本、平均千次曝光成本、平均点击成本
 
-可以操作「导出数据」，将会生成一份excel文件。
+点击「导出数据」，将会生成一份excel文件
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
