@@ -17,7 +17,7 @@
 
 * 素材选择：选择您想分析的素材
 * 旅程配置：将素材内的埋点，按照素材实际逻辑进行连接配置旅程
-* 数据筛选和展示：可筛选时间、广告平台、投放系统、广告类型、投放地区等，筛选后，数据将按您配置好的旅程展示出来
+* 数据筛选和展示：可针对"广告类型"及"投放地区"进行筛选，筛选后，数据将按您配置好的旅程展示出来
 
 <div align="left">
 
@@ -33,11 +33,17 @@ a. 在页面搜索框内输入项目关键词（产品名、版本名等），�
 
 \*可进一步筛选该项目下不同的「广告平台」和「操作系统」等维度的数据
 
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 b.在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，点击表格中的「分析」按钮，跳转到该页面，对选中的素材进行分析
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1714).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -107,11 +113,11 @@ _用户在实际的试玩过程中可能出现的旅程分支为 ：1-2-3或1-2-
 
 #### **3.1 数据筛选**
 
-可针对手机系统、广告类型、投放地区等不同维度进行筛选
+可针对"广告类型"及"投放地区"进行筛选
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="545"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1717).png" alt="" width="549"><figcaption></figcaption></figure>
 
 </div>
 

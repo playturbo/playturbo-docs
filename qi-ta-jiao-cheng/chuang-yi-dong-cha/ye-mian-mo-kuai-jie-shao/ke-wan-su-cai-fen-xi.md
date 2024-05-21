@@ -37,27 +37,19 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1711).png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-
 
 #### 1.2 可玩交互数据
 
-可玩交互数据包含：首次交互率、试玩结束率、跳转率、首次交互时长、试玩时长及其环比数据
+1）可玩交互数据包含：首次交互率、试玩结束率、跳转率、首次交互时长、试玩时长及其环比数据
+
+2）右侧有漏斗展示，漏斗的三级分别为：试玩展示、首次交互和试玩结束
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-右侧有漏斗展示，漏斗的三级分别为：试玩展示、首次交互和试玩结束
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1712).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -155,9 +147,9 @@
 
 #### 3.2 详细数据对应的图
 
-详细数据有对应的图，进行更直观的展示。其维度和筛选与上方表格相同
+1）详细数据有对应的图，进行更直观的展示。其维度和筛选与上方表格相同（仅当选择一个维度时，才展示图）
 
-支持选择其中一个指标，并且支持柱状图和折线图的切换
+2）支持选择其中一个指标，并且支持柱状图和折线图的切换
 
 <div align="left">
 

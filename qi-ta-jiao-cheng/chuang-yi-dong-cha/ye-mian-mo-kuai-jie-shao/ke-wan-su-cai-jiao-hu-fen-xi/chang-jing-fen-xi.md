@@ -15,6 +15,12 @@
 * 场景分布：将每个场景的到达、跳转、流失情况以折线图的形式展示
 * 详细数据：将每个场景的到达、跳转、流失情况以表格的形式展示
 
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1713).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### 1.素材选择
 
 进行场景分析前请先选择要分析的素材。选择素材有两种方式（同用户旅程分析）：
@@ -23,11 +29,17 @@ a. 在页面搜索框内输入项目关键词（产品名、版本名等），�
 
 \*可进一步筛选该项目下不同的「广告平台」和「操作系统」等维度的数据
 
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1715).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 b.在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，点击表格中的「分析」按钮，跳转到该页面，对选中的素材进行分析
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1714).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -79,7 +91,7 @@ b.在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，点击表格
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1716).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

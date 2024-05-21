@@ -68,35 +68,7 @@
 
 以柱状图或折线图的数据，支持对不同维度的素材数据进行展示
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1708).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-#### 2.1 支持的图表形式
-
-支持**柱状图**和**折线图**两种图表形式，通过按钮切换
-
-* 柱状图的横轴为选择的维度，纵轴为选择的数据指标
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-* 折线图的横轴为时间，纵轴为选择的数据指标。根据选择的维度，分成多条折线
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-
-
-#### 2.2 数据筛选
+#### 2.1 数据筛选
 
 可从"素材类型"中选择，对符合条件的素材数据进行筛选
 
@@ -106,9 +78,7 @@
 
 </div>
 
-
-
-#### 2.3 维度选择
+#### 2.2 维度选择
 
 可选维度包含：素材类型、广告平台
 
@@ -120,15 +90,41 @@
 
 </div>
 
+#### 2.3 数据图表
+
+默认展示四张图表，分别为：转化数、点击率、展示转化率、平均转化成本
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1708).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 
-#### 2.4 数据图表
 
-默认展示四张图表，分别为：展示数、点击率、展示转化率、转化成本
+#### 2.4 切换图表形式
+
+支持**柱状图**和**折线图**两种图表形式，通过按钮切换
+
+* 柱状图的横轴为选择的维度，纵轴为选择的数据指标
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1709).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+* 折线图的横轴为时间，纵轴为选择的数据指标。根据选择的维度，分成多条折线
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1710).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 
 
-### 3.详细数据表格
+### 3.详细数据
 
 以表格的形式呈现详细数据
 
