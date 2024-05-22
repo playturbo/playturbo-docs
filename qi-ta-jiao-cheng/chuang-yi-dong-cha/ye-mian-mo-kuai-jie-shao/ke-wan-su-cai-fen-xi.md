@@ -12,7 +12,7 @@
 
 </div>
 
-<mark style="color:red;">**\*素材数据范围：**</mark>
+<mark style="color:red;">**\*数据范围：**</mark>
 
 * 「Mintegral」、「Unity」渠道：展示「已授权」广告账号下的素材数据，包括投放和交互数据
 * 「Ironsource」、「Applovin」、「Chartboost」渠道：展示「Playturbo制作的素材」数据，仅交互数据，不包括投放数据（待后续支持）
