@@ -14,8 +14,16 @@
 
 <mark style="color:red;">**\*素材数据范围：**</mark>
 
-* 「Mintegral」、「Unity」渠道：展示已授权广告账号下的素材数据，包括投放和交互数据
-* 「Ironsource」、「Applovin」、「Chartboost」渠道：展示Playturbo产出的可玩素材数据，仅交互数据，不包括投放数据（待后续支持）
+* 「Mintegral」、「Unity」渠道：展示「已授权」广告账号下的素材数据，包括投放和交互数据
+* 「Ironsource」、「Applovin」、「Chartboost」渠道：展示「Playturbo制作的素材」数据，仅交互数据，不包括投放数据（待后续支持）
+
+授权相关内容可查阅 [guang-gao-zhang-hu-shou-quan-yu-su-cai-tui-song.md](../../zuo-pin-tou-fang-xiang-guan-wen-dang/guang-gao-zhang-hu-shou-quan-yu-su-cai-tui-song.md "mention")
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="554"><figcaption></figcaption></figure>
+
+</div>
 
 
 
@@ -70,7 +78,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -88,7 +96,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -156,3 +164,5 @@
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+指标相关内容可查阅 [zhi-biao-shuo-ming.md](../chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/zhi-biao-shuo-ming.md "mention")

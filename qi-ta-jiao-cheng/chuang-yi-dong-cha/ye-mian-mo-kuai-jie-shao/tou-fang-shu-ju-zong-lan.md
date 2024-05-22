@@ -8,7 +8,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -26,7 +26,15 @@
 
 1）该页面的每个账号，数据是否展示，由广告账号的「授权状态」及「数据授权范围」控制
 
-2）在「授权管理」中，状态为「已授权」且数据范围设置为「全部素材」的广告账号，将会展示该账号广告维度的数据。设置为「仅PT产出素材」或「不拉取数据」的账号，将不展示数据
+2）在「授权管理」中，状态为「已授权」且数据范围设置为「全部素材」的广告账号，将会展示该账号广告维度的数据。设置为「Playturbo制作的素材」或「不拉取」的账号，将不展示数据
+
+授权相关内容可查阅 [guang-gao-zhang-hu-shou-quan-yu-su-cai-tui-song.md](../../zuo-pin-tou-fang-xiang-guan-wen-dang/guang-gao-zhang-hu-shou-quan-yu-su-cai-tui-song.md "mention")
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="554"><figcaption></figcaption></figure>
+
+</div>
 
 
 
@@ -86,7 +94,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -145,3 +153,5 @@
 <figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+指标相关内容可查阅 [zhi-biao-shuo-ming.md](../chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/zhi-biao-shuo-ming.md "mention")

@@ -143,4 +143,4 @@ b.在[「可玩素材分析」](../ke-wan-su-cai-fen-xi.md)页面，点击表格
 
 </div>
 
-场景分析指标可查阅 [zhi-biao-shuo-ming.md](../../chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/zhi-biao-shuo-ming.md "mention")
+指标相关内容可查阅 [zhi-biao-shuo-ming.md](../../chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/zhi-biao-shuo-ming.md "mention")
