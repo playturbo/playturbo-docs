@@ -12,23 +12,15 @@ description: '#换肤编辑器'
 
 ### STEP2 选择制作方式
 
-进入定制可玩广告页面后，需要我们选择本次制作的方式：
+进入定制可玩广告页面后，需要我们选择本次制作的方式【普通制作】
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/截屏2023-06-28 下午5.10.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1722).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-* **普通制作**&#x20;
 
-用户根据自己的需要创建单个版本，然后对需要编辑的元素及参数进行调节，参数包括图片、文字、音频、视频、颜色、玩法等
-
-* **多组合制作** [jiang-jie-bu-chong-duo-zu-he-zhi-zuo-fang-shi.md](../huan-fu-bian-ji-qi-shi-yong-zhi-nan/jiang-jie-bu-chong-duo-zu-he-zhi-zuo-fang-shi.md "mention")
-
-一种批量制作方式，可更高效的产出多个版本进行ABtest。用户可以对所需调整的位置添加备选，一次性下载多个元素排列组合后的全部版本（最多组合数为27个）
-
-###
 
 ### STEP3 选择产品和项目
 
@@ -36,9 +28,13 @@ description: '#换肤编辑器'
 
 <figure><img src="../../.gitbook/assets/FF9300A1-230B-4256-A88F-BF99BAAA6A01.png" alt=""><figcaption></figcaption></figure>
 
+
+
 ### STEP4 新建版本
 
 点击新建版本按钮>>>填写版本名称并确认
+
+您可根据自己的需要，对各个元素及参数进行调节，包括图片、文字、音频、视频、颜色、玩法等
 
 <div align="left">
 
