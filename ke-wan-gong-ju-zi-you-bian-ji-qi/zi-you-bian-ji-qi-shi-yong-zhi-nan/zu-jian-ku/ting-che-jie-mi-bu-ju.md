@@ -10,6 +10,8 @@ description: '#自由编辑器 #模板自由制作'
 
 <figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
+<mark style="color:red;">\*注意：当前「停车解密布局」仅支持纯</mark><mark style="color:red;">**俯视视角**</mark><mark style="color:red;">的停车解密类玩法</mark>
+
 
 
 ## <mark style="color:blue;">一、快捷布局通俗介绍</mark>
