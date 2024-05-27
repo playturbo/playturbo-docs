@@ -1,12 +1,12 @@
 ---
-description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
+description: '#自由编辑器 #模板自由制作 #棋盘布局 #初级难度'
 ---
 
-# 棋盘组件-模板自由制作
+# 棋盘布局-模板自由制作
 
 ## <mark style="color:blue;">一、对比展示</mark>
 
-我们先来看一下使用**棋盘组件**进行模板自由制作前后的对比：[迭代前](http://tinyurl.com/dft2378n) VS [迭代后](http://tinyurl.com/yzrj25yt)
+我们先来看一下使用**棋盘布局**进行模板自由制作前后的对比：[迭代前](http://tinyurl.com/dft2378n) VS [迭代后](http://tinyurl.com/yzrj25yt)
 
 <div align="left">
 
@@ -18,7 +18,7 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 ## <mark style="color:blue;">二、迭代内容概括</mark>
 
-本案例使用模板【方正点消】进行迭代，主要展示<mark style="color:red;">如何通过棋盘组件功能调整</mark><mark style="color:red;">**消除玩法**</mark><mark style="color:red;">模板的棋盘与元素布局</mark>
+本案例使用模板【方正点消】进行迭代，主要展示<mark style="color:red;">如何通过棋盘布局功能调整</mark><mark style="color:red;">**消除玩法**</mark><mark style="color:red;">模板的棋盘与元素布局</mark>
 
 迭代内容主要包含以下步骤：
 
@@ -50,7 +50,7 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 调整完竖屏，需切换至横屏对排版进行微调
 
-关于棋盘组件的功能介绍可查看[wan-fa-mo-ban.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")
+关于"棋盘布局"的功能介绍可查阅 [wan-fa-mo-ban.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")
 
 <figure><img src="../../../.gitbook/assets/image (1327).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,7 +60,7 @@ description: '#自由编辑器 #模板自由制作 #棋盘组件 #初级难度'
 
 ### **1.编辑网格**
 
-点击【快捷排版】，进入棋盘组件
+点击【快捷排版】，进入棋盘布局
 
 <figure><img src="../../../.gitbook/assets/image (1305).png" alt=""><figcaption></figcaption></figure>
 

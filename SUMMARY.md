@@ -194,7 +194,7 @@
         * [2D playable《三选一多场景》教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/2d-playable-san-xuan-yi-duo-chang-jing-jiao-cheng.md)
         * [交互视频《模拟移动》教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/tong-yong-zhi-zuo-an-li/chu-ji-jiao-xue-kong-bai-zhi-zuo-jiao-cheng/jiao-hu-shi-pin-mo-ni-yi-dong-jiao-cheng.md)
     * [消除玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/README.md)
-      * [棋盘组件-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-zu-jian-mo-ban-zi-you-zhi-zuo.md)
+      * [棋盘布局-模板自由制作](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/qi-pan-bu-ju-mo-ban-zi-you-zhi-zuo.md)
       * [《方块三消》空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/fang-kuai-san-xiao-kong-bai-zhi-zuo-jiao-cheng.md)
       * [《货架三消》空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-wan-fa-an-li/huo-jia-san-xiao-kong-bai-zhi-zuo-jiao-cheng.md)
     * [画线玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/README.md)
