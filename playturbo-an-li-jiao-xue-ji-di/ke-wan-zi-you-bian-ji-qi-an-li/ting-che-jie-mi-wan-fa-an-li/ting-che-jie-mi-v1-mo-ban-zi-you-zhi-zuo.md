@@ -11,6 +11,7 @@ description: '#自由编辑器 #模板自由制作'
 | 迭代前                                                                        | 迭代后                                                                      |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | <img src="../../../.gitbook/assets/停车1.2.gif" alt="" data-size="original"> | <img src="../../../.gitbook/assets/停车2.gif" alt="" data-size="original"> |
+| [点击试玩](https://tinyurl.com/mr2pejc3)                                       | [点击试玩](https://tinyurl.com/5brmtez7)                                     |
 
 
 
@@ -19,6 +20,8 @@ description: '#自由编辑器 #模板自由制作'
 模板迭代后的改动，主要在以下几方面：
 
 <mark style="color:red;">**1.重点：调整「停车解密布局」**</mark><mark style="color:red;">（包含「背景及道路」、「布局元素」、「出口」三部分内容）</mark>
+
+\*_【快捷布局】功能介绍可查阅：_ [ting-che-jie-mi-bu-ju.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ting-che-jie-mi-bu-ju.md "mention")
 
 2.替换产品信息及其他资产
 
@@ -46,6 +49,8 @@ description: '#自由编辑器 #模板自由制作'
 
 填写项目名称后，点击"确定"进入项目编辑页
 
+\*创建项目后，建议您先将准备好的所有资产上传进【项目资产】内，方便后续替换使用
+
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (1725).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -65,8 +70,6 @@ description: '#自由编辑器 #模板自由制作'
 
 
 首先，点击画布右上方的图标，进入【快捷布局】，即停车解密布局
-
-_【快捷布局】功能介绍可查阅：_ [ting-che-jie-mi-bu-ju.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ting-che-jie-mi-bu-ju.md "mention")
 
 <div align="left">
 
@@ -199,8 +202,6 @@ _【快捷布局】功能介绍可查阅：_ [ting-che-jie-mi-bu-ju.md](../../..
 
 
 ### 3.替换资产
-
-在替换资产前，建议您先将准备好的所有资产上传进【项目资产】内，方便后续替换使用
 
 #### 3.1 全局设置
 
