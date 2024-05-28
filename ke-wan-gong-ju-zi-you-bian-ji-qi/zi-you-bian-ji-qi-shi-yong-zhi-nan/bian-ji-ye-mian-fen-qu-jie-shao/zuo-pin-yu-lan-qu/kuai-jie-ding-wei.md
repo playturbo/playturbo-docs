@@ -13,8 +13,8 @@ description: '#自由编辑器'
 ## <mark style="color:blue;">一、快捷定位简介</mark>
 
 * 此功能基于"自定义埋点"而设置
-* 自定义埋点，即当您手动添加"设置埋点"这一响应事件时，就代表您添加了自定义埋点。可根据创意情况自行添加若干个自定义埋点（详细内容可查阅[mai-dian-shuo-ming.md](../../../../qi-ta-jiao-cheng/chuang-yi-dong-cha/chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/mai-dian-shuo-ming.md "mention")）
-* "快捷定位"就是展示并定位当前项目内所有自定义埋点的功能
+* 自定义埋点，即<mark style="color:red;">当您手动添加了"设置埋点"这一响应事件时，就代表您添加了自定义埋点</mark>。可根据创意情况自行添加若干个自定义埋点（相关阅读： [#id-1.-tiao-zhuan-ji-mai-dian](../can-shu-she-zhi-qu/can-shu-lei-xing-jie-shao/shi-jian/xiang-ying-shi-jian.md#id-1.-tiao-zhuan-ji-mai-dian "mention")  [mai-dian-shuo-ming.md](../../../../qi-ta-jiao-cheng/chuang-yi-dong-cha/chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/mai-dian-shuo-ming.md "mention")）
+* <mark style="color:red;">"快捷定位"就是展示并定位当前项目内所有自定义埋点的功能</mark>
 
 <div align="left">
 

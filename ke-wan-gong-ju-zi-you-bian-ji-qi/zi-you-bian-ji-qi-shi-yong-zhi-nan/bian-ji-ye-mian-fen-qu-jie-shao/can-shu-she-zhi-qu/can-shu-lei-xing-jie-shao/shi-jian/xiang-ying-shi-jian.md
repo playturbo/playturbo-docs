@@ -86,11 +86,13 @@ description: '#自由编辑器'
 
 </div>
 
-**5）设置埋点：**即设置自定义埋点，需选择埋点id并编辑埋点名称
+**5）设置埋点（添加自定义埋点）：**需选择埋点id并编辑埋点名称
+
+_如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋点" - 选择埋点id为1 - 编辑埋点名称"玩家按下下载按钮"。这样，一个自定义埋点就添加成功了_
 
 <mark style="color:red;">注意：埋点id设置上限为15个，但同一埋点id可设置多个埋点事件 且这些事件的埋点名称是统一的，修改其中一个会联动修改其他相同id的名称</mark>&#x20;
 
-相关介绍:  [mai-dian-shuo-ming.md](../../../../../../qi-ta-jiao-cheng/chuang-yi-dong-cha/chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/mai-dian-shuo-ming.md "mention") [kuai-jie-ding-wei.md](../../../zuo-pin-yu-lan-qu/kuai-jie-ding-wei.md "mention")
+相关阅读:  [kuai-jie-ding-wei.md](../../../zuo-pin-yu-lan-qu/kuai-jie-ding-wei.md "mention") [mai-dian-shuo-ming.md](../../../../../../qi-ta-jiao-cheng/chuang-yi-dong-cha/chuang-yi-dong-cha-bi-xiu-ji-chu-zhi-shi/mai-dian-shuo-ming.md "mention")
 
 <div align="left">
 
