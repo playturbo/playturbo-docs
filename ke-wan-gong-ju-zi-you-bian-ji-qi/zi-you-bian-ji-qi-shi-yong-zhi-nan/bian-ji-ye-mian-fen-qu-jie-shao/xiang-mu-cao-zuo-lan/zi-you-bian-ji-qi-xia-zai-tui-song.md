@@ -40,6 +40,9 @@ description: '#自由编辑器'
 
 3）点击【获取链接】或【下载】按钮，即可完成该版本作品的下载
 
+* 获取链接：下载汇总各个渠道包体链接的excel表格
+* 下载：下载各个渠道包体的压缩包
+
 <figure><img src="../../../../.gitbook/assets/image (1771).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**注意：**</mark>当某渠道的包体超出包体大小限制时，该包体不能 获取链接/下载，需对包体大小进行压缩
