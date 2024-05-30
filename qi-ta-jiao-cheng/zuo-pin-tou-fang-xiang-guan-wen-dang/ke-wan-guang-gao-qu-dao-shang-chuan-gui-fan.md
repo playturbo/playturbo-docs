@@ -199,3 +199,25 @@ en：英语  ja：日语  Ko：韩语  Zh-Hant：繁体中文
 ### 7.Vungle
 
 为了测试您的 Vungle 版本，请按照 Vungle[此处](https://support.vungle.com/hc/en-us/articles/4908908675355-Test-Your-Playable-Asset-With-Our-Creative-Verifier)提供的这些步骤进行操作。
+
+
+
+### 8.Google&#x20;
+
+1）请先勾选【Select for App Campaigns】，然后点击【UPLOAD】上传正确的压缩包
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (1787).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）第一个错误提示：是zip文件名长度，可以随便修改，不用管
+
+3）第二个错误提示：技术人员已排查过，文件没有问题，疑似检测工具自身的问题
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/89d165033779fffe24b9e9e54c0b7291.png" alt=""><figcaption></figcaption></figure>
+
+</div>
