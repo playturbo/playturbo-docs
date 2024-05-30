@@ -18,6 +18,6 @@ description: '#换肤编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/截屏2023-05-11 下午12.06.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1775).png" alt=""><figcaption></figcaption></figure>
 
 </div>
