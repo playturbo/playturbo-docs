@@ -57,7 +57,7 @@ description: '#换肤编辑器'
 
 
 
-## <mark style="color:blue;">二、包体压缩</mark>
+## <mark style="color:blue;">三、包体压缩</mark>
 
 当某渠道的包体超出包体大小限制时，可返回编辑页面并在外部对资产压缩后进行替换 **或**  直接在【作品下载】弹窗内进行包体压缩（压缩方式默认为智能压缩）
 
@@ -89,7 +89,7 @@ description: '#换肤编辑器'
 
 
 
-## <mark style="color:blue;">三、推送作品到Mintegral平台</mark>
+## <mark style="color:blue;">四、推送作品到Mintegral平台</mark>
 
 <mark style="color:red;">**注意：**</mark>Mintegral渠道的文件无需下载，下载仅可用于内部存档，无法上传投放。建议直接使用【推送】功能，一键推送至Mintegral广告主自助投放平台进行内审并投放
 
@@ -136,7 +136,7 @@ description: '#换肤编辑器'
 
 
 
-## <mark style="color:blue;">四、可玩素材埋点管理</mark>
+## <mark style="color:blue;">五、可玩素材埋点管理</mark>
 
 * 在【作品下载】弹窗内，点击【可玩素材埋点管理】，跳转到对应界面
 
@@ -160,6 +160,6 @@ description: '#换肤编辑器'
 
 
 
-## <mark style="color:blue;">五、可玩广告渠道上传规范</mark>
+## <mark style="color:blue;">六、可玩广告渠道上传规范</mark>
 
 [ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md](../../../../qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md "mention")
