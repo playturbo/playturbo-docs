@@ -2,7 +2,7 @@
 description: '#自由编辑器'
 ---
 
-# 下载&推送
+# 自由编辑器 - 下载&推送
 
 入口1：项目编辑界面>>>下载
 
@@ -88,11 +88,19 @@ description: '#自由编辑器'
 
 <mark style="color:red;">**注意：**</mark>Mintegral渠道的文件无需下载，下载仅可用于内部存档，无法上传投放。建议直接使用【推送】功能，一键推送至Mintegral广告主自助投放平台进行内审并投放
 
-* 在【作品下载】弹窗内勾选Mintegral渠道，点击【推送】
+推送入口1：在【作品下载】弹窗内勾选Mintegral渠道后，点击【推送】
 
 <div align="left">
 
 <figure><img src="../../../../.gitbook/assets/image (1772).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+推送入口2：在预览界面，点击右侧【推送】按钮
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1786).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

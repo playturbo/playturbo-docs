@@ -34,7 +34,7 @@ description: '#定制服务'
 
 ## 五、推送下载
 
-推送下载相关内容请跳转至 [tui-song-xia-zai-gong-neng.md](../../ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/3.-xiang-mu-cao-zuo-lan/tui-song-xia-zai-gong-neng.md "mention") [ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md](../zuo-pin-tou-fang-xiang-guan-wen-dang/ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md "mention")
+推送下载相关内容请跳转至 [huan-fu-bian-ji-qi-xia-zai-tui-song.md](../../ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/3.-xiang-mu-cao-zuo-lan/huan-fu-bian-ji-qi-xia-zai-tui-song.md "mention") [ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md](../zuo-pin-tou-fang-xiang-guan-wen-dang/ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md "mention")
 
 
 

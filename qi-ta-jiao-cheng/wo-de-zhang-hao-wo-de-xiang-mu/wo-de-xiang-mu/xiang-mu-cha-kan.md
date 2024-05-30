@@ -15,7 +15,7 @@
 
 * 项目名称：点击可直接进入该项目的编辑页面
 * 预览：点击可对该项目进行预览
-* 下载：点击可进行作品的下载 [xia-zai.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/xia-zai.md "mention")
+* 下载：点击可进行作品的下载 [zi-you-bian-ji-qi-xia-zai-tui-song.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/zi-you-bian-ji-qi-xia-zai-tui-song.md "mention")
 * 复制：点击后填写项目名称、适配方向，而后生成一个内容相同的可玩项目
 * 修改项目名称：点击后在弹窗内可直接修改项目名称
 * 删除：点击需二次确认，可删除项目

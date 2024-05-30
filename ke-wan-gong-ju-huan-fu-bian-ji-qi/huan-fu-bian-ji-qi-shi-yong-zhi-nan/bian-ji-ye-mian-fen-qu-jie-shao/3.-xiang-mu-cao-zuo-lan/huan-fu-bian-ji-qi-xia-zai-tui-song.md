@@ -2,14 +2,37 @@
 description: '#换肤编辑器'
 ---
 
-# 推送下载功能
+# 换肤编辑器 -下载&推送
 
-制作完成后的项目，可以推送到Mintegral，也可以进行其他渠道的下载：
+入口1：项目编辑界面>>>下载
 
-* Mintegral渠道，你可以直接使用推送功能，将素材推送到投放平台
-* 其他渠道，你可以使用下载功能，下载符合渠道规范的素材
+<div align="left">
 
-## 一、推送Mintegral渠道 <a href="#ipykq" id="ipykq"></a>
+<figure><img src="../../../../.gitbook/assets/image (1783).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+入口2：项目列表界面>>>下载按钮
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1784).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+## <mark style="color:blue;">一、选择版本</mark>
+
+当您的作品编辑完成后，点击【下载】按钮，跳转到预览界面。在该页面可查看并确认当前版本的素材内容，并进一步操作 下载 或 推送
+
+<figure><img src="../../../../.gitbook/assets/image (1785).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+## <mark style="color:blue;">二、推送Mintegral渠道</mark> <a href="#ipykq" id="ipykq"></a>
 
 ### STEP1 点击推送
 

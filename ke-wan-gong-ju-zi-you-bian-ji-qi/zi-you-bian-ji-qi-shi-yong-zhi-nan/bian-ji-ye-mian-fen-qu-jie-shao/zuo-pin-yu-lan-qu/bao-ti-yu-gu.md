@@ -12,7 +12,7 @@ description: '#自由编辑器'
 
 ## <mark style="color:blue;">一、包体预估说明</mark>
 
-* 在将素材投放至各个渠道时，不同的渠道对素材包体大小有不同的要求（详细内容可查阅[xia-zai.md](../xiang-mu-cao-zuo-lan/xia-zai.md "mention")）
+* 在将素材投放至各个渠道时，不同的渠道对素材包体大小有不同的要求（详细内容可查阅[zi-you-bian-ji-qi-xia-zai-tui-song.md](../xiang-mu-cao-zuo-lan/zi-you-bian-ji-qi-xia-zai-tui-song.md "mention")）
 * 【包体预估】功能可以让您在制作过程中，随时对**当前包体的大小**进行预览
 * <mark style="color:red;">建议您在制作过程中多次进行【包体预估】，避免素材超包</mark>
 

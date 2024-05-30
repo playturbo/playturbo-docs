@@ -145,7 +145,7 @@ description: '#自由编辑器'
 
 「项目资产」下细分视频、音频、图片、动图 四种类别
 
-<mark style="color:red;">温馨提示：若您在制作时，需要往项目内添加很多资产，建议在以下要求的文件大小的基础上，先在外部</mark><mark style="color:red;">**进一步压缩文件**</mark><mark style="color:red;">，尽量控制包体大小在对应渠道所要求的范围内!</mark> [bao-ti-yu-gu.md](../zuo-pin-yu-lan-qu/bao-ti-yu-gu.md "mention")[xia-zai.md](../xiang-mu-cao-zuo-lan/xia-zai.md "mention")
+<mark style="color:red;">温馨提示：若您在制作时，需要往项目内添加很多资产，建议在以下要求的文件大小的基础上，先在外部</mark><mark style="color:red;">**进一步压缩文件**</mark><mark style="color:red;">，尽量控制包体大小在对应渠道所要求的范围内!</mark> [bao-ti-yu-gu.md](../zuo-pin-yu-lan-qu/bao-ti-yu-gu.md "mention")[zi-you-bian-ji-qi-xia-zai-tui-song.md](../xiang-mu-cao-zuo-lan/zi-you-bian-ji-qi-xia-zai-tui-song.md "mention")
 
 ### 1.视频
 

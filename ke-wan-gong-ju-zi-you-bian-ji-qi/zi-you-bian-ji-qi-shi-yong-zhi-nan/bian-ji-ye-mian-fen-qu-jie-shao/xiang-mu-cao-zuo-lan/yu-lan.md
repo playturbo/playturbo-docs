@@ -134,4 +134,4 @@ description: '#自由编辑器'
 
 </div>
 
-关于 下载/推送 的具体操作可查阅 [xia-zai.md](xia-zai.md "mention")
+关于 下载/推送 的具体操作可查阅 [zi-you-bian-ji-qi-xia-zai-tui-song.md](zi-you-bian-ji-qi-xia-zai-tui-song.md "mention")

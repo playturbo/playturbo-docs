@@ -28,6 +28,8 @@ description: '#换肤编辑器'
 
 <figure><img src="../../../../../.gitbook/assets/0 (52).png" alt=""><figcaption></figcaption></figure>
 
+
+
 #### STEP2 确认源语言和目标语言
 
 1. 选择「源语言」，需为当前已有的语言版本，使用该语言版本下的文本进行翻译
@@ -44,6 +46,4 @@ description: '#换肤编辑器'
 
 <figure><img src="../../../../../.gitbook/assets/2 (25).png" alt=""><figcaption></figcaption></figure>
 
-温馨提示：
-
-* 文本涉及不同钱币符号，需要手动调整
+<mark style="color:red;">温馨提示：若文本涉及不同钱币符号，需要手动调整</mark>
