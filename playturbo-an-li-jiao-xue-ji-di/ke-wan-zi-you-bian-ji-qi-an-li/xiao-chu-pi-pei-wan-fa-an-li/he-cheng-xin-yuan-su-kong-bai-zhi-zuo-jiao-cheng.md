@@ -214,7 +214,51 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 接下来，我们按顺序依次讲解
 
-#### <mark style="color:red;">1.图层：元素2</mark>
+#### <mark style="color:red;">1.图层：添加元素按钮</mark>
+
+选中按钮组\[btn\_add]，添加事件 - 按下
+
+* 添加响应事件：设置埋点，选择埋点id1，并编辑埋点名称为"按下按钮"
+* 添加响应事件：启用"元素2"的拖拽事件_<mark style="background-color:yellow;">(此响应事件需在设置好元素2的拖拽事件后，补充进来)</mark>_
+* 添加响应事件：隐藏指引组1；显示灰色按钮；显示元素2
+* 添加响应事件：播放1次添加元素音效；执行延迟0.1s后显示并播放合成粒子特效；执行延迟0.3s后显示指引组2；执行延迟0.1s后从头播放手指2的指引动画及目标图片缩放动画
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### <mark style="color:red;">2.图层：元素2&元素3&元素4</mark>
+
+选中元素2图层组\[nod\_item\_2]
+
+1）添加事件 - 拖拽，选择拖拽方向为"任意方向"
+
+* 添加响应事件：启用"元素2"的抬起事件_<mark style="background-color:yellow;">(此响应事件需在设置好元素2的抬起事件后，补充进来)</mark>_
+* 添加响应事件：隐藏指引组2；暂停播放手指2的指引动画；播放1次拖拽音效
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）添加事件 - 抬起
+
+* 添加响应事件：禁用"元素2"的抬起事件_<mark style="background-color:yellow;">(抬起后禁用该事件，以保证错误反馈只触发一次)</mark>_
+* 添加响应事件：显示并播放错误粒子特效；播放1次错误音效
+* 添加响应事件：执行延迟0.4s后显示指引组2 并从头播放手指2的指引动画
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**注：**元素的"拖拽"与"抬起"事件搭配，以此实现"未将元素拖拽到正确位置时，触发xx反馈"的效果；元素的"拖拽到指定位置"事件，则用来实现"当元素成功合成，触发xx反馈"的效果
 
 
 
@@ -224,7 +268,11 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 
 
-#### <mark style="color:red;">2.图层：添加元素按钮</mark>
+
+
+
+
+#### <mark style="color:red;">2.图层：</mark>
 
 1）选中场景1中的自由画线组件图层，点击【添加事件】，选择触发事件为**【开始画线】**
 

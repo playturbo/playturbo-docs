@@ -4,7 +4,7 @@ description: '#自由编辑器'
 
 # 项目操作栏
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>项目操作栏</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>项目操作栏</p></figcaption></figure>
 
 此功能模块支持设置项目信息、查看作品在各机型下的预览效果、保存项目、将项目存为模板、批量下载各渠道的包体、推送素材到Mintegral、完成设计输出
 
