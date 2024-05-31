@@ -15,7 +15,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 * 【交互方式】：拖拽到指定位置
 * 【自由度】：固定流程
 * 【核心资产】：图片
-* 【核心功能】：拖拽到指定位置 - 隐藏/显示素材
+* 【核心功能】：拖拽到指定位置 - 隐藏/显示素材；禁用事件/启用事件
 
 
 
@@ -53,7 +53,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 **场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="123">场景名称</th><th width="322">场景1-核心玩法</th><th>场景2-结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1792).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1791).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>引导玩家在额头位置画线挤痘</td><td>产品信息+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>痘痘女孩、指引光圈和粉刺针</p><p><strong>视听包装：</strong>点击音效</p></td><td><p><strong>静帧图片：</strong>产品信息、跳转按钮</p><p><strong>视听包装：</strong>星星粒子</p></td></tr><tr><td><strong>核心动画</strong></td><td><p>粉刺针：位移缓动</p><p>指引文本：位移缓动</p><p>指引光圈：透明度缓动</p></td><td>跳转按钮：脉冲向前</td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：自由画线组件</p><p>Draw Lines Component</p><p>触发事件：画线完成</p><p>响应事件：跳转到下一场景</p></td><td><p>触发对象：场景3</p><p>触发事件：按下</p><p>响应事件：跳转应用商店</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="123">场景名称</th><th width="322">场景1-核心玩法</th><th>场景2-结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1792).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1791).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td><p>1）引导玩家点击按钮，添加元素</p><p>2）引导玩家合成目标元素</p></td><td>奖励面板+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>棋盘底图、多种元素、操作指引、合成指引、目标面板</p><p><strong>视听包装：</strong>合成粒子特效、错误粒子特效、音效</p></td><td><p><strong>静帧图片：</strong>奖励面板、奖励物品、跳转按钮</p><p><strong>视听包装：</strong>彩带粒子、胜利音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p>点击指引：缩放缓动</p><p>合成指引：位移缓动+缩放缓动+透明度缓动</p><p>目标元素：旋转缓动</p></td><td>奖励面板&#x26;跳转按钮：缩放缓动</td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象："添加元素"按钮</p><p>触发事件：按下</p><p>响应事件：显示素材；禁用事件/启用事件</p><hr><p>触发对象：元素2/3/4</p><p>触发事件：拖拽到指定位置</p><p>响应事件：显示素材/隐藏素材；禁用事件/启用事件</p></td><td><p>触发对象：场景2</p><p>触发事件：按下</p><p>响应事件：跳转应用商店</p></td></tr></tbody></table>
 
 
 
@@ -71,45 +71,41 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整位置大小
 
-<figure><img src="../../../.gitbook/assets/image (1642).png" alt=""><figcaption></figcaption></figure>
-
-#### **2.普通场景**
-
-**2-1）场景1**
-
-1）在场景1中添加核心玩法相关资产：痘痘女孩/指引光圈/粉刺针/指引文本/点击音效
-
-2）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
-
-<mark style="color:red;">**3）添加组件：**</mark>点击【玩法模板】，在【组件库】下添加 自由画线组件&#x20;
-
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1643).png" alt="" width="476"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1793).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-<mark style="color:red;">**4）调整组件参数：**</mark>可直接 拖拽/拉伸 画布中的绿色矩形，将组件的位置大小调整到额头位置。然后设置画出线条的颜色和粗细即可
+#### **2.普通场景**
 
-<figure><img src="../../../.gitbook/assets/image (1644).png" alt=""><figcaption></figcaption></figure>
+**2.1 场景1**
 
-**2-2）场景2**
+1）在场景1中添加核心玩法相关资产：棋盘底图/多种元素图片/合成指引/目标面板/操作指引/音效
 
-1）在场景2中添加结果反馈相关资产
+2）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名（详细内容可进DEMO查看）
 
-2）调整各资产到合适的位置大小
+<figure><img src="../../../.gitbook/assets/image (1794).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1647).png" alt=""><figcaption></figcaption></figure>
+**3）注意:** <mark style="color:orange;">此类玩法(指在玩家交互后,物品位置发生改变的玩法)的制作逻辑为 "在同一个位置添加可能出现的所有元素，然后先隐藏高级元素（即玩家交互后才会出现的元素），后续通过事件设置显示高级元素，隐藏低级元素"，以此来实现目标效果</mark>
 
-**2-3）场景3**
+因此，需要将以下图层的初始状态设为"隐藏"，后续我们再通过事件来控制这些图层的显示（需要隐藏的图层包含：棋盘上的高级元素；第2/3/4次操作指引；灰色按钮）
 
-1）新建场景3，并添加产品信息相关资产
+<div align="left">
 
-2）勾选场景3为【结束场景】，以便上报试玩结束
+<figure><img src="../../../.gitbook/assets/image (1796).png" alt=""><figcaption></figcaption></figure>
 
-3）取消启用场景3的【全局场景】
+</div>
 
-<figure><img src="../../../.gitbook/assets/image (1648).png" alt=""><figcaption></figcaption></figure>
+**2.2 场景2**
+
+1）复制场景1的目标面板组\[group\_guidelines1]到场景2，并删除多余图层
+
+2）添加奖励面板和跳转按钮相关资产，调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名（详细内容可进DEMO查看）
+
+3）勾选场景2为【结束场景】，以便上报试玩结束
+
+<figure><img src="../../../.gitbook/assets/image (1798).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -119,15 +115,17 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 #### 1.调整横屏排版
 
-1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含自由画线组件图层)
+1）在场景1中切换到横屏模式，选中所有最高层级的图层
 
 2）使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
-<figure><img src="../../../.gitbook/assets/image (1649).png" alt=""><figcaption></figcaption></figure>
+3）同理，我们再依次切换到场景2和【全局场景】，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
 
-<figure><img src="../../../.gitbook/assets/image (1650).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1800).png" alt=""><figcaption><p>场景1</p></figcaption></figure>
 
-3）同理，我们再依次切换到场景2、场景3和【全局场景】，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
+<figure><img src="../../../.gitbook/assets/image (1801).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1802).png" alt=""><figcaption><p>全局场景</p></figcaption></figure>
 
 
 
@@ -135,7 +133,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 在本案例中，我们想要竖屏下的常驻信息组始终位于各机型屏幕的顶部，所以我们调整其"屏幕适配方式"为贴顶适配（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../.gitbook/assets/image (1651).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1803).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -143,13 +141,13 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
 
-场景1：粉刺针位移动画、指引文本位移动画、指引光圈闪烁动画
+场景1：点击指引动画、合成指引动画、目标元素旋转动画、合成粒子、错误粒子
 
-场景2：反馈文本入场动画、彩带粒子、星星粒子
+场景2：奖励面板&跳转按钮的缩放动画、彩带粒子
 
-场景3：跳转按钮缩放动画、星星粒子
 
-#### **1.粉刺针：位移缓动**
+
+#### **1.点击指引：位移缓动**
 
 1）选中粉刺针图片\[prop]，添加动画-通用-位移缓动，作为横向移动的指引动画
 
