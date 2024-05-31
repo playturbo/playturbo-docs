@@ -225,13 +225,15 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 
 
 #### <mark style="color:red;">2.图层：元素2&元素3&元素4</mark>
+
+**2.1 元素2**
 
 选中元素2图层组\[nod\_item\_2]
 
@@ -242,7 +244,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -254,54 +256,90 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 <div align="left">
 
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="background-color:yellow;">**注：**</mark><mark style="background-color:yellow;">元素的"拖拽"与"抬起"事件搭配，以此实现"未将元素拖拽到正确位置时，触发xx反馈"的效果；元素的"拖拽到指定位置"事件，则用来实现"当元素成功合成，触发xx反馈"的效果</mark>
+
+3）添加事件 - 拖拽到指定位置，编辑拖拽区域，并选择拖拽方向为"任意方向"
+
+* 添加响应事件：设置埋点，选择埋点id2，并编辑埋点名称为"合成元素3"
+* 添加响应事件：禁用元素2的"拖拽"和"抬起"事件；启用元素3的"拖拽"事件_<mark style="background-color:yellow;">(此响应事件需在设置好元素3的拖拽事件后，补充进来)</mark>_
+* 添加响应事件：隐藏两个位置下的元素2；播放1次合成音效；显示并播放合成粒子特效
+* 添加响应事件：执行延迟0.2s后显示元素3；隐藏钻石文本0并显示文本100
+* 添加响应事件：执行延迟0.5s后显示指引组3，并从头播放手指3的指引动画 及 目标图片缩放动画
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**2.2 元素3&元素4**
+
+因元素3、元素4的事件设置同理元素2，我们可以通过"复制-粘贴"功能快速完成设置
+
+1）复制元素2图层，然后选中元素3和元素4图层，粘贴 - 仅粘贴图层事件
+
+2）调整响应对象为相应的内容即可
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+3）需注意：因完成元素4的合成后，会跳转结束页面，因此元素4的"拖拽到指定位置"事件和其他两个元素的有所不同。在最后一组执行延迟的事件下，添加"跳转到下一场景"的响应事件即可
+
+<div align="left">
+
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-**注：**元素的"拖拽"与"抬起"事件搭配，以此实现"未将元素拖拽到正确位置时，触发xx反馈"的效果；元素的"拖拽到指定位置"事件，则用来实现"当元素成功合成，触发xx反馈"的效果
+
+
+#### <mark style="color:red;">3.场景1</mark>
+
+因本案例的玩法是固定流程的，只有在玩家按下"添加元素按钮"后，才可进行下一步合成操作（后续的合成操作也同理），因此，我们需要在入场时，先禁用元素的事件
+
+在场景1下添加事件 - 定时触发，时长为0s
+
+添加响应事件：依次禁用三个元素的"拖拽"与"抬起"事件
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
+#### 4.场景2
 
+进入场景2，添加事件 - 按下
 
-
-
-
-
-
-
-
-
-#### <mark style="color:red;">2.图层：</mark>
-
-1）选中场景1中的自由画线组件图层，点击【添加事件】，选择触发事件为**【开始画线】**
-
-* 添加响应事件：设置埋点，编辑埋点名称为"第一次有效操作"
-* 添加响应事件：隐藏粉刺针组图层、隐藏指引光圈、从头播放1次点击音效
-
-2）继续【添加事件】，选择触发事件为**【画线完成】**
-
-* 添加响应事件：跳转到下一场景
-
-#### 2.场景2
-
-选中场景2，点击【添加事件】，选择触发事件为**【定时触发】**
-
-* 设置执行延迟时长为1s
-* 添加响应事件：跳转到下一场景
-
-#### 3.场景3
-
-选中场景3，点击【添加事件】，选择触发事件为**【按下】**
-
-* 添加响应事件：设置埋点，编辑埋点名称为"结束页触发跳转"
+* 添加响应事件：设置埋点，选择埋点id5，并编辑埋点名称为"结束页触发跳转"
 * 添加响应事件：跳转应用商店
 
-#### 4.图层: 常驻下载按钮组
+<div align="left">
 
-选中"全局场景"下的常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### 5.图层: 常驻下载按钮组
+
+进入"全局场景"，选中常驻下载按钮组，添加事件 - 按下
 
 * 添加响应事件：跳转应用商店
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
 
@@ -325,6 +363,6 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 ## <mark style="color:blue;">六、资源提供</mark>
 
-在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
+在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类玩法的素材
 
-{% file src="../../../.gitbook/assets/自由画线组件空白制作_资源.zip" %}
+{% file src="../../../.gitbook/assets/合成新元素_空白制作_资源.zip" %}
