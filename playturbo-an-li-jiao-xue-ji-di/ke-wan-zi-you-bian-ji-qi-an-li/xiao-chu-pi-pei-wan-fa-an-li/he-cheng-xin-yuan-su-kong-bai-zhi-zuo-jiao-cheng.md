@@ -141,69 +141,90 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
 
-场景1：点击指引动画、合成指引动画、目标元素旋转动画、合成粒子、错误粒子
+场景1：点击指引动画、目标指引动画、合成指引动画、目标元素旋转动画、合成粒子、错误粒子
 
 场景2：奖励面板&跳转按钮的缩放动画、彩带粒子
 
+#### **1.点击指引：缩放缓动**
+
+1）选中指引手指1图片\[gf\_hand1]，添加动画-通用-缩放缓动，作为点击指引循环动画。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1804).png" alt=""><figcaption></figcaption></figure>
+
+2）复制该缩放动画到按钮组\[btn\_add]，微调参数，作为按钮指引循环动画。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1806).png" alt=""><figcaption></figcaption></figure>
+
+#### **2.目标指引：缩放缓动**
+
+1）选中目标图片\[target]，添加动画-通用-缩放缓动，作为目标元素指引动画。参数设置如下
+
+2）注意：该缩放动画可复制给其他\[target]图层，微调数值即可
+
+<figure><img src="../../../.gitbook/assets/image (1805).png" alt=""><figcaption></figcaption></figure>
+
+#### 3.合成指引：位移缓动&缩放缓动&透明度缓动
+
+1）选中指引手指2图片\[gf\_hand2]，依次添加 位移缓动/缩放缓动/透明度缓动 动画，作为手指的合成指引动画。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1808).png" alt=""><figcaption></figcaption></figure>
+
+2）注意：该图层动画可复制给\[gf\_hand3]&\[gf\_hand4]，调整位移距离即可
+
+<figure><img src="../../../.gitbook/assets/image (1809).png" alt=""><figcaption></figcaption></figure>
+
+#### 4.目标元素：旋转缓动
+
+选中目标元素图片\[target\_ui]，添加动画-通用-旋转缓动，作为目标元素的突出展示动画。参数设置如下
+
+<figure><img src="../../../.gitbook/assets/image (1810).png" alt=""><figcaption></figcaption></figure>
+
+#### 5.奖励面板&跳转按钮：缩放缓动
+
+1）选中组图层\[node\_reward]，添加动画-通用-缩放缓动，作为结束元素的入场动画。参数设置如下
+
+<figure><img src="../../../.gitbook/assets/image (1811).png" alt=""><figcaption></figcaption></figure>
+
+2）复制该动画到按钮组\[btn\_continue]，微调参数，作为跳转按钮的循环指引动画。参数设置如下
+
+<figure><img src="../../../.gitbook/assets/image (1812).png" alt=""><figcaption></figcaption></figure>
+
+#### 6.粒子特效：合成粒子&错误粒子&彩带粒子
+
+1）打开公共粒子库，选择并添加合适的粒子特效。如在场景1中添加合成粒子、错误粒子；在场景2中添加彩带粒子
+
+2）调整粒子到合适的位置（注意横竖屏都要调整）
+
+3）将场景1中粒子的初始状态设为"隐藏"，后续我们通过事件来控制粒子的显示和播放
+
+<figure><img src="../../../.gitbook/assets/image (1813).png" alt=""><figcaption></figcaption></figure>
 
 
-#### **1.点击指引：位移缓动**
 
-1）选中粉刺针图片\[prop]，添加动画-通用-位移缓动，作为横向移动的指引动画
+### <mark style="color:red;background-color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-2）复制该位移动画到粉刺针组图层\[group\_prop]，调整动画参数，作为纵向移动的指引动画
+完成所有动效的设置，我们对试玩的逻辑 也就是"事件"进行设置
 
-3）两个动画相结合，实现粉刺针的循环指引动画。具体参数设置如下：
+本案例与事件设置相关的内容有：
 
-<div align="left">
+* 按下"添加元素按钮"：隐藏原按钮，显示灰色按钮，显示元素2
+* 拖拽并抬起"元素2"：播放错误粒子特效；拖拽"元素2"到正确位置：隐藏元素2，显示元素3
+* "元素3"和"元素4"的事件设置同上
+* 结束页按下：跳转应用商店
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="554"><figcaption></figcaption></figure>
+接下来，我们按顺序依次讲解
 
-</div>
-
-#### **2.**指引文本**：位移缓动**
-
-选中指引文本\[text\_guidelines]，添加动画-通用-位移缓动，参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### **3.**指引光圈：透明度缓动
-
-选中指引光圈图片\[flash]，添加动画-通用-透明度缓动，以实现光圈的闪烁效果。参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### 4.反馈文本：缩小出现
-
-选中场景2的反馈文本\[text\_welldone]，添加动画-进场动画-缩小出现，参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### 5.跳转按钮：脉冲向前
-
-选中场景3的跳转按钮组\[group\_download]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
-
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### 6.粒子特效：彩带粒子&星星粒子
-
-1）打开公共粒子库，选择并添加星星粒子，以增强结束页面的画面氛围
-
-2）调整粒子到合适的位置
-
-3）同理，在场景2中添加彩带粒子和星星爆破粒子，以强化成功反馈的视觉效果
-
-4）调整好粒子竖屏的位置，还需切换到横屏进行调整
-
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+#### <mark style="color:red;">1.图层：元素2</mark>
 
 
 
-### <mark style="color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-本案例与事件设置相关的内容有：开始画线时隐藏操作指引、画线完成时跳转到下一场景、播放完成功反馈跳转到结束页面、结束页按下即跳转商店。接下来，我们按顺序依次讲解
 
-#### <mark style="color:red;">1.图层: 自由画线组件</mark>
+
+
+
+
+#### <mark style="color:red;">2.图层：添加元素按钮</mark>
 
 1）选中场景1中的自由画线组件图层，点击【添加事件】，选择触发事件为**【开始画线】**
 
@@ -214,20 +235,12 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 * 添加响应事件：跳转到下一场景
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 #### 2.场景2
 
 选中场景2，点击【添加事件】，选择触发事件为**【定时触发】**
 
 * 设置执行延迟时长为1s
 * 添加响应事件：跳转到下一场景
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 #### 3.场景3
 
@@ -236,25 +249,15 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 * 添加响应事件：设置埋点，编辑埋点名称为"结束页触发跳转"
 * 添加响应事件：跳转应用商店
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 #### 4.图层: 常驻下载按钮组
 
 选中"全局场景"下的常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
 
 * 添加响应事件：跳转应用商店
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
+
+
 
 
 
