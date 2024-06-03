@@ -193,9 +193,13 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 1）打开公共粒子库，选择并添加合适的粒子特效。如在场景1中添加合成粒子、错误粒子；在场景2中添加彩带粒子
 
-2）调整粒子到合适的位置（注意横竖屏都要调整）
+2）注意：每个元素组下都需各添加一个错误粒子，将粒子参数的"发射空间"设为"World"，并微调其余参数，以此来实现"错误粒子跟随玩家松手的位置实时出现"的效果
 
-3）将场景1中粒子的初始状态设为"隐藏"，后续我们通过事件来控制粒子的显示和播放
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+3）调整各粒子到合适的位置（注意横竖屏都要调整）
+
+4）将场景1中粒子的初始状态设为"隐藏"，后续我们通过事件来控制粒子的显示和播放
 
 <figure><img src="../../../.gitbook/assets/image (1813).png" alt=""><figcaption></figcaption></figure>
 
@@ -225,7 +229,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -260,7 +264,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 </div>
 
-<mark style="background-color:yellow;">**注：**</mark><mark style="background-color:yellow;">元素的"拖拽"与"抬起"事件搭配，以此实现"未将元素拖拽到正确位置时，触发xx反馈"的效果；元素的"拖拽到指定位置"事件，则用来实现"当元素成功合成，触发xx反馈"的效果</mark>
+<mark style="color:orange;">**注：**</mark><mark style="color:orange;">元素的"拖拽"与"抬起"事件搭配，以此实现"未将元素拖拽到正确位置时，触发xx反馈"的效果；元素的"拖拽到指定位置"事件，则用来实现"当元素成功合成，触发xx反馈"的效果</mark>
 
 3）添加事件 - 拖拽到指定位置，编辑拖拽区域，并选择拖拽方向为"任意方向"
 
@@ -270,11 +274,11 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 * 添加响应事件：执行延迟0.2s后显示元素3；隐藏钻石文本0并显示文本100
 * 添加响应事件：执行延迟0.5s后显示指引组3，并从头播放手指3的指引动画 及 目标图片缩放动画
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -366,3 +370,13 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类玩法的素材
 
 {% file src="../../../.gitbook/assets/合成新元素_空白制作_资源.zip" %}
+
+
+
+<mark style="background-color:blue;">**补充说明：**</mark>
+
+当前受功能限制，**暂时无法通过空白制作做出全自由的"拖拽合成玩法"的素材** (也就是像模板["合成收集"](https://tinyurl.com/yhdfr2zj)那样能拖动任意物品到任意位置进行合成)，因此，在您制作此类玩法的素材时，我们建议：
+
+1）优先使用合成玩法的模板进行 换肤制作 或 自由制作；
+
+2）若您想自行设计元素布局或加入其它玩法，则推荐您参考本案例DEMO和教程进行空白制作(固定步骤，拖拽到正确位置才合成，不正确就返回原位)
