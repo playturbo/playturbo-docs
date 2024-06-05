@@ -2,16 +2,16 @@
 
 ## <mark style="color:blue;">一、概念说明</mark>
 
-<mark style="color:orange;">**创意组 (Creative Set)**</mark>：类似于文件夹，根据投放需要，将素材按照主题、玩法、语种等添加到创意组，便于管理素材
+**创意组 (Creative Set)**：类似于文件夹，根据投放需要，将素材按照主题、玩法、语种等添加到创意组，便于管理素材
 
-* **程序化创意组（Programmatic Creative）**：由系统自动筛选优质素材、进行素材优选组合，并生成创意的方式
+* **程序化创意组（Programmatic Creative）：**由系统自动筛选优质素材、进行素材优选组合，并生成创意的方式
 *   **自定义创意组（Customized Creative）**：由广告主指定素材组合，并生成创意的方式
 
-    _<mark style="background-color:yellow;">\*温馨提示：【自定义创意组】的功能，需要联系您的账户经理申请权限</mark>_
+    _\*温馨提示：【自定义创意组】的功能，需要联系您的账户经理申请权限_
 
-<mark style="color:orange;">**创意 (Ad)**</mark> ：广告主视角里的投放最小单位，比如 video+image+playable 组合起来就是一个创意，且系统会根据上传的具体素材，自动匹配可投的版位，也支持预览创意的呈现形式。其中，**创意名称**会根据创意组名和素材名称自动生成，**默认生成规则为：<创意组名>\_<视频素材名>\_<图片素材名>\_<试玩素材名>**
+**创意 (Ad)** ：广告主视角里的投放最小单位，比如 video+image+playable 组合起来就是一个创意，且系统会根据上传的具体素材，自动匹配可投的版位，也支持预览创意的呈现形式。其中，创意名称会根据创意组名和素材名称自动生成，默认生成规则为：<创意组名>\_<视频素材名>\_<图片素材名>\_<试玩素材名>
 
-<mark style="color:orange;">**素材 (Creative)**</mark>：图片、视频、HTML（Playable 或 Dynamic Endcard）
+**素材 (Creative)**：图片、视频、HTML（Playable 或 Dynamic Endcard）
 
 
 
@@ -23,7 +23,7 @@
 
 \*推送步骤可查阅： [huan-fu-bian-ji-qi-xia-zai-tui-song.md](../../ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/3.-xiang-mu-cao-zuo-lan/huan-fu-bian-ji-qi-xia-zai-tui-song.md "mention") [zi-you-bian-ji-qi-xia-zai-tui-song.md](../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/xiang-mu-cao-zuo-lan/zi-you-bian-ji-qi-xia-zai-tui-song.md "mention")&#x20;
 
-<mark style="color:red;">**\*注意：**</mark><mark style="color:red;">当前，推送素材后无法再修改Mintegral的素材名称，建议在Playturbo提前修改好名称再进行推送</mark>
+<mark style="color:red;">注意：当前，推送素材后无法再修改Mintegral的素材名称，建议在Playturbo提前修改好名称再进行推送</mark>
 
 <div align="left">
 
@@ -138,7 +138,7 @@ Mintegral暂不支持删除素材。仅支持将素材从某创意组中去掉�
 
 #### 3）查看可玩素材审核状态
 
-当前暂不支持查看可玩素材的审核状态，但可以查看创意素材组的审核状态，具体内容可查阅第四部分
+当前暂不支持查看可玩素材的审核状态，但可以查看创意组的审核状态，具体内容可查阅第三部分 [#id-3.-chuang-yi-zu-shen-he](mintegral-chuang-yi-cao-zuo-zhi-nan.md#id-3.-chuang-yi-zu-shen-he "mention")
 
 
 
@@ -244,7 +244,7 @@ c. 使用 Open API 新建创意组
 
 #### 2-1）编辑创意组
 
-入口a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 --> 编辑
+a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 --> 编辑
 
 <div align="left">
 
@@ -252,15 +252,81 @@ c. 使用 Open API 新建创意组
 
 </div>
 
-入口b. 广告投放 --> 创意管理 --> 编辑
+b. 广告投放 --> 创意管理 --> 编辑
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+_温馨提示：编辑创意组不支持修改创意组的组合方式，比如，原本是程序化创意组，则不支持将其修改为自动化创意组_
 
 
 
+#### 2-2）复制创意组
+
+a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 --> 添加已有创意组
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+b. 广告投放 --> 创意管理 --> 手动勾选需要被复制的创意组 --> 复制创意组
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+_温馨提示：_
+
+* _创意组应用至广告单元时，需要选择生效的区域，即该创意组在该广告单元上需要投放的国家或地区，需要保证该创意组内的所有素材都可以应用到广告单元内的国家或地区_
+* _创意组可投的范围应覆盖广告单元定向的国家或地区_
 
 
 
+#### 2-3）删除创意组
+
+a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 --> 删除<mark style="color:red;">（会同时删除创意管理里的该创意组）</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+b. 广告投放 --> 创意管理 --> 手动勾选需要被复制的创意组 --> 删除创意组<mark style="color:red;">（会同时删除相关广告单元中的该创意组）</mark>
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+_温馨提示：如果删除创意组会导致定向的国家或地区没有创意可投，系统会自动弹窗提示并引导您先删除无创意组的国家或地区定向，然后再删除创意组_
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
+### 3.创意组审核
 
+1）创意组应用到广告单元后，才会触发审核，<mark style="color:red;">如果仅在创意管理处上传创意组，未应用到对应广告单元，则不会触发审核</mark>
 
+2）广告单元是否可投，取决于该广告单元下是否有已审核通过的创意
+
+3）审核状态是以创意组为单位呈现的，具体含义如下
+
+* **生效中：**创意组有创意可用（至少有一个创意审核通过）
+* **审核中：**创意组中还没有可投放的创意，且有素材在审核中
+* **已拒绝：**创意组中所有素材/创意都被拒，则该创意组被拒（组合不出任何可投创意），系统会列出具体拒绝原因，有多个不同拒审原因会显示多行&#x20;
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+</div>
