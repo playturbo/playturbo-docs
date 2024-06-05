@@ -46,11 +46,7 @@ Mintegral关联可玩素材有两种方式：
 
 1）在「广告单元列表」页面，可对某个「广告」进行筛选，可查找到关联的所有Offer
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1816).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (1830).png" alt=""><figcaption></figcaption></figure>
 
 2）点击「编辑」按钮，并选择「4.上传素材」，可查看到该Offer关联的所有创意组
 
@@ -58,7 +54,7 @@ Mintegral关联可玩素材有两种方式：
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1817).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1831).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -88,25 +84,17 @@ Mintegral关联可玩素材有两种方式：
 
 1）在「创意管理」页面，进行Offer筛选，可查找到关联Offer的所有创意组
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1820).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (1832).png" alt=""><figcaption></figcaption></figure>
 
 2）点击编辑按钮，跳出「创意组」编辑弹窗
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1821).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (1833).png" alt=""><figcaption></figcaption></figure>
 
 3）在跳出弹窗内，在「试玩素材」栏点击「添加现有创意」
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1822).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1834).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
