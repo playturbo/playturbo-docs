@@ -165,6 +165,12 @@ c. 使用 Open API 新建创意组
 
 \*一个广告单元中最多可以创建10个创意组
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 **2）填写创意组名称**
 
 命名要求：
@@ -244,7 +250,7 @@ b. 广告投放 --> 创意管理 --> 编辑
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -258,7 +264,7 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
