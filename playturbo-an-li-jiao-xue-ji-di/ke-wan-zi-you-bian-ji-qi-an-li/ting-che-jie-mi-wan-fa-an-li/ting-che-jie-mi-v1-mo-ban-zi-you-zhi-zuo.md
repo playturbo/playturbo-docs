@@ -125,7 +125,7 @@ description: '#自由编辑器 #模板自由制作'
 
 #### 2.2 布局元素
 
-<mark style="background-color:yellow;">此环节是对停车解密布局中需要进行解密的主体元素进行摆放设置</mark>
+<mark style="background-color:yellow;">此环节是对停车解密布局中需要进行解密的主体元素和障碍元素进行摆放设置</mark>
 
 1）替换目标元素图片：在本案例中，目标车辆占坑数量为2，所以只需替换\[target\_car2]分组下的车辆图片
 
@@ -168,6 +168,14 @@ description: '#自由编辑器 #模板自由制作'
 <div align="left">
 
 <figure><img src="../../../.gitbook/assets/image (1747).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+7）设置障碍类：在本案例中，我们选择不添加障碍物，因此可以跳过此步骤或关闭【设置障碍类】
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

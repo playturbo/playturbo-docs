@@ -250,7 +250,7 @@ b. 广告投放 --> 创意管理 --> 编辑
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -264,7 +264,7 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

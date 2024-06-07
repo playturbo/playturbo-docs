@@ -22,7 +22,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -136,7 +136,7 @@ description: '#自由编辑器 #模板自由制作'
 
 ### 2.布局元素
 
-此环节是对停车解密布局中需要进行解谜的主体元素进行摆放设置
+此环节是对停车解密布局中需要进行解谜的主体元素和障碍元素进行摆放设置
 
 #### <mark style="color:red;">**2.1 编辑主元素**</mark>
 
@@ -232,7 +232,7 @@ description: '#自由编辑器 #模板自由制作'
 
 可选择是否启用「运动方向」：若启用，元素的运动方向则支持以下5个方向可以选择；若不启用，则仅支持直行这1个方向
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **2）设置箭头**
 
@@ -265,7 +265,7 @@ description: '#自由编辑器 #模板自由制作'
 
 
 
-#### <mark style="color:red;">2.4 设置障碍类</mark> (在停车解谜v1模板中，此功能暂不展示且不支持修改)
+#### <mark style="color:red;">2.4 设置障碍类</mark>&#x20;
 
 **1）启用「设置障碍类」**
 
