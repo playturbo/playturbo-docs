@@ -2,27 +2,27 @@
 description: '#换肤编辑器'
 ---
 
-# 3D模板功能
+# 3D模板
 
 Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作的方式对3D模版进行迭代
 
-<mark style="color:red;">**注意：当前3D模版仅支持【换肤制作-普通制作】**</mark>
+<mark style="color:red;">**注意：当前3D模版仅支持 【换肤制作-普通制作】**</mark>
 
 
 
 ## <mark style="color:blue;">一、项目创建</mark>
 
-在「模版库」-「可玩模版」页面，筛选类型为「3D」的模板，即可展示所有3D模版
+1）在「模版库」-「可玩模版」页面，筛选类型为「3D」的模板，即可展示所有3D模版
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1835).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-点击模版，选择「换肤制作」 - 「普通制作」 ，填写项目名称后进入编辑页面
+2）点击模版进行预览。注意，一个模版中可能包含多套皮肤，不同皮肤可能对应不同的玩法、资源、游戏逻辑，可切换皮肤进行预览，并选择最适合的皮肤创建项目
 
-注：一个模版中可能包含多个皮肤，不同皮肤可能对应不同的玩法、素材、游戏逻辑，可切换皮肤进行预览，并选择最适合的皮肤创建项目
+3）确认皮肤后，点击「换肤制作」 - 「普通制作」 ，填写项目名称后即进入编辑页面
 
 <div align="left">
 
@@ -34,41 +34,61 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 ## <mark style="color:blue;">二、换肤制作</mark>
 
-对比常规2D模板，创建3D模板换肤制作项目后，编辑页面新增了【预设及镜头】、【3D资源】两大模块
+✨对比常规2D模板，创建3D模板换肤制作项目后，编辑页面新增了【预设及镜头】、【3D资源】、【玩法】这三个模块
 
-建议先在「预设及镜头」，对预设值、镜头参数进行调整
+✨建议操作流程：
 
-再进入「3D资源」、「常驻元素」、「场景」内，对3D模型资源及其他资源进行替换、调整
+* 先在「预设及镜头」，对预设值、屏幕适配、镜头参数进行调整
+* 再依次进入「3D资源」、「常驻元素」、「场景」内，对3D模型资源及其他资源进行替换、调整
 
-<div align="left">
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1837).png" alt="" width="563"><figcaption></figcaption></figure>
 
-</div>
 
 ### 1.预设及镜头 <a href="#g3lte" id="g3lte"></a>
 
-在项目编辑页面，左侧「预设及镜头」栏，可对「预设」进行调整。「预设」为单选切换
+「预设及镜头」包含三部分：预设、屏幕适配、相机
 
-#### 1-1）调整预设
+#### <mark style="background-color:blue;">1-1）预设</mark>
 
-「预设」是一系列游戏逻辑、素材模型的集合，可通过切换 预设，实现不同游戏逻辑、不同场景、不同模型的素材产出.
-
-如下图的预设：可以分别对模版内的人物模型、奖励项目、有无障碍进行调整。调整预设后可能会使用到不同的模型，可去对应的场景页对模型进行调整
+* 「预设」是一系列游戏逻辑、素材模型的集合，可通过切换预设，实现不同游戏逻辑、不同场景、不同模型的素材产出
+* 「预设」为单选切换
+* 调整「预设」后可能会使用到不同的模型，可前往场景内调整具体资源及玩法
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1838).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>示例：在该模板的「预设」中,可分别对模板内的人物模型、奖励项目、有无障碍进行调整</p></figcaption></figure>
 
 </div>
 
-#### 1-2）调整镜头
 
-在项目编辑页面，左侧「镜头及预设」栏，可对横竖屏的「屏幕适配」及「相机位置角度」进行调整，以实现不同的视觉效果
 
-<figure><img src="../../.gitbook/assets/image (1839).png" alt=""><figcaption><p>调整镜头参数前</p></figcaption></figure>
+#### <mark style="background-color:blue;">1-2）屏幕适配</mark>
 
-<figure><img src="../../.gitbook/assets/image (1842).png" alt=""><figcaption><p>调整镜头参数后</p></figcaption></figure>
+在「屏幕适配」下，可分别调整横屏和竖屏的FOV偏移值
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>调整前</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>调整后</p></figcaption></figure>
+
+
+
+#### <mark style="background-color:blue;">1-3）相机</mark>
+
+* 每个模板可调整的相机参数数量不同，由模板的玩法决定。例如camera1用来观察场景， camera2用来跟随玩家，camera3用于ending页面
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 展开「相机」下的参数，可对相机位置角度进行调整，以实现不同的视觉效果
+* 可调整的参数包含：极角、方位角、径向距离、X轴视角偏移、Y轴视角偏移、Z轴视角偏移、阻尼系数
+
+<figure><img src="../../.gitbook/assets/image (1839).png" alt=""><figcaption><p>调整前</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1842).png" alt=""><figcaption><p>调整后</p></figcaption></figure>
 
 
 

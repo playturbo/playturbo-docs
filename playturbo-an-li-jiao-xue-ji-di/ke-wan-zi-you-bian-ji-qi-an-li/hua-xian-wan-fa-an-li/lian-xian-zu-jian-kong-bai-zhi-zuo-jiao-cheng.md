@@ -193,7 +193,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 选中跳转按钮组\[group\_ctat]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 7.粒子特效：彩带粒子&烟花粒子
 
@@ -203,7 +203,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 3）调整好竖屏粒子的位置，还需切换到横屏进行调整
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -217,7 +217,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="408"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="408"><figcaption></figcaption></figure>
 
 </div>
 
@@ -225,7 +225,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 可在右侧参数区 或 直接拖拽/拉伸画布中的绿色矩形，来调整组件的位置大小（组件的大小等于可画出线 的区域范围）
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.设置起止区域
 
@@ -239,7 +239,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="245"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="245"><figcaption></figcaption></figure>
 
 </div>
 
