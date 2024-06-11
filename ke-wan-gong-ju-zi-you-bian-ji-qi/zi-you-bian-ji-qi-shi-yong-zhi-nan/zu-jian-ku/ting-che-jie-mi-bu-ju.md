@@ -384,4 +384,4 @@ description: '#自由编辑器 #模板自由制作'
 
 以上三部分的内容全部调整完成后，点击【完成】，快捷布局即生效
 
-相关案例教学可查阅 [ting-che-jie-mi-v1-mo-ban-zi-you-zhi-zuo.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ting-che-jie-mi-wan-fa-an-li/ting-che-jie-mi-v1-mo-ban-zi-you-zhi-zuo.md "mention")
+相关案例教学可查阅 [ting-che-jie-mi-bu-ju-mo-ban-zi-you-zhi-zuo.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ting-che-jie-mi-wan-fa-an-li/ting-che-jie-mi-bu-ju-mo-ban-zi-you-zhi-zuo.md "mention")
