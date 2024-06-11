@@ -51,13 +51,13 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 **场景拆分：**为了便于理解&操作简单，本案例我们拆分为4个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="115">场景名称</th><th>场景1-初始指引</th><th>场景2-核心玩法</th><th>场景3-核心玩法</th><th>场景4-结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/image (1854).png" alt="" data-size="original"></td><td></td><td></td><td></td></tr><tr><td><strong>场景描述</strong></td><td>【跑酷视频1】播放结束，出现操作指引</td><td></td><td></td><td></td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>视频：</strong>跑酷视频1</p><p><strong>静帧图片：</strong>操作指引</p><p><strong>音频：</strong>点击音效</p></td><td></td><td></td><td></td></tr><tr><td><strong>核心动画</strong></td><td><p><strong>操作指引：</strong>位移缓动</p><p><strong>操作指引组：</strong>淡入</p></td><td></td><td></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转到下一场景</p><hr><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：开始</strong></p><p><strong>响应事件：</strong>跳转到下一场景</p></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="115">场景名称</th><th width="233">场景1&#x26;2-核心玩法</th><th width="226">场景3-核心玩法</th><th>场景4-结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/image (1854).png" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/image (1856).png" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/image (1857).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>【跑酷视频】播放结束，出现操作指引，引导玩家滑动继续跑酷</td><td>【跑酷视频】播放结束，出现操作指引，引导玩家滑动继续跑酷</td><td>奖励面板+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>视频：</strong>跑酷视频1/跑酷视频2</p><p><strong>静帧图片：</strong>操作指引</p><p><strong>音频：</strong>点击音效</p></td><td><p><strong>视频：</strong>跑酷视频3+跑酷视频4</p><p><strong>静帧图片：</strong>操作指引</p><p><strong>音频：</strong>点击音效</p></td><td><p><strong>静帧图片：</strong>视频尾帧截图、遮罩、奖励面板、跳转按钮</p><p><strong>粒子：</strong>彩带粒子</p><p><strong>音频：</strong>胜利音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p><strong>操作指引：</strong>位移缓动</p><p><strong>操作指引组：</strong>淡入</p></td><td><p><strong>操作指引：</strong>位移缓动</p><p><strong>操作指引组：</strong>淡入</p></td><td><p><strong>奖励面板组：</strong>放大出现</p><p><strong>跳转按钮：</strong>缩放缓动</p><p><strong>遮罩：</strong>淡入</p></td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转到下一场景</p><hr><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>开始时</p><p><strong>响应事件：</strong>禁用按下事件</p><hr><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>结束时</p><p><strong>响应事件：</strong>启用按下事件</p></td><td><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>隐藏视频3；从头播放视频4</p><hr><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>开始时</p><p><strong>响应事件：</strong>禁用按下事件</p><hr><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>结束时</p><p><strong>响应事件：</strong>启用按下事件</p></td><td><p><strong>触发对象：</strong>跳转按钮组</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
 
 
 
 ## <mark style="color:blue;">五、制作指南</mark> <a href="#cria2" id="cria2"></a>
 
-\*核心内容为Step3【事件设置】
+\*核心内容为Step4【事件设置】
 
 ### Step1 - 场景搭建 <a href="#wepzn" id="wepzn"></a>
 
@@ -67,45 +67,105 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 1）在【全局设置】中添加背景音乐、背景图片
 
-2）在【全局场景】下添加常驻下载按钮、logo等产品信息
+2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整位置大小
 
-#### **2.场景1**
+<figure><img src="../../../../.gitbook/assets/image (1858).png" alt=""><figcaption></figcaption></figure>
 
-1）将所需视频、图片添加进场景1
-
-<mark style="color:red;">温馨提示："进度条"和"操作指引"相关资产，都可从【预设库】直接获取哦！</mark>
-
-<figure><img src="../../../../.gitbook/assets/image (23) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-2）调整各资产到合适的位置大小
-
-3）根据资产类型对资产进行编组、排序、命名
-
-<figure><img src="../../../../.gitbook/assets/image (22) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-4）将核心视频(核心视频2+核心视频3)设为"隐藏"状态，并关闭【入场自动播放】，在后续通过事件来控制视频的显示和播放
+3）横屏排版：切换到横屏模式，对产品信息组重新排版。并隐藏不需要的底图\[banner]（需勾选\[显示隐藏参数]横竖屏拆分）
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1865).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-5）调整横屏排版：可选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整【位置】和【缩放比例】即可
-
-<figure><img src="../../../../.gitbook/assets/image (24) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-6）调整屏幕适配方式：在本案例中，我们想要竖屏下的产品信息始终位于屏幕底部，所以我们要调整其适配方式。直接选中该图层，在右侧【屏幕适配方式】处点击向下图标即可（其他图层默认居中适配，无需调整）
-
-<figure><img src="../../../../.gitbook/assets/image (25) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
+#### **2.普通场景**
 
-### Step2 - 动画设置 <a href="#tpuup" id="tpuup"></a>
+**2.1 场景1**
 
-在本案例中，需要设置动画的资产有：指引手指、指引文案、进度条(选做)、角色(选做)
+1）在场景1中添加核心玩法相关资产：跑酷视频1、操作指引、点击音效
 
-<mark style="color:red;">温馨提示：若您使用了预设，则无需自己设置动画！</mark>
+2）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
+
+3）视频参数：入场自动播放1次
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1859).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+4）横屏排版：切换到横屏模式，选中所有最高层级的图层，使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1860).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+**2.2 场景2&场景3**
+
+1）因场景2、场景3的制作步骤基本同场景1一致，可以通过"复制场景"功能快速完成场景搭建。复制场景后，替换相应视频即可
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1861).png" alt="" width="300"><figcaption></figcaption></figure>
+
+</div>
+
+2）注意：场景3还需额外添加视频4"video\_4"，并关闭入场自动播放
+
+3）可复制视频3图层，对视频4进行"仅粘贴位置大小"的操作，即可对齐视频的位置与大小
+
+<figure><img src="../../../../.gitbook/assets/image (1862).png" alt=""><figcaption></figcaption></figure>
+
+
+
+**2.3 场景4**
+
+1）在场景4中添加结束页面相关资产：视频尾帧截图、遮罩、奖励面板、跳转按钮、胜利音效、产品信息组_（因"全局场景"的层级只能设置"置于场景顶层或底层"，在结束页面，原有的产品信息组会被遮挡，因此可以复制"全局场景"的产品信息组到场景4，自由调整层级，并关闭"全局场景"）_
+
+2）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
+
+3）勾选场景4为【结束场景】，以便上报试玩结束
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1863).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+4）横屏排版：同样，切换到横屏模式，选中奖励面板组\[group\_end]，使用【复用竖屏位置尺寸配置】功能一键排版，再微调各图层的位置大小
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1866).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+### Step2 - 横竖屏适配 <a href="#tpuup" id="tpuup"></a>
+
+完成场景的搭建后，我们还需对部分图层的"屏幕适配方式"进行调整（相关阅读:[zhi-zuo-ji-qiao-shi-pei-xiang-guan.md](../../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-shi-pei-xiang-guan.md "mention")）
+
+在本案例中，我们想要竖屏下的常驻信息组始终位于各机型屏幕的底部，所以我们调整其"屏幕适配方式"为贴底适配（其他图层默认居中适配，无需调整）
+
+<figure><img src="../../../../.gitbook/assets/image (1867).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Step3 - 动画设置 <a href="#tpuup" id="tpuup"></a>
+
+在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
+
+场景1：点击指引动画、目标指引动画、合成指引动画、目标元素旋转动画、合成粒子、错误粒子
+
+场景2：奖励面板&跳转按钮的缩放动画、彩带粒子
 
 #### **1.指引手指**
 
@@ -149,7 +209,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 
 
-### <mark style="background-color:red;">Step3 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
+### <mark style="background-color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
 本案例的所有事件集中设置在三个视频图层上以及场景1上，我们按操作顺序依次讲解
 
@@ -300,7 +360,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 
 
-### Step4 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
+### Step5 - 整体预览 <a href="#j1kmp" id="j1kmp"></a>
 
 1）建议在制作过程中，每完成一部分操作，就及时预览，检查设置是否正确
 
