@@ -4,16 +4,16 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 # 交互视频《3步交互》教程
 
-温馨提示：本篇教程的[DEMO](https://tinyurl.com/bdcmpfe4)以跑酷玩法为例，演示如何制作3步跳转的交互视频素材，其他玩法产品只需将DEMO内的"按下"事件改为符合产品的交互方式，即可适用哦！
+温馨提示：本篇教程以跑酷玩法为例，主要讲解空白制作**如何制作3步跳转的交互视频素材**，建议搭配[DEMO](https://tinyurl.com/bdcmpfe4)食用效果更佳哦！其他玩法产品只需将DEMO内的"按下"事件改为符合产品的交互方式，即可适用！
 
 ## <mark style="color:blue;">一、特征标签</mark> <a href="#nubzy" id="nubzy"></a>
 
-* 【制作难度】：⭐⭐
-* 【适用产品】：普遍适用(尤其是摇杆玩法产品)
-* 【交互方式】：按下/抬起
+* 【制作难度】：⭐
+* 【适用产品】：普遍适用
+* 【交互方式】：按下
 * 【自由度】：固定流程
 * 【核心资产】：视频
-* 【核心功能】：按下-继续播放视频；抬起-暂停播放视频
+* 【核心功能】：按下-跳转到下一场景；视频开始时-禁用按下事件；视频结束时-启用按下事件
 
 
 
@@ -27,21 +27,19 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 **我们在开始制作之前需要将本案例的玩法逻辑进行简单的梳理：**
 
-1）进入试玩，自动播放【丧失围攻视频】<mark style="background-color:yellow;">（初始视频1）</mark>
+1）进入试玩，自动播放1次【跑酷视频1】
 
-2）视频播放结束，出现【操作指引】，引导玩家按下继续对抗丧尸
+2）视频结束，出现【操作指引】，引导玩家滑动躲避障碍物
 
-3）玩家全屏任意按下，播放【对抗丧尸视频】<mark style="background-color:yellow;">（核心视频2）</mark>，同时加载进度条；每当玩家抬起，暂停播放【对抗丧尸视频】，同时进度条停止加载，并出现【操作指引】
+3）玩家按下即播放【跑酷视频2】，视频结束，再次出现【操作指引】，引导玩家滑动躲避障碍物
 
-4）视频播放结束，自动跳转商店，玩家从商店返回可继续试玩
+4）玩家按下即播放【跑酷视频3】，视频结束，再次出现【操作指引】，引导玩家滑动躲避障碍物
 
-5）玩家全屏任意按下，播放【对抗丧尸视频】<mark style="background-color:yellow;">（核心视频3）</mark>，同时加载进度条；每当玩家抬起，暂停播放【对抗丧尸视频】，同时进度条停止加载，并出现【操作指引】
-
-6）视频播放结束，进度条停止加载，并出现【操作指引】，玩家按下即跳转商店
+5）玩家按下即播放【跑酷视频4】，视频结束，跳转应用商店，同时进入结束页面
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/Animation2.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1853).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -51,9 +49,9 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 **核心思想：**场景拆分逻辑清晰，图层结构简单，单个场景里的动画和事件尽可能少
 
-**场景拆分：**因本案例玩法较简单，我们只需用 1 个场景来制作即可
+**场景拆分：**为了便于理解&操作简单，本案例我们拆分为4个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家按下就播放视频，抬手就暂停播放视频，以此来模拟玩家实时交互的效果</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>操作指引、进度条</p><p><strong>视频：</strong>初始视频1、核心视频2、核心视频3</p><p><mark style="color:red;">注：因为我们对本案例的DEMO有"核心视频播放4s后,有一次强制跳转"的设定，为了便于理解和制作，将核心视频拆分成了两段(核心视频2总时长为4s)。若您不需要中途的强制跳转，只需准备一段核心视频即可</mark></p></td></tr><tr><td><strong>核心动画</strong></td><td><p>操作指引：位移缓动</p><p>进度条：缩放缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：视频图层</p><p>触发事件：按下；抬起</p><p>响应事件：继续播放视频；暂停播放视频</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="115">场景名称</th><th>场景1-初始指引</th><th>场景2-核心玩法</th><th>场景3-核心玩法</th><th>场景4-结束页面</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../../.gitbook/assets/image (1854).png" alt="" data-size="original"></td><td></td><td></td><td></td></tr><tr><td><strong>场景描述</strong></td><td>【跑酷视频1】播放结束，出现操作指引</td><td></td><td></td><td></td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>视频：</strong>跑酷视频1</p><p><strong>静帧图片：</strong>操作指引</p><p><strong>音频：</strong>点击音效</p></td><td></td><td></td><td></td></tr><tr><td><strong>核心动画</strong></td><td><p><strong>操作指引：</strong>位移缓动</p><p><strong>操作指引组：</strong>淡入</p></td><td></td><td></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转到下一场景</p><hr><p><strong>触发对象：</strong>视频图层</p><p><strong>触发事件：开始</strong></p><p><strong>响应事件：</strong>跳转到下一场景</p></td><td></td><td></td><td></td></tr></tbody></table>
 
 
 
@@ -308,7 +306,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1852).png" alt=""><figcaption></figcaption></figure>
 
 
 
