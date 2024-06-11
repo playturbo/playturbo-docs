@@ -2,7 +2,7 @@
 description: '#自由编辑器 #模板自由制作'
 ---
 
-# 《停车解谜v1》模板自由制作
+# 停车解密布局-模板自由制作
 
 ## <mark style="color:blue;">**一、对比展示**</mark> <a href="#aluje" id="aluje"></a>
 
@@ -175,7 +175,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

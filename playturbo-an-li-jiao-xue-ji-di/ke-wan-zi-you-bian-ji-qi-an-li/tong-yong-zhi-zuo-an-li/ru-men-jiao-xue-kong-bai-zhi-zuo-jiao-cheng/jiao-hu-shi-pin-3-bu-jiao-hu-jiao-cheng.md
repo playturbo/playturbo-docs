@@ -4,7 +4,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 # 交互视频《3步交互》教程
 
-温馨提示：本篇教程主要讲解**如何通过交互视频来实现"模拟玩家实时操作"的效果**，建议搭配DEMO食用效果更佳哦！
+温馨提示：本篇教程的[DEMO](https://tinyurl.com/bdcmpfe4)以跑酷玩法为例，演示如何制作3步跳转的交互视频素材，其他玩法产品只需将DEMO内的"按下"事件改为符合产品的交互方式，即可适用哦！
 
 ## <mark style="color:blue;">一、特征标签</mark> <a href="#nubzy" id="nubzy"></a>
 
@@ -19,10 +19,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                               | 竖屏                                                                                | 横屏                                                                                 |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| <img src="../../../../.gitbook/assets/image (35) (1).png" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation.gif" alt="" data-size="original"> | <img src="../../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"> |
-| 扫码试玩                                                                                   | [点击试玩](https://tinyurl.com/3tndebp6)                                              | [点击试玩](https://tinyurl.com/3tndebp6)                                               |
+<table><thead><tr><th width="210.33333333333331">手机试玩效果最佳</th><th>竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image.png" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/Animation5.gif" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/Animation4.gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/y4d4ckad">点击试玩</a></td><td><a href="https://tinyurl.com/y4d4ckad">点击试玩</a></td></tr></tbody></table>
 
 
 
@@ -202,7 +199,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
