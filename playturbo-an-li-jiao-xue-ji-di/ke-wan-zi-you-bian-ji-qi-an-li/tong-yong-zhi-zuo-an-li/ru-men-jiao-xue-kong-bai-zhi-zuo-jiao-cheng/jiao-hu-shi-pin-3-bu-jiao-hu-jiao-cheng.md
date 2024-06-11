@@ -19,7 +19,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-<table><thead><tr><th width="210.33333333333331">手机试玩效果最佳</th><th>竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image.png" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/Animation5.gif" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/Animation4.gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/y4d4ckad">点击试玩</a></td><td><a href="https://tinyurl.com/y4d4ckad">点击试玩</a></td></tr></tbody></table>
+<table><thead><tr><th width="210.33333333333331">手机试玩效果最佳</th><th>竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (16).png" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/Animation5.gif" alt="" data-size="original"></td><td><img src="../../../../.gitbook/assets/Animation4.gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/y4d4ckad">点击试玩</a></td><td><a href="https://tinyurl.com/y4d4ckad">点击试玩</a></td></tr></tbody></table>
 
 
 
@@ -107,7 +107,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 
 
-**2.2 场景2&场景3**
+**2.2 场景2&场景3**<mark style="background-color:orange;">**（此步骤建议在完成事件设置后进行，避免重复操作）**</mark>
 
 1）因场景2、场景3的制作步骤基本同场景1一致，可以通过"复制场景"功能快速完成场景搭建。复制场景后，替换相应视频即可
 
@@ -163,200 +163,173 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
 
-场景1：点击指引动画、目标指引动画、合成指引动画、目标元素旋转动画、合成粒子、错误粒子
+场景1-3：指引手指位移动画、指引文案位移动画、指引组淡入动画
 
-场景2：奖励面板&跳转按钮的缩放动画、彩带粒子
+场景4：奖励面板组入场动画、跳转按钮缩放动画、遮罩淡入动画、彩带粒子
 
-#### **1.指引手指**
+#### **1.指引手指：位移缓动**
 
-1）选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，参数设置如下(手指横向移动动画)：
+选中指引手指图片\[guide\_hand]，添加动画-通用-位移缓动，作为滑动循环指引动画。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (26) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-2）选中手指组\[gf\_1]，添加动画-通用-位移缓动，参数设置如下(手指纵向移动动画)：
+#### **2.指引文本：位移缓动**
 
-<figure><img src="../../../../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption></figcaption></figure>
+选中指引文本\[text\_guide]，添加动画-通用-位移缓动，作为循环指引动画。参数设置如下：
 
-#### **2.指引文案**
+<div align="left">
 
-选中指引文本\[tguidelines]，添加动画-强调动画-上下来回，参数设置如下（设置完成后可隐藏整个指引组，在后续通过事件控制）：
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
+</div>
 
-#### 3.进度条(选做)
+#### 3.指引组：淡入
 
-1）选中进度条图片\[progress\_bar]，将其【锚点】修改为（0,50），并取消勾选【参数横竖屏拆分】
+选中指引组\[group\_guide]，添加动画-进场动画-淡入，作为整个指引组的入场动画。参数设置如下：
 
-注意：进度条图片左右需贴边，不能留空
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+#### 4.奖励面板组：放大出现
 
-2）添加动画-通用-缩放缓动，参数设置如下：
+选中奖励面板组\[group\_end]，添加动画-进场动画-放大出现，作为整个奖励组的入场动画。参数设置如下：
 
-注意：这里的【持续时间】代表的是进度条加载到头所需的总时长。在本案例中，我们设定了"在进度条快加载完时，玩家不能再交互"，也就是当所有视频播放结束后，进度条需要差一截才到头，所以就需要"进度条播放的总时长＞所有视频加起来的总时长"。本案例的三段视频总时长为8.7s左右，所以在这里我们可以将进度条的【持续时间】设置为10s或更长
+<div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-#### 4.角色(选做)
+</div>
 
-1）选中角色图片\[role\_1]，将其【锚点】修改为（50,100），并取消勾选【参数横竖屏拆分】
+#### 5.跳转按钮：缩放缓动
 
-<figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+选中跳转按钮组\[btn]，添加动画-通用-缩放缓动，作为循环指引动画。参数设置如下：
 
-2）添加动画-通用-缩放缓动，参数设置如下（设置完成后可隐藏该图层，在后续通过事件控制）：
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
+#### 6.遮罩：淡入
+
+选中遮罩图片\[mask]，添加动画-进场动画-淡入，作为遮罩的入场动画。参数设置如下：
+
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+#### 7.彩带**粒子特效**
+
+1）打开公共粒子库，选择并添加合适的粒子特效到场景2
+
+2）调整粒子到合适的位置（注意横竖屏都要调整）
+
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### <mark style="background-color:red;">Step4 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-本案例的所有事件集中设置在三个视频图层上以及场景1上，我们按操作顺序依次讲解
+完成所有动效的设置，我们对试玩的逻辑 也就是"事件"进行设置
 
-#### <mark style="color:red;">1.图层: video\_01（初始视频1）</mark>
+本案例与事件设置相关的主要内容有：
 
-1）选中图层\[video\_01]，添加事件-开始时
+* 按下视频：跳转到下一场景；隐藏素材；从头播放视频
+* 视频开始时：禁用按下事件
+* 视频结束时：启用按下事件
+* 按下跳转按钮：跳转应用商店
 
-* 添加响应事件：从头播放进度条动画
+接下来，我们按顺序依次讲解
+
+#### <mark style="color:red;">1.图层: video\_1</mark>
+
+在场景1中选中图层\[video\_1]
+
+1）添加事件 - 按下，依次添加响应事件：
+
+* 设置埋点。选择埋点id1，并编辑埋点名称为"第一次按下"
+* 从头播放1次点击音效
+* 跳转到下一场景
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-2）添加事件-结束时
+2）添加事件 - 开始时，添加响应事件：
 
-* 添加响应事件：隐藏初始视频1；显示核心视频2、显示角色图片、显示操作指引组
-* 添加响应事件：从头播放所有指引相关动画；同时暂停播放进度条动画
+* 禁用事件：\[video\_1]按下
+
+3）添加事件 - 结束时，依次添加响应事件：
+
+* 启用事件：\[video\_1]按下
+* 从头播放指引组的淡入动画、从头播放指引文本的位移动画、从头播放指引手指的位移动画
+
+<mark style="background-color:yellow;">注：禁用事件&启用事件的设置是为了保证在视频播放期间，玩家不可点击，需要等到视频结束才允许交互</mark>
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (19) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="color:red;">2.图层: video\_02（核心视频2）</mark>
 
-1）选中图层\[video\_02]，添加事件-按下
 
-* 添加响应事件：设置埋点，修改埋点名称为"玩家第一次按下"
-* 添加响应事件：隐藏角色图片、隐藏操作指引组
-* 添加响应事件：继续播放核心视频2；并播放进度条动画和一次点击音效
+#### <mark style="color:red;">2.图层: video\_2、video\_3、video\_4</mark>
+
+复制场景1，由此创建场景2、场景3，并替换相应视频
+
+1）在场景2中选中图层\[video\_2]，修改埋点id与埋点名称
+
+2）在场景3中选中图层\[video\_3]，修改埋点id与埋点名称，并删除响应事件"跳转到下一场景"
+
+3）添加响应事件：隐藏\[video\_3]，隐藏指引组，从头播放\[video\_4]
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
-2）添加事件-抬起
+4）选中图层\[video\_4]，添加事件 - 结束时，添加响应事件：
 
-* 添加响应事件：暂停播放视频核心视频2
-* 添加响应事件：显示操作指引组；并从头播放操作指引相关动画；同时暂停播放进度条动画
+* 跳转应用商店
+* 跳转到下一场景
+
+
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-3）复制事件：复制\[video\_01]的"结束时"事件
+
+
+#### <mark style="color:red;">3.图层: 跳转按钮</mark>
+
+在场景4中选中图层\[btn]，添加事件 - 按下，添加响应事件：
+
+* 设置埋点。选择埋点id4，并编辑埋点名称为"结束页触发跳转"
+* 跳转应用商店
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-粘贴事件：选中\[video\_02]，粘贴 - 仅粘贴图层事件
+
+
+#### <mark style="color:red;">4.图层: 常驻下载按钮</mark>
+
+进入"全局场景"，选中常驻下载按钮组\[group\_button]，添加事件 - 按下
+
+添加响应事件：跳转应用商店
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-* 修改响应事件为：隐藏核心视频2；显示核心视频3；并删除显示角色图片
-* 添加响应事件：跳转应用商店（此步骤就是前面提到的"强制跳转"）
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### <mark style="color:red;">3.图层: video\_03（核心视频3）</mark>
-
-1）复制事件：复制整个图层\[video\_02]
-
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-2）粘贴事件：选中\[video\_03]，粘贴 - 仅粘贴图层事件（即一键粘贴该图层的所有事件）
-
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-3）事件-按下
-
-* 修改响应事件为：继续播放视频\[video\_03]；删除埋点事件、删除隐藏角色图片；
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-4）事件-抬起
-
-* 修改响应事件为：暂停播放视频\[video\_03]
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-5）事件-结束时
-
-* 删除响应事件：删除隐藏视频\[video\_02]、删除显示视频\[video\_03]、删除跳转应用商店
-* 添加响应事件：禁用\[video\_03]的按下事件、禁用\[video\_03]的抬起事件（在设置完下一步的场景事件后，还需在这里添加一个响应事件"启用场景1的按下事件"）
-
-<mark style="background-color:yellow;">注：这代表当最后一段视频播放结束，该视频的"按下/抬起"事件将不再生效，场景1的"按下"事件(即跳转事件)开始生效</mark>
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### <mark style="color:red;">4.场景: Scene 1</mark>
-
-1）点击场景1 ，添加事件-按下
-
-* 添加响应事件：跳转应用商店
-* 添加响应事件：上报试玩结束
-* 添加响应事件：从头播放一次点击音效
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-2）添加事件-定时触发
-
-* 设置执行延迟时间为0s
-* 添加响应事件：禁用场景1的按下事件
-
-<mark style="background-color:yellow;">注：这代表一进入试玩，场景1的"按下"事件(即跳转事件)即被禁用，不会生效。然后我们在核心视频3的"结束时"事件下添加"启用场景1的按下事件"</mark>
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
+
+
 
 
 
@@ -374,4 +347,4 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器制作此类素材
 
-{% file src="../../../../.gitbook/assets/模拟移动交互视频_资源.zip" %}
+{% file src="../../../../.gitbook/assets/3步跳转交互视频_空白制作_资产.zip" %}
