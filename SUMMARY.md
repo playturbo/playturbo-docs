@@ -119,7 +119,7 @@
 * [💡 视频工具-视频编辑器](shi-pin-gong-ju-shi-pin-bian-ji-qi/README.md)
   * [作品制作-流程概要](shi-pin-gong-ju-shi-pin-bian-ji-qi/zuo-pin-zhi-zuo-liu-cheng-gai-yao/README.md)
     * [视频编辑器-案例视频](shi-pin-gong-ju-shi-pin-bian-ji-qi/zuo-pin-zhi-zuo-liu-cheng-gai-yao/shi-pin-bian-ji-qi-an-li-shi-pin.md)
-  * [作品制作-新建指南](shi-pin-gong-ju-shi-pin-bian-ji-qi/zuo-pin-zhi-zuo-xin-jian-zhi-nan.md)
+  * [作品制作-创作指南](shi-pin-gong-ju-shi-pin-bian-ji-qi/zuo-pin-zhi-zuo-chuang-zuo-zhi-nan.md)
   * [视频编辑器-使用指南](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/README.md)
     * [编辑页面分区介绍](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/README.md)
       * [资源区](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/zi-yuan-qu/README.md)
