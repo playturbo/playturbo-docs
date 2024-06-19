@@ -160,6 +160,7 @@
   * [视频模板](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/README.md)
     * [布局模版](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/bu-ju-mo-ban/README.md)
       * [多语言裂变](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/bu-ju-mo-ban/duo-yu-yan-lie-bian.md)
+      * [视频AI消除](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/bu-ju-mo-ban/shi-pin-ai-xiao-chu.md)
     * [创意模板](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-mo-ban/chuang-yi-mo-ban.md)
 * [💡 录屏工具-录屏编辑器](lu-ping-gong-ju-lu-ping-bian-ji-qi/README.md)
   * [制作流程概括](lu-ping-gong-ju-lu-ping-bian-ji-qi/zhi-zuo-liu-cheng-gai-kuo/README.md)
