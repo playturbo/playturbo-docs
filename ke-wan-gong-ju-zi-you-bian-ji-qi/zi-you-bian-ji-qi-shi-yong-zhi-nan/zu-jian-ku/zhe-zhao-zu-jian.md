@@ -51,29 +51,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 一个「遮罩组件」最少包含一个「遮罩组」。遮罩组(遮罩设置)包含三部分：遮罩形状、被遮罩组、自定义分组（选做）
 
-遮罩组：支持 添加遮罩组、添加动画(对组内所有元素生效)、调整遮罩组的显示/隐藏
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1874).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-* 遮罩形状
-
 <mark style="color:red;">注意：「遮罩设置」为遮罩组件最核心的参数，请务必将各部分设置完成</mark>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div align="left">
 
@@ -81,87 +59,146 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 </div>
 
+#### 3.1 遮罩组
 
+新增：支持新增遮罩组，点击后输入新遮罩组名称即可创建遮罩组
+
+添加动画：可为遮罩组添加动画，添加后动画对组内所有元素生效
+
+显示/隐藏：可调整遮罩组的显示/隐藏，对组内所有元素生效（默认显示）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1882).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### 3.2 遮罩形状
+
+<mark style="background-color:red;">**形状**</mark>：「遮罩形状」覆盖到「被遮罩组」的部分会显示，未覆盖到的部分会隐藏
+
+* 形状支持设置「矩形」或「圆形」，并可调整其「外观」、「动画」、「事件」参数
+  * 外观：可调整该形状的位置尺寸、缩放比例、旋转角度
+  * 动画：可对该形状设置动画
+  * 事件：可对遮罩形状设置事件(可设置「拖拽」事件，使遮罩在实际试玩中可拖动)
+* 可点击「预览遮罩效果」，在画布内预览当前遮罩形状的位置大小
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1876).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="background-color:red;">**跟随元素**</mark>（非必须添加）：设置跟随元素后，需为形状添加「拖拽」事件。设置完成后，跟随元素将会跟随形状的拖拽同步移动
+
+* 支持添加多个跟随元素，点击右侧"+"按钮即可从资产库中添加
+* 点击可调整「跟随元素」的「外观」、「动画」、「事件」参数（使用同常规图层一样）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1878).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### <mark style="background-color:red;">3.3 被遮罩组</mark>
+
+「被遮罩组」内的图像，在「遮罩形状」覆盖范围内的部分会显示，覆盖范围外的部分会隐藏
+
+* 支持添加多个 被遮罩元素，点击右侧"+"按钮即可从资产库中添加
+* 点击可调整「被遮罩元素」的「外观」、「动画」、「事件」参数（使用同常规图层一样）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1880).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+#### 3.4 自定义分组
+
+<mark style="color:red;">「自定义分组」</mark>作为遮罩组件的一部分，可随着遮罩组件一起缩放和调整位置，但<mark style="color:red;">不受遮罩的影响，不会被遮罩</mark> （如下图所示，将"被遮罩组"对应的黑白底图加入到自定义分组中，当"遮罩形状"覆盖"被遮罩组"时，展示"被遮罩组"的彩色图片，其他部分则展示该黑白底片）
+
+**用户可根据自身创意，决定是否要添加「自定义分组」**
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1881).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### 4.事件
 
-「自由画线组件」包含两种**触发事件**：「开始画线」、「画线完成」
-
-和「自由画线组件」相关的**响应事件**包含：「抹除画线线条」、「修改画线线条样式」、「启用/禁用自由画线组件」、「已画线条生成刚体」
+「遮罩组件」独特的**响应事件**包含：启用/禁用遮罩组件、启用/禁用遮罩组、显示/隐藏遮罩组、显示/隐藏遮罩分组、启用/禁用遮罩效果
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1414).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1884).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="background-color:orange;">1-1）</mark><mark style="background-color:orange;">**触发事件：开始画线**</mark>
+#### 4.1 启用/禁用遮罩组件
 
-设置「开始画线」，并添加所需的响应事件
+需选择启用/禁用
 
-**触发时机为：**<mark style="color:red;">**当玩家开始画线时**</mark>
+若被禁用，等同于禁用所有的遮罩组。遮罩组下的所有遮罩层、被遮罩层事件将不再生效
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1415).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1885).png" alt="的" width="314"><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="background-color:orange;">1-2）</mark><mark style="background-color:orange;">**触发事件：画线完成**</mark>
+#### 4.2 启用/禁用遮罩组
 
-设置「画线完成」，并添加所需的响应事件
+需选择启用/禁用和某个遮罩组
 
-**触发时机为：**<mark style="color:red;">**当玩家完成画线时**</mark>
+若被禁用，遮罩组下的所有遮罩层、被遮罩层事件将不再生效
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1416).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1886).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="background-color:orange;">2-1）</mark><mark style="background-color:orange;">**响应事件：抹除画线线条**</mark>
+#### 4.3 显示/隐藏遮罩组
 
-该事件的响应结果为：所有已画完成的线条会被抹除
+需选择显示/隐藏和某个遮罩组
+
+选择后，将显示/隐藏某个遮罩组内的所有元素
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1417).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1887).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="background-color:orange;">2-2）</mark><mark style="background-color:orange;">**响应事件：修改画线线条样式**</mark>
+#### 4.4 显示/隐藏遮罩分组
 
-该事件的响应结果为：画出的线条将被修改为指定样式
+需选择显示/隐藏和某个遮罩分组
 
-<mark style="color:red;">**注意：该响应事件仅对未画出的线生效，对已画出的不生效**</mark>
+选择后，将显示/隐藏某个遮罩分组内的所有元素
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1418).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1888).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-#### <mark style="background-color:orange;">2-3）</mark><mark style="background-color:orange;">**响应事件：**</mark><mark style="background-color:orange;">启用/禁用自由画线组件</mark>
+#### 4.5 启用/禁用遮罩效果
 
-需要选择启用/禁用：
+需选择启用/禁用和某个遮罩组
 
-* 若选择「禁用」，该事件的响应结果为：该组件不再能够开始画线和完成画线
-* 若选择「启用」，该事件的响应结果为：取消「禁用」事件
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1419).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<mark style="background-color:orange;">**2-4）响应事件：已画线条生成刚体**</mark>
-
-该事件的响应结果为：线条根据所选的「刚体类型」，变为刚体
+若启用，则「被遮罩组」会受「遮罩形状」的影响而展示；若禁用，则「被遮罩组」不受「遮罩形状」影响，直接展示
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1420).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1889).png" alt=""><figcaption></figcaption></figure>
 
 </div>
