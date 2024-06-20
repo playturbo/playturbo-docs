@@ -4,9 +4,9 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 # 连线组件
 
-✨模板自由制作入口：作品预览区>>>设置连线组件 或 图层区>>>Match Line Component
+✨模板自由制作入口：作品预览区>>>连线组件按钮 或 图层区>>>Match Line Component
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1890).png" alt=""><figcaption></figcaption></figure>
 
 ✨空白制作入口：玩法模板>>>组件库>>>连线组件
 
@@ -16,13 +16,16 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 </div>
 
+相关案例教学可查阅 [lian-xian-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/lian-xian-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md "mention")
+
 
 
 ## <mark style="color:blue;">一、连线组件通俗介绍</mark>
 
-* 适用于如连线配对、连连看等<mark style="color:red;">有固定可连线区域</mark>或<mark style="color:red;">固定配对组合</mark>的玩法
-* 当前，【模板自由制作】和【空白制作】都支持使用"连线组件"。使用【模板自由制作】，您可以基于原模板的玩法对组件进行调整；使用【空白制作】，可以从零开始制作连线玩法的素材
+* 适用于如连线配对、连连看等**有固定可连线区域**或**固定配对组合**的玩法
+* 当前，<mark style="color:red;">【模板自由制作】和【空白制作】都支持使用"连线组件"</mark>。使用【模板自由制作】，您可以基于原模板的玩法对组件进行调整；使用【空白制作】，可以从零开始制作连线玩法的素材
 * 基于现有的「连线组件」，您可调整模板的可画线范围、画线的起止区域及样式、配对关系、连线类型等内容
+* <mark style="color:red;">注意：同个场景仅支持添加一个组件，但可跨场景添加组件或复制组件</mark>
 
 
 

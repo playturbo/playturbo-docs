@@ -8,6 +8,8 @@ description: '#自由编辑器 #模板自由制作'
 
 我们先来看一下使用**模板自由制作**前后的对比
 
+\*建议搭配DEMO和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ting-che-jie-mi-bu-ju.md)食用效果更佳哦！
+
 | 迭代前                                                                        | 迭代后                                                                      |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | <img src="../../../.gitbook/assets/停车1.2.gif" alt="" data-size="original"> | <img src="../../../.gitbook/assets/停车2.gif" alt="" data-size="original"> |
@@ -20,8 +22,6 @@ description: '#自由编辑器 #模板自由制作'
 模板迭代后的改动，主要在以下几方面：
 
 <mark style="color:red;">**1.重点：调整「停车解密布局」**</mark><mark style="color:red;">（包含「背景及道路」、「布局元素」、「出口」三部分内容）</mark>
-
-\*_【快捷布局】功能介绍可查阅：_ [ting-che-jie-mi-bu-ju.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ting-che-jie-mi-bu-ju.md "mention")
 
 2.替换产品信息及其他资产
 

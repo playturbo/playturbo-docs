@@ -10,14 +10,15 @@ description: '#自由编辑器 #模板自由制作'
 
 <figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">\*注意：当前「停车解密布局」仅支持纯</mark><mark style="color:red;">**俯视视角**</mark><mark style="color:red;">的停车解密类玩法</mark>
+相关案例教学可查阅 [ting-che-jie-mi-bu-ju-mo-ban-zi-you-zhi-zuo.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ting-che-jie-mi-wan-fa-an-li/ting-che-jie-mi-bu-ju-mo-ban-zi-you-zhi-zuo.md "mention")
 
 
 
 ## <mark style="color:blue;">一、快捷布局通俗介绍</mark>
 
 * 适用玩法：适用于"停车解谜""农场解谜"等通过移动多种元素位置来放出目标元素的玩法
-* 快捷布局当前仅支持在"停车解谜"玩法模板的【自由制作】中使用
+* <mark style="color:red;">当前「停车解密布局」仅支持纯</mark><mark style="color:red;">**俯视视角**</mark><mark style="color:red;">的停车解密类玩法</mark>
+* <mark style="color:red;">快捷布局当前仅支持在"停车解谜类"玩法模板的【自由制作】中使用</mark>
 * 通过调整快捷布局的「背景及道路」、「布局元素」、「出口」等参数，您可以创建不同难度和风格的停车布局，完成您的创意素材输出
 
 <div align="left">
@@ -383,5 +384,3 @@ description: '#自由编辑器 #模板自由制作'
 </div>
 
 以上三部分的内容全部调整完成后，点击【完成】，快捷布局即生效
-
-相关案例教学可查阅 [ting-che-jie-mi-bu-ju-mo-ban-zi-you-zhi-zuo.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ting-che-jie-mi-wan-fa-an-li/ting-che-jie-mi-bu-ju-mo-ban-zi-you-zhi-zuo.md "mention")

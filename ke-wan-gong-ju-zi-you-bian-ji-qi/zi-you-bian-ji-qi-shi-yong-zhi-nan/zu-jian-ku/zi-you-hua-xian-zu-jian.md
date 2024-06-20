@@ -16,13 +16,16 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 </div>
 
+相关案例教学可查阅 [zi-you-hua-xian-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/zi-you-hua-xian-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md "mention")
+
 
 
 ## <mark style="color:blue;">一、自由画线组件通俗介绍</mark>
 
-* 适用于如模板"画线救它"等能够<mark style="color:red;">在区域内自由画线</mark>的玩法。通过「自由画线组件」，实现在指定区域内自由画线，并根据线条触发各种效果
-* 当前，【模板自由制作】和【空白制作】都支持使用"自由画线组件"。使用【模板自由制作】，您可以基于原模板的玩法对组件进行调整；使用【空白制作】，可以从零开始制作画线玩法的素材
+* 适用于如模板"画线救它"等能够**在区域内自由画线**的玩法。通过「自由画线组件」，实现在指定区域内自由画线，并根据线条触发各种效果
+* 当前，<mark style="color:red;">【模板自由制作】和【空白制作】都支持使用"自由画线组件"</mark>。使用【模板自由制作】，您可以基于原模板的玩法对组件进行调整；使用【空白制作】，可以从零开始制作画线玩法的素材
 * 基于现有的「自由画线组件」，您可调整模板的可画线范围、线条样式等内容
+* <mark style="color:red;">注意：同个场景仅支持添加一个组件，但可跨场景添加组件或复制组件</mark>
 
 
 

@@ -4,18 +4,24 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 # 擦除组件
 
-入口：玩法模板>>>组件库>>>擦除组件
+✨模板自由制作入口：作品预览区>>>自由画线按钮 或 图层区>>>Erase Component
+
+<figure><img src="../../../.gitbook/assets/微信截图_20240620163741.png" alt=""><figcaption></figcaption></figure>
+
+✨空白制作入口：玩法模板>>>组件库>>>擦除组件
 
 <figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+相关案例教学可查阅 [ca-chu-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/ca-chu-wan-fa-an-li-jiao-hu-hou-xian-shi-mu-biao-yuan-su/ca-chu-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md "mention")
 
 
 
 ## <mark style="color:blue;">一、擦除组件通俗介绍</mark>
 
-* 擦除组件支持在【空白制作】和【模板自由制作】中使用
 * 适用玩法：适用于"擦除遮罩以显示底图"或"涂抹上色"等在区域内滑动进行擦除/涂抹的玩法
 * 底层逻辑：设置「蒙层」与「底图」，让玩家通过"擦除蒙层后显示底图"来实现擦除效果
-* 对于新增的擦除组件，需完成组件的 「外观」、「擦除笔触」、「组件图层」、「事件判定」、「事件」等参数的设置，擦除组件才可正式生效
+* <mark style="color:red;">擦除组件支持在【空白制作】和【模板自由制作】中使用</mark>。对于新增的擦除组件，需完成组件的 「外观」、「擦除笔触」、「组件图层」、「事件判定」、「事件」等参数的设置，擦除组件才可正式生效
+* <mark style="color:red;">注意：同个场景仅支持添加一个组件，但可跨场景添加组件或复制组件</mark>
 
 
 
@@ -24,7 +30,6 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 ### 1.添加擦除组件
 
 * 点击擦除组件右下方的"+"号即可成功添加一个擦除组件
-* <mark style="color:red;">注意：同个场景仅支持添加一个组件，但可跨场景添加组件或复制组件</mark>
 
 <figure><img src="../../../.gitbook/assets/image (1458).png" alt=""><figcaption></figcaption></figure>
 
