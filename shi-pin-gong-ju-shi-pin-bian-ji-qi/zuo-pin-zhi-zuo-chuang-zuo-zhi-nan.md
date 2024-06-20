@@ -108,9 +108,12 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 ## <mark style="color:blue;">第五步：预览及导出</mark>
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e96928706431ca20adb679902dff696e4d98e308a20378e49167ece8b44d2c7f11bfa3ff245777629084a6a35c2c7cc62e6d91332a?tmpCode=05136aab-37f2-47e1-b534-5ddd0d2f628e)
-
 * 完成视频编辑工作后，点击导航栏「导出」，进行导出设置，根据视频用途选择适当的分辨率和码率。
 * 可批量导出的视频数量=「创意制作」页添加的素材组合数×「尺寸裂变」页添加的比例数×「语言裂变」页添加的语言数。&#x20;
 * 导出任务提交后，您可以在菜单栏【**我的项目-导出&下载历史】**列表中查看历史任务进展。&#x20;
-* 导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。
+
+<figure><img src="../.gitbook/assets/导出预览按钮.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/导出历史截图.jpg" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。**</mark>
