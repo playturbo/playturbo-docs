@@ -12,11 +12,11 @@
 
 1.通过首页的创意工具箱或菜单栏的模板库，进入布局模版列表并选择合适的模版。&#x20;
 
-![-](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e969287064ec5a9b363292e9651b7dd45b8e8cb60b76f1fbddd8e90833ab9069f7fa94e7ccb47b01a72b3a7ed89508fd59fedd0e8f?tmpCode=7c860b70-b53d-4e3b-840b-90bc232d5df4)
+<figure><img src="../../../.gitbook/assets/image (1894).png" alt=""><figcaption></figcaption></figure>
 
 2.根据主视频的方向、模版名称或需要上传的素材数量，查找或筛选合适的布局模版。
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e9692870649f1cf4680759f796413bf4092f97918f74c052695d032c1382038cc62e60f1a88fd6cf72b6202392a5f44275aa76f220?tmpCode=ee26b28e-a752-4a82-adde-021a2fc1e178)
+<figure><img src="../../../.gitbook/assets/image (1895).png" alt=""><figcaption></figcaption></figure>
 
 **主视频是指已经完成视频创意设计，需要进行尺寸拓展或多语言翻译的视频。**&#x20;
 
@@ -34,7 +34,7 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 ## <mark style="color:blue;">第二步：创建快速替换项目</mark>
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e9692870647cb97c4d835f29928b186a2d3a90bd5c92ca90326142084d44613a614aa226b4fb5f0e028be2e38f62a74c4c60796216?tmpCode=48ecc335-3624-4e78-aa17-5c82a76e3a71)
+<figure><img src="../../../.gitbook/assets/image (1896).png" alt=""><figcaption></figcaption></figure>
 
 输入项目名称、目标视频尺寸和目标视频语言后，完成项目创建。此过程选择多个目标视频尺寸和目标视频语言。
 
@@ -44,17 +44,17 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 ## <mark style="color:blue;">第三步：上传素材</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1897).png" alt=""><figcaption></figcaption></figure>
 
 根据布局模版结构，将视频、图片、文字等素材上传到相应的占位符中，例如主视频、LOGO图，背景图等位置。&#x20;
 
-### 1.尺寸裂变
+### 1. 尺寸裂变
 
 * 尺寸裂变是布局模板中的一个重要功能。上传主视频后，您可选择需要裂变的尺寸比例，系统会根据布局模板的样式自动完成多个尺寸调整，以适应不同的显示设备或平台需求。此功能可助您轻松修改视频的宽高比例或分辨率，而无需重新编辑整个视频。
 * 假如现在有一个竖屏视频，我们需要在横屏设备上播放。使用布局模板的尺寸裂变功能，您可轻松地调整视频的尺寸，以适应横屏显示，并确保视频内容完整显示且不失真。
 * 视频预览区域可切换不同尺寸的视频预览效果。&#x20;
 
-### 2.素材组合
+### 2. 素材组合
 
 * 素材组合是指在布局模板中的单个占位符内，允许用户上传多个素材；导出视频时，可以一次性批量导出多个版本视频，无需逐个版本进行导出操作。
 * 当多个占位符都上传了多个素材时，系统会自动生成各占位符内素材的所有可能组合，并批量导出这些组合的视频版本。
@@ -70,7 +70,7 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 这四个版本展示了各种可能的组合，即占位符 A 内的两个素材与占位符 B 内的两个素材的所有组合结果。
 
-### 3.AI消除
+### 3. AI消除
 
 对于已上传的主视频，可以使用AI技术可以高效移除视频中特定元素（如画面中文本、字幕、水印或徽标等不需要的元素）。
 
@@ -94,9 +94,9 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 3.6 完成任务编辑后，点击「开始消除」提交AI消除批量任务。&#x20;
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e96928706458c2f0b99dd21ff260506ee25989ceef02732c05281d26d409097be729e0e776111aaada3d3b6d1807afbbdd4225fe9b?tmpCode=4d675c45-02b4-429f-bf21-cd73f2af067b)
+<figure><img src="../../../.gitbook/assets/image (1898).png" alt=""><figcaption></figcaption></figure>
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e969287064eec101aec8b77bc57f72f2419b9611a20e0c3a6f7995668104bd0e71d83e33c9e6647f69ad50a550a8af4430009de0b1?tmpCode=5abf7c22-bafc-4564-ac36-5fbaf32db36e)
+<figure><img src="../../../.gitbook/assets/image (1900).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第四步：语言裂变</mark>
 
@@ -109,23 +109,21 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 <mark style="color:red;">您可以在顶部的【</mark><mark style="color:red;">**语言裂变】**</mark><mark style="color:red;">中再次修改需要翻译的内容范围。</mark>
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e9692870648cfa3e94a493acb9edbc87cb8585d57a0ca0226635c1e2192280f38c2547287609d737c680157821985ea16e2deb3474?tmpCode=b4a12333-469a-4e03-b527-e4c2fcb0b160)
+<figure><img src="../../../.gitbook/assets/image (1901).png" alt=""><figcaption></figcaption></figure>
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e96928706470abb6f99e12ac5135443e06dc38271f1209e46d07fbf1a8addf9f65b51e4e0ea69b5e0e62399ef82c7cc62e6d91332a?tmpCode=e8acfb00-a995-44a8-98a5-b9eb245c1bc4)
-
-
+<figure><img src="../../../.gitbook/assets/image (1902).png" alt=""><figcaption></figcaption></figure>
 
 ### 1.布局模版翻译
-
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e96928706410b2f438f2ec058d5ce953ded728f9efae6c233bf98313048371f0c1b7d28291846540c1e8738534a5f44275aa76f220?tmpCode=4cc82576-56f8-442f-b05c-3b4b52b96c10)
 
 * 在「**布局模版**」翻译栏中，您可以对布局模版中已添加的的文本（如按钮文本、产品名称、推广文案等）进行翻译。
 * 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
 * 点击文本后，右侧的视频预览区域会自动定位到该文本出现的起始时间进行播放。
 
+<figure><img src="../../../.gitbook/assets/2 (94).png" alt=""><figcaption></figcaption></figure>
+
 ### 2.视频翻译
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e9692870642a24cb9dc434a74dbee2da815b4fa92a47956f9fab531fc4998efd4787ebb7a5b277e32f4fe5e80b9508fd59fedd0e8f?tmpCode=8e929a20-ef8e-45be-9510-2b9154650352)
+<figure><img src="../../../.gitbook/assets/3 (81).png" alt=""><figcaption></figcaption></figure>
 
 视频翻译分为一个或多个翻译栏，每上传一个主视频，对应一个需要翻译的视频翻译栏。
 
@@ -144,7 +142,7 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 * 您可以点击字幕配音标题行右侧的按钮，展开字幕样式设置。
 * 如果修改了原语音字幕，可通过点击顶部「**更新翻译**」，批量更新其它语言翻译结果。&#x20;
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e96928706474715206e81b37376b6172df21f43e4fff45872da1ad9f7b44fcb060ccd65be8face93700754adb8606601fe23b54967?tmpCode=31b99daa-8f77-4068-ab76-c9296f4cf17b)
+
 
 &#x20;    b.配音：
 
@@ -152,7 +150,7 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 * 如果修改了字幕内容、说话人或说话人音色，可通过点击顶部「**更新配音**」，批量更新其它语言的配音结果。&#x20;
 * 为了确保视频翻译后语音与视频画面同步，翻译语言的配音会自动变速，以适配原语言字幕的时长。过慢或过快的异常变速会影响视频播放效果，您可以通过修改字幕翻译文本长度来更新配音。
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e969287064288839e15041c7ad7b9f4b7c88a0c9bd80dd602c5d5e35892c449c1e55c4713c3ba863b3b8cc8313149565b860957ab4?tmpCode=a040905f-1488-443c-aa32-7afca682475f)
+<figure><img src="../../../.gitbook/assets/image (1903).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第五步：预览及导出</mark>
 
@@ -160,8 +158,6 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 * 可批量导出的视频数量=**素材上传页添加的素材组合数×项目比例数×项目语言数**。&#x20;
 * 导出任务提交后，您可以在菜单栏**我的项目>>>导出&下载历史**列表中查看历史任务进展。
 
-<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
-
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e96928706431ca20adb679902dff696e4d98e308a20378e49167ece8b44d2c7f11bfa3ff245777629084a6a35c2c7cc62e6d91332a?tmpCode=730e475a-3f45-4bf0-8e40-bc670ca565f6)
+<figure><img src="../../../.gitbook/assets/image (1904).png" alt=""><figcaption></figcaption></figure>
 
 导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。
