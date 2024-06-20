@@ -1,28 +1,25 @@
 ---
-description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
+description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 ---
 
 # 遮罩组件-空白制作教程
 
-温馨提示：本篇教程主要讲解空白制作如何**通过擦除组件制作出"擦除玩法"的可玩素材**，建议搭配[DEMO](https://tinyurl.com/4xby5rvh)和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/ca-chu-zu-jian.md)食用效果更佳哦！
+温馨提示：本篇教程主要讲解如何**通过遮罩组件制作出此类玩法（通过点击/拖拽等交互方式，来展示目标图片）的可玩素材，**建议搭配[DEMO](https://tinyurl.com/4j5t5z3u)和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/zhe-zhao-zu-jian.md)食用效果更佳哦！
 
 ## <mark style="color:blue;">一、特征标签</mark> <a href="#nubzy" id="nubzy"></a>
 
 * 【制作难度】：⭐⭐
-* 【适用产品】：擦除玩法
-* 【交互方式】：开始擦除/到达某一阶段
+* 【适用产品】：通用
+* 【交互方式】：拖拽到指定位置
 * 【自由度】：固定流程
 * 【核心资产】：图片
-* 【核心功能】：到达某一阶段-隐藏擦除层
+* 【核心功能】：遮罩形状、被遮罩组、拖拽事件
 
 
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-| 手机试玩效果最佳                                                                          | 竖屏                                                                                  | 横屏                                                                                  |
-| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/image (1504).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation1 (1).gif" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Animation2 (2).gif" alt="" data-size="original"> |
-| 扫码试玩                                                                              | [点击试玩](https://tinyurl.com/4xby5rvh)                                                | [点击试玩](https://tinyurl.com/4xby5rvh)                                                |
+<table><thead><tr><th width="205.33333333333331">手机试玩效果最佳</th><th>竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (1892).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation1 (5).gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation2 (6).gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/4j5t5z3u">点击试玩</a></td><td><a href="https://tinyurl.com/4j5t5z3u">点击试玩</a></td></tr></tbody></table>
 
 
 
@@ -30,19 +27,15 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 **我们在开始制作之前先对本案例的玩法逻辑进行简单的梳理：**
 
-1）进入试玩，展示【美女被遮挡画面】，美女角色默认进行序列帧播放
-
-2）出现【操作指引】，引导玩家滑动擦除遮罩
-
-3）玩家在遮罩位置任意滑动，遮罩即被实时擦除，露出美女身体
-
-4）当遮罩区域被擦除60%，遮罩消失，并出现完整的美女图片和重玩按钮
-
-5）玩家按下按钮，跳转应用商店
+* 进入试玩，展示【黑白底图】和【操作指引】，引导玩家滑动进行涂色；
+* 玩家拖动彩虹条
+  * 若未拖拽到指定位置，彩虹条返回原位；
+  * 若拖拽到指定位置，则涂色成功 跳转结束场景；
+* 结束场景 玩家按下按钮跳转商店
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1506).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1893).png" alt="" width="504"><figcaption></figcaption></figure>
 
 </div>
 
@@ -52,9 +45,9 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 **核心思想：**场景拆分逻辑清晰，图层结构简单，单个场景里的动画和事件尽可能少
 
-**场景拆分：**因本案例玩法较简单，我们只需用 1 个场景来制作即可
+**场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/Animation1 (1).gif" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家在遮罩位置任意滑动擦除遮罩，来显示出完整的美女图片</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">遮罩(擦除层)</mark>、操作指引、重玩按钮</p><p><strong>序列帧：</strong><mark style="color:red;">美女底图</mark></p><p><strong>视听包装：</strong>爱心粒子特效、擦除音效、美女害羞音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p>手指指引：位移缓动</p><p>美女放大出现：缩放缓动+位移缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：擦除组件Erase Component</p><p>触发事件：到达某一阶段</p><p>响应事件：隐藏擦除层</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td></td><td></td></tr><tr><td><strong>场景描述</strong></td><td>玩家在遮罩位置任意滑动擦除遮罩，来显示出完整的美女图片</td><td></td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">遮罩(擦除层)</mark>、操作指引、重玩按钮</p><p><strong>序列帧：</strong><mark style="color:red;">美女底图</mark></p><p><strong>视听包装：</strong>爱心粒子特效、擦除音效、美女害羞音效</p></td><td></td></tr><tr><td><strong>核心动画</strong></td><td><p>手指指引：位移缓动</p><p>美女放大出现：缩放缓动+位移缓动</p></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：擦除组件Erase Component</p><p>触发事件：到达某一阶段</p><p>响应事件：隐藏擦除层</p></td><td></td></tr></tbody></table>
 
 
 
@@ -293,7 +286,7 @@ description: '#自由编辑器 #空白制作 #擦除组件 #初级难度'
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1891).png" alt=""><figcaption></figcaption></figure>
 
 
 
