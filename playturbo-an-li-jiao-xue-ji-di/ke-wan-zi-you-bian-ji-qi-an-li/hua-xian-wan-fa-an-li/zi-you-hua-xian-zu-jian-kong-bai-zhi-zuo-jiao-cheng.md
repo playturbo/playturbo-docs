@@ -158,7 +158,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="554"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="554"><figcaption></figcaption></figure>
 
 </div>
 
@@ -184,7 +184,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 选中场景3的跳转按钮组\[group\_download]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 6.粒子特效：彩带粒子&星星粒子
 
@@ -196,7 +196,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 4）调整好粒子竖屏的位置，还需切换到横屏进行调整
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -215,7 +215,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 * 添加响应事件：跳转到下一场景
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.场景2
 
@@ -226,7 +226,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -239,7 +239,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -251,7 +251,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -265,7 +265,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

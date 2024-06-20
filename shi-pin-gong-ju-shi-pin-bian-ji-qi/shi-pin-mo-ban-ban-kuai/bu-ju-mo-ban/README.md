@@ -44,7 +44,7 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 ## <mark style="color:blue;">第三步：上传素材</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 根据布局模版结构，将视频、图片、文字等素材上传到相应的占位符中，例如主视频、LOGO图，背景图等位置。&#x20;
 
@@ -160,7 +160,7 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 * 可批量导出的视频数量=**素材上传页添加的素材组合数×项目比例数×项目语言数**。&#x20;
 * 导出任务提交后，您可以在菜单栏**我的项目>>>导出&下载历史**列表中查看历史任务进展。
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e96928706431ca20adb679902dff696e4d98e308a20378e49167ece8b44d2c7f11bfa3ff245777629084a6a35c2c7cc62e6d91332a?tmpCode=730e475a-3f45-4bf0-8e40-bc670ca565f6)
 

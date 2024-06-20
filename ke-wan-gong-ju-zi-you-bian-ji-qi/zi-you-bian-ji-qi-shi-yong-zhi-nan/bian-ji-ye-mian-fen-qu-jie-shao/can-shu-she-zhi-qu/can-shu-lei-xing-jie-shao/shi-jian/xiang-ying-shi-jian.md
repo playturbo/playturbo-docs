@@ -268,7 +268,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -276,7 +276,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -296,7 +296,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -304,7 +304,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -324,7 +324,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -334,7 +334,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -354,7 +354,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

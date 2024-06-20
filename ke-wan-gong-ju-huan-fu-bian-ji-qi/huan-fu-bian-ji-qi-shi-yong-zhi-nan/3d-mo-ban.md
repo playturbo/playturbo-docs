@@ -69,7 +69,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>调整前</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>调整后</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>调整后</p></figcaption></figure>
 
 
 
@@ -79,7 +79,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

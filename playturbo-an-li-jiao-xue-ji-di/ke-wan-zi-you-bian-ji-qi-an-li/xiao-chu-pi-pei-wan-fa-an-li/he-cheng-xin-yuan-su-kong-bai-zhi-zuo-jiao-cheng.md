@@ -195,7 +195,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 2）注意：每个元素组下都需各添加一个错误粒子，将粒子参数的"发射空间"设为"World"，并微调其余参数，以此来实现"错误粒子跟随玩家松手的位置实时出现"的效果
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）调整各粒子到合适的位置（注意横竖屏都要调整）
 
@@ -312,7 +312,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -327,7 +327,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -341,7 +341,7 @@ description: '#自由编辑器 #空白制作 #合成玩法 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

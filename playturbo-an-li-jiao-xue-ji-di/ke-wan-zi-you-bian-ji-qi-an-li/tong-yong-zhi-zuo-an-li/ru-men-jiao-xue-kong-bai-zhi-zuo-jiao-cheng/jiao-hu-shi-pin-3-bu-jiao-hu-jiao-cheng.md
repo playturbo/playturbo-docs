@@ -203,13 +203,13 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 选中跳转按钮组\[btn]，添加动画-通用-缩放缓动，作为循环指引动画。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 6.遮罩：淡入
 
 选中遮罩图片\[mask]，添加动画-进场动画-淡入，作为遮罩的入场动画。参数设置如下：
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 7.彩带**粒子特效**
 
@@ -217,7 +217,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 2）调整粒子到合适的位置（注意横竖屏都要调整）
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -246,7 +246,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -263,7 +263,7 @@ description: '#自由编辑器 #空白制作 #通用制作 #入门难度'
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

@@ -217,7 +217,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="408"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="408"><figcaption></figcaption></figure>
 
 </div>
 
@@ -225,7 +225,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 可在右侧参数区 或 直接拖拽/拉伸画布中的绿色矩形，来调整组件的位置大小（组件的大小等于可画出线 的区域范围）
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.设置起止区域
 
@@ -233,13 +233,13 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 2）依次将起止区域调整到对应的位置和大小
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）设置"起止区域1"的线条样式，然后点击【应用到全部】，即可将6个区域的线条样式统一
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="245"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="245"><figcaption></figcaption></figure>
 
 </div>
 

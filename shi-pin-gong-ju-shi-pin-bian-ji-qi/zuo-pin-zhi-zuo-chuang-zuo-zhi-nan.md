@@ -20,7 +20,7 @@ Playturbo视频编辑器是一款专业的视频制作工具，旨在帮您轻�
 
 Playturbo提供丰富的视频模板（模板数量持续增加中），满足不同行业和不同场景的创意制作需求。您可以在视频模板库中选择合适的模板，并创建视频编辑项目。
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e9692870641c1efbb2372c215bfd17a302a2655acac04f7e42319eb63db80e8dbb0e728faf7a072256c715f04a985ea16e2deb3474?tmpCode=a4ddb93a-485c-4aab-bf72-afe53522d74a)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 2.从空白画布开始
 
@@ -30,7 +30,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 完成项目创建后，进入创意制作环节。_视频编辑器操作可查阅：_[视频编辑器-使用指南](https://playturbo-doc.mindworks-creative.com/shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan)
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e969287064ec5a9b363292e96507b192fc6dd8a3ddabcfd1a01ec4db61c857fddf20b34b0034c3532bd657352507afbbdd4225fe9b?tmpCode=4010b17f-3068-4fff-bb4f-faa80273010d)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第三步：尺寸裂变</mark>
 
@@ -38,9 +38,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 ### 1.使用布局模版
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e96928706421c6ec38e7b2be58fa53b07458091f4fd5fa7779cb91be3150b6cc1e0570d039444f75214b0209e4a5f44275aa76f220?tmpCode=a2e23f2a-09bc-45a4-91bd-d91d7acb9ce8)
-
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e969287064437b2432baaae7d6fc49d81e49ba1f22df565debf128fcabb6df816287f327246d366e06984db481a900dfd662445084?tmpCode=40d5dfec-8c29-4c71-a728-d875d1a4841c)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * 选择合适的布局模板，选择需要添加裂变的展示比例并创建项目，上传并替换模板中的素材。系统将根据布局模板的样式自动完成多个尺寸的调整，以适应不同的显示设备或平台需求。
 * 点击「从本地上传」或「从库里添加」上传素材，**并删除原模板自带素材**即可完成素材替换。
@@ -57,7 +55,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 当需要将制作好的视频用于不同国家地区时，可通过语言裂变功能快速完成视频项目翻译，并一次性批量导出多个语言版本的视频。
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e969287064c7725250bd5d61f578a5407500a36a68c45a2dcb39b6ddbba92d0735033c07d849d4d7dee35448ca1051f7e0fe55f913?tmpCode=c4117324-d131-44ee-83b4-d7f2c7778984)
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 首次进入【语言裂变】页面时，需要选择待翻译的内容。 可选内容范围包括：
 
@@ -68,7 +66,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 ### 1.布局模版翻译
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 * 在【布局模版】界面中，您可以对布局模版中已添加的的文本（如按钮文本、产品名称、推广文案等）进行翻译。
 * 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
@@ -76,7 +74,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 ### 2.视频内容（创意制作）翻译
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde557b1cd7e533538924a9e61946e06d181596bf165a99da72501ef4d921a0d25fc65a117e9692870647f78ad187463273c2c9c876aec80f5e009e94102769400f0c094b27641e0876b0331b88d8488e918606601fe23b54967?tmpCode=e05c1929-1739-43df-bd90-0618afc63f9a)
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 在【视频内容】界面中，可以对在「创意制作」添加的字幕&配音、文本、图片和视频进行翻译。
 
@@ -90,13 +88,17 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 * 系统自动识别视频中对话角色（说话人）和对话内容（字幕），并翻译字幕翻译到指定语言。您可以在系统识别基础上修改说话人、字幕内容和字幕翻译结果。
 * 选中原语言字幕后，您可以进行字幕分割、合并、删除、新增操作。
-* 如果修改了原语音字幕，可通过点击顶部“更新翻译”，批量更新其它语言翻译结果。&#x20;
+* 如果修改了原语音字幕，可通过点击顶部**「**更新翻译**」**，批量更新其它语言翻译结果。&#x20;
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 2）**配音**：
 
 * 按照说话人进行配音音色选择。可以使用系统预设的音色（文本转语音）朗读字幕翻译结果，也可以使用原视频音色（语音克隆/语音转语音）朗读。&#x20;
 * 为了确保视频翻译后语音与视频画面同步，翻译语言的配音会自动变速，以适配原语言字幕的时长。过慢或过快的异常变速会影响视频播放效果，您可以通过修改字幕翻译文本长度来更新配音。
 * **如果修改了字幕内容、说话人或说话人音色，可通过点击顶部「更新配音」，批量更新其它语言的配音结果**。&#x20;
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">注意：如果项目原语言下只有手动添加的字幕，而不是通过对视频进行语音识别获得的字幕。这种情况下，由于原语言缺少可复制的原声，无法使用语音克隆（语音转语音）功能去朗读字幕翻译结果。</mark>&#x20;
 
