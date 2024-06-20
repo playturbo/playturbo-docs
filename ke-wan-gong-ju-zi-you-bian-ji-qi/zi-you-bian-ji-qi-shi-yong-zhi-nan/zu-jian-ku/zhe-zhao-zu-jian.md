@@ -21,7 +21,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 ## <mark style="color:blue;">一、遮罩组件通俗介绍</mark>
 
 * 适用玩法：适用于 通过点击/拖拽等交互方式，调整遮罩蒙层，展示目标图片 的玩法
-  * [示例1-点击涂色](https://tinyurl.com/ykrebstj) / [示例2-透视](https://tinyurl.com/bde7wycx) / [示例3-点击涂色](https://tinyurl.com/2eemxpa9)
+  * [示例1-点击涂色](https://tinyurl.com/ykrebstj) / [示例2-透视](https://tinyurl.com/bde7wycx) / [示例3-点击涂色](https://tinyurl.com/2eemxpa9) / [示例4-拖动涂色](https://tinyurl.com/27ejnt5a)
 * 底层逻辑：通过「遮罩形状」来控制「被遮罩组」显示的部分，即「被遮罩组」内的图像，在「遮罩形状」覆盖范围内的部分会显示，覆盖范围外的部分会隐藏
 * 遮罩组件支持在【空白制作】和【模板自由制作】中使用。对于新增的遮罩组件，最少需完成遮罩组件的 「外观」、「遮罩形状」、「被遮罩组」等参数设置，遮罩组件才可正式生效
 * <mark style="color:red;">注意：同个场景仅支持添加一个组件，但可跨场景添加组件或复制组件</mark>
