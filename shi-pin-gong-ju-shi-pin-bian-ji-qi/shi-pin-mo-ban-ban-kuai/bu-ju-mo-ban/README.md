@@ -94,7 +94,9 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 3.6 完成任务编辑后，点击「开始消除」提交AI消除批量任务。&#x20;
 
+![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e96928706458c2f0b99dd21ff260506ee25989ceef02732c05281d26d409097be729e0e776111aaada3d3b6d1807afbbdd4225fe9b?tmpCode=4d675c45-02b4-429f-bf21-cd73f2af067b)
 
+![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e969287064eec101aec8b77bc57f72f2419b9611a20e0c3a6f7995668104bd0e71d83e33c9e6647f69ad50a550a8af4430009de0b1?tmpCode=5abf7c22-bafc-4564-ac36-5fbaf32db36e)
 
 ## <mark style="color:blue;">第四步：语言裂变</mark>
 
