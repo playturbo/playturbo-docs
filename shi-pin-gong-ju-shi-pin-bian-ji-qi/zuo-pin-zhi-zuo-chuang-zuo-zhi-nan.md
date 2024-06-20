@@ -51,7 +51,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 利用「**尺寸联动编辑**」功能，可批量调整相同元素在不同尺寸下的大小和位置，从而提升编辑效率。
 * 只需在已添加的尺寸上悬停后点击「锁定」按钮即可激活「尺寸联动编辑」功能。取消「锁定」后，该尺寸将不再与其他尺寸编辑进行联动。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第四步：语言裂变</mark>
 
@@ -68,7 +68,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 ### 1.布局模版翻译
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 在【布局模版】界面中，您可以对布局模版中已添加的的文本（如按钮文本、产品名称、推广文案等）进行翻译。
 * 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
