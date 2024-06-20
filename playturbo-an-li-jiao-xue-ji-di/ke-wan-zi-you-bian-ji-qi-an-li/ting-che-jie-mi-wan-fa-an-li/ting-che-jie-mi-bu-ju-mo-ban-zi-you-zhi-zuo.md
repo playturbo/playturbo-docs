@@ -63,9 +63,9 @@ description: '#自由编辑器 #模板自由制作'
 
 **\*此步骤为**_**停车解密类玩法**_**模板迭代的核心步骤**，分「背景及道路」、「布局元素」、「出口」三个部分
 
-| Step1-背景及道路                                                                       | Step2-布局元素                                                                                         | Step3-设置出口                                                                          |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/image (1740).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (10) (1).png" alt="" data-size="original"> |
+| Step1-背景及道路                                                                       | Step2-布局元素                                                                                             | Step3-设置出口                                                                          |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image (1740).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (10) (1).png" alt="" data-size="original"> |
 
 
 
@@ -175,7 +175,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
