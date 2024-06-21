@@ -47,7 +47,7 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 **场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td></td><td></td></tr><tr><td><strong>场景描述</strong></td><td>玩家在遮罩位置任意滑动擦除遮罩，来显示出完整的美女图片</td><td></td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">遮罩(擦除层)</mark>、操作指引、重玩按钮</p><p><strong>序列帧：</strong><mark style="color:red;">美女底图</mark></p><p><strong>视听包装：</strong>爱心粒子特效、擦除音效、美女害羞音效</p></td><td></td></tr><tr><td><strong>核心动画</strong></td><td><p>手指指引：位移缓动</p><p>美女放大出现：缩放缓动+位移缓动</p></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：擦除组件Erase Component</p><p>触发事件：到达某一阶段</p><p>响应事件：隐藏擦除层</p></td><td></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1905).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1906).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家在遮罩位置任意滑动擦除遮罩，来显示出完整的美女图片</td><td></td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">遮罩(擦除层)</mark>、操作指引、重玩按钮</p><p><strong>序列帧：</strong><mark style="color:red;">美女底图</mark></p><p><strong>视听包装：</strong>爱心粒子特效、擦除音效、美女害羞音效</p></td><td></td></tr><tr><td><strong>核心动画</strong></td><td><p>手指指引：位移缓动</p><p>美女放大出现：缩放缓动+位移缓动</p></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：擦除组件Erase Component</p><p>触发事件：到达某一阶段</p><p>响应事件：隐藏擦除层</p></td><td></td></tr></tbody></table>
 
 
 
@@ -65,13 +65,17 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整位置大小
 
-<figure><img src="../../../.gitbook/assets/image (1507).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1907).png" alt=""><figcaption></figcaption></figure>
 
 #### **2.普通场景**
 
 1）添加擦除组件：点击【玩法模板】，在【组件库】下将擦除组件添加进场景1
 
-<figure><img src="../../../.gitbook/assets/image (1509).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1908).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 2）将指引手、指引文案和底板、重玩按钮、音效相继添加进场景1
 
@@ -84,6 +88,24 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 
 ### <mark style="color:red;">Step2 - 组件参数设置</mark> <a href="#tpuup" id="tpuup"></a>
+
+
+
+<figure><img src="../../../.gitbook/assets/image (1909).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1910).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1911).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1912).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1913).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
 
 1.点击右上方【擦除设置】，进入擦除组件参数编辑面板
 
