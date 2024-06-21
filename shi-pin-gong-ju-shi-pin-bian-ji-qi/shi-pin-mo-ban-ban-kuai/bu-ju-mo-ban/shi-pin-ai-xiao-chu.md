@@ -43,7 +43,9 @@
 
 <figure><img src="../../../.gitbook/assets/image (1917).png" alt=""><figcaption></figcaption></figure>
 
+消除后效果
 
+<figure><img src="../../../.gitbook/assets/image (1935).png" alt=""><figcaption></figcaption></figure>
 
 ### 场景二：文本替换
 
@@ -52,7 +54,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (1918).png" alt=""><figcaption></figcaption></figure>
 
-#### 消除后
+#### 消除后效果
 
 <figure><img src="../../../.gitbook/assets/中文最新文本替换.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +65,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (1919).png" alt=""><figcaption></figcaption></figure>
 
-#### 消除后
+#### 消除后效果
 
 <figure><img src="../../../.gitbook/assets/image (1932).png" alt=""><figcaption></figcaption></figure>
 
