@@ -1,6 +1,6 @@
 # 视频AI消除
 
-**使用AI技术可以高效移除视频中特定元素**（如画面中文本、字幕、水印或徽标等不需要的元素）。
+**使用AI技术可以高效移除视频中的特定元素**（如画面中文本、字幕、水印或徽标等不需要的元素）。
 
 常见应用场景如下：
 
@@ -52,12 +52,20 @@
 
 <figure><img src="../../../.gitbook/assets/image (1918).png" alt=""><figcaption></figcaption></figure>
 
+#### 消除后
+
+<figure><img src="../../../.gitbook/assets/中文最新文本替换.jpg" alt=""><figcaption></figcaption></figure>
+
 ### 场景三：文本翻译
 
 * 文本翻译：在指定时间范围内，将视频中框选区域的文字翻译为多种语言。
 * 适用场景：将原视频画面中的文本内容翻译为其他语言。
 
 <figure><img src="../../../.gitbook/assets/image (1919).png" alt=""><figcaption></figcaption></figure>
+
+#### 消除后
+
+<figure><img src="../../../.gitbook/assets/image (1932).png" alt=""><figcaption></figcaption></figure>
 
 ### 小结
 
