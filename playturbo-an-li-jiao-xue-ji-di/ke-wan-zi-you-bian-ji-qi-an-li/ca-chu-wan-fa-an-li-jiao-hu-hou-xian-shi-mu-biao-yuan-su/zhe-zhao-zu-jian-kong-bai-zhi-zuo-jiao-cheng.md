@@ -47,97 +47,113 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 **场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="164">场景名称</th><th>场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1905).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1906).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家在遮罩位置任意滑动擦除遮罩，来显示出完整的美女图片</td><td></td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">遮罩(擦除层)</mark>、操作指引、重玩按钮</p><p><strong>序列帧：</strong><mark style="color:red;">美女底图</mark></p><p><strong>视听包装：</strong>爱心粒子特效、擦除音效、美女害羞音效</p></td><td></td></tr><tr><td><strong>核心动画</strong></td><td><p>手指指引：位移缓动</p><p>美女放大出现：缩放缓动+位移缓动</p></td><td></td></tr><tr><td><strong>核心事件</strong></td><td><p>触发对象：擦除组件Erase Component</p><p>触发事件：到达某一阶段</p><p>响应事件：隐藏擦除层</p></td><td></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="133">场景名称</th><th>场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1905).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1906).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家拖动彩虹条，对图片进行涂色</td><td>成功反馈+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">彩色图片(被遮罩组)</mark>、<mark style="color:red;">彩虹条(跟随元素）</mark>、黑白底图、指引手指</p><p><strong>视听包装：</strong>彩虹粒子特效条(跟随元素）、点击音效</p></td><td><p><strong>静帧图片：</strong>彩色图片、跳转按钮</p><p><strong>视听包装：</strong>星星粒子特效、成功音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p><strong>指引手指：</strong>位移缓动</p><p><strong>指引文本：</strong>闪烁</p></td><td><p><strong>反馈文本&#x26;跳转按钮：</strong>脉冲向前</p><p><strong>背景光：</strong>旋转缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>遮罩形状</p><p><strong>触发事件：</strong>拖拽到指定位置</p><p><strong>响应事件：</strong>跳转到下一场景</p></td><td><p><strong>触发对象：</strong>跳转按钮</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
 
 
 
 ## <mark style="color:blue;">五、制作指南</mark> <a href="#cria2" id="cria2"></a>
 
-\*核心内容为Step2【组件参数设置】和Step5【事件设置】
+\*核心内容为**Step2【组件参数设置】**和**Step5【事件设置】**
 
 ### Step1 - 场景搭建 <a href="#wepzn" id="wepzn"></a>
 
-建议您在创建项目后，先将所有资产上传进【项目资产】内，方便后续添加使用
+建议您在创建项目后，先将所有资产上传进<mark style="color:red;">【项目资产】</mark>内，方便后续添加使用
 
-#### **1.全局场景**
+#### **1. 全局场景**
 
 1）在【全局设置】中添加背景音乐、背景图片
 
-2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整位置大小
+2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整各资产的位置大小，对资产进行合理编组、排序
 
 <figure><img src="../../../.gitbook/assets/image (1907).png" alt=""><figcaption></figcaption></figure>
 
-#### **2.普通场景**
+#### **2. 普通场景**
 
-1）添加擦除组件：点击【玩法模板】，在【组件库】下将擦除组件添加进场景1
+1）添加遮罩组件：在场景1中点击【玩法模板】，选择【组件库】下的遮罩组件并添加
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1908).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1908).png" alt="" width="404"><figcaption></figcaption></figure>
 
 </div>
 
-2）将指引手、指引文案和底板、重玩按钮、音效相继添加进场景1
+2）添加指引手指、指引文案、点击音效，并调整各资产的位置大小
 
-3）调整各资产到合适的位置大小，并根据资产类型对资产进行编组、排序、命名
+<div align="left">
 
-4）在本案例中，我们只需要一个普通场景，所以可以删除场景2
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+</div>
+
+3）在场景2中添加相应反馈资产，并调整各资产的位置大小（可将所有资产编进一个组内，方面后续做横屏适配）
+
+4）将反馈音效的参数设为"入场自动播放1次"
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+5）勾选场景2为【结束场景】
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### <mark style="color:red;">Step2 - 组件参数设置</mark> <a href="#tpuup" id="tpuup"></a>
 
+#### 1.外观
 
+选中遮罩组件Mask Component，在外观参数下将其尺寸调整到合适
 
-<figure><img src="../../../.gitbook/assets/image (1909).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1910).png" alt=""><figcaption></figcaption></figure>
+#### 2.遮罩设置
 
-<figure><img src="../../../.gitbook/assets/image (1911).png" alt=""><figcaption></figcaption></figure>
+<mark style="color:red;">**2.1 被遮罩组**</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1912).png" alt=""><figcaption></figcaption></figure>
+【被遮罩组】是【遮罩形状】所覆盖范围内，会显示出的内容
 
-<figure><img src="../../../.gitbook/assets/image (1913).png" alt=""><figcaption></figcaption></figure>
+首先，将最后需要展示的图片（彩色图）添加进【被遮罩组】
 
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+<mark style="color:red;">**2.2 自定义分组**</mark>
 
+1）添加遮罩分组1（命名为background\_image），将初始展示的图片（黑白图）添加进分组，并拖动调整其层级至最低
 
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
+2）添加遮罩分组2（命名为outer\_frame），将画框图片添加进分组，并拖动调整其层级至最高（装饰图片，需要始终置顶）
 
-1.点击右上方【擦除设置】，进入擦除组件参数编辑面板
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1513).png" alt=""><figcaption></figcaption></figure>
+<mark style="color:red;">**2.3 遮罩形状**</mark>
 
-2.依次在**擦除层（Mask）**中添加擦除飘带图片，在**底图层（Bottom image）**中添加角色序列帧图片，然后将资产调整到合适的位置大小
+1）在本案例中，我们选择遮罩形状为矩形
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+2）点击【矩形】调起参数弹窗，将遮罩形状的尺寸调整为能够遮住最后展示图片的大小
 
-3.然后我们根据实际需求，调整【擦除笔触设置】。在本案例中，我们选择使用60\*60大小的圆形笔触，不添加跟手图片
+3）将遮罩形状移动至右侧（不覆盖被遮罩组即可）
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>点击【预览遮罩效果】可查看实际效果</p></figcaption></figure>
+
+<mark style="color:red;">**2.4 跟随元素**</mark>
+
+在【跟随元素】下添加彩虹条和彩虹粒子，并调整其位置大小到合适
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1515).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-4.针对擦除层进行**事件判定**设置
-
-1）判断时机：在本案例中，我们想要在擦除过程中实时判定擦除进度，所以我们选择判断时机为【擦除过程实时判定】
-
-2）添加事件判定：在本案例中，我们想要实现"当擦除面积达到60%时，触发相应反馈"，所以在这里，我们选择要判定的区域为擦除层"erase\_mask"，然后点击【新增阶段】，将阶段1设置为60%
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-完成以上，我们擦除组件的基本参数就设置好了。
-
-
+完成以上，我们遮罩组件的参数就设置好了。
 
 
 
@@ -145,37 +161,35 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 完成竖屏的排版后，我们还需对"横屏的排版"以及"横竖屏的屏幕适配方式"进行调整
 
-#### 1.调整横屏排版
+#### **1.调整横屏排版**
 
-1）切换到横屏模式，选中所有最高层级的图层(包含擦除组件图层)
+1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含遮罩组件)，使用【复用竖屏位置尺寸配置】功能一键排版
 
-2）使用【复用竖屏位置尺寸配置】功能一键排版，然后再适当调整各图层的【位置】和【缩放比例】，让画面展示出完整的擦除组件相关内容
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+2）再分别调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
-3）同理，我们再切换到【全局场景】，选择LOGO和常驻下载按钮组，使用【复用竖屏位置尺寸配置】功能一键排版，再微调其位置大小
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+3）同理，我们再依次切换到【场景2】和【全局场景】，完成横屏的排版
+
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
-1）在本案例中，我们想让常驻信息在竖屏下依次贴顶、贴底适配，在横屏下靠左上角适配，所以我们分别调整横竖屏下的屏幕适配方式
+在本案例中，我们想要竖屏下的产品信息组\[group\_icon]始终位于各机型屏幕的顶部，所以我们调整其"屏幕适配方式"为贴顶适配（其他图层默认居中适配，无需调整）
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-2）在场景1中，我们想要横屏下的重玩按钮组和指引文本组始终位于屏幕底部，所以我们依次将其屏幕适配方式调整为贴底适配（其他图层默认居中适配，无需调整）
-
-<figure><img src="../../../.gitbook/assets/image (1512).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### Step4 - 动效设置 <a href="#tpuup" id="tpuup"></a>
 
-在本案例中，我们用到的动画和粒子特效有：美女序列帧(底图层)动画、指引手指动画、重玩按钮组动画、爱心粒子特效
+在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
+
+场景1：点击指引动画、目标指引动画、合成指引动画、目标元素旋转动画、合成粒子、错误粒子
+
+场景2：奖励面板&跳转按钮的缩放动画、彩带粒子
 
 #### **1.美女序列帧**
 
@@ -183,49 +197,23 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 2）然后我们依次添加缩放动画和位移动画，作为角色擦除成功后的展示动画效果
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 3）动画参数设置如下：
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="556"><figcaption></figcaption></figure>
-
-</div>
 
 #### **2.指引手指**
 
 在图层区选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为指引动画，参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 #### **3.重玩按钮组**
 
 1）选中重玩按钮组\[group\_retry\_btn]，添加透明度动画，作为重玩按钮的渐显出场效果，然后添加缩放动画，引导用户点击重玩
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 2）动画参数设置如下：
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
 
 #### 4.爱心粒子特效
 
 1）打开公共粒子库，选择添加爱心粒子，以增强露出美女图片后的画面氛围
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 2）然后将爱心粒子特效设为"隐藏"状态，在后续我们通过事件来控制粒子的显示和播放
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 
 
@@ -240,41 +228,16 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 * 依次添加响应事件：隐藏指引文本组、隐藏指引手指组、从头播放擦除音效
 * 擦除音效的参数设置为【无限循环】
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 2）继续【添加事件】，选择触发事件为**【抬手时】**
 
 * 添加响应事件：暂停播放擦除音效
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 3）继续【添加事件】，选择触发事件为**【到达某一阶段】**
 
 * 注意：因为擦除面积达到目标后，反馈只需触发一次，所以在这里我们勾选该事件"只生效一次"
 * 选择【事件判定1】，然后选择【阶段1: 60%】
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (22) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 * 依次添加响应事件：隐藏擦除组Mask、播放美女序列帧分组的全部动画、从头播放重玩按钮组的全部动画、显示并播放爱心粒子特效、从头播放美女害羞音效
 * 音效的参数设置为【关闭无限循环】，并【禁用其他音效】
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 
 
@@ -284,8 +247,6 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 依次添加响应事件：跳转应用商店、上报试玩结束
 
-<figure><img src="../../../.gitbook/assets/image (23) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 
 
 #### <mark style="color:red;">3.图层: 常驻下载按钮组</mark>
@@ -293,8 +254,6 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 选中常驻下载按钮组，点击【添加事件】，选择触发事件为**【按下】**
 
 添加响应事件：跳转应用商店
-
-<figure><img src="../../../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
 
