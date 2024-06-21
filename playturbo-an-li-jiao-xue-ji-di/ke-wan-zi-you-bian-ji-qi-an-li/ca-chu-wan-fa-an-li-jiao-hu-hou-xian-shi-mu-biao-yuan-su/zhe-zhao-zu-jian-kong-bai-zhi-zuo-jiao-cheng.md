@@ -47,7 +47,7 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 **场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="133">场景名称</th><th>场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1905).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1906).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家拖动彩虹条，对图片进行涂色</td><td>成功反馈+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">彩色图片(被遮罩组)</mark>、<mark style="color:red;">彩虹条(跟随元素）</mark>、黑白底图、指引手指</p><p><strong>视听包装：</strong>彩虹粒子特效条(跟随元素）、点击音效</p></td><td><p><strong>静帧图片：</strong>彩色图片、跳转按钮</p><p><strong>视听包装：</strong>星星粒子特效、成功音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p><strong>指引手指：</strong>位移缓动</p><p><strong>指引文本：</strong>闪烁</p></td><td><p><strong>反馈文本&#x26;跳转按钮：</strong>脉冲向前</p><p><strong>背景光：</strong>旋转缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>遮罩形状</p><p><strong>触发事件：</strong>拖拽到指定位置</p><p><strong>响应事件：</strong>跳转到下一场景</p></td><td><p><strong>触发对象：</strong>跳转按钮</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="133">场景名称</th><th width="279">场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (1905).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1906).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>玩家拖动彩虹条，对图片进行涂色</td><td>成功反馈+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong><mark style="color:red;">彩色图片(被遮罩组)</mark>、<mark style="color:red;">彩虹条(跟随元素）</mark>、黑白底图、指引手指</p><p><strong>视听包装：</strong>彩虹粒子特效条(跟随元素）、点击音效</p></td><td><p><strong>静帧图片：</strong>彩色图片、跳转按钮</p><p><strong>视听包装：</strong>星星粒子特效、成功音效</p></td></tr><tr><td><strong>核心动画</strong></td><td><p><strong>指引手指：</strong>位移缓动</p><p><strong>指引文本：</strong>闪烁</p></td><td><p><strong>反馈文本&#x26;跳转按钮：</strong>脉冲向前</p><p><strong>背景光：</strong>旋转缓动</p></td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>遮罩形状</p><p><strong>触发事件：</strong>拖拽到指定位置</p><p><strong>响应事件：</strong>跳转到下一场景</p></td><td><p><strong>触发对象：</strong>跳转按钮</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
 
 
 
@@ -185,59 +185,97 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 ### Step4 - 动效设置 <a href="#tpuup" id="tpuup"></a>
 
-在本案例中，用到的动画和粒子特效如下，我们依次展开介绍：
+在本案例中，用到的动画和粒子特效如下，我们依次展开介绍
 
-场景1：点击指引动画、目标指引动画、合成指引动画、目标元素旋转动画、合成粒子、错误粒子
+**场景1：**指引手指位移动画、指引文案闪烁动画
 
-场景2：奖励面板&跳转按钮的缩放动画、彩带粒子
+**场景2：**反馈文本&跳转按钮缩放动画、背景光旋转动画、星星粒子
 
-#### **1.美女序列帧**
+#### **1.指引手指：**位移缓动
 
-1）在擦除组件中点击底图层（Bottom image）的美女序列帧，在弹窗面板中选择【动画】
+选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为循环指引动画。参数设置如下：
 
-2）然后我们依次添加缩放动画和位移动画，作为角色擦除成功后的展示动画效果
+<figure><img src="../../../.gitbook/assets/image (1921).png" alt=""><figcaption></figcaption></figure>
 
-3）动画参数设置如下：
+#### **2.指引文本：**闪烁
 
-#### **2.指引手指**
+选中指引文本\[text\_guide]，添加动画-强调动画-闪烁，作为循环指引动画。参数设置如下：
 
-在图层区选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为指引动画，参数设置如下：
+<figure><img src="../../../.gitbook/assets/image (1922).png" alt=""><figcaption></figcaption></figure>
 
-#### **3.重玩按钮组**
+#### 3.跳转按钮&反馈文本：脉冲向前
 
-1）选中重玩按钮组\[group\_retry\_btn]，添加透明度动画，作为重玩按钮的渐显出场效果，然后添加缩放动画，引导用户点击重玩
+1）选中跳转按钮组\[btn\_end]，添加动画-强调动画-脉冲向前，作为循环指引动画。参数设置如下：
 
-2）动画参数设置如下：
+<figure><img src="../../../.gitbook/assets/image (1923).png" alt=""><figcaption></figcaption></figure>
 
-#### 4.爱心粒子特效
+2）复制该动画到反馈文本\[text\_feedback]，微调参数，作为循环展示动画。参数设置如下：
 
-1）打开公共粒子库，选择添加爱心粒子，以增强露出美女图片后的画面氛围
+<figure><img src="../../../.gitbook/assets/image (1924).png" alt=""><figcaption></figcaption></figure>
 
-2）然后将爱心粒子特效设为"隐藏"状态，在后续我们通过事件来控制粒子的显示和播放
+#### 4.背景光：旋转缓动
+
+选中背景光图片\[light]，添加动画-通用-旋转缓动，作为效果补充动画。参数设置如下：
+
+<figure><img src="../../../.gitbook/assets/image (1925).png" alt=""><figcaption></figcaption></figure>
+
+#### 5.粒子特效
+
+1）打开公共粒子库，选择并添加合适的粒子特效(如星星粒子)，用来丰富画面效果
+
+2）调整粒子到合适的位置（注意横竖屏都要调整）
+
+<figure><img src="../../../.gitbook/assets/image (1926).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### <mark style="color:red;">Step5 - 事件设置</mark> <a href="#umduz" id="umduz"></a>
 
-本案例与事件设置相关的内容有：开始擦除时隐藏操作指引并播放擦除音效；抬手时暂停播放擦除音效；当擦除区域达到60%时擦除层消失，同时显示并播放相关反馈。接下来，我们按顺序依次讲解
+完成所有动效的设置，我们对试玩的逻辑 也就是"事件"进行设置
 
-#### <mark style="color:red;">1.图层: 擦除组件</mark>
+本案例与事件设置相关的内容有：按下遮罩形状时隐藏操作指引；拖拽遮罩形状到指定位置后跳转结束场景；按下跳转按钮后跳转应用商店
 
-1）选中擦除组件图层，点击【添加事件】，选择触发事件为**【开始擦除】**
+接下来，我们按顺序依次讲解
 
-* 依次添加响应事件：隐藏指引文本组、隐藏指引手指组、从头播放擦除音效
-* 擦除音效的参数设置为【无限循环】
+#### <mark style="color:red;">1.图层: 遮罩形状</mark>
 
-2）继续【添加事件】，选择触发事件为**【抬手时】**
+1）选中\[矩形]，添加事件 - 按下，依次添加响应事件：
 
-* 添加响应事件：暂停播放擦除音效
+* 设置埋点。选择埋点id1，并编辑埋点名称为"玩家首次按下"
+* 隐藏操作指引
+* 从头播放1次点击音效
 
-3）继续【添加事件】，选择触发事件为**【到达某一阶段】**
+<div align="left">
 
-* 注意：因为擦除面积达到目标后，反馈只需触发一次，所以在这里我们勾选该事件"只生效一次"
-* 选择【事件判定1】，然后选择【阶段1: 60%】
-* 依次添加响应事件：隐藏擦除组Mask、播放美女序列帧分组的全部动画、从头播放重玩按钮组的全部动画、显示并播放爱心粒子特效、从头播放美女害羞音效
-* 音效的参数设置为【关闭无限循环】，并【禁用其他音效】
+<figure><img src="../../../.gitbook/assets/image (1927).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）添加事件 - 拖拽到指定位置，并依次编辑【指定区域】和【自定义拖拽范围】
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1930).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+_（若选择"全屏"范围内拖拽，可能会出现拖拽距离过远，露出黑白底图的情况）_
+
+<figure><img src="../../../.gitbook/assets/image (1929).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">3）依次添加响应事件</mark>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1931).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+
+
+
 
 
 
