@@ -8,7 +8,7 @@
 
 2.替换视频画面中文本为其他文本内容
 
-3.翻译视频画面中文本
+3.翻译视频画面中指定时间范围的文本
 
 
 
@@ -20,13 +20,15 @@
 
 1.选中主视频后，点击“**添加**”，展开该视频的AI消除区域编辑页面。
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e9692870648f2d366626c5ba0bd71c7eddbff806615d03ab3973868ef98c402b0e89c15233d5bff2457345001507afbbdd4225fe9b?tmpCode=b3f53283-fa20-48a5-9cfe-2183869ee84c)
+<figure><img src="../../../.gitbook/assets/image (1914).png" alt=""><figcaption></figcaption></figure>
 
 2.在画面中框选标记需要处理的区域，即希望移除或替换的特定元素。默认情况下，系统会对视频的所有时间段进行消除，您也可以在添加选框后，手动调整时间轴上的消除时间范围。
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5acd46bbe09a2e8975f596a31a2c9b14c596bf165a99da72501ef4d921a0d25fc65a117e9692870646c0557c499a61ded53d460a5a62f8a7837c46a5a09925e7cf759914461183921ee405162f8e51245db36240b59277002?tmpCode=b3f53283-fa20-48a5-9cfe-2183869ee84c)
+<figure><img src="../../../.gitbook/assets/image (1915).png" alt=""><figcaption></figcaption></figure>
 
 3.一个视频内可添加多个区域后，批量保存提交。
+
+<figure><img src="../../../.gitbook/assets/image (1916).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第二步：编辑任务属性</mark>
 
@@ -36,24 +38,26 @@
 
 ### 场景一：对象移除
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5c0a0a46935a93026ab129e0311b8155a596bf165a99da72501ef4d921a0d25fc65a117e969287064a5c922c8d3f584799c63e16bbc2b82101f71987c2eed1ef4b02b2ef9b1152bc6c16892147a8bc88a606601fe23b54967?tmpCode=b3f53283-fa20-48a5-9cfe-2183869ee84c)
-
 * 对象移除：在指定时间范围内，擦除视频中框选区域的内容。
 * 适用场景：用于移除原视频画面中的多余水印、徽标、字幕等不需要的元素。
 
-### 场景二：文本替换
+<figure><img src="../../../.gitbook/assets/image (1917).png" alt=""><figcaption></figcaption></figure>
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5c0a0a46935a93026ab129e0311b8155a596bf165a99da72501ef4d921a0d25fc65a117e969287064c0692a47145362bc03ada96758ca8744fc0e13f7ba9591aad0f7da185bb678a19989422046f0a5c0a5f44275aa76f220?tmpCode=b3f53283-fa20-48a5-9cfe-2183869ee84c)
+
+
+### 场景二：文本替换
 
 * 文本替换：在指定时间范围内，擦除视频中框选区域的文字并替换为新的文本。该框选区域类似于布局模板中的文本占位符，可以添加多个文本（素材组合），最终可以批量导出多个版本的视频。
 * 适用场景：修改原视频画面中的文本，并支持将修改后的文本翻译为其他语言。
 
-### 场景三：文本翻译
+<figure><img src="../../../.gitbook/assets/image (1918).png" alt=""><figcaption></figcaption></figure>
 
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5c0a0a46935a93026ab129e0311b8155a596bf165a99da72501ef4d921a0d25fc65a117e969287064f1a3933a6c8e78b19070b96f24b2e92bd688ffffd8e795d522f47d0ac9216164b14ad366f7c3ec2ebbb8e147348d6c36?tmpCode=b3f53283-fa20-48a5-9cfe-2183869ee84c)
+### 场景三：文本翻译
 
 * 文本翻译：在指定时间范围内，将视频中框选区域的文字翻译为多种语言。
 * 适用场景：将原视频画面中的文本内容翻译为其他语言。
+
+<figure><img src="../../../.gitbook/assets/image (1919).png" alt=""><figcaption></figcaption></figure>
 
 ### 小结
 
@@ -69,4 +73,6 @@
 
 完成任务编辑后，点击“**开始消除**”按钮，批量提交该视频下的AI消除任务。&#x20;
 
-任务提交后，您可以在导航栏的任务中心查看历史任务进展。&#x20;
+<figure><img src="../../../.gitbook/assets/image (1920).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">任务提交后，您可以在导航栏的任务中心查看历史任务进展。</mark>&#x20;
