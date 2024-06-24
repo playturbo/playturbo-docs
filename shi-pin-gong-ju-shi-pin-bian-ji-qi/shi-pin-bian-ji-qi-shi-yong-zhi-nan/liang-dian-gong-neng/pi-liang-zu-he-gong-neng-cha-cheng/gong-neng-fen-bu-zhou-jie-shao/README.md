@@ -2,7 +2,7 @@
 
 使用批量组合功能制作视频，主要包含以下七个步骤
 
-[shi-mo-shi-zi-chan-zu.md](shi-mo-shi-zi-chan-zu.md "mention")
+[shen-me-shi-zi-chan-zu.md](shen-me-shi-zi-chan-zu.md "mention")
 
 [chuang-jian-zi-chan-zu.md](chuang-jian-zi-chan-zu.md "mention")
 
