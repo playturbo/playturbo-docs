@@ -14,4 +14,4 @@ description: 不同类型的资源包含不同类型的参数
 
 [zhuan-chang-zi-yuan-ji-qi-can-shu.md](zhuan-chang-zi-yuan-ji-qi-can-shu.md "mention")
 
-[lv-jing-zi-yuan-ji-qi-can-shu.md](lv-jing-zi-yuan-ji-qi-can-shu.md "mention")
+[l-jing-zi-yuan-ji-qi-can-shu.md](l-jing-zi-yuan-ji-qi-can-shu.md "mention")
