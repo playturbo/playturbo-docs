@@ -165,6 +165,7 @@
   * [素材上传（含尺寸裂变）：功能详细介绍](shi-pin-gong-ju-kuai-su-ti-huan/su-cai-shang-chuan-han-chi-cun-lie-bian-gong-neng-xiang-xi-jie-shao/README.md)
     * [特别介绍：布局模版](shi-pin-gong-ju-kuai-su-ti-huan/su-cai-shang-chuan-han-chi-cun-lie-bian-gong-neng-xiang-xi-jie-shao/te-bie-jie-shao-bu-ju-mo-ban/README.md)
       * [视频AI消除](shi-pin-gong-ju-kuai-su-ti-huan/su-cai-shang-chuan-han-chi-cun-lie-bian-gong-neng-xiang-xi-jie-shao/te-bie-jie-shao-bu-ju-mo-ban/shi-pin-ai-xiao-chu.md)
+  * [语言裂变：功能详细介绍](shi-pin-gong-ju-kuai-su-ti-huan/yu-yan-lie-bian-gong-neng-xiang-xi-jie-shao.md)
 * [💡 录屏工具-录屏编辑器](lu-ping-gong-ju-lu-ping-bian-ji-qi/README.md)
   * [制作流程概括](lu-ping-gong-ju-lu-ping-bian-ji-qi/zhi-zuo-liu-cheng-gai-kuo/README.md)
     * [💻 录屏制作-案例视频](lu-ping-gong-ju-lu-ping-bian-ji-qi/zhi-zuo-liu-cheng-gai-kuo/lu-ping-zhi-zuo-an-li-shi-pin.md)
