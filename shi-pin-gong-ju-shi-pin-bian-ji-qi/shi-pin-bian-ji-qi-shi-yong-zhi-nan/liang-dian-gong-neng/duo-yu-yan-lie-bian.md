@@ -25,11 +25,11 @@ description: '#视频模板 #快速替换'
 
 * 点击【下一步】按钮后，会出现多语言裂变的弹窗
 * 在弹窗中选择要裂变的语言，并勾选要裂变的素材（仅支持视频、文本）
-* 点击【翻译】后等待片刻即可进入多语言裂变界面
+* 点击【裂变】后等待片刻即可进入多语言裂变界面
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1940).png" alt="" width="495"><figcaption></figcaption></figure>
 
 </div>
 
@@ -39,14 +39,18 @@ description: '#视频模板 #快速替换'
 * 在【已上传素材】下，可以对文本和视频选择是否进行【翻译】
 * 在下方可进行每种语言、尺寸的切换预览和新增
 
-<figure><img src="../../../.gitbook/assets/image (1445).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1941).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.调整文本翻译结果
 
 * 若对文本的翻译结果不满意，可以点击该素材的输入框进行人工校正
 * 或使用AI功能，对翻译结果进行重新翻译、丰富内容或精简内容的处理
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1942).png" alt="" width="509"><figcaption></figcaption></figure>
+
+</div>
 
 ### 4.调整视频翻译结果
 
@@ -62,11 +66,7 @@ description: '#视频模板 #快速替换'
 * 同一语言下相同角色的字幕，使用同一个音色
 * 所有语言的同一字幕，共用一个角色设置
 
-<div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 #### 2）视频多语言详情 - 音色
 
@@ -147,4 +147,4 @@ description: '#视频模板 #快速替换'
 
 完成各项编辑后，点击【导出】按钮，即可进行多比例、多语言视频素材的导出
 
-<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1943).png" alt=""><figcaption></figcaption></figure>

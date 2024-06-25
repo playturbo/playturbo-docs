@@ -1,4 +1,4 @@
-# 特别介绍：布局模版
+# 特别介绍:布局模版
 
 ## <mark style="color:blue;">什么是布局模版</mark>
 
@@ -19,7 +19,7 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 
 
-### <mark style="color:blue;">AI消除 （详细信息可查阅</mark>[<mark style="color:blue;">视频AI消除</mark>](shi-pin-ai-xiao-chu.md)<mark style="color:blue;">）</mark>
+### <mark style="color:blue;">AI消除 （详细信息可查阅</mark>[<mark style="color:blue;">视频AI消除</mark>](liang-dian-gong-neng-shi-pin-ai-xiao-chu.md)<mark style="color:blue;">）</mark>
 
 对于已上传的主视频，可以使用AI技术可以高效移除视频中特定元素（如画面中文本、字幕、水印或徽标等不需要的元素）。
 
@@ -43,12 +43,6 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 
 3.6 完成任务编辑后，点击「开始消除」提交AI消除批量任务。&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1898).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1898).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1900).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-###
+<figure><img src="../../.gitbook/assets/image (1900).png" alt=""><figcaption></figcaption></figure>

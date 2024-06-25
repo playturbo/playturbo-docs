@@ -4,7 +4,7 @@
 
 完成视频创意制作后，可通过以下俩种方式快速完成尺寸拓展，并一次性批量导出尺寸版本的视频创意。&#x20;
 
-### 1.使用布局模版 （详细信息可查阅[布局模版](../../../shi-pin-gong-ju-kuai-su-ti-huan/su-cai-shang-chuan-han-chi-cun-lie-bian-gong-neng-xiang-xi-jie-shao/te-bie-jie-shao-bu-ju-mo-ban/)）
+### 1.使用布局模版 （详细信息可查阅[布局模版](../../../shi-pin-gong-ju-kuai-su-ti-huan/su-cai-shang-chuan-han-chi-cun-lie-bian/te-bie-jie-shao-bu-ju-mo-ban.md)）
 
 * 选择合适的布局模板，选择需要添加裂变的展示比例并创建项目，上传并替换模板中的素材。系统将根据布局模板的样式自动完成多个尺寸的调整，以适应不同的显示设备或平台需求。
 
