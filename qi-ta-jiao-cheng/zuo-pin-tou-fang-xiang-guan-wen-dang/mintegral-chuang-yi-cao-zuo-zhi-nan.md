@@ -66,7 +66,7 @@ Mintegral关联可玩素材有两种方式：
 
 </div>
 
-4）在弹出的弹窗中，选中希望添加到该创意组的试玩素材，点击「应用」即可（创意组必须带有视频和图片素材）
+4）在弹出的弹窗中，选中希望添加到该创意组的试玩素材，点击「应用」即可<mark style="color:red;">（创意组必须带有视频和图片素材）</mark>
 
 5）对该包名下所有Offer的所有创意组重复该操作，即可将可玩素材应用到该包名下的所有Offer
 
@@ -112,7 +112,59 @@ Mintegral关联可玩素材有两种方式：
 
 
 
-### 3.其他操作说明
+### <mark style="color:red;">3.特别说明：新上的可玩素材不起量？</mark>
+
+**背景：**当前，有部分用户在自定义创意组中上传了视频和可玩素材后，没有上传大图，导致新上的可玩素材无法起量
+
+**如何解决：**当您发现素材没量时可进行以下操作检查，同时需确认在自定义创意组时是否有搭配_1200X627尺寸的_大图进行投放
+
+<mark style="background-color:red;">**具体操作流程如下：**</mark>
+
+#### A.**已设定自定义创意组但漏传大图（补救版）**
+
+1）进入前台系统后，点击"创意管理"，搜索对应需要关联的广告单元名称，对已有创意组进行"编辑"
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）选择"添加现有创意"，选择素材类型"image"，尺寸"1200x627"，勾选其中一个后上传
+
+勾选完毕后，投放的创意类型会自动更新（即"Video\&Playable"会自动被勾选，<mark style="color:red;">建议二次确认是否已勾选</mark>），随后点击提交即可
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### B.**准备设置自定义创意组（操作指引版）**
+
+1）进入前台系统后，点击"创意管理"，点击"上传创意组"
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+2）选择"添加现有创意"，上传的时候除了要选择"video"和"可玩素材"外，还要同时选择上传"image"（尺寸选择1200x627）
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+3）上传完毕后确认一下投放的创意类型"Video\&Playable"是否已自动勾选
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 4.其他操作说明
 
 #### 1）修改素材名称
 
@@ -167,7 +219,7 @@ c. 使用 Open API 新建创意组
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -250,7 +302,7 @@ b. 广告投放 --> 创意管理 --> 编辑
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -264,7 +316,7 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -272,7 +324,7 @@ b. 广告投放 --> 创意管理 --> 手动勾选需要被复制的创意组 -->
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -289,19 +341,19 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 b. 广告投放 --> 创意管理 --> 手动勾选需要被复制的创意组 --> 删除创意组<mark style="color:red;">（会同时删除相关广告单元中的该创意组）</mark>
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _温馨提示：如果删除创意组会导致定向的国家或地区没有创意可投，系统会自动弹窗提示并引导您先删除无创意组的国家或地区定向，然后再删除创意组_
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -321,6 +373,6 @@ _温馨提示：如果删除创意组会导致定向的国家或地区没有创�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
