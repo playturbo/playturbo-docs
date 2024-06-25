@@ -47,7 +47,7 @@ _**\*主视频是指已经完成视频创意设计，需要进行尺寸拓展或
 
 根据布局模版结构，将视频、图片、文字等素材上传到相应的占位符中，例如主视频、LOGO图，背景图等位置。 <mark style="color:red;">**添加素材后需要删掉原视频模板附带的素材**</mark>
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -55,7 +55,7 @@ _**\*主视频是指已经完成视频创意设计，需要进行尺寸拓展或
 
 <mark style="color:blue;">确定上传素材后，点击右侧尺寸比例预览裂变效果</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第五步：导出</mark>
 
@@ -63,7 +63,7 @@ _**\*主视频是指已经完成视频创意设计，需要进行尺寸拓展或
 * 可批量导出的视频数量=**素材上传页添加的素材组合数×项目比例数×项目语言数**。&#x20;
 * 导出任务提交后，您可以在菜单栏**我的项目>>>导出&下载历史**列表中查看历史任务进展。
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。</mark>
 

@@ -81,7 +81,7 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -91,13 +91,13 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 5）勾选场景2为【结束场景】
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -107,7 +107,7 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 选中遮罩组件Mask Component，在外观参数下将其尺寸调整到合适
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.遮罩设置
 
@@ -117,19 +117,19 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 首先，将最后需要展示的图片（彩色图）添加进【被遮罩组】
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**2.2 自定义分组**</mark>
 
 1）添加遮罩分组1（命名为background\_image），将初始展示的图片（黑白图）添加进分组，并拖动调整其层级至最低
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）添加遮罩分组2（命名为outer\_frame），将画框图片添加进分组，并拖动调整其层级至最高（装饰图片，需要始终置顶）
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**2.3 遮罩形状**</mark>
 
@@ -139,9 +139,9 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 3）将遮罩形状移动至右侧（不覆盖被遮罩组即可）
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>点击【预览遮罩效果】可查看实际效果</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>点击【预览遮罩效果】可查看实际效果</p></figcaption></figure>
 
 <mark style="color:red;">**2.4 跟随元素**</mark>
 
@@ -149,7 +149,7 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -165,21 +165,21 @@ description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 
 1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含遮罩组件)，使用【复用竖屏位置尺寸配置】功能一键排版
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）再分别调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）同理，我们再依次切换到【场景2】和【全局场景】，完成横屏的排版
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
 在本案例中，我们想要竖屏下的产品信息组\[group\_icon]始终位于各机型屏幕的顶部，所以我们调整其"屏幕适配方式"为贴顶适配（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

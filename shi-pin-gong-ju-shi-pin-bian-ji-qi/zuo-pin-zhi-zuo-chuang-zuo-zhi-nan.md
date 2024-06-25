@@ -20,7 +20,7 @@ Playturbo视频编辑器是一款专业的视频制作工具，旨在助您轻�
 
 Playturbo提供丰富的视频模板（模板数量持续增加中），满足不同行业和不同场景的创意制作需求。您可以在视频模板库中选择合适的模板，并创建视频编辑项目。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.从空白画布开始
 
@@ -30,7 +30,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 完成项目创建后，进入创意制作环节。_视频编辑器操作可查阅：_[视频编辑器-使用指南](https://playturbo-doc.mindworks-creative.com/shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan)
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第三步：尺寸裂变</mark>
 
@@ -40,11 +40,11 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 * 选择合适的布局模板，选择需要添加裂变的展示比例并创建项目，上传并替换模板中的素材。系统将根据布局模板的样式自动完成多个尺寸的调整，以适应不同的显示设备或平台需求。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 点击「从本地上传」或「从库里添加」上传素材，**并删除原模板自带素材**即可完成素材替换。
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.手动微调
 
@@ -52,7 +52,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 利用「**尺寸联动编辑**」功能，可批量调整相同元素在不同尺寸下的大小和位置，从而提升编辑效率。
 * 只需在已添加的尺寸上悬停后点击「锁定」按钮即可激活「尺寸联动编辑」功能。取消「锁定」后，该尺寸将不再与其他尺寸编辑进行联动。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第四步：语言裂变</mark>
 
@@ -63,7 +63,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 布局模板：在「尺寸裂变」使用的布局模版中需要翻译的文本内容，如按钮文本、产品名称、推广文案等。项目未使用布局模版的话，此处内容为空。&#x20;
 * 视频内容： 在「创意制作」环节添加已上传的字幕&配音、文本、图片和视频。&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">您可以在顶部的「</mark><mark style="color:red;">**语言裂变**</mark><mark style="color:red;">」中再次修改需要翻译的内容范围。</mark>
 
@@ -73,13 +73,13 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
 * 点击文本后，右侧的视频预览区域会自动定位到该文本出现的起始时间进行播放。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.视频内容（创意制作）翻译
 
 在【视频内容】界面中，可以对在「创意制作」添加的字幕&配音、文本、图片和视频进行翻译。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.1文本&文本资产组：
 
@@ -93,7 +93,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 选中原语言字幕后，您可以进行字幕分割、合并、删除、新增操作。
 * 如果修改了原语音字幕，可通过点击顶部**「**更新翻译**」**，批量更新其它语言翻译结果。&#x20;
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）**配音**：
 
@@ -101,7 +101,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 为了确保视频翻译后语音与视频画面同步，翻译语言的配音会自动变速，以适配原语言字幕的时长。过慢或过快的异常变速会影响视频播放效果，您可以通过修改字幕翻译文本长度来更新配音。
 * **如果修改了字幕内容、说话人或说话人音色，可通过点击顶部「更新配音」，批量更新其它语言的配音结果**。&#x20;
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">注意：如果项目原语言下只有手动添加的字幕，而不是通过对视频进行语音识别获得的字幕。这种情况下，由于原语言缺少可复制的原声，无法使用语音克隆（语音转语音）功能去朗读字幕翻译结果。</mark>&#x20;
 
