@@ -4,18 +4,20 @@ description: '#视频模板 #快速替换'
 
 # 多语言裂变
 
-入口：【视频模板-快速替换】模块，在完成【素材上传】部分后，点击界面右上方的【下一步】进入**【多语言裂变】**
+* 入口：【视频模板-使用模版】，填充项目名称，勾选需要裂变的语种
 
-<figure><img src="../../../.gitbook/assets/image (1446).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1959).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+* 在完成【素材上传】部分后，添加素材至轨道，点击界面上方的【语言裂变】进入裂变界面
 
-
+<figure><img src="../../../.gitbook/assets/image (1963).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">一、多语言裂变-功能简介</mark> <a href="#lokl9" id="lokl9"></a>
 
 * 当您的素材有输出多语言版本的需求时，可使用多语言裂变功能快速生成多语言版本
 * 当前主要支持对**文本**和**视频配音**进行多语言裂变（还包含文本改写/音色调整等AI功能），这可以帮助您快速产出多语言素材
+
+<figure><img src="../../../.gitbook/assets/image (1964).png" alt=""><figcaption></figcaption></figure>
 
 
 
