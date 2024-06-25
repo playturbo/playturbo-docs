@@ -1,4 +1,4 @@
-# 语言裂变：功能详细介绍
+# 语言裂变
 
 ## <mark style="color:blue;">语言裂变</mark>
 
@@ -11,9 +11,9 @@
 
 <mark style="color:red;">您可以在顶部的【</mark><mark style="color:red;">**语言裂变】**</mark><mark style="color:red;">中再次修改需要翻译的内容范围。</mark>
 
-<figure><img src="../.gitbook/assets/image (1901).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1901).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1902).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1902).png" alt=""><figcaption></figcaption></figure>
 
 ### 1.布局模版翻译
 
@@ -21,11 +21,11 @@
 * 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
 * 点击文本后，右侧的视频预览区域会自动定位到该文本出现的起始时间进行播放。
 
-<figure><img src="../.gitbook/assets/2 (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (94).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.视频翻译
 
-<figure><img src="../.gitbook/assets/3 (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (81).png" alt=""><figcaption></figcaption></figure>
 
 视频翻译分为一个或多个翻译栏，每上传一个主视频，对应一个需要翻译的视频翻译栏。
 
@@ -52,7 +52,9 @@
 * 如果修改了字幕内容、说话人或说话人音色，可通过点击顶部「**更新配音**」，批量更新其它语言的配音结果。&#x20;
 * 为了确保视频翻译后语音与视频画面同步，翻译语言的配音会自动变速，以适配原语言字幕的时长。过慢或过快的异常变速会影响视频播放效果，您可以通过修改字幕翻译文本长度来更新配音。
 
-<figure><img src="../.gitbook/assets/image (1903).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1903).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## <mark style="color:blue;">预览及导出</mark>
 
@@ -60,6 +62,6 @@
 * 可批量导出的视频数量=**素材上传页添加的素材组合数×项目比例数×项目语言数**。&#x20;
 * 导出任务提交后，您可以在菜单栏**我的项目>>>导出&下载历史**列表中查看历史任务进展。
 
-<figure><img src="../.gitbook/assets/image (1904).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1904).png" alt=""><figcaption></figcaption></figure>
 
 导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。
