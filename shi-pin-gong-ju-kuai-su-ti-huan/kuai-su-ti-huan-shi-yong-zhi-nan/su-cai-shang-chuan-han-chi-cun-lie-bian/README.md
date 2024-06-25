@@ -1,5 +1,11 @@
 # 素材上传(含尺寸裂变)
 
+### 使用布局模版 （详细信息即操作可查阅[布局模版](te-bie-jie-shao-bu-ju-mo-ban.md)）
+
+选择合适的布局模板，选择需要添加裂变的展示比例并创建项目，上传并替换模板中的素材。系统将根据布局模板的样式自动完成多个尺寸的调整，以适应不同的显示设备或平台需求。
+
+<figure><img src="../../../.gitbook/assets/image (1965).png" alt=""><figcaption></figcaption></figure>
+
 ## <mark style="color:blue;">上传素材</mark>&#x20;
 
 根据布局模版结构，将视频、图片、文字等素材上传到相应的占位符中，例如主视频、LOGO图，背景图等位置。 <mark style="color:red;">**添加素材后需要删掉原视频模板附带的素材**</mark>
