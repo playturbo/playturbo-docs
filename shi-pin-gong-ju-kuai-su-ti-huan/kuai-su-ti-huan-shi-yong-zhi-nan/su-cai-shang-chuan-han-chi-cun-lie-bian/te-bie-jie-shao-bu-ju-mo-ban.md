@@ -69,30 +69,17 @@ _**\*主视频是指已经完成视频创意设计，需要进行尺寸拓展或
 
 
 
-### <mark style="color:blue;">AI消除 （详细信息可查阅</mark>[<mark style="color:blue;">视频AI消除</mark>](liang-dian-gong-neng-shi-pin-ai-xiao-chu.md)<mark style="color:blue;">）</mark>
+### <mark style="color:blue;">AI消除 （详细功能介绍和操作可查阅</mark>[<mark style="color:blue;">视频AI消除</mark>](liang-dian-gong-neng-shi-pin-ai-xiao-chu.md)<mark style="color:blue;">）</mark>
 
 对于已上传的主视频，可以使用AI技术可以高效移除视频中特定元素（如画面中文本、字幕、水印或徽标等不需要的元素）。
 
-使用步骤：
+AI消除功能目前可以完成满足以下效果
 
-3.1 选中主视频后，
+&#x20;**1.对象移除**：移除视频中的特定对象，例如水印、徽标、字幕等。**上传的原始视频内容会被修改**。
 
-3.2 点击「添加」，展开该视频的AI消除区域编辑页面。
+&#x20;**2.文本替换**：替换视频中的文本内容。**上传的原始视频内容会被修改**。
 
-3.3 在AI消除区域编辑页面，标记需要处理的区域，即希望移除的特定元素。
+&#x20;**3.文本翻译**：翻译视频中的文本内容，**但不改变原始视频内容**。
 
-3.4 保存需要处理的区域后，返回素材上传页面。
+<figure><img src="../../../.gitbook/assets/image (1958).png" alt=""><figcaption></figcaption></figure>
 
-3.5 对已添加的框选区域进行消除任务属性编辑。消除任务包括对象移除、文本替换、文本翻译三种，以满足不同的编辑需求。
-
-&#x20;        a.**对象移除**：移除视频中的特定对象，例如水印、徽标、字幕等。**上传的原始视频内容会被修改**。
-
-&#x20;       b.**文本替换**：替换视频中的文本内容。**上传的原始视频内容会被修改**。
-
-&#x20;       c.**文本翻译**：翻译视频中的文本内容，**但不改变原始视频内容**。
-
-3.6 完成任务编辑后，点击「开始消除」提交AI消除批量任务。&#x20;
-
-<figure><img src="../../../.gitbook/assets/image (1898).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (1900).png" alt=""><figcaption></figcaption></figure>
