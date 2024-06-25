@@ -1,5 +1,5 @@
 ---
-description: 使用Playturbo视频工具中的【视频编辑器】，实现作品高效批量产出！
+description: 使用Playturbo视频工具中的【布局模版】，实现作品高效批量产出！
 cover: ../.gitbook/assets/Playturbo帮助中心banner2.png
 coverY: 0
 ---
@@ -13,10 +13,6 @@ coverY: 0
 ## 字幕提取/AI配音/智能翻译
 
 文本语音互换，多种AI声线选择，一站式语言翻译
-
-## 视频智能分割
-
-自动标记批量切割
 
 ## 商用资源库
 
