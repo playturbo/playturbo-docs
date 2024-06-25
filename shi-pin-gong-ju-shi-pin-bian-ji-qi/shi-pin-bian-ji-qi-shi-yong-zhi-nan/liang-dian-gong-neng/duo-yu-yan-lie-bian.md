@@ -10,20 +10,20 @@ description: '#视频模板 #快速替换'
 
 * 在完成【素材上传】部分后，添加上传的素材至轨道，并删除原视频自带的音频和视频，添加上传的素材至轨道
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:red;">如需要对视频语音跟字幕进行翻译，需要先手动或自动生成字幕，点击左侧栏【字幕】位置，进行智能适配或手动添加字幕并生成配音</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">一、多语言裂变-功能简介</mark> <a href="#lokl9" id="lokl9"></a>
 
 * 当您的素材有输出多语言版本的需求时，可使用【语言裂变】功能快速生成多语言版本
 * 当前主要支持对**文本**和**视频配音**进行多语言裂变（还包含文本改写/音色调整等AI功能），这可以帮助您快速产出多语言素材
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -35,7 +35,7 @@ description: '#视频模板 #快速替换'
 * 在弹窗中选择要裂变的语言，并勾选要裂变的素材（仅支持视频内容、文本）
 * 点击【裂变】后等待片刻即可进入多语言裂变界面
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.进入多语言裂变界面
 
@@ -43,7 +43,7 @@ description: '#视频模板 #快速替换'
 * 在【已上传素材】下，可以对文本和视频选择是否进行【翻译】
 * 在下方可进行每种语言、尺寸的切换预览和新增（尺寸切换可以在尺寸裂变按钮中新增尺寸）
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.调整文本翻译结果
 
@@ -94,7 +94,7 @@ description: '#视频模板 #快速替换'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
