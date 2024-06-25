@@ -1,34 +1,12 @@
-# 素材上传（含尺寸裂变）：功能详细介绍
+# 素材上传(含尺寸裂变)
 
-## <mark style="color:blue;">第一步：选择布局模版</mark>
-
-1.通过首页的创意工具箱或菜单栏的模板库，进入布局模版列表并选择合适的模版。&#x20;
-
-<figure><img src="../../.gitbook/assets/image (1894).png" alt=""><figcaption></figcaption></figure>
-
-2.根据主视频的方向、模版名称或需要上传的素材数量，查找或筛选合适的布局模版。
-
-<figure><img src="../../.gitbook/assets/image (1895).png" alt=""><figcaption></figcaption></figure>
-
-**主视频是指已经完成视频创意设计，需要进行尺寸拓展或多语言翻译的视频。**&#x20;
-
-## <mark style="color:blue;">第二步：创建快速替换项目</mark>
-
-<figure><img src="../../.gitbook/assets/image (1896).png" alt=""><figcaption></figcaption></figure>
-
-输入项目名称、目标视频尺寸和目标视频语言后，完成项目创建。此过程选择多个目标视频尺寸和目标视频语言。
-
-在**我的项目>>>视频项目>>>视频编辑器**列表中，即可查看历史快速替换项目的记录。
-
-
-
-## <mark style="color:blue;">第三步：上传素材</mark>
+## <mark style="color:blue;">上传素材</mark>&#x20;
 
 <figure><img src="../../.gitbook/assets/image (1897).png" alt=""><figcaption></figcaption></figure>
 
 根据布局模版结构，将视频、图片、文字等素材上传到相应的占位符中，例如主视频、LOGO图，背景图等位置。&#x20;
 
-### 1. 尺寸裂变
+### 1. 尺寸裂变 详细操作可查阅[<mark style="color:blue;">布局模版</mark>](te-bie-jie-shao-bu-ju-mo-ban.md)
 
 * 尺寸裂变是布局模板中的一个重要功能。上传主视频后，您可选择需要裂变的尺寸比例，系统会根据布局模板的样式自动完成多个尺寸调整，以适应不同的显示设备或平台需求。此功能可助您轻松修改视频的宽高比例或分辨率，而无需重新编辑整个视频。
 * 假如现在有一个竖屏视频，我们需要在横屏设备上播放。使用布局模板的尺寸裂变功能，您可轻松地调整视频的尺寸，以适应横屏显示，并确保视频内容完整显示且不失真。
@@ -50,14 +28,3 @@
 
 这四个版本展示了各种可能的组合，即占位符 A 内的两个素材与占位符 B 内的两个素材的所有组合结果。
 
-
-
-## <mark style="color:blue;">第四步：预览及导出</mark>
-
-* 完成素材上传及翻译后，点击导航栏「**导出**」，进行导出设置，根据视频用途选择适当的分辨率和码率。
-* 可批量导出的视频数量=**素材上传页添加的素材组合数×项目比例数×项目语言数**。&#x20;
-* 导出任务提交后，您可以在菜单栏**我的项目>>>导出&下载历史**列表中查看历史任务进展。
-
-<figure><img src="../../.gitbook/assets/image (1904).png" alt=""><figcaption></figcaption></figure>
-
-导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。

@@ -7,7 +7,7 @@
 
 
 
-Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素材要求：
+**Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素材要求：**
 
 * 9:16：适用于Mintegral, TikTok ads, Instagram 等
 * 16:9：适用于Mintegral, YouTube ads, TikTok ads
@@ -16,6 +16,56 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 * 1:1：适用于Instagram posts, TikTok ads
 * 4:5：适用于Facebook Feed
 * 2:1：适用于Facebook
+
+
+
+## <mark style="color:blue;">布局模版操作步骤</mark>
+
+## <mark style="color:blue;">第一步：选择布局模版</mark>
+
+1.通过首页的创意工具箱或菜单栏的模板库，进入布局模版列表并选择合适的模版。&#x20;
+
+<figure><img src="../../.gitbook/assets/image (1894).png" alt=""><figcaption></figcaption></figure>
+
+2.根据主视频的方向、模版名称或需要上传的素材数量，查找或筛选合适的布局模版。
+
+<figure><img src="../../.gitbook/assets/image (1895).png" alt=""><figcaption></figcaption></figure>
+
+_**\*主视频是指已经完成视频创意设计，需要进行尺寸拓展或多语言翻译的视频。**_&#x20;
+
+
+
+## <mark style="color:blue;">第二步：创建快速替换项目</mark>
+
+输入项目名称、目标视频尺寸和目标视频语言后，完成项目创建。您可在此过程选择多个目标视频尺寸和目标视频语言。
+
+在**我的项目>>>视频项目>>>视频编辑器**列表中，即可查看历史快速替换项目的记录。
+
+<figure><img src="../../.gitbook/assets/image (1896).png" alt=""><figcaption></figcaption></figure>
+
+## <mark style="color:blue;">第三步：上传素材</mark>
+
+根据布局模版结构，将视频、图片、文字等素材上传到相应的占位符中，例如主视频、LOGO图，背景图等位置。 <mark style="color:red;">**添加素材后需要删掉原视频模板附带的素材**</mark>
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+## <mark style="color:blue;">第四步：预览尺寸裂变效果</mark>
+
+<mark style="color:blue;">确定上传素材后，点击右侧尺寸比例预览裂变效果</mark>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## <mark style="color:blue;">第五步：导出</mark>
+
+* 完成素材上传及翻译后，点击导航栏「**导出**」，进行导出设置，根据视频用途选择适当的分辨率和码率。
+* 可批量导出的视频数量=**素材上传页添加的素材组合数×项目比例数×项目语言数**。&#x20;
+* 导出任务提交后，您可以在菜单栏**我的项目>>>导出&下载历史**列表中查看历史任务进展。
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。</mark>
 
 
 
