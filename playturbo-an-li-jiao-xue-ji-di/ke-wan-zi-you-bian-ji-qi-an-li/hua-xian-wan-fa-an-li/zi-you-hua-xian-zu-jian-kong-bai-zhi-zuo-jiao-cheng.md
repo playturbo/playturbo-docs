@@ -4,7 +4,7 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 # 自由画线组件-空白制作教程
 
-温馨提示：本篇教程主要讲解空白制作如何**通过自由画线组件制作出"画线玩法"的可玩素材**，建议搭配[DEMO](https://tinyurl.com/3k5zasma)和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/zi-you-hua-xian-zu-jian.md)食用效果更佳哦！
+温馨提示：本篇教程主要讲解空白制作如何**通过自由画线组件制作出"画线玩法"的可玩素材**，建议搭配[DEMO](https://tinyurl.com/3k5zasma)和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/zi-you-hua-xian-zu-jian.md)食用效果更佳哦！
 
 
 
@@ -166,19 +166,19 @@ description: '#自由编辑器 #空白制作 #自由画线组件 #初级难度'
 
 选中指引文本\[text\_guidelines]，添加动画-通用-位移缓动，参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3.**指引光圈：透明度缓动
 
 选中指引光圈图片\[flash]，添加动画-通用-透明度缓动，以实现光圈的闪烁效果。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 4.反馈文本：缩小出现
 
 选中场景2的反馈文本\[text\_welldone]，添加动画-进场动画-缩小出现，参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 5.跳转按钮：脉冲向前
 

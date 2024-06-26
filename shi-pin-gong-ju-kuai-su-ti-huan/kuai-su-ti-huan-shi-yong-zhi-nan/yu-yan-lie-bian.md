@@ -11,9 +11,9 @@
 
 <mark style="color:red;">您可以在顶部的【</mark><mark style="color:red;">**语言裂变】**</mark><mark style="color:red;">中再次修改需要翻译的内容范围。</mark>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1.布局模版翻译
 
@@ -45,7 +45,7 @@
 
 * 您可以在系统识别基础上修改说话人、字幕内容和字幕翻译结果。选中原语言字幕后，您可以进行字幕分割、合并、删除、新增操作。
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 您可以点击字幕配音标题行右侧的按钮，展开字幕样式设置。
 

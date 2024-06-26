@@ -4,7 +4,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 # 连线组件-空白制作教程
 
-温馨提示：本篇教程主要讲解空白制作如何**通过连线组件制作出"连线玩法"的可玩素材**，建议搭配[DEMO](https://tinyurl.com/mwfduke2)和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku/lian-xian-zu-jian.md)食用效果更佳哦！
+温馨提示：本篇教程主要讲解空白制作如何**通过连线组件制作出"连线玩法"的可玩素材**，建议搭配[DEMO](https://tinyurl.com/mwfduke2)和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/lian-xian-zu-jian.md)食用效果更佳哦！
 
 
 
@@ -193,7 +193,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 选中跳转按钮组\[group\_ctat]，添加动画-强调动画-脉冲向前，作为按钮的循环指引动画。参数设置如下：
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 7.粒子特效：彩带粒子&烟花粒子
 
@@ -203,7 +203,7 @@ description: '#自由编辑器 #空白制作 #连线组件 #初级难度'
 
 3）调整好竖屏粒子的位置，还需切换到横屏进行调整
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
