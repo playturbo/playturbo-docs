@@ -14,24 +14,27 @@ description: '#自由编辑器 #模板自由制作'
 
 
 
-## <mark style="color:blue;">一、快捷布局通俗介绍</mark>
+## <mark style="color:blue;">一、快捷布局(停车解密布局)通俗介绍</mark>
 
 * 适用玩法：适用于"停车解谜""农场解谜"等通过移动多种元素位置来放出目标元素的玩法
-* <mark style="color:red;">当前「停车解密布局」仅支持纯</mark><mark style="color:red;">**俯视视角**</mark><mark style="color:red;">的停车解密类玩法</mark>
-* <mark style="color:red;">快捷布局当前仅支持在"停车解谜类"玩法模板的【自由制作】中使用</mark>
+* 当前「停车解密布局」仅支持纯**俯视视角**的停车解密类玩法
+* 停车解密布局<mark style="color:red;">当前仅支持在"停车解谜类"玩法模板的【自由制作】中使用</mark>
 * 通过调整快捷布局的「背景及道路」、「布局元素」、「出口」等参数，您可以创建不同难度和风格的停车布局，完成您的创意素材输出
+* <mark style="color:red;">Tips：在【可玩模板】界面点击【快捷排版】，即可快速筛选出支持</mark><mark style="color:red;">**快捷布局**</mark><mark style="color:red;">功能的模板哦！</mark>
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1970).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
+<figure><img src="../../../.gitbook/assets/image (1971).png" alt=""><figcaption></figcaption></figure>
 
 
-## <mark style="color:blue;">二、快捷布局使用说明</mark>
 
-【快捷布局】当前支持调整的参数分三部分：「背景及道路」、「布局元素」、「设置出口」，需依次进行设置。接下来，我们将以模板[停车解谜v1](https://tinyurl.com/z7vu93kz)为例，展开介绍【快捷布局】的使用方法
+## <mark style="color:blue;">二、快捷布局(停车解密布局)使用说明</mark>
+
+【停车解密布局】当前支持调整的参数分三部分：「背景及道路」、「布局元素」、「设置出口」，需依次进行设置。接下来，我们将以模板[停车解谜v1](https://tinyurl.com/z7vu93kz)为例，展开介绍【停车解密布局】的使用方法
 
 ### 1.背景及道路
 

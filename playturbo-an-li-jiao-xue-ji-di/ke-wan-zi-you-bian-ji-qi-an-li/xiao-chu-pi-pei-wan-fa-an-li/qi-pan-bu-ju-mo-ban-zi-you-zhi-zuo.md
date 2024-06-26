@@ -50,7 +50,7 @@ description: '#自由编辑器 #模板自由制作 #棋盘布局 #初级难度'
 
 调整完竖屏，需切换至横屏对排版进行微调
 
-关于"棋盘布局"的功能介绍可查阅 [wan-fa-mo-ban.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")
+关于"棋盘布局"的功能介绍可查阅 [qi-pan-bu-ju.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/qi-pan-bu-ju.md "mention")
 
 <figure><img src="../../../.gitbook/assets/image (1327).png" alt=""><figcaption></figcaption></figure>
 

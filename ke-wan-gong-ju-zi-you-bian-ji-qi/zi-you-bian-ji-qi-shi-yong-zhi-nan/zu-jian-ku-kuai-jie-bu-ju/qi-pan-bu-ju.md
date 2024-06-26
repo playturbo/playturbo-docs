@@ -14,68 +14,104 @@ description: '#自由编辑器 #模板自由制作'
 
 
 
-## <mark style="color:blue;">一、快捷布局通俗介绍</mark>
+## <mark style="color:blue;">一、快捷布局(棋盘布局)通俗介绍</mark>
 
-* 适用玩法：适用于"停车解谜""农场解谜"等通过移动多种元素位置来放出目标元素的玩法
-* <mark style="color:red;">当前「停车解密布局」仅支持纯</mark><mark style="color:red;">**俯视视角**</mark><mark style="color:red;">的停车解密类玩法</mark>
-* <mark style="color:red;">快捷布局当前仅支持在"停车解谜类"玩法模板的【自由制作】中使用</mark>
-* 通过调整快捷布局的「背景及道路」、「布局元素」、「出口」等参数，您可以创建不同难度和风格的停车布局，完成您的创意素材输出
-
-
-
-
-
-
-
-**1）进入棋盘布局**
-
-当前可通过两条路径进入棋盘布局：
-
-① 顶部资产库>>>玩法模板>>>快捷布局
-
-② 作品预览区>>>快捷布局
-
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-点击后出现棋盘界面弹窗
-
-<figure><img src="../../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
-
-**2）编辑网格**
-
-* 选择/橡皮擦：可通过点击或拖拽，选择/擦除所需格子
-* 全选/清空/重制：点击相应按钮，可实现快速操作
-* 行列数：输入数字或点击小箭头图标以调整棋盘的行列数
-* 排布形式：可选择行列对齐或行列错位
-* 统一格子背景：可选择打开/关闭统一格子背景；可替换格子背景图片，并应用于全部已激活网格（背景默认为正方形，超出部分自动裁剪）
-* 温馨提示：【网格】重新设计后，请务必进入【元素】界面进行重新排版设计
-
-<figure><img src="../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
-
-**3）编辑元素**
-
-* 选择/橡皮擦：可通过点击或拖拽，填充/擦除相应元素
-* 清空：点击清空按钮，可一键清除当前网格中的所有元素
-* 元素选用：打开元素按钮，可将元素添加至网格；关闭按钮，则不可添加。可替换元素图片
-
-<figure><img src="../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
-
-* 按权重排版：开启后，可按比例自动排版当前元素并铺满所有已激活网格，元素排布数量随设置调整，数量随机
-* 权重总和需等于100%，否则无法使用该功能
+* 适用玩法：适用于部分消除/拼图/涂色类玩法的模板
+* 棋盘布局当前仅支持<mark style="color:red;">在模板的【自由制作】中使用</mark>，不支持空白制作
+* 通过调整棋盘布局的 网格布局、网格背景、元素样式、元素布局等参数，您可以创建不同难度和风格的棋盘布局，完成您的创意素材输出
+* <mark style="color:red;">Tips：在【可玩模板】界面点击【快捷排版】，即可快速筛选出支持</mark><mark style="color:red;">**快捷布局**</mark><mark style="color:red;">功能的模板哦！</mark>
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (199).png" alt="" width="245"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1970).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-**4）保存棋盘**
+<figure><img src="../../../.gitbook/assets/image (1972).png" alt=""><figcaption></figcaption></figure>
 
-* 完成【网格】和【元素】的设计后，我们点击确认，棋盘布局即生效
 
-<figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
 
-**5）补充：演示录屏**
+## <mark style="color:blue;">二、快捷布局(棋盘布局)使用说明</mark>
+
+【棋盘布局】当前支持调整的参数分两部分：「网格」、「元素」，需依次进行设置
+
+接下来，我们将以模板[点消解围](https://tinyurl.com/25ycjwpm)为例，展开介绍【棋盘布局】的使用方法
+
+### 1.网格
+
+#### 1）点击进入【快捷布局】
+
+<figure><img src="../../../.gitbook/assets/image (1974).png" alt=""><figcaption></figcaption></figure>
+
+#### 2）编辑网格
+
+* 行列数：输入数字或点击小箭头图标以调整棋盘的行列数
+* 排布形式：可选择 行列对齐 或 列错位
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1976).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 统一格子背景：可选择打开/关闭统一格子背景
+* 支持替换格子背景图片，并应用于全部已激活网格（背景图片默认为正方形，超出部分将自动裁剪）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1977).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 选择/橡皮擦：可通过点击或拖拽，选择/擦除要启用的格子
+* 全选/清空/重置：点击相应按钮，可实现快速操作
+* 温馨提示：【网格】重新设计后，请务必进入【元素】界面进行重新排版设计
+
+<figure><img src="../../../.gitbook/assets/image (1978).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### **2.元素**
+
+【网格】设置完成后，点击【元素】，对元素的样式和布局进行设置
+
+* 元素选用：可选择启用/禁用元素。若启用 则可将元素添加进网格；若禁用 则不可添加
+* 支持替换元素图片
+* 元素坑位添加上限默认为5个
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1979).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 按权重排版：可选择开启/关闭
+* 开启后，需给每个元素输入对应的权重值。<mark style="color:red;">注意：权重总和需等于100%才可应用</mark>
+* 设置后，点击【应用到棋盘】，元素将按照设定的权重在已启用的网格内随机布局
+* 支持**多次点击**【应用到棋盘】，可随机生成不同布局
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+若您想自行布局元素，可通过上方快捷按钮进行相应操作
+
+* 选择/橡皮擦：可通过点击或拖拽，填充/擦除相应元素
+* 清空：点击清空按钮，可一键清除当前网格中的所有元素
+
+<figure><img src="../../../.gitbook/assets/image (1980).png" alt=""><figcaption></figcaption></figure>
+
+
+
+【元素】设置完成后，请务必点击【确认】，棋盘布局才生效
+
+<figure><img src="../../../.gitbook/assets/image (1981).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## <mark style="color:blue;">**三、棋盘布局演示录屏**</mark>
 
 针对棋盘布局功能，这里还有演示录屏供您参考学习
 
