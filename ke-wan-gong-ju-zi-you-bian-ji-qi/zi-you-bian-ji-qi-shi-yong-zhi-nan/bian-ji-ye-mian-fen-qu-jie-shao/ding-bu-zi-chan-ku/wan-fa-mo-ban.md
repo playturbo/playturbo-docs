@@ -4,37 +4,42 @@ description: '#自由编辑器 #模板自由制作'
 
 # 玩法模板
 
-✨模板自由制作入口：玩法模板
+入口：顶部资产库>>>玩法模板
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../../../.gitbook/assets/image (1966).png" alt=""><figcaption></figcaption></figure>
 
 
 
-## <mark style="color:blue;">一、玩法模板是什么</mark>
+## <mark style="color:blue;">一、玩法模板是什么？</mark>
 
-### 1.通俗描述
+### 1.通俗介绍
 
-* 仅在“**模板自由制作**”中出现，空白制作不涉及玩法模板
-* 是放置核心玩法内容、核心资产的区域
-* 该区域通常由开发制作，核心玩法逻辑（如进度条、核心玩法等）由代码控制
+* 【玩法模板】是放置核心布局、核心资产的区域
+* 该区域通常由开发制作，核心的玩法逻辑由代码控制，因此建议您在合理范围内对玩法模板进行调整，以免项目报错
 
 ### 2.包含模块
 
-玩法模板包含两部分内容：玩法编辑、快捷布局
-
-**1）玩法编辑：**通用的 / 各类玩法模板可能都会有
-
-**2）快捷布局：**特殊的 / 适用于消除、拼图、停车解密类模板
-
-\*快捷布局是放置特殊功能的区域，目前包含"棋盘布局"和"停车解密布局"
+玩法模板包含两个模块：组件库、玩法模版
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1967).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* 组件库：放置各类组件的区域。<mark style="color:orange;">在【模板自由制作】和【空白制作】都可使用</mark>（具体包含的组件可查阅 [zu-jian-ku](../../zu-jian-ku/ "mention")）
+* 玩法模板：放置核心资产、特殊功能布局的区域。<mark style="color:orange;">仅出现在【模板自由制作】中</mark>
+  * **玩法编辑：**通用的 / 各种玩法的模板中都可能会有（相关内容可查阅 [ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md](../../../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md "mention")）
+  * **快捷布局：**特殊的 / 适用于消除、拼图、停车解密类玩法的模板
+
+<mark style="color:red;">**注意：在您使用模板进行【自由制作】时**</mark>
+
+* <mark style="color:red;">若打开【玩法模板】有相关内容(如左图)，则代表该模板的核心玩法由代码控制，调整时会有一定限制（具体可查阅</mark> [#yi-tiao-zheng-zi-you-du-xu-zhi](../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#yi-tiao-zheng-zi-you-du-xu-zhi "mention")<mark style="color:red;">）</mark>
+* <mark style="color:red;">若打开【玩法模板】没有相关内容(如右图)，则代表该模板没有代码参与，您可以自由调整该模板</mark>
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1968).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
