@@ -14,7 +14,7 @@ description: '#视频模板 #快速替换'
 
 * <mark style="color:red;">如需要对视频语音跟字幕进行翻译，需要先手动或自动生成字幕，点击左侧栏【字幕】位置，进行智能适配或手动添加字幕并生成配音</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
