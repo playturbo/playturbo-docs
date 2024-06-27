@@ -78,7 +78,7 @@
 
 ### Step1 - 基础场景搭建
 
-<table data-header-hidden><thead><tr><th></th><th width="40"></th><th></th></tr></thead><tbody><tr><td><strong>图示</strong></td><td></td><td><strong>步骤</strong></td></tr><tr><td><img src="../../../.gitbook/assets/10.png" alt=""></td><td>1</td><td><p><strong>全局设置</strong></p><p>在<a href="https://playturbo-doc.mindworks-creative.com/bian-ji-qi-gong-neng-jie-shao/quan-ju-she-zhi">全局设置</a>中添加背景图片、背景音乐</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="40"></th><th></th></tr></thead><tbody><tr><td><strong>图示</strong></td><td></td><td><strong>步骤</strong></td></tr><tr><td><img src="../../../.gitbook/assets/10 (1).png" alt=""></td><td>1</td><td><p><strong>全局设置</strong></p><p>在<a href="https://playturbo-doc.mindworks-creative.com/bian-ji-qi-gong-neng-jie-shao/quan-ju-she-zhi">全局设置</a>中添加背景图片、背景音乐</p></td></tr></tbody></table>
 
 ### Step2 - 制作场景1（第一次指引）
 

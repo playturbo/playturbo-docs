@@ -76,6 +76,6 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/7 (1).png" alt="" width="541"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/7 (1) (1).png" alt="" width="541"><figcaption></figcaption></figure>
 
 </div>
