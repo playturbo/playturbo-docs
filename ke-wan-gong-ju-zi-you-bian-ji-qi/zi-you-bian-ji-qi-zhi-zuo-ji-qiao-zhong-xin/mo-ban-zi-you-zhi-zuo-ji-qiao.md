@@ -11,6 +11,8 @@ description: '#自由编辑器 #模板自由制作'
 * <mark style="color:red;">若打开【玩法模板】有相关内容(如左图)，则代表该模板的核心玩法由代码控制，调整时会有一定限制</mark>
 * <mark style="color:red;">若打开【玩法模板】没有相关内容(如右图)，则代表该模板没有代码参与，您可以自由调整该模板</mark>
 
+**注：模板是否包含【玩法模板】，可查阅** [ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md](../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md "mention")&#x20;
+
 <div align="left">
 
 <figure><img src="../../.gitbook/assets/image (1969).png" alt=""><figcaption></figcaption></figure>
@@ -19,13 +21,19 @@ description: '#自由编辑器 #模板自由制作'
 
 ### 1.不建议自由调整
 
-因包含【玩法模板】的模板，其核心玩法由代码控制，若您随意调整可能会导致模板报错，无法正常使用
+1）因包含【玩法模板】的模板，其核心玩法由代码控制，若您随意调整可能会导致模板报错，无法正常使用
 
 <mark style="color:red;">因此我们建议您参照以下调整自由度来对模板进行调整</mark>
 
-<table><thead><tr><th width="217"></th><th width="210">普通场景</th><th>玩法模板</th></tr></thead><tbody><tr><td><strong>替换资产</strong></td><td>可以</td><td>可以</td></tr><tr><td><strong>新增资产</strong></td><td>可以</td><td>不建议（可在普通场景新增）</td></tr><tr><td><strong>新增场景</strong></td><td>可以（不影响核心玩法的情况下,可以在开头/结尾新增场景）</td><td>不建议（可在普通场景新增）</td></tr><tr><td><strong>其他非删除操作</strong>(如调整资产位置/大小;隐藏资产)</td><td>可以</td><td>不建议（适当操作,尽量避免大动作调整）</td></tr><tr><td><strong>删除资产</strong></td><td>不建议 (可以隐藏)</td><td>十分不建议，高几率报错</td></tr><tr><td><strong>调整动画</strong></td><td>可以（若"动画"参数一栏有相关动画）</td><td>不建议（适当操作）</td></tr><tr><td><strong>新增动画</strong></td><td>可以</td><td>不建议（适当操作）</td></tr><tr><td><strong>调整事件</strong></td><td>可以（若"事件"参数一栏有相关事件）</td><td>暂不支持</td></tr><tr><td><strong>新增事件</strong></td><td>可以</td><td>暂不支持</td></tr></tbody></table>
+<table><thead><tr><th width="217">对应操作</th><th width="210">普通场景</th><th>玩法模板</th></tr></thead><tbody><tr><td><strong>替换资产</strong></td><td>可以</td><td>可以</td></tr><tr><td><strong>新增资产</strong></td><td>可以</td><td>不建议（可在普通场景新增）</td></tr><tr><td><strong>新增场景</strong></td><td>可以（不影响核心玩法的情况下,可以在开头/结尾新增场景）</td><td>不建议（可在普通场景新增）</td></tr><tr><td><strong>其他非删除操作</strong>(如调整资产位置/大小;隐藏资产)</td><td>可以</td><td>不建议（适当操作,尽量避免大动作调整）</td></tr><tr><td><strong>删除资产</strong></td><td>不建议 (可以隐藏)</td><td>十分不建议，高几率报错</td></tr><tr><td><strong>调整动画</strong></td><td>可以（若"动画"参数一栏有相关动画）</td><td>不建议（适当操作）</td></tr><tr><td><strong>新增动画</strong></td><td>可以</td><td>不建议（适当操作）</td></tr><tr><td><strong>调整事件</strong></td><td>可以（若"事件"参数一栏有相关事件）</td><td>暂不支持</td></tr><tr><td><strong>新增事件</strong></td><td>可以</td><td>暂不支持</td></tr></tbody></table>
 
-注：模板是否包含【玩法模板】，也可查阅 [ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md](../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md "mention")&#x20;
+
+
+2）另外，某一模板的核心玩法相关参数是否可以调整，主要取决于参数区的【玩法参数】一栏。
+
+以模板["抓住优惠券"](https://tinyurl.com/y2ztadf8)其【玩法参数】支持调整“额外跳转次数”、“元素和物件展示数量”、“元素循环移动速度”。若用户想调整元素与元素轮播的间距（涉及核心玩法），则不支持调整哦！其它操作可参考上方表格的建议
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -88,7 +96,7 @@ description: '#自由编辑器 #模板自由制作'
 
 * 若该位置有动画参数，则代表可以调整
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)   (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)   (5).png" alt=""><figcaption></figcaption></figure>
 
 * 若该位置无动画参数，则可能由代码控制，不可以调整
 
@@ -199,7 +207,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="color:red;">3）若图层区没有该图层，则可能</mark><mark style="color:red;">**位于【玩法模板】内**</mark><mark style="color:red;">：点击顶部资产库>>>玩法模板>>>玩法编辑/快捷布局，进行查找</mark>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 注意：极少数模板的某些资产可能在【玩法模板】中也没有，这是因为该资产由开发通过代码控制，在自由编辑器内无法或不推荐修改，否则容易报错，因此我们不展示该资产坑位
 
