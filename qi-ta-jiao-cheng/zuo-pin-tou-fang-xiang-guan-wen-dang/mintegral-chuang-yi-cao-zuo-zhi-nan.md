@@ -142,7 +142,7 @@ Mintegral关联可玩素材有两种方式：
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -160,7 +160,7 @@ Mintegral关联可玩素材有两种方式：
 
 2）选择"添加现有创意"，上传的时候除了要选择"video"和"可玩素材"外，还要同时选择上传"image"（尺寸选择1200x627）
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -288,7 +288,7 @@ b. 广告投放 --> 创意管理 --> 编辑
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -302,7 +302,7 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -369,9 +369,11 @@ _温馨提示：如果删除创意组会导致定向的国家或地区没有创�
 
 Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理」 - <mark style="background-color:red;">「素材」</mark>页面中
 
+图片、视频、试玩素材 均展示在该列表中，并支持缩略图的预览
+
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -381,7 +383,7 @@ Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -400,16 +402,28 @@ Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理�
 
 
 
-### 3.将素材从创意组中移除&#x20;
+### 3.修改创意名称
 
-广告投放 --> 创意管理 --> 素材  --> 勾选素材名称 --> 移除或删除素材  --> 移除素材
+<mark style="color:red;">若创意尚未应用到创意组</mark>，支持对创意进行重命名
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/cce9866ee6796563e6c9ebc95ebc53a1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+### 4.将素材从创意组中移除&#x20;
+
+广告投放 --> 创意管理 --> 素材  --> 勾选素材名称 --> 移除或删除素材  --> **移除素材**
 
 * 勾选素材，点击「移除素材」，或点击单个素材的「移除」功能
 * 在跳出的弹窗中，勾选创意组，再确定，将该素材从已经应用该素材的创意组中移除
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -426,9 +440,9 @@ Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理�
 
 
 
-### 4.将素材从账户中删除
+### 5.将素材从账户中删除
 
-广告投放 --> 创意管理 --> 素材 --> 勾选素材名称 --> 移除或删除素材  --> 删除素材
+广告投放 --> 创意管理 --> 素材 --> 勾选素材名称 --> 移除或删除素材  --> **删除素材**
 
 * 勾选素材，点击「删除素材」，或点击单个素材的「删除」功能，即可从账户中删除
 
