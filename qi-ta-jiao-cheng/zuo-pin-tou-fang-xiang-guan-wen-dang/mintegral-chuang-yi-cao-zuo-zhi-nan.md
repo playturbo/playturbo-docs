@@ -112,7 +112,13 @@ Mintegral关联可玩素材有两种方式：
 
 
 
-### <mark style="color:red;">3.特别说明：新上的可玩素材不起量？</mark>
+### 3.查看可玩素材审核状态
+
+当前暂不支持查看可玩素材的审核状态，但可以**查看创意组的审核状态**，具体内容可查阅第三部分 [#id-3.-chuang-yi-zu-shen-he](mintegral-chuang-yi-cao-zuo-zhi-nan.md#id-3.-chuang-yi-zu-shen-he "mention")
+
+
+
+### <mark style="color:red;">4.特别说明：新上的可玩素材不起量？</mark>
 
 **背景：**当前，有部分用户在自定义创意组中上传了视频和可玩素材后，没有上传大图，导致新上的可玩素材无法起量
 
@@ -136,13 +142,13 @@ Mintegral关联可玩素材有两种方式：
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -150,39 +156,21 @@ Mintegral关联可玩素材有两种方式：
 
 1）进入前台系统后，点击"创意管理"，点击"上传创意组"
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）选择"添加现有创意"，上传的时候除了要选择"video"和"可玩素材"外，还要同时选择上传"image"（尺寸选择1200x627）
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）上传完毕后确认一下投放的创意类型"Video\&Playable"是否已自动勾选
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### 4.其他操作说明
-
-#### 1）修改素材名称
-
-Mintegral暂不支持推送可玩素材修改素材名称。请在推送前在Playturbo下载页命名后再推送
-
-若已经推送，可复制项目，重新命名后再推送。
-
-#### 2）删除素材
-
-Mintegral暂不支持删除素材。仅支持将素材从某创意组中去掉（但不是删除素材，该素材仍可用于其他创意组）。
-
-#### 3）查看可玩素材审核状态
-
-当前暂不支持查看可玩素材的审核状态，但可以查看创意组的审核状态，具体内容可查阅第三部分 [#id-3.-chuang-yi-zu-shen-he](mintegral-chuang-yi-cao-zuo-zhi-nan.md#id-3.-chuang-yi-zu-shen-he "mention")
-
-
-
-## <mark style="color:blue;">三、补充: 创意组的相关操作</mark>
+## <mark style="color:blue;">三、创意组的相关操作</mark>
 
 ### 1.新建创意组
 
@@ -219,7 +207,7 @@ c. 使用 Open API 新建创意组
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -302,7 +290,7 @@ b. 广告投放 --> 创意管理 --> 编辑
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -316,7 +304,7 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -324,7 +312,7 @@ b. 广告投放 --> 创意管理 --> 手动勾选需要被复制的创意组 -->
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -341,19 +329,19 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 b. 广告投放 --> 创意管理 --> 手动勾选需要被复制的创意组 --> 删除创意组<mark style="color:red;">（会同时删除相关广告单元中的该创意组）</mark>
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _温馨提示：如果删除创意组会导致定向的国家或地区没有创意可投，系统会自动弹窗提示并引导您先删除无创意组的国家或地区定向，然后再删除创意组_
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -373,6 +361,86 @@ _温馨提示：如果删除创意组会导致定向的国家或地区没有创�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+
+
+## <mark style="color:blue;">四、素材的相关操作</mark>
+
+Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理」 - <mark style="background-color:red;">「素材」</mark>页面中
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### 1.上传新素材&#x20;
+
+广告投放 --> 创意管理 --> 素材 -->  **上传新素材**
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+### 2.将素材应用至创意组
+
+广告投放 --> 创意管理 --> 素材  --> 勾选素材名称 --> **应用至创意组**
+
+* 勾选素材，点击「应用至创意组」，或点击单个素材的「应用至创意组」功能
+* 在跳出的弹窗中勾选对应的创意组，并确定
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 3.将素材从创意组中移除&#x20;
+
+广告投放 --> 创意管理 --> 素材  --> 勾选素材名称 --> 移除或删除素材  --> 移除素材
+
+* 勾选素材，点击「移除素材」，或点击单个素材的「移除」功能
+* 在跳出的弹窗中，勾选创意组，再确定，将该素材从已经应用该素材的创意组中移除
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:red;">**温馨提示：**</mark>
+
+* <mark style="color:red;">移除即解除素材和创意组的关联关系，但是素材仍然会存在与素材库中</mark>
+* <mark style="color:red;">移除素材可能会导致创意组中无可投放的创意，从而影响 offer 的正常投放</mark>
+
+
+
+### 4.将素材从账户中删除
+
+广告投放 --> 创意管理 --> 素材 --> 勾选素材名称 --> 移除或删除素材  --> 删除素材
+
+* 勾选素材，点击「删除素材」，或点击单个素材的「删除」功能，即可从账户中删除
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<mark style="color:red;">**温馨提示**</mark>
+
+* <mark style="color:red;">删除即彻底将素材从账户中删除，同时会解除素材与创意组之间的关联关系</mark>
+* <mark style="color:red;">删除素材可能会导致创意组中无可投放的创意，从而影响广告单元的正常投放</mark>
