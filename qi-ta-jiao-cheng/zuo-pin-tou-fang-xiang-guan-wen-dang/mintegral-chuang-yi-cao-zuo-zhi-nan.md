@@ -402,9 +402,9 @@ Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理�
 
 
 
-### 3.修改创意名称
+### 3.修改素材名称
 
-<mark style="color:red;">若创意尚未应用到创意组</mark>，支持对创意进行重命名
+<mark style="color:red;">**若素材尚未应用到创意组**</mark>，支持对素材进行 重命名
 
 <div align="left">
 
