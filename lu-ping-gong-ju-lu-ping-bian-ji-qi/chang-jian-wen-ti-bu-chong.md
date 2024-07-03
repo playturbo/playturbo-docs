@@ -24,4 +24,4 @@
 
 如果更新了项目的录屏参数，已创建的版本需要点击“重新加载”获得最新的录屏参数设置。
 
-<figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

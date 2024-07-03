@@ -27,7 +27,7 @@
 
 视频翻译分为一个或多个翻译栏，每上传一个主视频，对应一个需要翻译的视频翻译栏。
 
-<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
 每个主视频翻译栏包括三个模块：
 
@@ -41,19 +41,19 @@
 
 * 系统会自动识别视频中对话角色（说话人）和对话内容（字幕），并将字幕翻译成指定语言。
 
-<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 您可以在系统识别基础上修改说话人、字幕内容和字幕翻译结果。选中原语言字幕后，您可以进行字幕分割、合并、删除、新增操作。
 
-<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 您可以点击字幕配音标题行右侧的按钮，展开字幕样式设置。
 
-<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
 
 * 如果修改了原语音字幕，可通过点击顶部「**更新翻译**」，批量更新其它语言翻译结果。&#x20;
 
-<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;    b.配音：
 
