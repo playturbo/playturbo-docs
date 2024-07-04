@@ -63,7 +63,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 布局模板：在「尺寸裂变」使用的布局模版中需要翻译的文本内容，如按钮文本、产品名称、推广文案等。项目未使用布局模版的话，此处内容为空。&#x20;
 * 视频内容： 在「创意制作」环节添加已上传的字幕&配音、文本、图片和视频。&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">您可以在顶部的「</mark><mark style="color:red;">**语言裂变**</mark><mark style="color:red;">」中再次修改需要翻译的内容范围。</mark>
 
