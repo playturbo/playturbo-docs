@@ -63,9 +63,9 @@ description: '#自由编辑器 #模板自由制作'
 
 **\*此步骤为**_**停车解密类玩法**_**模板迭代的核心步骤**，分「背景及道路」、「布局元素」、「出口」三个部分
 
-| Step1-背景及道路                                                                       | Step2-布局元素                                                                                                                                 | Step3-设置出口                                                                                          |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/image (1740).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
+| Step1-背景及道路                                                                       | Step2-布局元素                                                                                                                                     | Step3-设置出口                                                                                          |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/image (1740).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
 
 
 
@@ -157,7 +157,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -175,7 +175,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -193,7 +193,7 @@ description: '#自由编辑器 #模板自由制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -247,11 +247,11 @@ _相关阅读：_ [wan-fa-mo-ban.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/z
 
 2）替换步数面板图片，并调整"最佳纪录"文本
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）返回项目编辑，选中指引文本\[text\_guide]，在右侧调整文本内容，并向上移动到合适的位置
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4）选中指引元素图片\[car2]，将其替换为我们的目标元素
 
@@ -289,7 +289,7 @@ _相关阅读：_ [wan-fa-mo-ban.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/z
 
 选中指引组\[initial\_guidance]，将"位移动画"的横向位移距离由"110"改为"-110"即可，其他无需调整
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -299,7 +299,7 @@ _相关阅读：_ [wan-fa-mo-ban.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/z
 
 在本案例中，我们选择关闭【额外跳转时机】，直接将数值拖拽到0即可
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -309,7 +309,7 @@ _相关阅读：_ [wan-fa-mo-ban.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/z
 
 全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
