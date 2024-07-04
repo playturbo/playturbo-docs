@@ -1,10 +1,12 @@
 ---
-description: '#视频模板 #快速替换'
+description: '#视频模板 #语言翻译#语言配音'
 ---
 
 # 多语言裂变
 
-* 入口：【视频模板-使用模版】，填充项目名称，勾选需要裂变的语种
+## <mark style="color:blue;">项目创建和素材上传</mark>
+
+* 创建项目：【视频模板-使用模版】，填充项目名称，勾选需要裂变的语种
 
 <figure><img src="../../../.gitbook/assets/image (1959).png" alt=""><figcaption></figcaption></figure>
 
