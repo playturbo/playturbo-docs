@@ -12,7 +12,7 @@ description: 文本一键翻译，将项目生成多语言版本
 
 <figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">注意：如上传的视频素材没有字幕元件，需要现在【创意制作】页面点击【字幕】为素材视频添加字幕才能进行字幕翻译，详细操作可参考文档</mark> [字幕识别](zi-mu-shi-bie.md)
+<mark style="color:red;">注意：如上传的视频素材没有字幕元件，需要现在【创意制作】页面点击【字幕】为素材视频添加字幕才能进行字幕翻译，详细操作可参考文档</mark> [**字幕识别**](zi-mu-shi-bie.md)
 
 <figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
