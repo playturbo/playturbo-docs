@@ -66,17 +66,21 @@ Mintegral关联可玩素材有两种方式：
 
 </div>
 
-4）在弹出的弹窗中，选中希望添加到该创意组的试玩素材，点击「应用」即可<mark style="color:red;">（创意组必须带有视频和图片素材）</mark><mark style="color:red;">**（记得勾选创意类型下的"Video\&Playable"）**</mark>
+4）在弹出的弹窗中，选中希望添加到该创意组的试玩素材，点击「应用」即可<mark style="color:red;">（创意组必须带有视频和图片素材）</mark>
+
+<figure><img src="../../.gitbook/assets/image (1823).png" alt=""><figcaption></figcaption></figure>
+
+⚠️<mark style="color:red;">**记得勾选创意类型下的 "Video\&Playable"**</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 5）对该包名下所有Offer的所有创意组重复该操作，即可将可玩素材应用到该包名下的所有Offer
 
 <mark style="color:red;">\*注意：需要在playturbo完成推送素材，才可在「添加现有创意」这个页面找到Playturbo制作的可玩素材</mark>
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1823).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 
 
@@ -98,17 +102,25 @@ Mintegral关联可玩素材有两种方式：
 
 </div>
 
-4）在弹出的弹窗中，选中希望添加到该创意组的试玩素材，点击「应用」即可（创意组必须带有视频和图片素材）<mark style="color:red;">**（记得勾选创意类型下的"Video\&Playable"）**</mark>
-
-5）对该包名下所有Offer的所有创意组重复该操作，即可将可玩素材应用到该包名下的所有Offer
-
-<mark style="color:red;">\*注意：需要在playturbo完成推送素材，才可在「添加现有创意」这个页面找到Playturbo制作的可玩素材</mark>
+4）在弹出的弹窗中，选中希望添加到该创意组的试玩素材，点击「应用」即可（创意组必须带有视频和图片素材）
 
 <div align="left">
 
 <figure><img src="../../.gitbook/assets/image (1823).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+⚠️<mark style="color:red;">**记得勾选创意类型下的 "Video\&Playable"**</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+5）对该包名下所有Offer的所有创意组重复该操作，即可将可玩素材应用到该包名下的所有Offer
+
+<mark style="color:red;">\*注意：需要在playturbo完成推送素材，才可在「添加现有创意」这个页面找到Playturbo制作的可玩素材</mark>
 
 
 
@@ -142,7 +154,7 @@ Mintegral关联可玩素材有两种方式：
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -160,7 +172,7 @@ Mintegral关联可玩素材有两种方式：
 
 2）选择"添加现有创意"，上传的时候除了要选择"video"和"可玩素材"外，还要同时选择上传"image"（尺寸选择1200x627）
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -288,7 +300,7 @@ b. 广告投放 --> 创意管理 --> 编辑
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -302,7 +314,7 @@ a. 广告投放 --> 广告单元列表 --> 编辑广告单元 --> 上传素材 -
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -373,7 +385,7 @@ Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -383,7 +395,7 @@ Playturbo推送至Mintegral的素材均会存放在Mintegral的「创意管理�
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

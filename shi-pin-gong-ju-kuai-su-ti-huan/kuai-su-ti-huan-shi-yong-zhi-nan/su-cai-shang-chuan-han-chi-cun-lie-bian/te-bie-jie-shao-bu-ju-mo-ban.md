@@ -55,7 +55,7 @@ _**\*主视频是指已经完成视频创意设计，需要进行尺寸拓展或
 
 <mark style="color:blue;">确定上传素材后，点击右侧尺寸比例预览裂变效果</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第五步：导出</mark>
 
