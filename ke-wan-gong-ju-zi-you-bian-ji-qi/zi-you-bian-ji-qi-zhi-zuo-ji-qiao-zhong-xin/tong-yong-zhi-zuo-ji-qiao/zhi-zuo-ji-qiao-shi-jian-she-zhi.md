@@ -25,7 +25,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) ( (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)  (10).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -92,7 +92,7 @@ description: '#自由编辑器'
 
 <figure><img src="../../../.gitbook/assets/image (1345).png" alt=""><figcaption></figcaption></figure>
 
-到这里，事件设置就全部完成了。当您制作遇到需要“计算交互次数以触发xx反馈”时，不妨尝试套用此制作逻辑与方法哦!
+到这里，事件设置就全部完成了。当您制作遇到需要**“计算不同图层的交互次数 以触发xx反馈”**时，不妨尝试套用此制作逻辑与方法哦!
 
 
 
@@ -113,7 +113,7 @@ description: '#自由编辑器'
 
 * 初始转盘停在红色位置；
 * 玩家第一次按下，转盘转到紫色位置停止；
-* 玩家第二次按下，转盘从紫色位置继续旋转，到蓝色位置停止
+* 玩家第二次按下，转盘从紫色位置继续旋转，到青色位置停止
 
 <div align="left">
 
@@ -123,13 +123,119 @@ description: '#自由编辑器'
 
 ### <mark style="background-color:orange;">3.步骤详解</mark>
 
-制作此类玩法共需3步：添加数值类型的变量、给图层添加条件判断、为每个条件判断赋值
+制作此类玩法共需2步：添加数值类型的变量、给图层事件添加条件判断并赋值
 
 #### <mark style="color:red;">**Step1：添加全局变量**</mark>
 
 * 点击【全局变量】 - 【添加变量】
-* 输入变量名称（如click times）
+* 输入变量名称（如Tap）
 * 选择变量类型为【数值】
-* 设置click times的初始值为0（即初始画面玩家还未点击）
+* 设置初始值为0（即初始画面玩家还未点击）
 * 保存
 
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="317"><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">**Step2：添加条件判断并赋值**</mark>
+
+* 选中需要被点击的图层 - 【添加事件】 - 【按下】
+* <mark style="color:red;">添加条件判断1 为：tap=0</mark>（即交互次数=0）
+* <mark style="color:red;">添加响应事件【赋值】：赋值tap+1</mark>（即交互次数=1）
+* 添加响应事件：播放转盘的旋转动画1、播放1次反馈音效等
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* <mark style="color:red;">继续添加条件判断2 为：tap=1</mark>（即交互次数=1）
+* <mark style="color:red;">添加响应事件【赋值】：赋值tap+1</mark>（即交互次数=2）
+* 添加响应事件：播放转盘的旋转动画2、播放1次反馈音效等
+* **同理，若还需玩家点击第3次、第4次...，可依次设置tap=2、tap=3...**
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+_转盘的旋转动画参数如下_
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+到这里，事件设置就全部完成了。当您制作遇到需要**“计算相同图层的交互次数 以触发xx反馈”**时，不妨尝试套用此制作逻辑与方法哦!
+
+
+
+## <mark style="color:blue;">三、倒计时设置</mark>
+
+### <mark style="background-color:orange;">1.应用场景</mark>
+
+**初始画面设有倒计时**
+
+* **当玩家在设定时间内 无任何操作 或 未完成xx目标时，触发倒计时，进入结局A**
+* **当玩家在设定时间内 正确交互或完成xx目标，取消倒计时，进入结局B**
+
+### <mark style="background-color:orange;">2.案例预览</mark>
+
+[本案例](https://tinyurl.com/8de4wcw2) 流程梳理：
+
+* 进入试玩，展示核心玩法与倒计时；
+  * 若玩家在10s内完成画线，跳转胜利页面；
+  * 若玩家在10s内未完成画线，跳转产品信息页面
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### <mark style="background-color:orange;">3.步骤详解</mark>
+
+设置一个完整的倒计时共需2步：触发倒计时、取消倒计时
+
+#### <mark style="color:red;">**Step1：触发倒计时**</mark>
+
+1）添加倒计时资产后，将倒计时序列帧设为"播放间隔1000ms" "入场自动播放1次"
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2007).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2）在核心玩法场景下添加事件 - 定时触发
+
+3）设置执行延迟N秒后，触发失败结果（如10s后跳转场景3）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2006).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### <mark style="color:red;">**Step2：取消倒计时**</mark>
+
+**在正确交互的事件下 补充响应事件：取消执行延迟**，选择上一步所设置的定时器ID即可（如图，画线完成后跳转场景2，并取消定时器timer\_1）
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2008).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+_Tips：【预设库】内有多个倒计时预设可供使用哦！_ [yu-she-ku.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/yu-she-ku.md "mention")
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="330"><figcaption></figcaption></figure>
+
+</div>
