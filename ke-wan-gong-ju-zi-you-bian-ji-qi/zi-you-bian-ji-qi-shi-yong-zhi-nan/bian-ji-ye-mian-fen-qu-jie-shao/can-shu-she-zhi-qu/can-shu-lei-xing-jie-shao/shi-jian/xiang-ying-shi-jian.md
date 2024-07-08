@@ -114,7 +114,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 <mark style="color:red;">注意：通常，我们不建议使用"设置位置"这一响应事件。因为"设置位置"代表图层的“绝对位置”，是一个固定值，不会随着横竖屏或其他机型的改变而自动适配，因此会出现部分机型图层错位的问题。建议使用"显示&隐藏图层"来制作相关效果</mark>
 
-相关问题：[#id-3.-chu-fa-shi-jian-tuo-ye-dao-zhi-ding-wei-zhi-xiang-guan-wen-ti](../../../../../zi-you-bian-ji-qi-chang-jian-wen-ti-da-yi-zhong-xin/chang-jian-wen-ti-shi-jian-wen-ti.md#id-3.-chu-fa-shi-jian-tuo-ye-dao-zhi-ding-wei-zhi-xiang-guan-wen-ti "mention")
+相关问题：[#id-3.-chu-fa-shi-jian-tuo-ye-dao-zhi-ding-wei-zhi-xiang-guan-wen-ti](../../../../../zi-you-bian-ji-qi-faq/chang-jian-wen-ti-shi-jian-wen-ti.md#id-3.-chu-fa-shi-jian-tuo-ye-dao-zhi-ding-wei-zhi-xiang-guan-wen-ti "mention")
 
 <div align="left">
 
@@ -140,7 +140,7 @@ _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋�
 
 **2）取消执行延迟：**需选择要取消的定时器ID，即在设置"执行延迟"时编辑的定时器名称
 
-相关问题： [#id-4.-xiang-ying-shi-jian-de-she-zhi-xiang-guan-wen-ti](../../../../../zi-you-bian-ji-qi-chang-jian-wen-ti-da-yi-zhong-xin/chang-jian-wen-ti-shi-jian-wen-ti.md#id-4.-xiang-ying-shi-jian-de-she-zhi-xiang-guan-wen-ti "mention")**（问题-1）**&#x20;
+相关问题： [#id-4.-xiang-ying-shi-jian-de-she-zhi-xiang-guan-wen-ti](../../../../../zi-you-bian-ji-qi-faq/chang-jian-wen-ti-shi-jian-wen-ti.md#id-4.-xiang-ying-shi-jian-de-she-zhi-xiang-guan-wen-ti "mention")**（问题-1）**&#x20;
 
 <div align="left">
 
