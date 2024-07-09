@@ -6,7 +6,7 @@ description: 文本一键翻译，将项目生成多语言版本
 
 * 点击上方的【语言裂变】按钮，即可使用该功能
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 点击后会弹出文本翻译面板，选择目标语言、待翻译字幕文本后，点击【裂变】按钮，文本将会自动翻译成目标语言
 
@@ -20,7 +20,7 @@ description: 文本一键翻译，将项目生成多语言版本
 
 * 系统会自动识别视频中对话角色（说话人）和对话内容（字幕），并将字幕翻译成指定语言。您可以在系统识别基础上修改说话人、字幕内容和字幕翻译结果。
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -19,13 +19,9 @@ description: '#换肤编辑器'
 
 图片/音频/文本/视频/颜色/玩法参数
 
-## 1. 图片（<mark style="color:red;">包括单图和序列帧</mark>）
-
-上传、选择、删除、编辑、更换、隐藏
-
 #### **操作提醒：**
 
-* 建议在调整或上传图片/序列帧的时候，先查看弹出的资源信息，减少包体和尺寸问题
+* 建议在调整或上传图片/序列帧的时候，先查看该坑位的资产上传规范，按要求替换资产，减少包体和尺寸问题
 
 <div align="left">
 
@@ -33,13 +29,19 @@ description: '#换肤编辑器'
 
 </div>
 
-* 双击资源时，可以获取现有资源的信息，并进行轻微调整
+* 双击资产时，可以获取现有资产的信息，并进行轻微调整
 
 <div align="left">
 
 <figure><img src="../../../../../.gitbook/assets/image (668).png" alt="" width="248"><figcaption></figcaption></figure>
 
 </div>
+
+
+
+## 1. 图片（<mark style="color:red;">包括单图和序列帧</mark>）
+
+上传、选择、删除、编辑、更换、隐藏
 
 ### 1）图片
 
@@ -52,6 +54,8 @@ description: '#换肤编辑器'
 <figure><img src="../../../../../.gitbook/assets/image (406).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+
 
 ### **2）序列帧**
 

@@ -22,6 +22,8 @@
       * [3. 项目操作栏](ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/3.-xiang-mu-cao-zuo-lan/README.md)
         * [换肤编辑器 -下载&推送](ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/3.-xiang-mu-cao-zuo-lan/huan-fu-bian-ji-qi-xia-zai-tui-song.md)
     * [3D模板](ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-shi-yong-zhi-nan/3d-mo-ban.md)
+  * [换肤编辑器-FAQ](ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-faq/README.md)
+    * [资产替换问题](ke-wan-gong-ju-huan-fu-bian-ji-qi/huan-fu-bian-ji-qi-faq/zi-chan-ti-huan-wen-ti.md)
 * [💡 可玩工具-自由编辑器](ke-wan-gong-ju-zi-you-bian-ji-qi/README.md)
   * [作品制作-流程概要](ke-wan-gong-ju-zi-you-bian-ji-qi/zuo-pin-zhi-zuo-liu-cheng-gai-yao/README.md)
     * [💻 空白制作-交互Endcard](ke-wan-gong-ju-zi-you-bian-ji-qi/zuo-pin-zhi-zuo-liu-cheng-gai-yao/kong-bai-zhi-zuo-jiao-hu-endcard.md)
