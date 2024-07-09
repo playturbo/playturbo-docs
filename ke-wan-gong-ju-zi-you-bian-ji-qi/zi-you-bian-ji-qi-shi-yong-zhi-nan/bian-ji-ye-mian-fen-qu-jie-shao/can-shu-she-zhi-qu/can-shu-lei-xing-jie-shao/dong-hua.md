@@ -78,6 +78,10 @@ description: '#自由编辑器'
 
 </div>
 
+### 5.应用到分组下全部图层
+
+
+
 
 
 ## <mark style="color:blue;">二、动画的类别及参数</mark>
