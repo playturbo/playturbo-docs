@@ -8,7 +8,7 @@ description: '#自由编辑器 #模板自由制作'
 
 ✨模板自由制作入口2：直接点击画布旁的【快捷布局】图标即可进入
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 相关案例教学可查阅  [qi-pan-bu-ju-mo-ban-zi-you-zhi-zuo.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-pi-pei-wan-fa-an-li/qi-pan-bu-ju-mo-ban-zi-you-zhi-zuo.md "mention")
 
