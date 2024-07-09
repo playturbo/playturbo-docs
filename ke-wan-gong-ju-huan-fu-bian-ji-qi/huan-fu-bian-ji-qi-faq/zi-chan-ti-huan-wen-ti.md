@@ -11,7 +11,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>"背景图"相关坑位示例</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>"背景图"相关坑位示例</p></figcaption></figure>
 
 </div>
 
@@ -22,7 +22,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
