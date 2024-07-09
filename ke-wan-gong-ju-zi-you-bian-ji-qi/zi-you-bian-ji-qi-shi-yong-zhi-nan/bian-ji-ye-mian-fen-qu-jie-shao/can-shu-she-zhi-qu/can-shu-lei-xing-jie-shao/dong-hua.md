@@ -98,7 +98,7 @@ description: '#自由编辑器'
 
 ### <mark style="color:red;">2.特别说明:变化曲线</mark>
 
-【通用】类动画额外支持编辑动画变化曲线
+【通用】类动画额外支持编辑动画的 变化曲线
 
 <div align="left">
 
@@ -110,11 +110,13 @@ description: '#自由编辑器'
 
 "变化曲线"是对动画的自定义、精细化编辑。若当前预设的动画都无法满足您的制作需求，可通过自定义"变化曲线"来制作更高阶更复杂的动画
 
-#### 2.2 曲线编辑器的使用: 点击曲线缩略图打开曲线编辑器
+#### 2.2 编辑变化曲线
+
+**1）点击曲线缩略图打开曲线编辑器：**
 
 * 横轴代表时间，纵轴代表动画对应的各种变量（位移、透明度、缩放比例、旋转角度等）；
 * 起点(0, 0)为动画运动的默认初始状态，终点(1, 1)为动画运动的默认结束状态；
-* 横向移动锚点会直接改变物体运动时间，调整曲线斜率会直接改变物体运动速度的分布（曲线越陡峭速度越快，曲线越平缓速度越慢）；
+* 横向移动锚点会直接改变物体运动时间，调整曲线斜率会直接改变物体运动速度的分布（曲线越陡峭速度越快，曲线越平缓速度越慢）
 
 <div align="left">
 
@@ -122,17 +124,47 @@ description: '#自由编辑器'
 
 </div>
 
+**2）编辑曲线样式：**
+
+* **选择曲线模板：**曲线编辑器预设了6种曲线样式，点击即可使用
+* **自定义曲线样式：**
+  * <mark style="color:red;">在曲线的任意位置</mark><mark style="color:red;">**双击**</mark><mark style="color:red;">可添加关键帧</mark>
+  * 选中关键帧，拖拽手柄或点击右侧选项可调整曲线弧度
+  * 选中关键帧后支持删除当前关键帧
+  * 针对自定义的曲线样式，可点击【保存当前曲线】并编辑名称，将曲线样式设为模板，方便后续调用
+* 曲线设置完成后，需点击【保存】才会生效
+
+<div align="left">
+
+<figure><img src="../../../../../.gitbook/assets/image (2013).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../../../../.gitbook/assets/image (2014).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
 #### 2.3 举例说明
 
+以动画_位移缓动_为例，横轴代表时间，纵轴代表位移距离，下面列举2个常见动画的调整方法
 
+**a. 物体在起点停留一段时间后，再开始运动**
 
+将曲线起点向右移动（延迟动画开始时间），物体会在红框时间段内完成移动；
 
+![](https://playturbo-doc.mindworks-creative.com/\~gitbook/image?url=https%3A%2F%2F1964780147-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FwzFOJWic5gvuaiaPmJmc%252Fuploads%252FlhWa9tRtYNdns0KlFvm3%252F3.png%3Falt%3Dmedia\&width=768\&dpr=4\&quality=100\&sign=33fd28bb\&sv=1)![](https://playturbo-doc.mindworks-creative.com/\~gitbook/image?url=https%3A%2F%2F1964780147-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FwzFOJWic5gvuaiaPmJmc%252Fuploads%252FMFDqfEEWDozMSUw7vhZJ%252F%25E5%25B8%25B8%25E8%25A7%2581%25E9%2597%25AE%25E9%25A2%25981.gif%3Falt%3Dmedia%26token%3D8435cfb0-277b-43b2-b7fd-ec3aa52e0030\&width=768\&dpr=4\&quality=100\&sign=bdd81614\&sv=1)
 
+**b. 物体在始末位置停留一段时间，并来回运动**
 
+① 动画【循环次数】选择：双向循环；
 
-<table><thead><tr><th width="123">参数类型</th><th width="166">说明</th><th width="237">操作步骤</th><th width="197" align="center">图片</th></tr></thead><tbody><tr><td><strong>变化曲线</strong></td><td><p><br>1. 支持编辑动画曲线</p><p><br>2. 提供6种缓动基础样式</p><p><br>3. 支持编辑/删除/复用自定义曲线<br></p></td><td><p><strong>【选择曲线模版】</strong><br>1. 点击变化曲线缩略图，进入曲线编辑器面板<br>2. 选择曲线模版</p><p>3.双击曲线可添加关键帧，选中关键帧可进行删除或调整曲线弧度<br>4.点击保存即可完成变化曲线设置<br><br><strong>【自定义编辑变化曲线】</strong><br>1. 点击变化曲线缩略图，进入曲线编辑器面板<br>2. 自定义编辑变化曲线<br>3. 双击曲线可添加关键帧，选中关键帧可进行删除或调整曲线弧度<br>4. 点击【保存当前曲线】<br>5. 选择已保存的变化曲线，点击保存即可完成变化曲线设置</p></td><td align="center"><br><br>缓动基础样式<br><img src="../../../../../.gitbook/assets/image (92) (1).png" alt=""><br><br>曲线编辑器面板<br><img src="../../../../../.gitbook/assets/image (93) (1).png" alt=""></td></tr></tbody></table>
+② 将曲线起点向右移动，并将曲线终点向左移动（延迟动画开始时间并提早结束动画），物体会在在红框时间段内完成移动；
 
+![](https://playturbo-doc.mindworks-creative.com/\~gitbook/image?url=https%3A%2F%2F1964780147-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FwzFOJWic5gvuaiaPmJmc%252Fuploads%252FqHNPg329gzLQMfqNYCMZ%252F5.png%3Falt%3Dmedia\&width=768\&dpr=4\&quality=100\&sign=3c874414\&sv=1)![](https://playturbo-doc.mindworks-creative.com/\~gitbook/image?url=https%3A%2F%2F1964780147-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FwzFOJWic5gvuaiaPmJmc%252Fuploads%252FCXpQeoBOneVpukILC8mr%252F%25E5%25B8%25B8%25E8%25A7%2581%25E9%2597%25AE%25E9%25A2%25982.gif%3Falt%3Dmedia%26token%3Deba31b52-fa58-46df-afd8-2d9c17f57f88\&width=768\&dpr=4\&quality=100\&sign=6e39b89c\&sv=1)
 
+更多常用动画的设置方法可查阅 [zhi-zuo-ji-qiao-dong-hua-she-zhi.md](../../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-dong-hua-she-zhi.md "mention")
 
 
 
