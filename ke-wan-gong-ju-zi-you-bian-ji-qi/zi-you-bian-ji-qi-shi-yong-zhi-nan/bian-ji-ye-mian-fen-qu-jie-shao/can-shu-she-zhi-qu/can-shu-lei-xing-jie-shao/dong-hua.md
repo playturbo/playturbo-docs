@@ -24,7 +24,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,7 +42,17 @@ description: '#自由编辑器'
 
 </div>
 
-### 3.复制动画
+### 3.替换/删除动画
+
+点击图示按钮，可替换当前动画类型/删除动画
+
+<div align="left">
+
+<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### 4.复制动画
 
 1-1）复制单个动画：点击图示按钮，复制当前单个动画
 
@@ -68,19 +78,17 @@ description: '#自由编辑器'
 
 </div>
 
-### 4.替换/删除动画
+### 5.应用到分组下全部图层
 
-点击图示按钮，可替换当前动画类型/删除动画
+点击图示按钮【应用到分组下全部图层】，可将当前选中图层的所有动画一键复制粘贴到<mark style="color:red;">和该图层同一层级的所有图层</mark>下
+
+（当您有较多同一层级的图层 需要制作相同的动画时，可使用该功能快速复用）
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-### 5.应用到分组下全部图层
-
-
 
 
 
@@ -113,6 +121,8 @@ description: '#自由编辑器'
 #### 2.1 什么是变化曲线？
 
 "变化曲线"是对动画的自定义、精细化编辑。若当前预设的动画都无法满足您的制作需求，可通过自定义"变化曲线"来制作更高阶更复杂的动画
+
+
 
 #### 2.2 编辑变化曲线
 
@@ -150,15 +160,17 @@ description: '#自由编辑器'
 
 </div>
 
+
+
 #### 2.3 举例说明
 
 以动画_位移缓动_为例，横轴代表时间，纵轴代表位移距离，下面列举2个常见动画的调整方法
 
-| **a. 物体在起点停留一段时间后，再开始运动**                                                            | **b. 物体在始末位置停留一段时间，并来回运动**                                                               |
-| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| 将曲线起点向右移动（延迟动画开始时间），物体会在红框时间段内完成移动；                                                  | <p>① 动画【循环次数】选择：双向循环；</p><p>② 将曲线起点向右移动，并将曲线终点向左移动（延迟动画开始时间并提早结束动画），物体会在红框时间段内完成移动；</p>  |
-| <img src="../../../../../.gitbook/assets/image (2).png" alt="" data-size="original"> | <img src="../../../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original"> |
-| <img src="../../../../../.gitbook/assets/image1.webp" alt="" data-size="original">   | <img src="../../../../../.gitbook/assets/image2.webp" alt="" data-size="original">       |
+| **a. 物体在起点停留一段时间后，再开始运动**                                                                | **b. 物体在始末位置停留一段时间，并来回运动**                                                                   |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 将曲线起点向右移动（延迟动画开始时间），物体会在红框时间段内完成移动；                                                      | <p>① 动画【循环次数】选择：双向循环；</p><p>② 将曲线起点向右移动，并将曲线终点向左移动（延迟动画开始时间并提早结束动画），物体会在红框时间段内完成移动；</p>      |
+| <img src="../../../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original"> | <img src="../../../../../.gitbook/assets/image (2) (1) (1).png" alt="" data-size="original"> |
+| <img src="../../../../../.gitbook/assets/image1.webp" alt="" data-size="original">       | <img src="../../../../../.gitbook/assets/image2.webp" alt="" data-size="original">           |
 
 更多常用动画的设置方法可查阅 [zhi-zuo-ji-qiao-dong-hua-she-zhi.md](../../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-dong-hua-she-zhi.md "mention")
 
