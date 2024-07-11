@@ -6,13 +6,13 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 ✨模板自由制作入口：作品预览区>>>轮播组件按钮 或 图层区>>>Carousel Component
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ✨空白制作入口：玩法模板>>>组件库>>>轮播组件
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -275,17 +275,12 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 </div>
 
-#### <mark style="background-color:red;">4.1 触发事件</mark>切换轮播时
+#### <mark style="background-color:red;">4.1 触发事件</mark>
 
-切换轮播时：需选择对应的轮播组，触发时机为选择的轮播组，切换轮播完成时
+<table><thead><tr><th width="184">触发事件</th><th width="317">触发设置</th><th>截图</th></tr></thead><tbody><tr><td><strong>切换轮播时</strong></td><td><p>-需选择对应的轮播组</p><p>-触发时机为：选择的轮播组，轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image.png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一资源</strong></td><td><p>-需选择对应的轮播组与对应的组内资源</p><p>-触发时机为：特定资源轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一类别的资源</strong></td><td><p>-需选择对应的轮播组与对应的资源类别</p><p>-触发时机为：将对应资源类别的资源轮播到展示位时</p></td><td><img src="../../../.gitbook/assets/image (2).png" alt="" data-size="original"></td></tr></tbody></table>
 
 
-
-轮播完成停住时，触发响应事件
-
-轮播到某一资源
-
-轮播到某一类别的资源
 
 #### <mark style="background-color:red;">4.2 响应事件</mark>
 
+<table><thead><tr><th width="184">响应事件</th><th width="317">响应设置</th><th>截图</th></tr></thead><tbody><tr><td><strong>启用/禁用轮播组件</strong></td><td>若禁用，则<strong>所有轮播组</strong>停止轮播，并禁用相关的轮播功能，并禁用轮播组内图片资源的事件；启用则相反</td><td><img src="../../../.gitbook/assets/image (8).png" alt="" data-size="original"></td></tr><tr><td><strong>启用/禁用轮播组</strong></td><td><p>-需选择对应的轮播组</p><p>-若禁用轮播组，则<strong>被选中的轮播组</strong>停止轮播，并禁用相关的轮播功能，并禁用轮播组内图片资源的事件；启用则相反</p></td><td><img src="../../../.gitbook/assets/image (9).png" alt="" data-size="original"></td></tr><tr><td><strong>暂停/播放轮播组</strong></td><td><p>-需选择对应的轮播组</p><p>-若暂停轮播组，若<strong>被选中的轮播组为「自动」轮播</strong>，则暂停自动轮播；播放则相反</p></td><td><img src="../../../.gitbook/assets/image (10).png" alt="" data-size="original"></td></tr><tr><td><strong>重新轮播</strong></td><td><p>-需选择对应的轮播组</p><p>-<strong>所选的轮播组</strong>恢复到初始状态开始轮播</p></td><td><img src="../../../.gitbook/assets/image (7).png" alt="" data-size="original"></td></tr><tr><td><strong>删除轮播资源</strong></td><td><p>-需选择对应的轮播资源</p><p>-将<strong>选中的轮播资源</strong>删除</p></td><td><img src="../../../.gitbook/assets/image (11).png" alt="" data-size="original"></td></tr><tr><td><strong>停留时间</strong></td><td><strong>若为「自动轮播」</strong>，将停留时间设置为指定时长</td><td><img src="../../../.gitbook/assets/image (12).png" alt="" data-size="original"></td></tr></tbody></table>
