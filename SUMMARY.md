@@ -102,6 +102,7 @@
       * [自由画线组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/zi-you-hua-xian-zu-jian.md)
       * [擦除组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/ca-chu-zu-jian.md)
       * [遮罩组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/zhe-zhao-zu-jian.md)
+      * [轮播组件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/lun-bo-zu-jian.md)
       * [棋盘布局](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/qi-pan-bu-ju.md)
       * [停车解密布局](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/ting-che-jie-mi-bu-ju.md)
   * [自由编辑器-FAQ](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/README.md)

@@ -30,7 +30,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 
 完成项目创建后，进入创意制作环节。_视频编辑器操作可查阅：_[视频编辑器-使用指南](https://playturbo-doc.mindworks-creative.com/shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan)
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">第三步：尺寸裂变</mark>
 
@@ -63,7 +63,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 布局模板：在「尺寸裂变」使用的布局模版中需要翻译的文本内容，如按钮文本、产品名称、推广文案等。项目未使用布局模版的话，此处内容为空。&#x20;
 * 视频内容： 在「创意制作」环节添加已上传的字幕&配音、文本、图片和视频。&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">您可以在顶部的「</mark><mark style="color:red;">**语言裂变**</mark><mark style="color:red;">」中再次修改需要翻译的内容范围。</mark>
 
@@ -73,7 +73,7 @@ Playturbo提供丰富的视频模板（模板数量持续增加中），满足�
 * 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
 * 点击文本后，右侧的视频预览区域会自动定位到该文本出现的起始时间进行播放。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.视频内容（创意制作）翻译
 
