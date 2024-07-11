@@ -88,7 +88,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <mark style="color:red;">一个资源组可包含一个或多个轮播组；一个轮播组支持添加一张或多张图片</mark>
 
-<mark style="background-color:red;">3.2.1 单个轮播组</mark>
+<mark style="background-color:red;">**3.2.1 单个轮播组**</mark>
 
 * 上传轮播图片：点击+号，可从资产库或项目资产中选择图片加入轮播组
 * 替换轮播图片：点击图示按钮(蓝色)，可替换当前轮播图片
@@ -155,7 +155,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 
 
-<mark style="background-color:red;">3.2.2 添加轮播组</mark>
+<mark style="background-color:red;">**3.2.2 添加轮播组**</mark>
 
 * 添加轮播组：点击图示按钮，都可新建一个轮播组
 * 轮播组之间支持拖动调整位置
@@ -173,10 +173,10 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 坑位设置包含「排列方式」和「坑位数」
 
-* 排列方式：单选。可选水平或垂直
+* **排列方式：**单选。可选水平或垂直
   * 若选择水平，则轮播为左右方向轮播
   * 若选择垂直，则轮播为上下方向轮播
-* <mark style="color:red;">坑位数：决定了轮播时的坑位数量</mark>
+* <mark style="color:red;">**坑位数：**</mark><mark style="color:red;">决定了轮播时的坑位数量</mark>
   * 注意：最中间的为坑位1。如坑位数量为5，则从左到右坑位数对应分别为4-5-1-2-3
 
 <div align="left">
@@ -203,7 +203,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 交互方式包含「播放设置」和「交互方式」
 
-* 播放设置：自动或手动，最少选择一项，支持多选
+* **播放设置：**自动或手动，最少选择一项，支持多选
   * 只选择【自动】：无需再设置「交互方式」。轮播会自动播放
   * 只选择【手动】：需继续选择「交互方式」。轮播需通过玩家手动进行切换
   * 同时选择：需继续选择「交互方式」。既会自动轮播，又支持手动切换轮播
@@ -214,88 +214,78 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 </div>
 
-* 交互方式：自动或手动，最少选择一项，支持多选
-  *
-* 可多选，可选 点击或拖拽。若选择「点击」，则支持手动点击按钮切换，并且需要设置切换图片。若选择「拖拽」，则支持拖拽切换。
+* **交互方式**(播放设置勾选"手动"后选择)：点击或拖拽，最少选择一项，支持多选
+  * 只选择【拖拽】：支持拖拽切换
+  * 只选择【点击】：通过点击切换按钮进行切换
+  * 同时选择：既支持点击按钮切换 同时支持拖拽切换
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2031).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2034).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-「切换按钮」设置：若选择了「点击」的「交互方式」，则可设置切换箭头的 的图片和位置。可点击「替换」进行图片替换，也可设置该按钮的位置和尺寸
+* **切换按钮**(勾选"点击"后进行设置)
+  * 支持 显示/隐藏 按钮
+  * 点击替换按钮，支持从资产库或项目资产中选取图片替换按钮样式
+  * 点击单张按钮图片，调起弹窗，可设置按钮的外观
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2035).png" alt="" width="515"><figcaption></figcaption></figure>
+
+</div>
 
 
+
+#### <mark style="background-color:red;">3.5 高级设置</mark>
+
+可对轮播动画的参数进行调整
+
+* **动画停留时间：**当设置为自动轮播时，该参数决定了间隔多久切换下一张图片（如设置为1s，则每切换完成后再过1s，切换下一张图片）
+* **动画播放时长：**当设置为自动轮播或点击轮播时，该参数决定了动画播放的时长（如设置为0.5s，则切换图片的动画过程时长为0.5s）
+* **透明度：**最大值、最小值决定该动画播放过程中的透明度最大、最小值
+* **缩放值：**最大值、最小值决定该动画播放过程中的缩放度最大、最小值
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2036).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
 ### 4.事件
 
-「遮罩组件」独特的**响应事件**包含：启用/禁用遮罩组件、启用/禁用遮罩组、显示/隐藏遮罩组、显示/隐藏遮罩分组、启用/禁用遮罩效果
+「轮播组件」存在独特的触发事件和响应事件
+
+**触发事件**包含：「切换轮播时」、「轮播到某一资源」、「轮播到某一类别的资源」
+
+相关的**响应事件**包含：「启用/禁用轮播组件」、「启用/禁用轮播组」、「暂停/播放轮播组」、「重新轮播」、「删除轮播资源」、「停留时间」
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1884).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2037).png" alt=""><figcaption><p>触发事件</p></figcaption></figure>
 
 </div>
-
-#### 4.1 启用/禁用遮罩组件
-
-需选择启用/禁用
-
-若被禁用，等同于禁用所有的遮罩组。遮罩组下的所有遮罩层、被遮罩层事件将不再生效
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1885).png" alt="的" width="314"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2038).png" alt=""><figcaption><p>响应事件</p></figcaption></figure>
 
 </div>
 
-#### 4.2 启用/禁用遮罩组
+#### <mark style="background-color:red;">4.1 触发事件</mark>切换轮播时
 
-需选择启用/禁用和某个遮罩组
+切换轮播时：需选择对应的轮播组，触发时机为选择的轮播组，切换轮播完成时
 
-若被禁用，遮罩组下的所有遮罩层、被遮罩层事件将不再生效
 
-<div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1886).png" alt=""><figcaption></figcaption></figure>
+轮播完成停住时，触发响应事件
 
-</div>
+轮播到某一资源
 
-#### 4.3 显示/隐藏遮罩组
+轮播到某一类别的资源
 
-需选择显示/隐藏和某个遮罩组
+#### <mark style="background-color:red;">4.2 响应事件</mark>
 
-选择后，将显示/隐藏某个遮罩组内的所有元素
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1887).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### 4.4 显示/隐藏遮罩分组
-
-需选择显示/隐藏和某个遮罩分组
-
-选择后，将显示/隐藏某个遮罩分组内的所有元素
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1888).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### 4.5 启用/禁用遮罩效果
-
-需选择启用/禁用和某个遮罩组
-
-若启用，则「被遮罩组」会受「遮罩形状」的影响而展示；若禁用，则「被遮罩组」不受「遮罩形状」影响，直接展示
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1889).png" alt=""><figcaption></figcaption></figure>
-
-</div>
