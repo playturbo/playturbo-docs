@@ -45,7 +45,11 @@ description: '#订阅#定制'
 
 3）确认信息输入正确，并勾选「已确认阅读保密协议」后，点击「授权」按钮
 
-<figure><img src="../../.gitbook/assets/image (2039).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2045).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **⭐补充：Mintegral子账号授权**
 
