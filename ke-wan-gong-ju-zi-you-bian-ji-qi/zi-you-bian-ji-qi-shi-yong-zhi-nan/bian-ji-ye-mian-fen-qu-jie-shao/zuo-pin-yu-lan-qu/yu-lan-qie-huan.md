@@ -21,12 +21,16 @@ description: '#自由编辑器'
 * 点击【全局设置】，即显示【全局场景视图】![](<../../../../.gitbook/assets/image (866).png>)
 * 点击【场景】，即显示【单场景视图】![](<../../../../.gitbook/assets/image (867).png>)
 
+
+
 ## 二、横竖屏切换
 
 * 平台支持横屏&竖屏、横屏、竖屏3种适配方式[zuo-pin-zhi-zuo-xin-jian-zhi-nan.md](../../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md "mention")（注意：投Mintegral渠道必须选择横屏&竖屏）
 * 【横屏&竖屏】适配方式下，需要同时完成横屏和竖屏的场景制作，点击对应图标即可完成切换
 * 横屏模式下，竖屏图标不可点击
 * 竖屏模式下，横屏图标不可点击
+
+
 
 ## 三、多语言预览切换
 
@@ -39,14 +43,20 @@ description: '#自由编辑器'
 
 </div>
 
+
+
 ## 四、播放场景/回到初始状态
 
 * 点击【播放场景】按钮，可播放当前画布内场景，进行效果预览![](<../../../../.gitbook/assets/image (159).png>)
 * 点击【回到初始状态】按钮，可返回静止状态下预览![](<../../../../.gitbook/assets/image (160).png>)
 
+<mark style="color:red;">注意：【播放场景】功能支持的是</mark> <mark style="color:red;"></mark><mark style="color:red;">**预览当前画布已显示的图层**</mark><mark style="color:red;">以及</mark><mark style="color:red;">**设置了自动播放的动画/粒子/序列帧/音效等**</mark><mark style="color:red;">，无法预览事件设置（预览事件设置需要点击右上角的</mark> [yu-lan.md](../xiang-mu-cao-zuo-lan/yu-lan.md "mention") <mark style="color:red;">跳转到预览界面进行试玩预览）</mark>
+
+
+
 ## 五、快捷排版
 
-【快捷排版】功能当前仅在部分"消除玩法"&"拼图玩法"的**模板自由制作**中出现，详细内容可查看[wan-fa-mo-ban.md](../ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")
+【快捷排版】功能当前仅在部分"消除玩法"&"拼图玩法"的**模板自由制作**中出现，详细内容可查看 [#id-3.-kuai-jie-bu-ju](../ding-bu-zi-chan-ku/wan-fa-mo-ban.md#id-3.-kuai-jie-bu-ju "mention")
 
 
 
