@@ -31,7 +31,7 @@ description: '#视频编辑器#布局模版'
 
 
 
-### 2.使用布局模版 （详细信息即操作可查阅[布局模版](../../../shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/su-cai-shang-chuan-han-chi-cun-lie-bian/te-bie-jie-shao-bu-ju-mo-ban.md)）
+### 2.使用布局模版 （详细信息即操作可查阅[布局模版](broken-reference)）
 
 * 选择合适的布局模板，选择需要添加裂变的展示比例并创建项目，上传并替换模板中的素材。系统将根据布局模板的样式自动完成多个尺寸的调整，以适应不同的显示设备或平台需求。
 

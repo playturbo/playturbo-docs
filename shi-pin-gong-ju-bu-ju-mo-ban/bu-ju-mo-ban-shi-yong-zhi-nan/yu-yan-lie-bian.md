@@ -1,7 +1,5 @@
 # 语言裂变
 
-## <mark style="color:blue;">语言裂变</mark>
-
 当需要将制作好的视频用于不同国家地区时，可通过语言裂变功能快速完成视频翻译，并一次性批量导出多个语言版本的视频。
 
 素材上传完成后，点击导航栏「**下一步**」，选择需要翻译的内容。 可选内容范围包括：
@@ -11,11 +9,9 @@
 
 <mark style="color:red;">您可以在顶部的【</mark><mark style="color:red;">**语言裂变】**</mark><mark style="color:red;">中再次修改需要翻译的内容范围。</mark>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-### 1.布局模版翻译
+### y布局模版翻译
 
 * 在「**布局模版**」翻译栏中，您可以对布局模版中已添加的的文本（如按钮文本、产品名称、推广文案等）进行翻译。
 * 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
