@@ -40,7 +40,9 @@ Mintegral关联可玩素材有两种方式：
 * 在Offer下现有的创意组内添加可玩素材 (建议使用该方式)
 * 将素材关联到创意组，再将创意组关联至Offer
 
-<mark style="color:red;">注意：一个包名（广告）有多个Offer，记得把可玩素材关联到所有的Offer</mark>
+⚠️<mark style="color:red;">一个包名（广告）有多个Offer，记得把可玩素材关联到所有的Offer</mark>
+
+⚠️<mark style="color:red;">ios的素材只能关联ios的Offer / Android的素材只能关联Android的Offer</mark>
 
 #### 2-1）在Offer下现有的创意组内添加可玩素材
 
