@@ -26,7 +26,7 @@ description: '#视频编辑器#布局模版'
 * 利用「**尺寸联动编辑**」功能，可批量调整相同元素在不同尺寸下的大小和位置，从而提升编辑效率。
 * 只需在已添加的尺寸上悬停后点击「锁定」按钮即可激活「尺寸联动编辑」功能。取消「锁定」后，该尺寸将不再与其他尺寸编辑进行联动。
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

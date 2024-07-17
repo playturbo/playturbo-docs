@@ -8,19 +8,19 @@
 
 2.根据布局模版结构，将所需素材一一上传到相应坑位中，如主视频、LOGO图，背景图等&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**温馨提示：添加素材后需要删除原视频模板附带的素材哦**</mark>
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 **温馨提示：鼠标悬浮于【素材上传】旁的符号，可查看每种类型素材的上传格式要求**
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -29,7 +29,7 @@
 * 素材组合是指在布局模板中的单个坑位内，允许用户上传多个素材；导出视频时，可以一次性批量导出多个版本视频，无需逐个版本进行导出操作。
 * 当多个坑位都上传了多个素材时，系统会自动生成各坑位内素材的所有可能组合，并批量导出这些组合的视频版本。
 
-<figure><img src="../../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
 
 * 假设一个布局模板有两个坑位，分别为 A 和 B。我们在坑位 A 中上传了素材1和素材2，在坑位 B 中上传了素材3和素材4。系统可以批量导出以下视频版本：
 
@@ -43,7 +43,7 @@
 
 这四个版本展示了各种可能的组合，即坑位A 内的两个素材与坑位 B 内的两个素材的所有组合结果。
 
-<figure><img src="../../../.gitbook/assets/image (1951).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1951).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -71,16 +71,16 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 _假如现在有一个竖屏视频，我们需要在横屏设备上播放。使用布局模板的尺寸裂变功能，您可轻松地调整视频的尺寸，以适应横屏显示，并确保视频内容完整显示且不失真。_
 
-<figure><img src="../../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 2.点击切换不同尺寸，可在视频预览区域预览相应的效果
 
-<figure><img src="../../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
 
 确认无误后，点击【下一步】，进入【语言裂变】编辑界面

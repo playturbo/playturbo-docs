@@ -14,7 +14,7 @@ Playturbo视频编辑器是一款专业的视频制作工具，提供了丰富�
 
 ## <mark style="color:blue;">新建视频编辑器项目</mark>
 
-### 1.从视频模版开始
+### A.从视频模版开始
 
 Playturbo提供丰富的视频模板（模板样式和数量持续增加中），满足不同行业和不同场景的创意制作需求。您可以在视频模板库中选择合适的模板，并创建视频编辑项目。
 
@@ -32,7 +32,7 @@ Playturbo提供丰富的视频模板（模板样式和数量持续增加中）�
 
 
 
-### 2.从空白画布开始
+### B.从空白画布开始
 
 如果您希望从空白画布开始编辑
 
@@ -43,3 +43,9 @@ Playturbo提供丰富的视频模板（模板样式和数量持续增加中）�
 2）在弹窗中输入项目名称，选择导出比例和目标语言后，完成项目创建。您可在此过程选择多个目标比例和语言
 
 <figure><img src="../.gitbook/assets/image (2051).png" alt=""><figcaption></figcaption></figure>
+
+
+
+💡注：创建后的项目，位于**我的项目>>>视频项目>>>视频编辑器**列表中
+
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
