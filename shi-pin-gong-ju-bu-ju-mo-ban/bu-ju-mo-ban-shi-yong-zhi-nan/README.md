@@ -40,7 +40,7 @@
 
 尺寸确认无误后，点击【下一步】，勾选需要翻译的素材和需要裂变的语言，快速完成视频项目翻译，并一次性批量导出多个语言版本的视频
 
-使用指南：  [yu-yan-lie-bian.md](yu-yan-lie-bian.md "mention")
+使用指南：  [yu-yan-lie-bian-tong-yong.md](yu-yan-lie-bian-tong-yong.md "mention")
 
 <div align="left">
 
@@ -51,5 +51,7 @@
 ### <mark style="color:blue;">**STEP5: 导出**</mark>
 
 完成素材上传、素材批量组合、视频尺寸裂变、视频语言裂变后，即可导出。选择适当的分辨率和码率后，点击【导出】
+
+使用指南：  [#si-yu-lan-ji-dao-chu](yu-yan-lie-bian-tong-yong.md#si-yu-lan-ji-dao-chu "mention")
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>

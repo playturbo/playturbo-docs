@@ -29,7 +29,7 @@
 * 布局模板：系统将根据布局模板的样式自动完成多个尺寸的适配
 * 不填充元素：需手动微调，默认填充背景为黑色
 
-使用指南： [chi-cun-lie-bian.md](liang-dian-gong-neng/chi-cun-lie-bian.md "mention")
+使用指南： [chi-cun-lie-bian-shi-pin-bian-ji-qi.md](liang-dian-gong-neng/chi-cun-lie-bian-shi-pin-bian-ji-qi.md "mention")
 
 <div align="left">
 
@@ -41,7 +41,7 @@
 
 完成多尺寸的排版调整后，若需要将制作好的视频用于不同国家地区，可点击切换到【语言裂变】编辑页面，快速完成视频项目翻译，并一次性批量导出多个语言版本的视频
 
-使用指南： [yu-yan-lie-bian.md](liang-dian-gong-neng/yu-yan-lie-bian.md "mention")
+使用指南： [yu-yan-lie-bian-shi-pin-bian-ji-qi.md](liang-dian-gong-neng/yu-yan-lie-bian-shi-pin-bian-ji-qi.md "mention")
 
 <figure><img src="../../.gitbook/assets/image (2054).png" alt=""><figcaption></figcaption></figure>
 

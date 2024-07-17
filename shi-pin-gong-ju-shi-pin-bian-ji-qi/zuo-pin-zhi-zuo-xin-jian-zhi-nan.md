@@ -1,6 +1,6 @@
 # 作品制作-新建指南
 
-## <mark style="color:blue;">关于视频编辑器</mark>
+## 💡<mark style="color:blue;">关于视频编辑器</mark>
 
 Playturbo视频编辑器是一款专业的视频制作工具，提供了丰富的功能，旨在助您轻松完成视频创作，满足您的各种创意和营销需求。
 
@@ -12,7 +12,7 @@ Playturbo视频编辑器是一款专业的视频制作工具，提供了丰富�
 
 
 
-## <mark style="color:blue;">新建视频编辑器项目</mark>
+## 💡<mark style="color:blue;">新建视频编辑器项目</mark>
 
 ### A.从视频模版开始
 

@@ -1,6 +1,6 @@
 # 作品制作-新建指南
 
-## <mark style="color:blue;">关于布局模版</mark>
+## 💡<mark style="color:blue;">关于布局模版</mark>
 
 布局模板是用户在设计和制作视频内容过程中，辅助固定视频中各个元素位置和结构的预定义框架。布局模板有助于保持视频的视觉一致性、美观性和专业性，**尤其适用于批量内容生成**。
 
@@ -10,7 +10,7 @@ _<mark style="background-color:yellow;">\*主视频是指已经完成视频创�
 
 
 
-## <mark style="color:blue;">新建布局模板项目</mark>
+## 💡<mark style="color:blue;">新建布局模板项目</mark>
 
 选择合适的布局模板，选择需要添加裂变的比例和语言，创建布局模板项目
 
