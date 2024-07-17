@@ -1,66 +1,74 @@
----
-description: '#视频编辑器#布局模版'
----
+# 尺寸裂变(视频编辑器)
 
-# 尺寸裂变
+完成视频创意制作后，可使用尺寸裂变功能快速完成尺寸拓展，并一次性批量导出多个尺寸的视频版本
 
-完成视频创意制作后，可通过以下俩种方式快速完成尺寸拓展，并一次性批量导出尺寸版本的视频创意。&#x20;
 
-## <mark style="color:blue;">二、尺寸裂变</mark>
 
-完成视频创意制作后，可通过以下两种方式快速完成尺寸拓展，并一次性批量导出尺寸版本的视频创意。&#x20;
+## <mark style="color:blue;">尺寸裂变的两种方式</mark>
+
+* 首次进入【尺寸裂变】页面，需选择需要裂变的尺寸，确认后点击【添加】
+* 可从以下两种方式任选一种，完成尺寸裂变：【不填充元素】 或 使用【布局模板】
+
+<figure><img src="../../../.gitbook/assets/image (2093).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (2094).png" alt=""><figcaption></figcaption></figure>
 
 ### 1.使用布局模版
 
-1）选择合适的布局模板后，您可以通过替换模板中的素材，并添加需要裂变的比例。系统将根据布局模板的样式自动完成多个尺寸的调整，以适应不同的显示设备或平台需求。
+选择合适的布局模板，系统将根据布局模板的样式自动完成多个尺寸的适配，以适应不同的显示设备或平台需求
 
-<figure><img src="../../../.gitbook/assets/image (2052).png" alt=""><figcaption></figcaption></figure>
+* 支持替换模板附带的素材：**右键选中该素材>>>替换资产>>>从本地上传/从库里上传**
 
-2）在轨道中右击选中资产后，选择“替换资产”即可完成素材替换。
+<figure><img src="../../../.gitbook/assets/Animation (5).gif" alt=""><figcaption></figcaption></figure>
 
+* 参数前带有图示标识的 <mark style="color:red;">支持按比例单独调整该资产当前的参数</mark>
+* 没有该标识的则默认 参数的调整统一应用到所有尺寸下
 
+<div align="left">
 
-### 2.手动微调
+<figure><img src="../../../.gitbook/assets/image (2096).png" alt=""><figcaption></figcaption></figure>
 
-* 如果您希望自定义所有尺寸下的元素布局，可以选择不使用布局模板，手动对各尺寸进行微调。
-* 利用「**尺寸联动编辑**」功能，可批量调整相同元素在不同尺寸下的大小和位置，从而提升编辑效率。
-* 只需在已添加的尺寸上悬停后点击「锁定」按钮即可激活「尺寸联动编辑」功能。取消「锁定」后，该尺寸将不再与其他尺寸编辑进行联动。
+</div>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+* 支持添加尺寸
+* 支持删除已添加的尺寸
 
+<div align="left">
 
+<figure><img src="../../../.gitbook/assets/image (2095).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### 1.手动微调
+</div>
 
-* 选择视频模版并创建项目
+* 支持中途切换其他布局模板（注意:切换模版后当前尺寸裂变里的内容将被重置，重置后将无法恢复）
 
-<figure><img src="../../../.gitbook/assets/image (1955).png" alt=""><figcaption></figcaption></figure>
-
-* 点击上方【尺寸裂变】，选择需要需要变换的尺寸并点击【添加】
-
-<figure><img src="../../../.gitbook/assets/image (1956).png" alt=""><figcaption></figcaption></figure>
-
-* 筛选合适的裂变模板
-
-<figure><img src="../../../.gitbook/assets/image (1957).png" alt=""><figcaption></figcaption></figure>
-
-* 如果您希望自定义所有尺寸下的元素布局，可以手动对各尺寸进行微调。
-
-<figure><img src="../../../.gitbook/assets/image (1953).png" alt=""><figcaption></figcaption></figure>
-
-* 利用「**尺寸联动编辑**」功能，可批量调整相同元素在不同尺寸下的大小和位置，从而提升编辑效率。
-* 只需在已添加的尺寸上悬停后点击「锁定」按钮即可激活「尺寸联动编辑」功能。取消「锁定」后，该尺寸将不再与其他尺寸编辑进行联动。
-
-<figure><img src="../../../.gitbook/assets/image (1939).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2097).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### 2.使用布局模版 （详细信息即操作可查阅[布局模版](broken-reference)）
+### 2.不填充元素(手动微调)
 
-* 选择合适的布局模板，选择需要添加裂变的展示比例并创建项目，上传并替换模板中的素材。系统将根据布局模板的样式自动完成多个尺寸的调整，以适应不同的显示设备或平台需求。
+如果您希望自定义所有尺寸下的元素布局，可以选择【不填充元素】，即不使用布局模板，手动对各尺寸进行微调
 
-<figure><img src="../../../.gitbook/assets/image (1937).png" alt=""><figcaption></figcaption></figure>
+* 默认背景为黑色纯色背景，可自行添加元素进行布局
+* 添加元素：点击+号>>>添加【场景】>>>返回创意制作页面添加所需元素>>>在尺寸裂变页面完成布局
 
-点击「从本地上传」或「从库里添加」上传素材，**并删除原模板自带素材**即可完成素材替换。
+<figure><img src="../../../.gitbook/assets/image (2098).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1952).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2099).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">利用「尺寸联动」功能，可批量调整相同元素在不同尺寸下的</mark><mark style="color:red;">**大小和位置**</mark>，从而提升编辑效率
+
+* 打开尺寸联动：相同素材只需在一个画布中进行位置大小的调整，其他联动画布也会随之变动
+* 解除联动：相同素材在画布中可以随意调整位置大小，其他画布不受影响
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2100).png" alt=""><figcaption><p><strong>尺寸联动</strong></p></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2102).png" alt=""><figcaption><p>解除联动</p></figcaption></figure>
+
+</div>
