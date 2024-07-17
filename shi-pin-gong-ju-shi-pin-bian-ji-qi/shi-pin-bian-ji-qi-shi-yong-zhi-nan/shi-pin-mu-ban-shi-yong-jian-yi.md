@@ -2,15 +2,11 @@
 description: '#视频模板'
 ---
 
-# 补充:视频模板使用建议
+# 视频模板-使用建议
 
 入口：左侧菜单栏>>>模板库>>>视频模板
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1478).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (2048).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -30,7 +26,7 @@ description: '#视频模板'
 
 #### 1）在「视频模版」中创建 <a href="#uktjp" id="uktjp"></a>
 
-① 在「模版库」-「视频模版」中，筛选「视频模版」，即可筛选得到可用的视频模版
+① 点击「模版库」-「视频模版」，即可查找或筛选合适的视频模板
 
 ② 点击模板缩略图，即可预览该模板
 
