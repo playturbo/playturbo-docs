@@ -1,61 +1,133 @@
 # 语言裂变
 
-当需要将制作好的视频用于不同国家地区时，可通过语言裂变功能快速完成视频翻译，并一次性批量导出多个语言版本的视频。
+完成【素材上传】页面的编辑，点击【下一步】，进入【语言裂变】编辑页面
 
-素材上传完成后，点击导航栏「**下一步**」，选择需要翻译的内容。 可选内容范围包括：
-
-* 布局模板中需要翻译的内容，如按钮文本、产品名称、推广文案等。
-* 已添加的主视频中需要翻译的内容，包括视频字幕与配音，以及AI消除添加的文本替换和文本翻译的文本内容。
-
-<mark style="color:red;">您可以在顶部的【</mark><mark style="color:red;">**语言裂变】**</mark><mark style="color:red;">中再次修改需要翻译的内容范围。</mark>
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+当视频需要用于不同国家地区时，可通过语言裂变功能快速完成视频翻译，并一次性批量导出多个语言版本的视频
 
 
 
-## <mark style="color:blue;">一、布局模版翻译</mark>
+## <mark style="color:blue;">一、选择裂变语言和内容</mark>
 
-* 在「**布局模版**」翻译栏中，您可以对布局模版中已添加的的文本（如按钮文本、产品名称、推广文案等）进行翻译。
-* 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
-* 点击文本后，右侧的视频预览区域会自动定位到该文本出现的起始时间进行播放。
+1.在弹窗内勾选需要裂变的语言和要翻译的内容。可选内容包括：
 
-<figure><img src="../../.gitbook/assets/2 (94).png" alt=""><figcaption></figcaption></figure>
+* **布局模板**中附带的且需要翻译的内容，如按钮文本、产品名称、推广文案等
+* **已添加的主视频**中需要翻译的内容，包括视频字幕与配音，以及AI消除添加的文本替换和文本翻译的内容
+
+2.确认内容后，点击【翻译】，稍等片刻
+
+<figure><img src="../../.gitbook/assets/image (2057).png" alt=""><figcaption></figcaption></figure>
+
+💡<mark style="color:red;">翻译内容生成后，您仍可在图示位置再次修改语言或需要翻译的内容（新增或删除）</mark>
+
+<figure><img src="../../.gitbook/assets/image (2058).png" alt=""><figcaption></figcaption></figure>
 
 
 
-## <mark style="color:blue;">二、视频翻译</mark>
+## <mark style="color:blue;">二、语言裂变:布局模版</mark>
 
-视频翻译分为一个或多个翻译栏，每上传一个主视频，对应一个需要翻译的视频翻译栏。
+在「布局模版」翻译栏，您可对布局模版中附带的文本（如按钮文本、产品名称、推广文案等）进行翻译调整
+
+1.单击对应语言的文本框（右侧预览窗口也会随之切换），可手动微调翻译结果
+
+<figure><img src="../../.gitbook/assets/image (2059).png" alt=""><figcaption></figcaption></figure>
+
+2.点击AI按钮，可使用AI工具进行文本处理，包括：重新翻译、丰富内容、精简内容
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2060).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+3.AI改写后，可选择：替换、重新翻译、弃用翻译、切换不同翻译结果等操作
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2061).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+4.点击图示按钮，可修改文本样式
+
+💡<mark style="color:red;">该文本样式将同步应用到所有语言</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2062).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
+## <mark style="color:blue;">三、语言裂变:视频内容</mark>
+
+在「视频内容」翻译栏，您可对已添加的主视频包含的内容进行翻译调整
+
+「视频内容」分为一个或多个翻译栏，这取决于您在选择裂变内容时所**勾选的视频数量**。每添加一个主视频，对应一个需要翻译的视频翻译栏
 
 <figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
 每个主视频翻译栏包括三个模块：
 
-1\)文本替换：若该视频提交了AI文本替换任务，此处展示替换后的文本及对应翻译结果。
+* **文本翻译：**若该视频在【素材上传】页面提交了AI文本翻译任务，此处将展示原始文本及对应翻译结果
+* **文本替换：**若该视频在【素材上传】页面提交了AI文本替换任务，此处将展示替换后的文本及对应翻译结果
+* **字幕配音：**此处展示该视频的字幕翻译结果与配音结果。系统会自动识别视频中的说话人（角色）和对话内容（字幕），并将字幕翻译成指定语言
 
-2\)文本翻译：若该视频提交了AI文本翻译任务，此处展示原始文本及对应翻译结果。
+<figure><img src="../../.gitbook/assets/image (2063).png" alt=""><figcaption></figcaption></figure>
 
-3\)字幕配音：
+注：【文本翻译】与【文本替换】的操作同「布局模版」翻译栏；下面展开介绍【字幕配音】的操作
 
-### &#x20;    a.字幕
+### <mark style="color:red;">1.视频字幕</mark>
 
-* 系统会自动识别视频中对话角色（说话人）和对话内容（字幕），并将字幕翻译成指定语言。
+💡<mark style="color:red;">单击任一文本框，右侧预览窗口会随之切换为该句字幕所在的位置和对应的语言</mark>
 
-<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+#### 1）查看原语言文本的断句是否需要调整。**若调整，该句字幕下的所有语言都会随之一起变动**
 
-* 您可以在系统识别基础上修改说话人、字幕内容和字幕翻译结果。选中原语言字幕后，您可以进行字幕分割、合并、删除、新增操作。
+* 支持AI功能：可对原语言文本进行：丰富内容、精简内容
+* 可将长字幕分割为短字幕，分割位置为鼠标点击的位置；同理，也可将短字幕合并为长字幕（支持向上合并&向下合并）
+* 支持新增字幕坑位、删除当前字幕
 
-<figure><img src="../../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
 
-* 您可以点击字幕配音标题行右侧的按钮，展开字幕样式设置。
+<figure><img src="../../.gitbook/assets/image (2067).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
+</div>
 
-* 如果修改了原语音字幕，可通过点击顶部「**更新翻译**」，批量更新其它语言翻译结果。&#x20;
+* 如果修改了原语言字幕，可通过点击【重新翻译所有语言】或顶部「更新翻译」，批量更新其它语言的翻译结果
+  * 更新翻译：针对**所有字幕所有语言**的更新
+  * 重新翻译所有语言：针对**单句字幕所有语言**的更新
 
-<figure><img src="../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2070).png" alt=""><figcaption></figcaption></figure>
 
-### &#x20;    b.配音
+#### 2）修改翻译结果
+
+* 选中字幕文本框，可手动微调翻译结果，也可使用AI工具进行文本处理
+* 重新翻译：针对**单句字幕单个语言**的更新
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2071).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+💡<mark style="color:red;">每句字幕右侧都展示了该句配音的语速，预览时若觉得语速过快/过慢，可通过AI功能精简/丰富内容</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2068).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 3）修改字幕样式
+
+* 您可以点击字幕配音标题行右侧的按钮，展开字幕样式设置
+*   点击图示按钮，可修改文本样式
+
+    💡<mark style="color:red;">该文本样式将同步应用到所有语言</mark>
+
+<figure><img src="../../.gitbook/assets/image (2069).png" alt=""><figcaption></figcaption></figure>
+
+&#x20;    b.配音
 
 * 您可以按照说话人进行配音音色选择：可以使用系统预设的音色（文本转语音）朗读字幕翻译结果，也可以使用原视频音色（语音克隆）朗读。语音克隆能够复制原视频中说话人的声线和语气，使朗读效果更真实、自然。
 
@@ -90,27 +162,6 @@
 
 
 
-
-### <mark style="color:blue;">**语言裂变**</mark>
-
-当需要将制作好的视频用于不同国家地区时，可通过语言裂变功能快速完成视频项目翻译，并一次性批量导出多个语言版本的视频。
-
-首次进入【语言裂变】页面时，需要选择待翻译的内容。 可选内容范围包括：
-
-* 布局模板：在「尺寸裂变」使用的布局模版中需要翻译的文本内容，如按钮文本、产品名称、推广文案等。项目未使用布局模版的话，此处内容为空。&#x20;
-* 视频内容： 在「创意制作」环节添加已上传的字幕&配音、文本、图片和视频。&#x20;
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-<mark style="color:red;">您可以在顶部的「</mark><mark style="color:red;">**语言裂变**</mark><mark style="color:red;">」中再次修改需要翻译的内容范围。</mark>
-
-### 1.布局模版翻译
-
-* 在【布局模版】界面中，您可以对布局模版中已添加的的文本（如按钮文本、产品名称、推广文案等）进行翻译。
-* 激活文本框后，您可以使用AI工具进行文本处理，包括缩写、扩写、改写和重新翻译。
-* 点击文本后，右侧的视频预览区域会自动定位到该文本出现的起始时间进行播放。
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.视频内容（创意制作）翻译
 
@@ -157,5 +208,3 @@
 <figure><img src="../../.gitbook/assets/导出预览按钮.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/导出历史截图.jpg" alt=""><figcaption></figcaption></figure>
-
-<mark style="color:red;">**导出完成的视频可下载到本地，或直接推送到已授权的广告渠道账号。**</mark>
