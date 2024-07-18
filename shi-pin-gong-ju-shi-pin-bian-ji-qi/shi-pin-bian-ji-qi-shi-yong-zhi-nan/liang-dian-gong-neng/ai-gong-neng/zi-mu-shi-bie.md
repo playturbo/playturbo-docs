@@ -1,29 +1,43 @@
 ---
-description: 识别视频或音频中的语言，自动生成字幕元件
+description: 识别视频或音频中的语言，智能生成字幕
 ---
 
 # 字幕识别
 
-在完成【素材上传】部分后，添加上传的素材至轨道，并删除原视频自带的音频和视频，添加上传的素材至轨道
+在视频创意制作阶段，如需为视频或音频添加字幕，可使用【智能识别】功能快速生成字幕
 
-<figure><img src="../../../../.gitbook/assets/image (1982).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">如需要对视频语音和字幕进行翻译，需要先手动或自动适配为素材生成字幕，点击左侧栏【字幕】位置，进行【</mark><mark style="color:red;">**智能识别**</mark><mark style="color:red;">】或【</mark><mark style="color:red;">**手动添加**</mark><mark style="color:red;">】字幕并生成配音</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (1985).png" alt=""><figcaption></figcaption></figure>
+* 左侧资源区>>>字幕>>>智能识别
+* 勾选需要识别的视频或音频，点击【识别】
+* 支持勾选清空已有字幕
 
-* 点击【智能识别】按钮后跳出弹窗，勾选需要识别的视频素材，并勾选同时同时清空已有字幕轨道
-* 选择完毕后，点击【识别】按钮，开始字幕识别
-* 字幕识别有一定时间，请耐心等待
+<figure><img src="../../../../.gitbook/assets/image (2104).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (1987).png" alt=""><figcaption></figcaption></figure>
+* 识别成功后，轨道区和左侧字幕区会自动生成字幕元件，智能断句
 
-识别成功后轨道区和左侧字幕区生成字幕元件
+<div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (1984).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2105).png" alt=""><figcaption></figcaption></figure>
 
-* 可在右侧参数调整区对字幕的样式进行调整
-* 调整后点击右上角的【应用到其他字幕】，则该样式将被应用到刚刚生成的所有字幕上
+</div>
+
+**左侧字幕区**可调整字幕内容和断句细节
+
+* 支持使用AI功能 丰富内容或精简内容
+* 支持将一句长字幕分割为两句短字幕；同理也支持将短字幕合并为长字幕
+* 支持新增、删除字幕
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (2106).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+**右侧参数调整区**可调整字幕样式
+
+* 支持调整字体、字号、预设样式、旋转角度、透明度等参数
+* 调整单句字幕样式后，可点击【应用到其他字幕】，将该样式一键应用到刚刚生成的所有字幕上
 * 温馨提示：【应用到其他字幕】不包括动画和文本内容
 
-<figure><img src="../../../../.gitbook/assets/image (1988).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2107).png" alt=""><figcaption></figcaption></figure>

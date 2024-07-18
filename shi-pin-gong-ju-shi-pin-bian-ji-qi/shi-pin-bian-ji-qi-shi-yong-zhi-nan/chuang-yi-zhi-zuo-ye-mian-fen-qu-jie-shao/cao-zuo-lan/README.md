@@ -61,13 +61,13 @@
 ### 3）添加配音
 
 * 智能识别字幕文本，生成AI配音，有多种AI声线可供选择
-* 详细内容可查看AI功能下的[智能配音](../../liang-dian-gong-neng/ai-gong-neng/zhi-neng-pei-yin.md)
+* 详细内容可查看AI功能下的[智能配音](broken-reference)
 
 ## 4.文本翻译
 
 * 点击【文本翻译】后跳出弹窗
 * 在此文本可实现其他语言的翻译
-* 详细内容可查看AI功能下的[文本翻译](../../liang-dian-gong-neng/ai-gong-neng/wen-ben-fan-yi.md)
+* 详细内容可查看AI功能下的[文本翻译](broken-reference)
 
 <div align="left">
 

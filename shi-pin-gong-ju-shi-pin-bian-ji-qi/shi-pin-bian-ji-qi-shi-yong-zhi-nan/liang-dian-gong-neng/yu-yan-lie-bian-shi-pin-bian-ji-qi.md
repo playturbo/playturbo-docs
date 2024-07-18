@@ -23,7 +23,15 @@
 
 ## <mark style="color:blue;">三、特别说明:添加字幕</mark>
 
-⚠️ <mark style="color:red;">如需对视频的语言和字幕进行翻译，需要在「创意制作」环节先添加字幕</mark>
+⚠️ <mark style="color:red;">如需对视频的语言和字幕进行翻译，需要在「创意制作」环节</mark><mark style="color:red;">**先添加字幕**</mark><mark style="color:red;">！否则语言裂变 选择待翻译素材时无字幕内容可勾选，将无法进行翻译</mark>
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2103).png" alt=""><figcaption><p>无字幕内容</p></figcaption></figure>
+
+</div>
+
+**添加字幕：**
 
 * 点击资源区的【字幕】，选择【智能识别】 或 【手动添加】
   * **智能识别：**勾选需要生成字幕的视频后，点击【识别】
