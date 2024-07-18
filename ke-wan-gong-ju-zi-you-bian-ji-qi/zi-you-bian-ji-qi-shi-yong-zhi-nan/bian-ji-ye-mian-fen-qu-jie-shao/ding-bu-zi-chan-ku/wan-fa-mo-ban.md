@@ -30,7 +30,7 @@ description: '#自由编辑器 #模板自由制作'
 
 * **组件库：**放置各类组件的区域。<mark style="color:orange;">在【模板自由制作】和【空白制作】都可使用</mark>（具体包含的组件可查阅 [zu-jian-ku-kuai-jie-bu-ju](../../zu-jian-ku-kuai-jie-bu-ju/ "mention")）
 * **玩法模板：**放置核心资产、特殊功能布局的区域。<mark style="color:orange;">仅出现在【模板自由制作】中</mark>
-  * 玩法编辑：通用的 / 各种玩法的模板中都可能会有（相关内容可查阅 [ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md](../../../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md "mention")）
+  * 玩法编辑：通用的 / 各种玩法的模板中都可能会有（相关内容可查阅 [ke-wan-mu-ban-zui-xin-zi-xun.md](../../../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-mu-ban-zui-xin-zi-xun.md "mention")）
   * 快捷布局：特殊的 / 存在于消除、拼图、停车解密类玩法的模板
 
 <div align="left">
@@ -58,7 +58,7 @@ description: '#自由编辑器 #模板自由制作'
 * 替换完成后，如有需要，可对图层的位置大小进行简单调整
 * 调整完毕点击【保存】，然后【返回项目编辑】即可
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.2 <mark style="color:red;">其他操作不建议，否则可能会报错</mark>
 
@@ -86,4 +86,4 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="color:red;">Tips：在【可玩模板】界面点击【快捷排版】，即可快速筛选出支持</mark><mark style="color:red;">**快捷布局**</mark><mark style="color:red;">功能的模板哦！</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -1,5 +1,5 @@
 ---
-description: '#订阅#定制'
+description: '#订阅 #定制'
 ---
 
 # 广告账户授权与素材推送
@@ -26,7 +26,7 @@ description: '#订阅#定制'
 
 ### 2. 授权步骤
 
-1）点击右上角「+授权」按钮
+1）点击右上角 **「+授权」** 按钮
 
 2）需先选择平台：
 
@@ -214,54 +214,58 @@ description: '#订阅#定制'
 
 ## <mark style="color:blue;">三、素材推送</mark>
 
-注：当前仅支持推送到这四个渠道下已绑定的广告账号下：**Mintegral/Unity/Applovin/IronSource**（后续会对接开放更多渠道）
+当前支持推送到 **Mintegral/Unity/Applovin/IronSource** 这四个渠道已绑定的广告账号下（后续会开放更多渠道）
 
-### 1. 试玩素材推送操作
 
-1）点击试玩项目列表或制作页面的「推送」按钮，跳出「推送」弹窗
 
-<div align="left">
+### 1. 可玩素材推送操作
 
-<figure><img src="../../.gitbook/assets/image (1203).png" alt=""><figcaption></figcaption></figure>
+1）在预览页面点击「推送」按钮，弹出「推送」弹窗
 
-</div>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-2）输入「素材名称前缀」，默认取的素材名称为项目名。最终生成的素材名将加上后缀
+2）选择推送平台，完成对应账号授权
 
-3）选择已绑定的广告账号。若推送渠道为Unity，则需要选择推送到的产品
+3）**不同渠道的推送逻辑：**
 
-4）通过「包体控制」，使得包体大小满足各个渠道的要求
+* Mintegral：需选到主账号下的某个子账号，推送到该子账号（同时主账号能看到并使用该素材）
+* Unity：需选到账号下的某个产品
+* Applovin：需选到账号下的某个产品
+* Ironsource：需选到账号下的某个创意组（Ironsource的可玩素材推送有约2H的延迟，请耐心等待）
 
-5）点击「推送」按钮，进行推送
+4）若素材超包，可通过「智能压缩」或「手动压缩」，使包体大小控制在规范要求内
 
-<div align="left">
+5）点击「推送」按钮，完成推送
 
-<figure><img src="../../.gitbook/assets/image (1204).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### 2. 视频素材推送操作
 
-1）在「导出&下载历史」-「视频项目」的「导出任务」和「作品」页面，均可以操作「推送」，跳出「推送」弹窗
+1）在 **导出&下载历史>>>视频项目>>>"导出任务"或"作品"**页面，均可以操作「推送」，弹出「推送」弹窗
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+2）可修改素材名称
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+3）选择推送平台，完成对应账号授权
+
+4）**不同渠道的推送逻辑：**
+
+* Mintegral：需选到主账号下的某个子账号，推送到该子账号（同时主账号能看到并使用该素材）
+* Unity：需选到账号下的某个产品
+* Applovin：需选到账号下的某个产品
+* Ironsource：需选到账号下的某个创意组
+
+5）点击「推送」按钮，完成推送
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1205).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-2）输入「素材名称」，默认取的素材名称为项目名或作品名。最终生成的素材名将加上后缀
-
-3）选择已绑定的广告账号。若推送渠道为Unity，则需要选择推送到的产品
-
-4）点击「推送」按钮，进行推送
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1206).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<mark style="color:red;">注：视频素材推送时不扣费，在导出时已对视频导出量进行扣减。</mark>
+<mark style="color:red;">注：视频素材推送时不扣费，在导出时已对视频导出量进行扣减</mark>

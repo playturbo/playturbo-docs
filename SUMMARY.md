@@ -270,5 +270,5 @@
       * [模板资产](qi-ta-jiao-cheng/wo-de-zhang-hao-wo-de-xiang-mu/wo-de-zi-chan/mo-ban-zi-chan.md)
     * [个人中心介绍](qi-ta-jiao-cheng/wo-de-zhang-hao-wo-de-xiang-mu/ge-ren-zhong-xin-jie-shao.md)
   * [其他模块](qi-ta-jiao-cheng/qi-ta-mo-kuai/README.md)
-    * [可玩工具-通用模板最新资讯](qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-gong-ju-tong-yong-mo-ban-zui-xin-zi-xun.md)
+    * [可玩模板最新资讯](qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-mu-ban-zui-xin-zi-xun.md)
     * [可玩广告-定制服务用户指南](qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-guang-gao-ding-zhi-fu-wu-yong-hu-zhi-nan.md)
