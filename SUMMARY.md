@@ -168,7 +168,7 @@
 * [💡 视频工具-布局模版](shi-pin-gong-ju-bu-ju-mo-ban/README.md)
   * [作品制作-新建指南](shi-pin-gong-ju-bu-ju-mo-ban/zuo-pin-zhi-zuo-xin-jian-zhi-nan.md)
   * [布局模版-使用指南](shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/README.md)
-    * [素材上传(含尺寸裂变)](shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/su-cai-shang-chuan-han-chi-cun-lie-bian.md)
+    * [素材上传(含尺寸裂变-布局模板)](shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md)
     * [语言裂变(通用)](shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/yu-yan-lie-bian-tong-yong.md)
     * [亮点功能:视频AI消除](shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/liang-dian-gong-neng-shi-pin-ai-xiao-chu.md)
 * [💡 录屏工具-录屏编辑器](lu-ping-gong-ju-lu-ping-bian-ji-qi/README.md)

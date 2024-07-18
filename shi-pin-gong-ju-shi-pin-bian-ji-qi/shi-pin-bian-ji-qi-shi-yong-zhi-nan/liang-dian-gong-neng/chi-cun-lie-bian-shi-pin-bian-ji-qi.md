@@ -4,6 +4,18 @@
 
 
 
+💡Playturbo提供的多种尺寸，满足多个广告媒体素材要求，包含：
+
+* 9:16：适用于Mintegral, TikTok ads, Instagram 等
+* 16:9：适用于Mintegral, YouTube ads, TikTok ads
+* 3:4：适用于Mintegral
+* 4:3：适用于Mintegral, LinkedIn ads, Facebook videos
+* 1:1：适用于Instagram posts, TikTok ads
+* 4:5：适用于Facebook Feed
+* 2:1：适用于Facebook
+
+
+
 ## <mark style="color:blue;">尺寸裂变的两种方式</mark>
 
 * 首次进入【尺寸裂变】页面，需选择需要裂变的尺寸，确认后点击【添加】

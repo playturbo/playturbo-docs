@@ -10,7 +10,7 @@
 
 2）单种类型的坑位允许上传多个素材，系统会自动进行批量组合，可根据实际需求添加
 
-使用指南： [su-cai-shang-chuan-han-chi-cun-lie-bian.md](su-cai-shang-chuan-han-chi-cun-lie-bian.md "mention")
+使用指南： [su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md](su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md "mention")
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,7 @@
 
 2）点击切换不同尺寸，可在上方预览相应的效果
 
-使用指南： [su-cai-shang-chuan-han-chi-cun-lie-bian.md](su-cai-shang-chuan-han-chi-cun-lie-bian.md "mention")
+使用指南： [su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md](su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md "mention")
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 

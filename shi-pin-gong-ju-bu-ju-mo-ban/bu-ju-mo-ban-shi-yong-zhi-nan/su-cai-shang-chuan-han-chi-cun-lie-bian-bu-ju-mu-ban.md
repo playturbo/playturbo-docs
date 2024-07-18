@@ -1,4 +1,4 @@
-# 素材上传(含尺寸裂变)
+# 素材上传(含尺寸裂变-布局模板)
 
 新建项目后，默认进入【素材上传】编辑界面
 
@@ -53,7 +53,7 @@
 
 ## <mark style="color:blue;">四、尺寸裂变</mark>
 
-Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素材要求，包含：
+💡Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素材要求，包含：
 
 * 9:16：适用于Mintegral, TikTok ads, Instagram 等
 * 16:9：适用于Mintegral, YouTube ads, TikTok ads
@@ -62,6 +62,8 @@ Playturbo提供的布局模版覆盖多个尺寸，满足多个广告媒体素�
 * 1:1：适用于Instagram posts, TikTok ads
 * 4:5：适用于Facebook Feed
 * 2:1：适用于Facebook
+
+
 
 1.完成所有素材上传后，可在图示位置调整需要裂变的尺寸（支持删除、新增）
 
