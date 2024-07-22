@@ -63,9 +63,9 @@ description: '#自由编辑器'
 
 各类资产在被添加到项目中时，其屏幕适配方式都默认“水平居中&垂直居中”，即无论在哪种机型下预览素材，该资产都会位于屏幕中心位置
 
-<figure><img src="../../../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
+<mark style="color:red;">**大部分资产无需调整屏幕适配方式，可自动适配各类机型。**</mark><mark style="color:red;">会有少部分资产，在制作时建议调整屏幕适配方式，以保证在不同机型预览下的最佳视觉效果</mark>
 
-<mark style="color:red;">**大部分资产无需调整屏幕适配方式 即可自动适配各类机型。**</mark><mark style="color:red;">会有少部分资产，在制作时建议调整屏幕适配方式，以保证在不同机型预览下的最佳视觉效果。</mark>
+<figure><img src="../../../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
 
 常见需要调整屏幕适配方式的图层有：常驻产品信息、免责声明
 
