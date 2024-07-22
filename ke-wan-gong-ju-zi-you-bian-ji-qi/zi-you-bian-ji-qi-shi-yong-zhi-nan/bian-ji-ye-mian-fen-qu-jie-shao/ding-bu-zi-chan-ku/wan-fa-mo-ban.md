@@ -15,7 +15,7 @@ description: '#自由编辑器 #模板自由制作'
 ### 1.通俗介绍
 
 * 【玩法模板】是放置核心布局、核心资产的区域
-* 该区域通常由开发制作，核心的玩法逻辑由代码控制，因此建议您在合理范围内对玩法模板进行调整，以免项目报错**（具体调整自由度可查阅** [#yi-tiao-zheng-zi-you-du-xu-zhi](../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#yi-tiao-zheng-zi-you-du-xu-zhi "mention")**）**
+* 该区域通常由开发制作，核心的玩法逻辑由代码控制，因此建议您在合理范围内对玩法模板进行调整，以免项目报错**（具体调整自由度可查阅** [#yi-tiao-zheng-zi-you-du-xu-zhi](../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mu-ban-zi-you-zhi-zuo-xu-zhi.md#yi-tiao-zheng-zi-you-du-xu-zhi "mention")**）**
 * 可在【玩法模板】内对核心资产进行替换 或 对快捷布局进行调整
 
 ### 2.包含模块
@@ -62,7 +62,7 @@ description: '#自由编辑器 #模板自由制作'
 
 #### 2.2 <mark style="color:red;">其他操作不建议，否则可能会报错</mark>
 
-（具体调整自由度可查阅 [#yi-tiao-zheng-zi-you-du-xu-zhi](../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#yi-tiao-zheng-zi-you-du-xu-zhi "mention")）
+（具体调整自由度可查阅 [#yi-tiao-zheng-zi-you-du-xu-zhi](../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mu-ban-zi-you-zhi-zuo-xu-zhi.md#yi-tiao-zheng-zi-you-du-xu-zhi "mention")）
 
 
 

@@ -112,7 +112,7 @@
     * [常见问题-适配问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/chang-jian-wen-ti-shi-pei-wen-ti.md)
     * [常见问题-其他问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/chang-jian-wen-ti-qi-ta-wen-ti.md)
   * [自由编辑器-制作技巧中心](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/README.md)
-    * [模板自由制作技巧](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md)
+    * [模板自由制作需知](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mu-ban-zi-you-zhi-zuo-xu-zhi.md)
     * [通用制作技巧](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/README.md)
       * [制作技巧-制作流程建议](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-zhi-zuo-liu-cheng-jian-yi.md)
       * [制作技巧-场景制作](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-chang-jing-zhi-zuo.md)

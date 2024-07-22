@@ -50,7 +50,7 @@ description: '#换肤编辑器 #自由编辑器 #模板自由制作'
 
 #### 1）替换资产
 
-注：【替换资产】这一步骤有两种方式可以选择，具体可查看[#id-1.-zi-chan-ti-huan-ji-qiao](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#id-1.-zi-chan-ti-huan-ji-qiao "mention")
+注：【替换资产】这一步骤有两种方式可以选择，具体可查看[#id-1.-zi-chan-ti-huan-ji-qiao](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mu-ban-zi-you-zhi-zuo-xu-zhi.md#id-1.-zi-chan-ti-huan-ji-qiao "mention")
 
 在本案例中，我们选择先使用【换肤编辑器】完成所有资产的替换，再【复制到自由制作】完成后续迭代。首先，选中模板，选择【换肤制作】 - 【普通制作】
 

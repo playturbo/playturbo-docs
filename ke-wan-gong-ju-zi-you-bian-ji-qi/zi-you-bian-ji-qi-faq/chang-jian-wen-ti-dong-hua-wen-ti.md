@@ -15,7 +15,7 @@ description: '#自由编辑器'
 
 <img src="../../.gitbook/assets/image (1208).png" alt="" data-size="original">            <img src="../../.gitbook/assets/image (1209).png" alt="" data-size="original">
 
-**相关阅读：** [#yi-tiao-zheng-zi-you-du-xu-zhi](../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mo-ban-zi-you-zhi-zuo-ji-qiao.md#yi-tiao-zheng-zi-you-du-xu-zhi "mention")
+**相关阅读：** [#yi-tiao-zheng-zi-you-du-xu-zhi](../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mu-ban-zi-you-zhi-zuo-xu-zhi.md#yi-tiao-zheng-zi-you-du-xu-zhi "mention")
 
 
 

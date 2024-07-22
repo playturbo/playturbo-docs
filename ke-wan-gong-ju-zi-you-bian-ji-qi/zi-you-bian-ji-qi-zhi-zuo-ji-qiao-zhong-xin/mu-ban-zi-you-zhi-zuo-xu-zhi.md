@@ -1,17 +1,17 @@
 ---
-description: '#自由编辑器 #模板自由制作'
+description: '#自由编辑器 #自由制作'
 ---
 
-# 模板自由制作技巧
+# 模板自由制作需知
 
 ## <mark style="color:blue;">一、调整自由度需知</mark>
 
-<mark style="color:red;">**在您使用模板进行【自由制作】时**</mark>
+<mark style="color:red;">在您使用模板进行</mark><mark style="color:red;">**【自由制作】**</mark><mark style="color:red;">时：</mark>
 
-* <mark style="color:red;">若打开【玩法模板】有相关内容(如左图)，则代表该模板的核心玩法由代码控制，调整时会有一定限制</mark>
-* <mark style="color:red;">若打开【玩法模板】没有相关内容(如右图)，则代表该模板没有代码参与，您可以自由调整该模板</mark>
+* **若打开【玩法模板】有相关内容**(如左图)，则代表该模板的核心玩法由代码控制，调整时会有一定限制
+* **若打开【玩法模板】没有相关内容**(如右图)，则代表该模板没有代码参与，您可以自由调整该模板
 
-**注：模板是否包含【玩法模板】，可查阅** [ke-wan-mu-ban-zui-xin-zi-xun.md](../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-mu-ban-zui-xin-zi-xun.md "mention")&#x20;
+注：模板是否包含【玩法模板】，可查阅 [ke-wan-mu-ban-zui-xin-zi-xun.md](../../qi-ta-jiao-cheng/qi-ta-mo-kuai/ke-wan-mu-ban-zui-xin-zi-xun.md "mention")&#x20;
 
 <div align="left">
 
@@ -50,7 +50,55 @@ description: '#自由编辑器 #模板自由制作'
 
 
 
-## <mark style="color:blue;">二、调整顺序建议</mark>
+## <mark style="color:blue;">二、资产替换需知</mark>
+
+### 1.资产替换技巧
+
+在【替换资产】时，有两种方法都比较快捷，您可任选一种进行制作
+
+<figure><img src="../../.gitbook/assets/image (1222).png" alt=""><figcaption></figcaption></figure>
+
+#### a. 换肤制作-普通制作
+
+* 选择模板，然后选择【换肤制作-普通制作】
+* 在【换肤编辑器】内完成所有资产替换，然后【复制到自由制作】进行迭代即可
+
+<figure><img src="../../.gitbook/assets/image (1226).png" alt=""><figcaption></figcaption></figure>
+
+#### b. 自由制作
+
+* 选择模板，然后选择【自由制作】
+* 点击【项目资产】，将需要替换的所有资产一次性上传到项目资产内，后续替换资产会很方便
+
+<figure><img src="../../.gitbook/assets/image (1227).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Tips：**</mark>若有相同的资产出现在多个场景中，同时您又想全部替换掉：可以在【项目资产】窗口内选中该资产，点击【替换资产】，这样便可以一次性快速完成所有场景的替换哦！
+
+<figure><img src="../../.gitbook/assets/image (1228).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 2.找不到某些资产/图层？
+
+💡 在您使用模板进行【自由制作】时，想调整某图层却没有找到在哪？
+
+&#x20;1）**产品信息或其他常驻元素：**可点击【全局设置】，在左侧图层区查找&#x20;
+
+2）**常规元素：**点击对应【场景】，在左侧图层区查找 或 直接在画布中点击对应图层&#x20;
+
+<mark style="color:red;">3）若图层区没有该图层，则可能</mark><mark style="color:red;">**位于【玩法模板】内**</mark><mark style="color:red;">：点击顶部资产库>>>玩法模板>>>玩法编辑/快捷布局，进行查找</mark>
+
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+**注意：**极少数模板的某些资产可能在【玩法模板】中也没有，这是因为该资产由开发通过代码控制，在自由编辑器内无法或不推荐修改，否则容易报错，因此我们不展示该资产坑位
+
+关于【玩法模板】的详细内容可查看[wan-fa-mo-ban.md](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")
+
+
+
+
+
+## <mark style="color:blue;">三、调整顺序建议</mark>
 
 在您使用【模板自由制作】进行素材迭代时，我们通常建议您按照以下步骤进行制作，可以保证操作的有序和便捷
 
@@ -166,51 +214,3 @@ description: '#自由编辑器 #模板自由制作'
 全部调整完成后，我们对不同机型/不同语言/横竖屏进行整体预览试玩，确认无误就可以推送或下载了
 
 <figure><img src="../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-## <mark style="color:blue;">三、资产替换需知</mark>
-
-### 1.资产替换技巧
-
-在【替换资产】时，有两种方法都比较快捷，您可任选一种进行制作
-
-<figure><img src="../../.gitbook/assets/image (1222).png" alt=""><figcaption></figcaption></figure>
-
-#### 1）换肤制作-普通制作
-
-* 选择模板，然后选择【换肤制作-普通制作】
-* 在【换肤编辑器】内完成所有资产替换，然后【复制到自由制作】进行迭代即可
-
-<figure><img src="../../.gitbook/assets/image (1226).png" alt=""><figcaption></figcaption></figure>
-
-#### 2）自由制作
-
-* 选择模板，然后选择【自由制作】
-* 点击【项目资产】，将需要替换的所有资产一次性上传到项目资产内，后续替换资产会很方便
-
-<figure><img src="../../.gitbook/assets/image (1227).png" alt=""><figcaption></figcaption></figure>
-
-<mark style="color:red;">**Tips：**</mark>若有相同的资产出现在多个场景中，同时您又想全部替换掉：可以在【项目资产】窗口内选中该资产，点击【替换资产】，这样便可以一次性快速完成所有场景的替换哦！
-
-<figure><img src="../../.gitbook/assets/image (1228).png" alt=""><figcaption></figcaption></figure>
-
-
-
-### 2.找不到某些资产/图层？
-
-💡 在您使用模板进行【自由制作】时，想调整某图层却没有找到在哪？
-
-&#x20;1）**产品信息或其他常驻元素：**可点击【全局设置】，在左侧图层区查找&#x20;
-
-2）**常规元素：**点击对应【场景】，在左侧图层区查找 或 直接在画布中点击对应图层&#x20;
-
-<mark style="color:red;">3）若图层区没有该图层，则可能</mark><mark style="color:red;">**位于【玩法模板】内**</mark><mark style="color:red;">：点击顶部资产库>>>玩法模板>>>玩法编辑/快捷布局，进行查找</mark>
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-注意：极少数模板的某些资产可能在【玩法模板】中也没有，这是因为该资产由开发通过代码控制，在自由编辑器内无法或不推荐修改，否则容易报错，因此我们不展示该资产坑位
-
-
-
-关于【玩法模板】的详细内容可查看[wan-fa-mo-ban.md](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/ding-bu-zi-chan-ku/wan-fa-mo-ban.md "mention")
