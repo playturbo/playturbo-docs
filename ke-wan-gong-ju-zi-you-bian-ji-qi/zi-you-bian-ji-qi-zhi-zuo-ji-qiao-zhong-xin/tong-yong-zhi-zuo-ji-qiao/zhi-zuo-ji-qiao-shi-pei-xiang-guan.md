@@ -57,7 +57,7 @@ description: '#自由编辑器'
 
 
 
-### 2.调整屏幕适配方式
+### <mark style="color:red;">2.调整屏幕适配方式</mark>
 
 关于屏幕适配方式的功能介绍可查看[shi-pei-gui-ze-yu-shi-pei-fang-shi.md](../../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/shi-pei-gui-ze-yu-shi-pei-fang-shi.md "mention")
 
@@ -65,7 +65,7 @@ description: '#自由编辑器'
 
 <figure><img src="../../../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
 
-大部分资产无需调整屏幕适配方式。但也有少部分资产，在制作时需要调整屏幕适配方式，以保证在不同机型预览下的最佳视觉效果。
+<mark style="color:red;">**大部分资产无需调整屏幕适配方式 即可自动适配各类机型。**</mark><mark style="color:red;">会有少部分资产，在制作时建议调整屏幕适配方式，以保证在不同机型预览下的最佳视觉效果。</mark>
 
 常见需要调整屏幕适配方式的图层有：常驻产品信息、免责声明
 
