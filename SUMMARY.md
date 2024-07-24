@@ -209,6 +209,8 @@
       * [《方块三消》空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-pi-pei-wan-fa-an-li/fang-kuai-san-xiao-kong-bai-zhi-zuo-jiao-cheng.md)
       * [《货架三消》空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-pi-pei-wan-fa-an-li/huo-jia-san-xiao-kong-bai-zhi-zuo-jiao-cheng.md)
       * [《合成新元素》空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/xiao-chu-pi-pei-wan-fa-an-li/he-cheng-xin-yuan-su-kong-bai-zhi-zuo-jiao-cheng.md)
+    * [要素展示(轮播)玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/yao-su-zhan-shi-lun-bo-wan-fa-an-li/README.md)
+      * [轮播组件-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/yao-su-zhan-shi-lun-bo-wan-fa-an-li/lun-bo-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md)
     * [画线玩法案例](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/README.md)
       * [自由画线组件-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/zi-you-hua-xian-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md)
       * [连线组件-空白制作教程](playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/hua-xian-wan-fa-an-li/lian-xian-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md)

@@ -12,9 +12,11 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+相关案例教学可查阅  [lun-bo-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md](../../../playturbo-an-li-jiao-xue-ji-di/ke-wan-zi-you-bian-ji-qi-an-li/yao-su-zhan-shi-lun-bo-wan-fa-an-li/lun-bo-zu-jian-kong-bai-zhi-zuo-jiao-cheng.md "mention")
 
 
 
@@ -109,13 +111,14 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 </div>
 
-* 点击轮播组，调起轮播组的「外观」参数弹窗，可调整轮播组的整体尺寸及「坑位尺寸」和「坑位间隔」
-  * 坑位尺寸：即每个图片坑位的尺寸大小。放在其中的图片按最长边进行适配
-  * 坑位间隔：决定了每个坑位中心点之间的间距
+* 点击轮播组，调起轮播组的「外观」参数弹窗，可调整轮播组的整体尺寸位置及「坑位尺寸」和「坑位间隔」
+  * **坑位尺寸：**即每个图片坑位的尺寸大小。放在其中的图片按最长边进行适配
+  * **坑位间隔：**决定了每个坑位中心点之间的间距
+  * 坑位缩放：对应轮播组的尺寸比例，仅做参考作用，不支持调整
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (2021).png" alt="" width="515"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="504"><figcaption></figcaption></figure>
 
 </div>
 
@@ -279,7 +282,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 #### <mark style="background-color:red;">4.1 触发事件</mark>
 
-<table><thead><tr><th width="184">触发事件</th><th width="317">触发设置</th><th>截图</th></tr></thead><tbody><tr><td><strong>切换轮播时</strong></td><td><p>-需选择对应的轮播组</p><p>-触发时机为：选择的轮播组，轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一资源</strong></td><td><p>-需选择对应的轮播组与对应的组内资源</p><p>-触发时机为：特定资源轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一类别的资源</strong></td><td><p>-需选择对应的轮播组与对应的资源类别</p><p>-触发时机为：将对应资源类别的资源轮播到展示位时</p></td><td><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="184">触发事件</th><th width="317">触发设置</th><th>截图</th></tr></thead><tbody><tr><td><strong>切换轮播时</strong></td><td><p>-需选择对应的轮播组</p><p>-触发时机为：选择的轮播组，轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一资源</strong></td><td><p>-需选择对应的轮播组与对应的组内资源</p><p>-触发时机为：特定资源轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一类别的资源</strong></td><td><p>-需选择对应的轮播组与对应的资源类别</p><p>-触发时机为：将对应资源类别的资源轮播到展示位时</p></td><td><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" data-size="original"></td></tr></tbody></table>
 
 
 

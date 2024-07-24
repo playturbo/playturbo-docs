@@ -2,7 +2,7 @@
 description: '#自由编辑器 #空白制作 #遮罩组件 #初级难度'
 ---
 
-# 遮罩组件-空白制作教程
+# 轮播组件-空白制作教程
 
 温馨提示：本篇教程主要讲解如何**通过遮罩组件制作出此类玩法（通过点击/拖拽等交互方式，来展示目标图片）的可玩素材，**建议搭配[DEMO](https://tinyurl.com/4j5t5z3u)和[功能介绍文档](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/zu-jian-ku-kuai-jie-bu-ju/zhe-zhao-zu-jian.md)食用效果更佳哦！
 
