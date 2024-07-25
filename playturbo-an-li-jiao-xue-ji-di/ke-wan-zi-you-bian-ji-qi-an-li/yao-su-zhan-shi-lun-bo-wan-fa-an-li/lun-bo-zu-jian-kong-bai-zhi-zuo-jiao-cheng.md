@@ -29,7 +29,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 * 进入试玩，展示角色造型A和操作指引，引导玩家点击向右箭头切换造型；
 * 玩家可点击任一箭头或拖拽角色来切换不同造型，每交互一次，切换一个造型；
-* 直到玩家按下"就是它了"按钮，跳转结束场景
+* 直到玩家按下"就是它了"确认按钮，跳转结束场景
 * 结束场景 玩家按下按钮跳转商店
 
 <div align="left">
@@ -60,13 +60,13 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 #### **1. 全局场景**
 
-1）在【全局设置】中添加背景音乐、背景图片
+1）在【全局设置】中添加背景音乐、背景图片，为整体设计定下基调
 
-2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整各资产的位置大小，对资产进行合理编组、排序
+2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整各资产的位置大小，进行合理编组
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-#### **2. 普通场景**
+#### **2. 场景1**
 
 1）添加轮播组件：在场景1中点击【玩法模板】，选择【组件库】下的轮播组件并添加
 
@@ -76,15 +76,17 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 </div>
 
-2）添加指引手指、指引文案、确认按钮、点击音效，并调整各资产的位置大小，进行编组
+2）添加指引手指、指引文案、确认按钮、点击音效，并调整各资产的位置大小，进行合理编组
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-3）在场景2中添加产品logo、跳转按钮及背景图片，调整背景图的尺寸和模糊度
+#### 3.场景2
+
+1）在场景2中添加产品logo、跳转按钮及背景图片，调整背景图的尺寸和模糊度
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-4）在场景2下取消勾选启用【全局场景】；并勾选为【结束场景】
+2）将场景2勾选为【结束场景】，并取消勾选启用【全局场景】
 
 <div align="left">
 
@@ -96,47 +98,87 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 ### <mark style="color:red;">Step2 - 组件参数设置</mark> <a href="#tpuup" id="tpuup"></a>
 
-#### 1.外观
+#### 1.选择轮播样式
 
-选中遮罩组件Mask Component，在外观参数下将其尺寸调整到合适
+首先挑选一个合适的轮播样式，在本案例中，我们选择使用【渐隐缩放轮播】
 
-#### 2.遮罩设置
+<div align="left">
 
-<mark style="color:red;">**2.1 被遮罩组**</mark>
+<figure><img src="../../../.gitbook/assets/image (2122).png" alt=""><figcaption></figcaption></figure>
 
-【被遮罩组】是【遮罩形状】所覆盖范围内，会显示出的内容
+</div>
 
-首先，将最后需要展示的图片（彩色图）添加进【被遮罩组】
+#### 2.设置轮播资源
 
-<mark style="color:red;">**2.2 自定义分组**</mark>
+1）点击替换按钮，替换初始轮播资源
 
-1）添加遮罩分组1（命名为background\_image），将初始展示的图片（黑白图）添加进分组，并拖动调整其层级至最低
+<div align="left">
 
-2）添加遮罩分组2（命名为outer\_frame），将画框图片添加进分组，并拖动调整其层级至最高（装饰图片，需要始终置顶）
+<figure><img src="../../../.gitbook/assets/image (2123).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**2.3 遮罩形状**</mark>
+</div>
 
-1）在本案例中，我们选择遮罩形状为矩形
+2）点击"+"号，依次上传所有轮播资源（拖拽可调整资源顺序）
 
-2）点击【矩形】调起参数弹窗，将遮罩形状的尺寸调整为能够遮住最后展示图片的大小
+<div align="left">
 
-3）将遮罩形状移动至右侧（不覆盖被遮罩组即可）
+<figure><img src="../../../.gitbook/assets/image (2124).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**2.4 跟随元素**</mark>
+</div>
 
-在【跟随元素】下添加彩虹条和彩虹粒子，并调整其位置大小到合适
+3）点击轮播组调整「坑位尺寸」，即每个图片坑位的尺寸大小。在本案例中，我们将坑位尺寸设为1200\*1200
 
-完成以上，我们遮罩组件的参数就设置好了。
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2125).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 3.坑位设置
+
+「排列方式」默认水平，「坑位数」默认为3，在此不作调整
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2126).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 4.交互方式
+
+1）在本案例中，我们选择「手动」轮播，且交互方式同时勾选「点击」和「拖拽」，也就是玩家既可以通过点击按钮切换图片，也可以通过拖拽图片进行切换
+
+2）点击替换按钮，可替换箭头样式
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2127).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### 5.高级设置
+
+「动画播放时长」、「透明度」、「缩放」为默认值即可，在此不作调整
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (2128).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+完成以上，我们轮播组件的参数就设置好了。
 
 
 
 ### Step3 - 横竖屏适配 <a href="#tpuup" id="tpuup"></a>
 
-完成竖屏的排版后，我们还需对"横屏的排版"以及"横竖屏的屏幕适配方式"进行调整
+完成竖屏的排版后，我们还需对"横屏的排版"以及"横竖屏的屏幕适配方式"进行调整，以适配不同机型
 
 #### **1.调整横屏排版**
 
 1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含遮罩组件)，使用【复用竖屏位置尺寸配置】功能一键排版
+
+<figure><img src="../../../.gitbook/assets/image (2129).png" alt=""><figcaption></figcaption></figure>
 
 2）再分别调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
