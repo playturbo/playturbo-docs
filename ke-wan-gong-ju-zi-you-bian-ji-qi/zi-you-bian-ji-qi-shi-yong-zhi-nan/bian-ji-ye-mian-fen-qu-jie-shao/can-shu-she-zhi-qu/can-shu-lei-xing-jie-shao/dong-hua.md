@@ -24,7 +24,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -38,7 +38,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -48,7 +48,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -66,7 +66,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -74,7 +74,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -86,7 +86,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -104,7 +104,7 @@ description: '#自由编辑器'
 
 ### 1.循环次数/延迟时间/持续时间/自动播放/动画名称/位移/缩放/透明度/旋转角度/颜色变化
 
-<table><thead><tr><th width="205">截图</th><th width="121">参数类型</th><th width="174">参数说明</th><th>补充说明</th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/image (9) (1) (1).png" alt="" data-size="original"></td><td><strong>循环次数</strong></td><td><p>支持3种选项：</p><p>播放1次</p><p>单向循环</p><p>双向循环</p></td><td><p><strong>1.播放1次：</strong>动画仅播放1次，播完停止</p><p><strong>2.单向循环：</strong>重复K1~K3的动画<br><img src="../../../../../.gitbook/assets/【AE表达式】loop 循环详解_月离的万事屋.gif" alt=""><br><strong>3.双向循环：</strong>从K1到K3后，再从K3回到K1，如此往复<br><img src="../../../../../.gitbook/assets/【AE表达式】loop 循环详解_月离的万事屋 (1).gif" alt=""></p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (73) (1).png" alt=""></td><td><strong>延迟时间</strong></td><td>动画延迟出现/播放的时长</td><td>/</td></tr><tr><td><img src="../../../../../.gitbook/assets/image (74) (1).png" alt=""></td><td><strong>持续时间</strong></td><td>完整播一次动画所需要的时长</td><td>同一个动画，其持续时间越长，动画播放速度越慢；反之则越快</td></tr><tr><td><p><img src="../../../../../.gitbook/assets/image (11) (1) (1).png" alt="" data-size="original"></p><p><img src="../../../../../.gitbook/assets/image (12) (1) (1).png" alt=""></p></td><td><strong>自动播放</strong></td><td><p>默认自动播放；</p><p></p><p>支持关闭自动播放</p></td><td><p><strong>1.自动播放：</strong>进入动画所在的场景后开始自动播放</p><p><strong>2.关闭自动播放：</strong>关闭后，动画默认不播放，需通过设置事件控制动画的播放</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (13) (1).png" alt="" data-size="original"></td><td><strong>动画名称</strong></td><td>支持自定义动画名称</td><td>Tips：当项目内添加了较多动画，可重命名动画，方便在设置事件时查找使用</td></tr><tr><td><img src="../../../../../.gitbook/assets/image (14).png" alt="" data-size="original"></td><td><strong>透明度</strong></td><td>需设置"起始状态"和"结束状态"数值</td><td><p>数值范围0%~100%</p><p>0%：完全透明</p><p>100%：完全显示</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (15).png" alt="" data-size="original"></td><td><strong>缩放</strong></td><td><p>需设置"起始比例"和"结束比例"数值；</p><p></p><p>支持起始/结束比例设置成当前值</p></td><td><p>Scale X：图层横向的比例</p><p>Scale Y：图层纵向的比例</p></td></tr><tr><td><p><img src="../../../../../.gitbook/assets/image (16).png" alt="" data-size="original"></p><p></p><p><img src="../../../../../.gitbook/assets/image (22).png" alt=""></p><p></p><p><img src="../../../../../.gitbook/assets/image (21).png" alt=""></p></td><td><strong>位移</strong></td><td><p><strong>1.需设置X轴和Y轴的位移距离：</strong>正数为向下/向右；负数为向上/向左；</p><p>可点击图示标红箭头微调位移距离；</p><p></p><p><strong>2.支持快捷编辑位移结束位置：</strong>点击【编辑结束位置】，在画布中将半透明图层拖拽到目标位置后【保存结束位置】即可</p></td><td><p><mark style="color:red;"><strong>3.位移距离支持横竖屏拆分设置：</strong></mark></p><p>默认勾选，勾选则代表竖屏与横屏的位移距离需分别调整(如已经在竖屏下设置好的位移距离不会应用于横屏)；</p><p>取消勾选代表横竖屏共用相同的位移距离，无需切换调整</p><p><img src="../../../../../.gitbook/assets/image (24).png" alt="" data-size="original"></p><p><img src="../../../../../.gitbook/assets/image (25).png" alt="" data-size="original"></p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (17).png" alt="" data-size="original"></td><td><strong>旋转角度</strong></td><td>需设置"起始状态"和"结束状态"数值</td><td>数值无要求，可设置任意角度</td></tr><tr><td><img src="../../../../../.gitbook/assets/image (18).png" alt="" data-size="original"></td><td><strong>颜色变化</strong></td><td>需设置"开始颜色"和"结束颜色"</td><td><p>在色板中选取颜色或使用取色器快捷选色</p><p><img src="../../../../../.gitbook/assets/image (26).png" alt=""></p></td></tr></tbody></table>
+<table><thead><tr><th width="205">截图</th><th width="121">参数类型</th><th width="174">参数说明</th><th>补充说明</th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/image (9) (1) (1) (1).png" alt="" data-size="original"></td><td><strong>循环次数</strong></td><td><p>支持3种选项：</p><p>播放1次</p><p>单向循环</p><p>双向循环</p></td><td><p><strong>1.播放1次：</strong>动画仅播放1次，播完停止</p><p><strong>2.单向循环：</strong>重复K1~K3的动画<br><img src="../../../../../.gitbook/assets/【AE表达式】loop 循环详解_月离的万事屋.gif" alt=""><br><strong>3.双向循环：</strong>从K1到K3后，再从K3回到K1，如此往复<br><img src="../../../../../.gitbook/assets/【AE表达式】loop 循环详解_月离的万事屋 (1).gif" alt=""></p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (73) (1).png" alt=""></td><td><strong>延迟时间</strong></td><td>动画延迟出现/播放的时长</td><td>/</td></tr><tr><td><img src="../../../../../.gitbook/assets/image (74) (1).png" alt=""></td><td><strong>持续时间</strong></td><td>完整播一次动画所需要的时长</td><td>同一个动画，其持续时间越长，动画播放速度越慢；反之则越快</td></tr><tr><td><p><img src="../../../../../.gitbook/assets/image (11) (1) (1) (1).png" alt="" data-size="original"></p><p><img src="../../../../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""></p></td><td><strong>自动播放</strong></td><td><p>默认自动播放；</p><p></p><p>支持关闭自动播放</p></td><td><p><strong>1.自动播放：</strong>进入动画所在的场景后开始自动播放</p><p><strong>2.关闭自动播放：</strong>关闭后，动画默认不播放，需通过设置事件控制动画的播放</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (13) (1) (1).png" alt="" data-size="original"></td><td><strong>动画名称</strong></td><td>支持自定义动画名称</td><td>Tips：当项目内添加了较多动画，可重命名动画，方便在设置事件时查找使用</td></tr><tr><td><img src="../../../../../.gitbook/assets/image (14) (1).png" alt="" data-size="original"></td><td><strong>透明度</strong></td><td>需设置"起始状态"和"结束状态"数值</td><td><p>数值范围0%~100%</p><p>0%：完全透明</p><p>100%：完全显示</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (15) (1).png" alt="" data-size="original"></td><td><strong>缩放</strong></td><td><p>需设置"起始比例"和"结束比例"数值；</p><p></p><p>支持起始/结束比例设置成当前值</p></td><td><p>Scale X：图层横向的比例</p><p>Scale Y：图层纵向的比例</p></td></tr><tr><td><p><img src="../../../../../.gitbook/assets/image (16).png" alt="" data-size="original"></p><p></p><p><img src="../../../../../.gitbook/assets/image (22).png" alt=""></p><p></p><p><img src="../../../../../.gitbook/assets/image (21).png" alt=""></p></td><td><strong>位移</strong></td><td><p><strong>1.需设置X轴和Y轴的位移距离：</strong>正数为向下/向右；负数为向上/向左；</p><p>可点击图示标红箭头微调位移距离；</p><p></p><p><strong>2.支持快捷编辑位移结束位置：</strong>点击【编辑结束位置】，在画布中将半透明图层拖拽到目标位置后【保存结束位置】即可</p></td><td><p><mark style="color:red;"><strong>3.位移距离支持横竖屏拆分设置：</strong></mark></p><p>默认勾选，勾选则代表竖屏与横屏的位移距离需分别调整(如已经在竖屏下设置好的位移距离不会应用于横屏)；</p><p>取消勾选代表横竖屏共用相同的位移距离，无需切换调整</p><p><img src="../../../../../.gitbook/assets/image (24).png" alt="" data-size="original"></p><p><img src="../../../../../.gitbook/assets/image (25).png" alt="" data-size="original"></p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (17).png" alt="" data-size="original"></td><td><strong>旋转角度</strong></td><td>需设置"起始状态"和"结束状态"数值</td><td>数值无要求，可设置任意角度</td></tr><tr><td><img src="../../../../../.gitbook/assets/image (18).png" alt="" data-size="original"></td><td><strong>颜色变化</strong></td><td>需设置"开始颜色"和"结束颜色"</td><td><p>在色板中选取颜色或使用取色器快捷选色</p><p><img src="../../../../../.gitbook/assets/image (26).png" alt=""></p></td></tr></tbody></table>
 
 
 
@@ -166,11 +166,11 @@ description: '#自由编辑器'
 
 以动画_位移缓动_为例，横轴代表时间，纵轴代表位移距离，下面列举2个常见动画的调整方法
 
-| **a. 物体在起点停留一段时间后，再开始运动**                                                                                        | **b. 物体在始末位置停留一段时间，并来回运动**                                                                                           |
-| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 将曲线起点向右移动（延迟动画开始时间），物体会在红框时间段内完成移动；                                                                              | <p>① 动画【循环次数】选择：双向循环；</p><p>② 将曲线起点向右移动，并将曲线终点向左移动（延迟动画开始时间并提早结束动画），物体会在红框时间段内完成移动；</p>                              |
-| <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
-| <img src="../../../../../.gitbook/assets/image1.webp" alt="" data-size="original">                               | <img src="../../../../../.gitbook/assets/image2.webp" alt="" data-size="original">                                   |
+| **a. 物体在起点停留一段时间后，再开始运动**                                                                                            | **b. 物体在始末位置停留一段时间，并来回运动**                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 将曲线起点向右移动（延迟动画开始时间），物体会在红框时间段内完成移动；                                                                                  | <p>① 动画【循环次数】选择：双向循环；</p><p>② 将曲线起点向右移动，并将曲线终点向左移动（延迟动画开始时间并提早结束动画），物体会在红框时间段内完成移动；</p>                                  |
+| <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
+| <img src="../../../../../.gitbook/assets/image1.webp" alt="" data-size="original">                                   | <img src="../../../../../.gitbook/assets/image2.webp" alt="" data-size="original">                                       |
 
 更多常用动画的设置方法可查阅 [zhi-zuo-ji-qiao-dong-hua-she-zhi.md](../../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-dong-hua-she-zhi.md "mention")
 

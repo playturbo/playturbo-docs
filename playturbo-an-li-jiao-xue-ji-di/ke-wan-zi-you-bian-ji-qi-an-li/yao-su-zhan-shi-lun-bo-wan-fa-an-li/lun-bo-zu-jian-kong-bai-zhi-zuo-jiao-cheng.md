@@ -19,7 +19,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 ## <mark style="color:blue;">二、效果预览</mark> <a href="#dlwsv" id="dlwsv"></a>
 
-<table><thead><tr><th width="205.33333333333331">手机试玩效果最佳</th><th>竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image.png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation1.gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/4mjzxhkz">点击试玩</a></td><td><a href="https://tinyurl.com/4mjzxhkz">点击试玩</a></td></tr></tbody></table>
+<table><thead><tr><th width="205.33333333333331">手机试玩效果最佳</th><th>竖屏</th><th>横屏</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (15).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation1.gif" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/Animation2.gif" alt="" data-size="original"></td></tr><tr><td>扫码试玩</td><td><a href="https://tinyurl.com/4mjzxhkz">点击试玩</a></td><td><a href="https://tinyurl.com/4mjzxhkz">点击试玩</a></td></tr></tbody></table>
 
 
 
@@ -34,7 +34,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="497"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="497"><figcaption></figcaption></figure>
 
 </div>
 
@@ -46,7 +46,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 **场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="133">场景名称</th><th width="279">场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (2).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>引导玩家点击箭头切换造型</td><td>产品信息+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>角色造型*3、切换箭头、操作指引</p><p><strong>视听包装：</strong>闪光粒子特效、点击音效</p></td><td><p><strong>静帧图片：</strong>背景图片、logo、跳转按钮</p><p><strong>视听包装：</strong>星光粒子特效</p></td></tr><tr><td><strong>核心动画</strong></td><td><strong>指引手指&#x26;确认按钮：</strong>脉冲向前</td><td><strong>跳转按钮：</strong>脉冲向前</td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>轮播组件</p><p><strong>触发事件：</strong>切换轮播时</p><p><strong>响应事件：</strong>播放动效反馈</p></td><td><p><strong>触发对象：</strong>跳转按钮</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="133">场景名称</th><th width="279">场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>引导玩家点击箭头切换造型</td><td>产品信息+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>角色造型*3、切换箭头、操作指引</p><p><strong>视听包装：</strong>闪光粒子特效、点击音效</p></td><td><p><strong>静帧图片：</strong>背景图片、logo、跳转按钮</p><p><strong>视听包装：</strong>星光粒子特效</p></td></tr><tr><td><strong>核心动画</strong></td><td><strong>指引手指&#x26;确认按钮：</strong>脉冲向前</td><td><strong>跳转按钮：</strong>脉冲向前</td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>轮播组件</p><p><strong>触发事件：</strong>切换轮播时</p><p><strong>响应事件：</strong>播放动效反馈</p></td><td><p><strong>触发对象：</strong>跳转按钮</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
 
 
 
@@ -64,7 +64,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 2）在【全局场景】下添加常驻下载按钮、logo等产品信息，并调整各资产的位置大小，进行合理编组
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **2. 场景1**
 
@@ -72,25 +72,25 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="408"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt="" width="408"><figcaption></figcaption></figure>
 
 </div>
 
 2）添加指引手指、指引文案、确认按钮、点击音效，并调整各资产的位置大小，进行合理编组
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.场景2
 
 1）在场景2中添加产品logo、跳转按钮及背景图片，调整背景图的尺寸和模糊度
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）将场景2勾选为【结束场景】，并取消勾选启用【全局场景】
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -176,17 +176,27 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 #### **1.调整横屏排版**
 
-1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含遮罩组件)，使用【复用竖屏位置尺寸配置】功能一键排版
+1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含轮播组件)，使用【复用竖屏位置尺寸配置】功能一键排版
 
-<figure><img src="../../../.gitbook/assets/image (2129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 2）再分别调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 3）同理，我们再依次切换到【场景2】和【全局场景】，完成横屏的排版
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (2129).png" alt=""><figcaption><p>全局场景</p></figcaption></figure>
 
 #### 2.调整屏幕适配方式 <a href="#tpuup" id="tpuup"></a>
 
-在本案例中，我们想要竖屏下的产品信息组\[group\_icon]始终位于各机型屏幕的顶部，所以我们调整其"屏幕适配方式"为贴顶适配（其他图层默认居中适配，无需调整）
+在本案例中，我们可以将产品信息组\[group\_info]的"屏幕适配方式"在横屏下设为 贴左上角适配；在竖屏下设为 贴顶适配（其他图层默认居中适配，无需调整）
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>横屏</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>竖屏</p></figcaption></figure>
 
 
 
@@ -194,33 +204,37 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 在本案例中，用到的动画和粒子特效如下，我们依次展开介绍
 
-**场景1：**指引手指位移动画、指引文案闪烁动画
+**场景1：**指引手指点击动画、确认按钮缩放动画、闪光粒子特效
 
-**场景2：**反馈文本&跳转按钮缩放动画、背景光旋转动画、星星粒子
+**场景2：**跳转按钮缩放动画、星光粒子特效
 
-#### **1.指引手指：**位移缓动
+#### 1.指引手指：脉冲向前
 
-选中手指图片\[gf\_hand]，添加动画-通用-位移缓动，作为循环指引动画。参数设置如下：
+选中手指图片\[gf\_hand]，添加动画-强调动画-脉冲向前，作为循环点击动画。参数设置如下：
 
-#### **2.指引文本：**闪烁
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-选中指引文本\[text\_guide]，添加动画-强调动画-闪烁，作为循环指引动画。参数设置如下：
+#### **2.**确认按钮：脉冲向前
 
-#### 3.跳转按钮&反馈文本：脉冲向前
+复制该动画到按钮组\[group\_btn]，微调参数，关闭自动播放，作为循环指引动画。参数设置如下：
 
-1）选中跳转按钮组\[btn\_end]，添加动画-强调动画-脉冲向前，作为循环指引动画。参数设置如下：
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-2）复制该动画到反馈文本\[text\_feedback]，微调参数，作为循环展示动画。参数设置如下：
+#### 3.跳转按钮：脉冲向前
 
-#### 4.背景光：旋转缓动
+复制该动画到场景2的跳转按钮组\[ctat]，微调参数，作为循环指引动画。参数设置如下：
 
-选中背景光图片\[light]，添加动画-通用-旋转缓动，作为效果补充动画。参数设置如下：
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-#### 5.粒子特效
+#### 4.粒子特效
 
-1）打开公共粒子库，选择并添加合适的粒子特效(如星星粒子)，用来丰富画面效果
+1）打开公共粒子库，选择并添加合适的粒子特效(如闪光粒子)，用来丰富画面效果
 
 2）调整粒子到合适的位置（注意横竖屏都要调整）
+
+3）注意：场景1的粒子需先设为"隐藏"状态，后续通过事件控制播放
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -228,45 +242,42 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 完成所有动效的设置，我们对试玩的逻辑 也就是"事件"进行设置
 
-本案例与事件设置相关的内容有：按下遮罩形状时隐藏操作指引；拖拽遮罩形状到指定位置后跳转结束场景；按下跳转按钮后跳转应用商店
+本案例与事件设置相关的内容有：切换轮播时播放一系列效果反馈；按下确认按钮跳转下一场景；按下跳转按钮后跳转应用商店
 
 接下来，我们按顺序依次讲解
 
-#### <mark style="color:red;">1.图层: 遮罩形状</mark>
+#### <mark style="color:red;">1.图层: 轮播组件</mark>
 
-1）选中\[矩形]，**添加事件 - 按下**，依次添加响应事件：
+选中轮播组件，**添加事件 - 切换轮播时**，依次添加响应事件：
 
-* 设置埋点。选择埋点id1，并编辑埋点名称为"玩家首次按下"
-* 隐藏操作指引
+* 隐藏指引手指
+* 从头播放确认按钮的缩放动画
+* 显示并播放粒子特效
 * 从头播放1次点击音效
 
-2）**添加事件 - 拖拽到指定位置**，并依次编辑【指定区域】和【自定义拖拽范围】，选择拖拽方向为【水平方向】
-
-_（若选择"全屏"范围内拖拽，可能会出现拖拽距离过远，露出黑白底图的情况）_
-
-3）依次添加响应事件：
-
-* 设置埋点。选择埋点id2，并编辑埋点名称为"成功完成涂色"
-* 跳转到下一场景
-
-
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.图层: 跳转按钮组
 
-选中跳转按钮组\[btn\_end]，**添加事件 - 按下**，依次添加响应事件：
+选中跳转按钮组\[ctat]，**添加事件 - 按下**，添加响应事件：跳转应用商店
 
-* 设置埋点。选择埋点id3，并编辑埋点名称为"结束页触发跳转"
-* 跳转应用商店
+<div align="left">
 
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
+</div>
 
 #### 3.图层: 常驻下载按钮组
 
-选中常驻下载按钮组\[group\_ctat]，**添加事件 - 按下**，添加响应事件 - 跳转应用商店
+复制该事件到常驻下载按钮组\[ctat]
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 以上，就是本案例用到的全部事件。完成所有事件设置，我们的素材就制作完成了。
-
-
 
 
 
@@ -276,8 +287,12 @@ _（若选择"全屏"范围内拖拽，可能会出现拖拽距离过远，露�
 
 2）全部制作完成后，可对不同机型/不同语言/横竖屏进行整体预览，确认无误
 
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
 
 
 ## <mark style="color:blue;">六、资源提供</mark>
 
-在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器和【遮罩组件】制作此类素材
+在教程最后，我们为您**提供了本案例所使用到的全部资源，**点击压缩包即可下载。您可以用此资源跟着教程尝试制作，以便尽快上手使用自由编辑器和【轮播组件】制作此类素材
+
+{% file src="../../../.gitbook/assets/轮播组件_空白制作_资源.zip" %}

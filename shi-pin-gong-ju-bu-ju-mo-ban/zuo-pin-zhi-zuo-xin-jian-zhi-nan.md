@@ -20,7 +20,7 @@ _<mark style="background-color:yellow;">\*主视频是指已经完成视频创�
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,4 +42,4 @@ _<mark style="background-color:yellow;">\*主视频是指已经完成视频创�
 
 💡注：创建后的项目，位于**我的项目>>>视频项目>>>视频编辑器**列表中
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
