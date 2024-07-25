@@ -12,7 +12,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -282,7 +282,7 @@ description: '#自由编辑器 #模板自由制作 #空白制作'
 
 #### <mark style="background-color:red;">4.1 触发事件</mark>
 
-<table><thead><tr><th width="184">触发事件</th><th width="317">触发设置</th><th>截图</th></tr></thead><tbody><tr><td><strong>切换轮播时</strong></td><td><p>-需选择对应的轮播组</p><p>-触发时机为：选择的轮播组，轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一资源</strong></td><td><p>-需选择对应的轮播组与对应的组内资源</p><p>-触发时机为：特定资源轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一类别的资源</strong></td><td><p>-需选择对应的轮播组与对应的资源类别</p><p>-触发时机为：将对应资源类别的资源轮播到展示位时</p></td><td><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="184">触发事件</th><th width="317">触发设置</th><th>截图</th></tr></thead><tbody><tr><td><strong>切换轮播时</strong></td><td><p>-需选择对应的轮播组</p><p>-触发时机为：选择的轮播组，轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一资源</strong></td><td><p>-需选择对应的轮播组与对应的组内资源</p><p>-触发时机为：特定资源轮播完成停住时，触发响应事件</p></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>轮播到某一类别的资源</strong></td><td><p>-需选择对应的轮播组与对应的资源类别</p><p>-触发时机为：将对应资源类别的资源轮播到展示位时</p></td><td><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr></tbody></table>
 
 
 
