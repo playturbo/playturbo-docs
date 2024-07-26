@@ -1,5 +1,5 @@
 ---
-description: '#换肤编辑器'
+description: '#换肤编辑器 #3D模板'
 ---
 
 # 3D模板
@@ -12,21 +12,23 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 ## <mark style="color:blue;">一、项目创建</mark>
 
-1）在「模版库」-「可玩模版」页面，筛选类型为「3D」的模板，即可展示所有3D模版
+1）在「模版库」-「可玩模版」页面，筛选类型为「3D」的模板，即可展示当前所有3D模版
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/944B68CD-8AD3-49ac-ACDC-6FF0E82BD4E8.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-2）点击模版进行预览。注意，一个模版中可能包含多套皮肤，不同皮肤可能对应不同的玩法、资源、游戏逻辑，可切换皮肤进行预览，并选择最适合的皮肤创建项目
+2）点击模版进行预览。预览界面会展示当前模板的玩法标签，以及该模板使用的模板数量与动作数量
+
+温馨提示：一个模板可能包含多套皮肤，用于替换不同的模型和玩法参数；可切换皮肤进行预览，并选择最适合的皮肤创建项目
 
 3）确认皮肤后，点击「换肤制作」 - 「普通制作」 ，填写项目名称后即进入编辑页面
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1836).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2806537A-023C-43bd-AC07-B6057DAD00BA.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -34,14 +36,17 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 ## <mark style="color:blue;">二、换肤制作</mark>
 
-✨对比常规2D模板，创建3D模板换肤制作项目后，编辑页面新增了【预设及镜头】、【3D资源】、【玩法】这三个模块
+💡对比2D模板，3D模板换肤制作项目，编辑页面新增了【预设及镜头】这一模块
 
-✨建议操作流程：
+💡**建议操作流程：**
 
-* 先在「预设及镜头」，对预设值、屏幕适配、镜头参数进行调整
-* 再依次进入「3D资源」、「常驻元素」、「场景」内，对3D模型资源及其他资源进行替换、调整
+1）先在「预设及镜头」，对预设、屏幕适配、相机 这三部分参数进行调整
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+2）再依次进入「常驻元素」和「场景」，对3D模型资源及其他2D资源进行替换、调整
+
+3）如有翻译多语言版本的需求，可进入「语言配置」模块添加或修改语言
+
+<figure><img src="../../.gitbook/assets/3E996892-41DB-42ec-8798-6EFE64A9C913.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -49,11 +54,13 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 「预设及镜头」包含三部分：预设、屏幕适配、相机
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 #### <mark style="background-color:blue;">1.1 预设</mark>
 
 * 「预设」是一系列游戏逻辑、素材模型的集合，可通过切换预设，实现不同游戏逻辑、不同场景、不同模型的素材产出
 * 「预设」为单选切换
-* 调整「预设」后可能会使用到不同的模型，可前往场景内调整具体资源及玩法
+* 调整「预设」后可能会使用到不同的模型，需前往场景内调整具体资源及玩法
 
 <div align="left">
 
@@ -196,11 +203,3 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 </div>
 
 完成「预设及镜头」和「3D资源」的调整后，可继续进入「常驻元素」、「场景」，对其他资源进行替换与调整
-
-
-
-### 3.玩法
-
-在「玩法」一栏，可对当前项目的玩法参数进行调整
-
-<figure><img src="../../.gitbook/assets/image (1851).png" alt=""><figcaption></figcaption></figure>
