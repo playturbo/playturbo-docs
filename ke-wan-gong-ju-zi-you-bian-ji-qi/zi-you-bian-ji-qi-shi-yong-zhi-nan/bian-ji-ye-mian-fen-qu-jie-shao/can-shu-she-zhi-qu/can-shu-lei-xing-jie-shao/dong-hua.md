@@ -24,7 +24,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -74,7 +74,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -86,7 +86,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -166,11 +166,11 @@ description: '#自由编辑器'
 
 以动画_位移缓动_为例，横轴代表时间，纵轴代表位移距离，下面列举2个常见动画的调整方法
 
-| **a. 物体在起点停留一段时间后，再开始运动**                                                                                            | **b. 物体在始末位置停留一段时间，并来回运动**                                                                                               |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 将曲线起点向右移动（延迟动画开始时间），物体会在红框时间段内完成移动；                                                                                  | <p>① 动画【循环次数】选择：双向循环；</p><p>② 将曲线起点向右移动，并将曲线终点向左移动（延迟动画开始时间并提早结束动画），物体会在红框时间段内完成移动；</p>                                  |
-| <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
-| <img src="../../../../../.gitbook/assets/image1.webp" alt="" data-size="original">                                   | <img src="../../../../../.gitbook/assets/image2.webp" alt="" data-size="original">                                       |
+| **a. 物体在起点停留一段时间后，再开始运动**                                                                                                | **b. 物体在始末位置停留一段时间，并来回运动**                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| 将曲线起点向右移动（延迟动画开始时间），物体会在红框时间段内完成移动；                                                                                      | <p>① 动画【循环次数】选择：双向循环；</p><p>② 将曲线起点向右移动，并将曲线终点向左移动（延迟动画开始时间并提早结束动画），物体会在红框时间段内完成移动；</p>                                      |
+| <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> |
+| <img src="../../../../../.gitbook/assets/image1.webp" alt="" data-size="original">                                       | <img src="../../../../../.gitbook/assets/image2.webp" alt="" data-size="original">                                           |
 
 更多常用动画的设置方法可查阅 [zhi-zuo-ji-qiao-dong-hua-she-zhi.md](../../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-dong-hua-she-zhi.md "mention")
 

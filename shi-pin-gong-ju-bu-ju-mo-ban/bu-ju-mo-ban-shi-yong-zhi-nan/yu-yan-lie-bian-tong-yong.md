@@ -33,11 +33,11 @@
 
 <figure><img src="../../.gitbook/assets/image (2059).png" alt=""><figcaption></figcaption></figure>
 
-2.点击AI按钮，可使用AI工具进行文本处理，包括：重新翻译、丰富内容、精简内容
+2.点击AI按钮，可使用AI工具进行文本处理，包括：重新翻译、丰富内容、精简内容。也支持在文本框输入自定义指令，如：缩短字数限制在10个字之内
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2060).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -85,7 +85,7 @@
 
 #### 1）查看原语言文本的断句是否需要调整。**若调整，该句字幕下的所有语言都会随之一起变动**
 
-* 支持AI功能：可对原语言文本进行：丰富内容、精简内容
+* 支持AI功能：可对原语言文本进行：丰富内容、精简内容。也支持在文本框输入自定义指令，如：缩短字数限制在10个字之内
 * 可将长字幕分割为短字幕，分割位置为鼠标点击的位置；同理，也可将短字幕合并为长字幕（支持向上合并&向下合并）
 * 支持新增字幕坑位、删除当前字幕
 
@@ -118,7 +118,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2076).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -129,6 +129,14 @@
 💡<mark style="color:red;">该文本样式将同步应用到所有语言</mark>
 
 <figure><img src="../../.gitbook/assets/image (2069).png" alt=""><figcaption></figcaption></figure>
+
+* 支持按语言选择字体（若有小众语言出现方块字，可自行从本地上传字体包）
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 

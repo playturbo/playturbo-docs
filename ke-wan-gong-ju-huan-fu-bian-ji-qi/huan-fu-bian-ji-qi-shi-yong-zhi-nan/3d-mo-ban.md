@@ -54,7 +54,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 「预设及镜头」包含三部分：预设、屏幕适配、相机
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="background-color:blue;">1.1 预设</mark>
 

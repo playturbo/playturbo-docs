@@ -34,7 +34,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="497"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="497"><figcaption></figcaption></figure>
 
 </div>
 
@@ -46,7 +46,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 **场景拆分：**根据上一环节的玩法梳理，我们可将本案例拆分为2个场景来制作
 
-<table data-full-width="false"><thead><tr><th width="133">场景名称</th><th width="279">场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>引导玩家点击箭头切换造型</td><td>产品信息+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>角色造型*3、切换箭头、操作指引</p><p><strong>视听包装：</strong>闪光粒子特效、点击音效</p></td><td><p><strong>静帧图片：</strong>背景图片、logo、跳转按钮</p><p><strong>视听包装：</strong>星光粒子特效</p></td></tr><tr><td><strong>核心动画</strong></td><td><strong>指引手指&#x26;确认按钮：</strong>脉冲向前</td><td><strong>跳转按钮：</strong>脉冲向前</td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>轮播组件</p><p><strong>触发事件：</strong>切换轮播时</p><p><strong>响应事件：</strong>播放动效反馈</p></td><td><p><strong>触发对象：</strong>跳转按钮</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="133">场景名称</th><th width="279">场景1-核心玩法</th><th>场景2-结束场景</th></tr></thead><tbody><tr><td><strong>效果图</strong></td><td><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td><strong>场景描述</strong></td><td>引导玩家点击箭头切换造型</td><td>产品信息+跳转按钮</td></tr><tr><td><strong>核心资产</strong></td><td><p><strong>静帧图片：</strong>角色造型*3、切换箭头、操作指引</p><p><strong>视听包装：</strong>闪光粒子特效、点击音效</p></td><td><p><strong>静帧图片：</strong>背景图片、logo、跳转按钮</p><p><strong>视听包装：</strong>星光粒子特效</p></td></tr><tr><td><strong>核心动画</strong></td><td><strong>指引手指&#x26;确认按钮：</strong>脉冲向前</td><td><strong>跳转按钮：</strong>脉冲向前</td></tr><tr><td><strong>核心事件</strong></td><td><p><strong>触发对象：</strong>轮播组件</p><p><strong>触发事件：</strong>切换轮播时</p><p><strong>响应事件：</strong>播放动效反馈</p></td><td><p><strong>触发对象：</strong>跳转按钮</p><p><strong>触发事件：</strong>按下</p><p><strong>响应事件：</strong>跳转应用商店</p></td></tr></tbody></table>
 
 
 
@@ -178,15 +178,15 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 1）在场景1中切换到横屏模式，选中所有最高层级的图层(包含轮播组件)，使用【复用竖屏位置尺寸配置】功能一键排版
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）再分别调整各图层的【位置】和【缩放比例】，让画面展示出完整的核心玩法相关内容
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3）同理，我们再依次切换到【场景2】和【全局场景】，完成横屏的排版
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>场景2</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2129).png" alt=""><figcaption><p>全局场景</p></figcaption></figure>
 
@@ -194,9 +194,9 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 在本案例中，我们可以将产品信息组\[group\_info]的"屏幕适配方式"在横屏下设为 贴左上角适配；在竖屏下设为 贴顶适配（其他图层默认居中适配，无需调整）
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>横屏</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>横屏</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>竖屏</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>竖屏</p></figcaption></figure>
 
 
 
@@ -263,7 +263,7 @@ description: '#自由编辑器 #空白制作 #轮播组件 #初级难度'
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
