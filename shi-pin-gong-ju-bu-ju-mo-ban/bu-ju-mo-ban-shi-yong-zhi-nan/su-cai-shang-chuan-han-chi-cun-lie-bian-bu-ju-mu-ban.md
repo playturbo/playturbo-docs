@@ -4,23 +4,31 @@
 
 ## <mark style="color:blue;">一、素材上传</mark>
 
-1.点击坑位旁的"+"号，从本地或资产库中上传素材
-
-2.根据布局模版结构，将所需素材一一上传到相应坑位中，如主视频、LOGO图，背景图等&#x20;
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-💡<mark style="color:red;">**温馨提示：添加素材后需要删除原视频模板附带的素材哦**</mark>
+1.选中模板原始资源，点击"替换"按钮，可从本地或资产库中选取同类资源进行替换
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+2.点击坑位旁的"+"号，可上传多条素材
+
+3.根据布局模版结构，将所需素材一一上传到相应坑位中，如主视频、LOGO图，背景图等&#x20;
+
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+💡<mark style="color:red;">**温馨提示：原视频模板附带的素材（如视频/logo等），建议直接替换掉或删除哦！否则会被一同计算进导出的总数量中**</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 💡**温馨提示：鼠标悬浮于【素材上传】旁的符号，可查看每种类型素材的上传格式要求**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -33,7 +33,7 @@
 
 <figure><img src="../../.gitbook/assets/image (2059).png" alt=""><figcaption></figcaption></figure>
 
-2.点击AI按钮，可使用AI工具进行文本处理，包括：重新翻译、丰富内容、精简内容。也支持在文本框输入自定义指令，如：缩短字数限制在10个字之内
+2.点击AI按钮，可使用AI工具进行文本处理，包括：重新翻译、丰富内容、精简内容。也支持在文本框输入自定义指令，如：缩短字数在10个字之内
 
 <div align="left">
 
@@ -49,15 +49,11 @@
 
 </div>
 
-4.点击图示按钮，可修改文本样式
+4.点击图示按钮，可修改文本样式；支持按语言选择不同字体
 
 💡<mark style="color:red;">该文本样式将同步应用到所有语言</mark>
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (2062).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -118,25 +114,18 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 #### 3）修改字幕样式
 
-* 点击图示按钮，可修改**字幕样式**和**位置大小**
+* 点击图示按钮，可修改**字幕样式**和**位置大小；**
+* 支持按语言选择不同字体（若有小众语言出现方块字，可自行从本地上传相应字体包）
 
 💡<mark style="color:red;">该文本样式将同步应用到所有语言</mark>
 
-<figure><img src="../../.gitbook/assets/image (2069).png" alt=""><figcaption></figcaption></figure>
-
-* 支持按语言选择字体（若有小众语言出现方块字，可自行从本地上传字体包）
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

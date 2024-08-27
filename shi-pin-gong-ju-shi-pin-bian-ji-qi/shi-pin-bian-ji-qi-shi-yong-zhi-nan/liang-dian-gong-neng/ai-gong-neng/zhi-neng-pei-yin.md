@@ -26,8 +26,7 @@ description: 为字幕智能生成AI配音
 
 <figure><img src="../../../../.gitbook/assets/image (2110).png" alt=""><figcaption></figcaption></figure>
 
-* 字幕设置完毕，点击【生成配音】
-* 在弹窗内选择AI配音的音色（支持试听），点击【生成】
+* 点击【生成配音】，在弹窗内选择AI配音的音色（支持试听），点击【生成】
 
 <figure><img src="../../../../.gitbook/assets/image (2113).png" alt=""><figcaption></figcaption></figure>
 
@@ -39,3 +38,11 @@ description: 为字幕智能生成AI配音
 * 支持【自动更新配音】功能。打开后，若字幕有所调整，配音会实时更新
 
 <figure><img src="../../../../.gitbook/assets/image (2116).png" alt=""><figcaption></figcaption></figure>
+
+* 针对部分字幕，也支持选择【不使用配音】
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</div>

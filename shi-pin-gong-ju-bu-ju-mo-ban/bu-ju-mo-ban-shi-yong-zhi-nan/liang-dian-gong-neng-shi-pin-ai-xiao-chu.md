@@ -93,5 +93,6 @@
 <figure><img src="../../.gitbook/assets/image (1920).png" alt=""><figcaption></figcaption></figure>
 
 * 任务提交后，您可以在导航栏的任务中心查看历史任务进展
+* AI消除过程中也可以点击【导出】，系统会在AI消除完毕时自动开启导出任务
 
 <figure><img src="../../.gitbook/assets/image (2080).png" alt=""><figcaption></figcaption></figure>

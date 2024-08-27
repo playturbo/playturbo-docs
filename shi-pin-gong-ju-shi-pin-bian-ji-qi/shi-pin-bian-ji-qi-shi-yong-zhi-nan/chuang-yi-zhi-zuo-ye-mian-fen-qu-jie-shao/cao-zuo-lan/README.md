@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,14 +42,14 @@
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 * 【语言裂变】：对视频进行多语言翻译，并支持音色克隆、图片裂变等
   * 具体操作可查阅 [yu-yan-lie-bian-shi-pin-bian-ji-qi.md](../../liang-dian-gong-neng/yu-yan-lie-bian-shi-pin-bian-ji-qi.md "mention")
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -17,7 +17,7 @@
 
 ## <mark style="color:blue;">二、语言裂变: 布局模板&视频内容</mark>
 
-使用操作同布局模板中的【语言裂变】一样，可直接查阅 [yu-yan-lie-bian-tong-yong.md](../../../shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/yu-yan-lie-bian-tong-yong.md "mention")
+<mark style="background-color:red;">大致的使用操作同布局模板中的【语言裂变】一样，可直接查阅</mark> [yu-yan-lie-bian-tong-yong.md](../../../shi-pin-gong-ju-bu-ju-mo-ban/bu-ju-mo-ban-shi-yong-zhi-nan/yu-yan-lie-bian-tong-yong.md "mention")
 
 
 
@@ -37,7 +37,7 @@
   * **智能识别：**勾选需要生成字幕的视频后，点击【识别】
   * 手动添加：在文本框内手动输入字幕内容
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

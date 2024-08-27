@@ -58,7 +58,7 @@ description: '#自由编辑器 #模板自由制作'
 * 替换完成后，如有需要，可对图层的位置大小进行简单调整
 * 调整完毕点击【保存】，然后【返回项目编辑】即可
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.2 <mark style="color:red;">其他操作不建议，否则可能会报错</mark>
 
@@ -86,4 +86,4 @@ description: '#自由编辑器 #模板自由制作'
 
 <mark style="color:red;">Tips：在【可玩模板】界面点击【快捷排版】，即可快速筛选出支持</mark><mark style="color:red;">**快捷布局**</mark><mark style="color:red;">功能的模板哦！</mark>
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
