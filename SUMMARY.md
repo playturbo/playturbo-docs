@@ -142,7 +142,7 @@
         * [滤镜资源及其参数](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/chuang-yi-zhi-zuo-ye-mian-fen-qu-jie-shao/can-shu-tiao-zheng-qu/l-jing-zi-yuan-ji-qi-can-shu.md)
       * [轨道区](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/chuang-yi-zhi-zuo-ye-mian-fen-qu-jie-shao/gui-dao-qu.md)
       * [操作栏](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/chuang-yi-zhi-zuo-ye-mian-fen-qu-jie-shao/cao-zuo-lan/README.md)
-        * [详细介绍：视频导出&下载推送](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/chuang-yi-zhi-zuo-ye-mian-fen-qu-jie-shao/cao-zuo-lan/xiang-xi-jie-shao-shi-pin-dao-chu-xia-zai-tui-song.md)
+        * [详细介绍：视频导出&下载](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/chuang-yi-zhi-zuo-ye-mian-fen-qu-jie-shao/cao-zuo-lan/xiang-xi-jie-shao-shi-pin-dao-chu-xia-zai.md)
     * [视频模板-使用建议](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/shi-pin-mu-ban-shi-yong-jian-yi.md)
     * [亮点功能](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/liang-dian-gong-neng/README.md)
       * [批量组合功能(叉乘)](shi-pin-gong-ju-shi-pin-bian-ji-qi/shi-pin-bian-ji-qi-shi-yong-zhi-nan/liang-dian-gong-neng/pi-liang-zu-he-gong-neng-cha-cheng/README.md)
