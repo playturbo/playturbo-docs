@@ -35,7 +35,7 @@ description: '#订阅 #定制'
 
 “素材监控”可见不同素材类型维度的数据，同时可见不同广告类型维度的数据。
 
-<figure><img src="../../.gitbook/assets/d.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/c6f4b0d571013fad80521102ba41c5c2 (1).png" alt=""><figcaption></figcaption></figure>
 
 **1）勾选对应的广告呈现类型，可查看不同素材组合具体的投放表现。Mintegral的广告呈现类型分为：**
 
@@ -47,12 +47,12 @@ description: '#订阅 #定制'
 
 **2）查看试玩素材投放效果**
 
-* 点开“高级选项”， 取消勾选“素材ID”和“素材名称”，勾选“结束卡片ID”、“结束卡片名称” 与“广告呈现类型”。
-* 选择“应用试玩创意”或者“应用动态创意”，可以分别查看对应素材投放的效果。
+* 点开“高级选项”， 取消勾选“素材ID”和“素材名称”，勾选“结束卡片ID”、“结束卡片名称” 与“广告呈现类型”
+* 选择“应用试玩创意”或者“应用动态创意”，可以分别查看对应素材投放的效果
 
-<figure><img src="../../.gitbook/assets/监控3.png" alt=""><figcaption><p>Playable数据查看</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dac23dbbb9865a1428667cbece96b451.png" alt=""><figcaption><p>应用试玩创意</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/监控2.png" alt=""><figcaption><p>iec数据查看</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3ad75580e8ccbd4c5a44aa7b376142e1.png" alt=""><figcaption><p>应用动态创意</p></figcaption></figure>
 
 
 
@@ -65,14 +65,6 @@ description: '#订阅 #定制'
 * IEC+Playable 所有交互素材的转化安装：11042+21619=32661，占74.60%
 
 <figure><img src="../../.gitbook/assets/c688ccc7dd756ece30e0c11ff2fa32bd.png" alt=""><figcaption><p>示例</p></figcaption></figure>
-
-💡Mintegral导出数据筛选维度：
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/c6f4b0d571013fad80521102ba41c5c2 (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 
 
@@ -133,11 +125,3 @@ _auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1
 <figure><img src="../../.gitbook/assets/9fca3c14d026f5744345efd7bc085b4b.png" alt=""><figcaption><p>示例</p></figcaption></figure>
 
 </div>
-
-
-
-💡 Mintegral导出数据筛选维度：
-
-<figure><img src="../../.gitbook/assets/dac23dbbb9865a1428667cbece96b451.png" alt=""><figcaption><p>应用试玩创意</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/3ad75580e8ccbd4c5a44aa7b376142e1.png" alt=""><figcaption><p>应用动态创意</p></figcaption></figure>
