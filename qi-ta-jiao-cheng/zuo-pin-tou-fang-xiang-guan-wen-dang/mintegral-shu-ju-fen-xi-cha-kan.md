@@ -43,7 +43,11 @@ description: '#订阅 #定制'
 * 应用动态创意：投放展示中素材组合包含互动式结束页（iec）
 * 应用试玩创意：投放展示中素材组合包含互动素材（2d/3d 试玩素材)
 
-<figure><img src="../../.gitbook/assets/监控1.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/1b71411b5fb80e11a17075898ab6b2d1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **2）查看试玩素材投放效果**
 
@@ -56,7 +60,7 @@ description: '#订阅 #定制'
 
 
 
-## <mark style="color:blue;">三、数据查看详细说明</mark>
+## <mark style="color:blue;">三、“素材监控”数据查看 详细说明</mark>
 
 ### 1.按<mark style="color:green;">广告呈现类型Ad Output Type</mark>看安装转化效果
 
