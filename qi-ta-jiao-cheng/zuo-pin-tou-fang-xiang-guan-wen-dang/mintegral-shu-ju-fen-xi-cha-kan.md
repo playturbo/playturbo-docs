@@ -60,7 +60,11 @@ description: '#订阅 #定制'
 
 Mintegral导出数据筛选维度：
 
-<figure><img src="../../.gitbook/assets/c6f4b0d571013fad80521102ba41c5c2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dac23dbbb9865a1428667cbece96b451.png" alt=""><figcaption><p>应用试玩创意</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/3ad75580e8ccbd4c5a44aa7b376142e1.png" alt=""><figcaption><p>应用动态创意</p></figcaption></figure>
+
+
 
 ### 1.按<mark style="color:green;">广告呈现类型Ad Output Type</mark>看安装转化效果
 
@@ -74,9 +78,11 @@ Mintegral导出数据筛选维度：
 
 ### 2.按<mark style="color:green;">创意名称Ad Name</mark>看安装转化效果
 
-💡 创意名称Ad Name = 创意组名称 Creative Set Name + 素材名称 Creative Name + 结束卡片名称 Endcard Name
+创意名称Ad Name = **创意组名称 Creative Set Name** + **素材名称 Creative Name** + **结束卡片名称 Endcard Name**
 
 <mark style="color:red;">创意组是一个包含多个素材的组合，可以放进去视频/可玩/图片三种类型的素材，但是至少包含1个视频，1个1200x627图片，1个icon；一般是多个视频，多个可玩素材，多个图片，一个icon</mark>
+
+#### 2-1）创意名称 **Ad Name**
 
 * 创意名称1: auto\_default\_ALL\_Video\_1.mp4  安装转化50个，占比5.10%；
 * 创意名称2: auto\_default\_ALL\_Video\_1\_.mp4\_Image\_1.jpg 安装转化100个，占比10.20%；
@@ -95,13 +101,13 @@ _auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1
 
 
 
-### 3.按<mark style="color:green;">素材名称 Creative Or Endcard</mark> 看安装转化效果
+#### 2-2）素材 **Creative** Or **Endcard**（作为<mark style="color:green;">单个素材Creative投放</mark> 或 <mark style="color:green;">作为结束页卡片Endcard配合投放</mark> 看转化效果）
 
-<mark style="color:red;">注意：如果同一条可玩素材作为Endcard与视频素材配合作为创意一起投放时候，按结束页卡片名称查看素材数据；如果同一条可玩素材单独投放的时候，按创意名称查看素材数据。</mark>
+<mark style="color:red;">注意：如果同一条可玩素材作为Endcard与视频素材配合作为创意一起投放时候，按</mark><mark style="color:red;">**结束页卡片名称**</mark><mark style="color:red;">查看素材数据；如果同一条可玩素材单独投放的时候，按</mark><mark style="color:red;">**创意名称**</mark><mark style="color:red;">查看素材数据。</mark>
 
 同一条素材需要分开作为素材或作为结束页卡片查看数据，大部分时候可玩素材都是作为结束页卡片进行投放。
 
-#### 1）可玩素材<mark style="color:green;">作为Endcard</mark> 的时候转化效果：
+#### ⭐可玩素材<mark style="color:green;">作为Endcard</mark> 的时候转化效果：
 
 * 可玩素材A作为Endcard 的时候转化效果 Playable\_1\_android 安装转化1000个；
 * 可玩素材B作为Endcard 的时候转化效果 IEC\_1\_android 安装转化800个；
@@ -110,11 +116,11 @@ _auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/5157bffd9c29ad6c6631f42b352a8fe3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5157bffd9c29ad6c6631f42b352a8fe3.png" alt=""><figcaption><p>示例</p></figcaption></figure>
 
 </div>
 
-#### 2）可玩素材<mark style="color:green;">单独作为创意Creative</mark> 的时候转化效果：
+#### ⭐可玩素材<mark style="color:green;">单独作为创意Creative</mark> 的时候转化效果：
 
 * 可玩素材A单独作为创意Creative 的时候转化效果 Playable\_1\_android 安装转化200个；
 * 可玩素材B单独作为创意Creative 的时候转化效果 Playable\_2\_android 安装转化1个；
@@ -124,6 +130,6 @@ _auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/9fca3c14d026f5744345efd7bc085b4b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9fca3c14d026f5744345efd7bc085b4b.png" alt=""><figcaption><p>示例</p></figcaption></figure>
 
 </div>
