@@ -74,9 +74,9 @@ Mintegral导出数据筛选维度：
 
 ### 2.按<mark style="color:green;">创意名称Ad Name</mark>看安装转化效果
 
-_**创意名称是创意组名称+素材名称+结束卡片名称：**_
+💡 创意名称Ad Name = 创意组名称 Creative Set Name + 素材名称 Creative Name + 结束卡片名称 Endcard Name
 
-_auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1.jpg和icon\_512x512 是图片素材；IEC\_1\_android (html5格式）是动态结束卡片素材；Playable\_1\_android (html5格式）是可玩素材_
+<mark style="color:red;">创意组是一个包含多个素材的组合，可以放进去视频/可玩/图片三种类型的素材，但是至少包含1个视频，1个1200x627图片，1个icon；一般是多个视频，多个可玩素材，多个图片，一个icon</mark>
 
 * 创意名称1: auto\_default\_ALL\_Video\_1.mp4  安装转化50个，占比5.10%；
 * 创意名称2: auto\_default\_ALL\_Video\_1\_.mp4\_Image\_1.jpg 安装转化100个，占比10.20%；
@@ -84,6 +84,8 @@ _auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1
 * 创意名称4: auto\_default\_ALL\_Video\_1.mp4\_IEC\_1\_android 安装转化100个，占比10.20%；
 * 创意名称5: auto\_default\_ALL\_Video\_1.mp4\_Playable\_1\_android 安装转化500个，占比51.02%；
 * 创意名称6: auto\_default\_ALL\_Playable\_1\_android 安装转化200个，占比20.41%
+
+_auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1.jpg和icon\_512x512 是图片素材；IEC\_1\_android (html5格式）是动态结束卡片素材；Playable\_1\_android (html5格式）是可玩素材_
 
 <div align="left">
 
