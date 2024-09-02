@@ -78,8 +78,6 @@ description: '#订阅 #定制'
 
 <mark style="color:red;">创意组是一个包含多个素材的组合，可以放进去视频/可玩/图片三种类型的素材，但是至少包含1个视频，1个1200x627图片，1个icon；一般是多个视频，多个可玩素材，多个图片，一个icon</mark>
 
-#### 2-1）创意名称 **Ad Name**
-
 * 创意名称1: auto\_default\_ALL\_Video\_1.mp4  安装转化50个，占比5.10%；
 * 创意名称2: auto\_default\_ALL\_Video\_1\_.mp4\_Image\_1.jpg 安装转化100个，占比10.20%；
 * 创意名称3: auto\_default\_ALL\_icon\_512x512 安装转化30个，占比3.06%；
@@ -97,7 +95,7 @@ _auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1
 
 
 
-#### 2-2）素材 **Creative** Or **Endcard**（作为<mark style="color:green;">单个素材Creative投放</mark> 或 <mark style="color:green;">作为结束页卡片Endcard配合投放</mark> 看转化效果）
+### 3.按可玩素材<mark style="color:green;">作为单个素材Creative投放</mark> 或 <mark style="color:green;">作为结束页卡片Endcard配合投放</mark> 看转化效果
 
 <mark style="color:red;">注意：如果同一条可玩素材作为Endcard与视频素材配合作为创意一起投放时候，按</mark><mark style="color:red;">**结束页卡片名称**</mark><mark style="color:red;">查看素材数据；如果同一条可玩素材单独投放的时候，按</mark><mark style="color:red;">**创意名称**</mark><mark style="color:red;">查看素材数据。</mark>
 
