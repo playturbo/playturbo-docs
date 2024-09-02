@@ -58,14 +58,6 @@ description: '#订阅 #定制'
 
 ## <mark style="color:blue;">三、数据查看详细说明</mark>
 
-Mintegral导出数据筛选维度：
-
-<figure><img src="../../.gitbook/assets/dac23dbbb9865a1428667cbece96b451.png" alt=""><figcaption><p>应用试玩创意</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/3ad75580e8ccbd4c5a44aa7b376142e1.png" alt=""><figcaption><p>应用动态创意</p></figcaption></figure>
-
-
-
 ### 1.按<mark style="color:green;">广告呈现类型Ad Output Type</mark>看安装转化效果
 
 * IEC-动态结束卡片转化的安装：11042, 占25.22%
@@ -73,6 +65,14 @@ Mintegral导出数据筛选维度：
 * IEC+Playable 所有交互素材的转化安装：11042+21619=32661，占74.60%
 
 <figure><img src="../../.gitbook/assets/c688ccc7dd756ece30e0c11ff2fa32bd.png" alt=""><figcaption><p>示例</p></figcaption></figure>
+
+💡Mintegral导出数据筛选维度：
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/c6f4b0d571013fad80521102ba41c5c2 (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
@@ -133,3 +133,11 @@ _auto\_default\_ALL 是创意组名称；Video\_1.mp4 是视频素材；Image\_1
 <figure><img src="../../.gitbook/assets/9fca3c14d026f5744345efd7bc085b4b.png" alt=""><figcaption><p>示例</p></figcaption></figure>
 
 </div>
+
+
+
+💡 Mintegral导出数据筛选维度：
+
+<figure><img src="../../.gitbook/assets/dac23dbbb9865a1428667cbece96b451.png" alt=""><figcaption><p>应用试玩创意</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/3ad75580e8ccbd4c5a44aa7b376142e1.png" alt=""><figcaption><p>应用动态创意</p></figcaption></figure>
