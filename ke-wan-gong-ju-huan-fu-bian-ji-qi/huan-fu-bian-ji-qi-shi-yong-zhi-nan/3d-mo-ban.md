@@ -14,11 +14,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 1）在「模版库」-「可玩模版」页面，筛选类型为「3D」的模板，即可展示当前所有3D模版
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/944B68CD-8AD3-49ac-ACDC-6FF0E82BD4E8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 2）点击模版进行预览。预览界面会展示当前模板的玩法标签，以及该模板使用的模板数量与动作数量
 
@@ -26,11 +22,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 3）确认皮肤后，点击「换肤制作」 - 「普通制作」 ，填写项目名称后即进入编辑页面
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/2806537A-023C-43bd-AC07-B6057DAD00BA.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
