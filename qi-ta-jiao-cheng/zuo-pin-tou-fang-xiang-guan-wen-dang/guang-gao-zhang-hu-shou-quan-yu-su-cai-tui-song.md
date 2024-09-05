@@ -222,7 +222,7 @@ description: '#订阅 #定制'
 
 1）在预览页面点击「推送」按钮，弹出「推送」弹窗
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）选择推送平台，完成对应账号授权
 

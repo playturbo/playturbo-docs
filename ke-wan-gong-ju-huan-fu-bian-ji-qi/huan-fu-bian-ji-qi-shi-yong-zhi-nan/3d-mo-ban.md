@@ -22,7 +22,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 3）确认皮肤后，点击「换肤制作」 - 「普通制作」 ，填写项目名称后即进入编辑页面
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -54,7 +54,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 * 「预设」为单选切换
 * **调整「预设」后可能会使用到不同的模型，需前往场景内调整具体资源及玩法**
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>示例：在[3D经典躲避跑酷]模板的「预设」中,可分别对模板的人物模型、有无奖励、有无障碍进行调整</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>示例：在[3D经典躲避跑酷]模板的「预设」中,可分别对模板的人物模型、有无奖励、有无障碍进行调整</p></figcaption></figure>
 
 
 
@@ -180,18 +180,29 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 **3）参数：动作**
 
-注：部分模型有对应的动作，则在模型编辑窗口内有「动作」Tab页，展示该模型关联的所有动作资源
+<mark style="color:red;">注：</mark><mark style="color:red;">**部分模型**</mark><mark style="color:red;">有对应的动作，则在模型编辑窗口内有「动作」Tab页，展示该模型关联的所有动作资源</mark>
 
-对于动作资源，支持：替换动作、调整播放速率、设置旋转角度
+对于动作资源，支持：替换动作、调整播放速率、设置旋转角度、调整动作关键帧
 
 * **替换：**点击替换，从「动作库」中选择同类模型资源替换
-* **速率：**滑动或输入数值以调整模型播放「速率」，在右侧预览区可实时预览该动作
-* **旋转：**滑动或输入数值以调整模型旋转角度，在右侧预览区可实时预览该动作
+* **速率：**滑动滑杆或输入数值以调整模型播放「速率」，在右侧预览区可实时预览该动作
+* **旋转：**滑动滑杆或输入数值以调整模型旋转角度，在右侧预览区可实时预览该动作
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+* 关键帧调整：对于部分动作，动作播放到第n帧时会触发相应的其他事件，被称为关键帧。_如「攻击」动作播放到第5帧时，触发「出血」事件_
+* 该关键帧的位置可以在右侧进度条预览区域通过 **移动菱形滑块** 进行调整<mark style="color:red;">（尤其注意替换动作之后，关键帧的位置可能需要调整）</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
 
 完成「预设及镜头」和「3D资源」的调整后，可继续对其他常规2D资源进行替换与调整，具体操作可查阅  [bian-ji-ye-mian-fen-qu-jie-shao](bian-ji-ye-mian-fen-qu-jie-shao/ "mention")
