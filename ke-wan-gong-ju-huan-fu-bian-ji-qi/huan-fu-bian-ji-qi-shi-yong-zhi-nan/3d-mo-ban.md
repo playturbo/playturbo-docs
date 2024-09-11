@@ -14,7 +14,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 1）在「模版库」-「可玩模版」页面，筛选类型为「3D」的模板，即可展示当前所有3D模版
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 2）点击模版进行预览。预览界面会展示当前模板的玩法标签，以及该模板使用的模板数量与动作数量
 
@@ -22,7 +22,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 3）确认皮肤后，点击「换肤制作」 - 「普通制作」 ，填写项目名称后即进入编辑页面
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -46,7 +46,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 「预设及镜头」包含三部分：预设、屏幕适配、相机
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### <mark style="background-color:blue;">1.1 预设</mark>
 
@@ -54,7 +54,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 * 「预设」为单选切换
 * **调整「预设」后可能会使用到不同的模型，需前往场景内调整具体资源及玩法**
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>示例：在[3D经典躲避跑酷]模板的「预设」中,可分别对模板的人物模型、有无奖励、有无障碍进行调整</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>示例：在[3D经典躲避跑酷]模板的「预设」中,可分别对模板的人物模型、有无奖励、有无障碍进行调整</p></figcaption></figure>
 
 
 
@@ -106,12 +106,17 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 点击模型资源上的「替换」按钮，调起「模型库」弹窗，可从中选择资源进行替换
 
-<mark style="color:red;">需注意：</mark>
+需注意：
 
-* <mark style="color:red;">3D资源当前仅支持从【模型库】中选取预设好的模型进行替换，暂不支持本地上传</mark>
-* <mark style="color:red;">3D资源仅支持同类型资源的替换，如人替换人、动物替换动物</mark>
+* 3D资源仅支持同类型资源的替换，如人替换人、动物替换动物；
+* 支持从【模型库】中选取我们预设好的模型进行替换；
+* <mark style="color:red;">也可从【我的资产库】上传您自己的3D模型，提交工单 由我方制作人员协助处理您的模型，以确保模型与平台兼容并获得最佳表现效果。</mark>（具体操作步骤可查阅： [3d-mu-ban-wen-ti.md](../huan-fu-bian-ji-qi-faq/3d-mu-ban-wen-ti.md "mention")）
 
-<figure><img src="../../.gitbook/assets/image (2136).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 
 
@@ -190,7 +195,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -199,7 +204,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
