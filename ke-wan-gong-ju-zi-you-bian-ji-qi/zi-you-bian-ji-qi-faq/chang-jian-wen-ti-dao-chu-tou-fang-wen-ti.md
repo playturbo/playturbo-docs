@@ -20,9 +20,29 @@
 
 
 
+### **Q3：**导出时同时关联iOS和Android两个端，次数扣减是算1次还是2次？ <a href="#q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k" id="q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k"></a>
+
+**A：**1 次。次数主要和下载的渠道数量 以及导出的版本数量挂钩
+
+
+
 ## <mark style="color:blue;">2.可玩素材与Mintegral平台相关问题</mark>
 
+### **Q1：Mintegral平台支持下载可玩素材吗？** <a href="#q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k" id="q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k"></a>
+
+**A：**不支持的。无论是从Playturbo推送过去的，还是用其他工具制作的可玩，都不支持下载哦
 
 
 
+## <mark style="color:blue;">3.可玩素材与其他平台相关问题</mark>
+
+### **Q1：**导出Facebook渠道的可玩素材，上传到渠道会显示无效的json且提示CTA按钮问题，但预览素材时是可以正常跳转商店页面的 <a href="#q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k" id="q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k"></a>
+
+**A：**建议您先根据 [ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md](../../qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/ke-wan-guang-gao-qu-dao-shang-chuan-gui-fan.md "mention")来对可玩素材进行测试，若测试时显示 _CTAClick not yet activated_，这需要您在测试的试玩区域点击一下下载按钮的，这样就没有问题了
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2150).png" alt="" width="386"><figcaption></figcaption></figure>
+
+</div>
 
