@@ -111,7 +111,7 @@
     * [常见问题-动画问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/chang-jian-wen-ti-dong-hua-wen-ti.md)
     * [常见问题-事件问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/chang-jian-wen-ti-shi-jian-wen-ti.md)
     * [常见问题-适配问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/chang-jian-wen-ti-shi-pei-wen-ti.md)
-    * [常见问题-其他问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/chang-jian-wen-ti-qi-ta-wen-ti.md)
+    * [常见问题-导出&投放问题](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-faq/chang-jian-wen-ti-dao-chu-tou-fang-wen-ti.md)
   * [自由编辑器-制作技巧中心](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/README.md)
     * [模板自由制作需知](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/mu-ban-zi-you-zhi-zuo-xu-zhi.md)
     * [通用制作技巧](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/README.md)
