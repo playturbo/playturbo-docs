@@ -40,7 +40,17 @@
 
 **解决办法：**取消勾选场景1为【结束场景】，同时在跳转商店的事件后面补一个【上报试玩结束】的响应事件即可
 
-相关内容请查阅： [zuo-pin-zhi-zuo-zhong-yao-ti-shi.md](../zuo-pin-zhi-zuo-zhong-yao-ti-shi.md "mention")
+相关内容可查阅： [zuo-pin-zhi-zuo-zhong-yao-ti-shi.md](../zuo-pin-zhi-zuo-zhong-yao-ti-shi.md "mention")
+
+
+
+### **Q3：**在Mintegral渠道投放，同样的Offer 使用可玩模板就起量了，自己空白制作的素材没有起量，可能是什么原因呢？ <a href="#q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k" id="q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k"></a>
+
+**A：**①首先，请确保您已往创意组中上传了视频素材（因为大盘跑互动的流量主要在"video+pl"，即可玩素材需要搭配视频素材一起投放）；②若您仍选择不上传视频素材，请检查您的可玩项目是否**只有1个场景 或**者 **有2个场景时场景2勾选为了Ending Scene**（这是因为当创意组内没有视频素材时，Playable(pl)类型的素材可以起量，但Endcard(iec)类型的素材不可以。若您的项目符合前述两种情况，则会被判定为Endcard类型的素材，这可能就是素材不起量的原因。而我们的模板大多属于pl类型素材）
+
+**解决办法：**在项目内新建一个空白场景，放置在最后，不需要任何操作，仅仅让场景数量大于2个即可
+
+相关内容可查阅： [mintegral-chuang-yi-cao-zuo-zhi-nan.md](../../qi-ta-jiao-cheng/zuo-pin-tou-fang-xiang-guan-wen-dang/mintegral-chuang-yi-cao-zuo-zhi-nan.md "mention")
 
 
 
@@ -60,7 +70,24 @@
 
 ### **Q2：**导出Google渠道的可玩素材，上传到渠道后被拒并提示诱导下载相关，可能的原因是？ <a href="#q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k" id="q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k"></a>
 
-**A：**当前Google渠道的素材上传规范
+**A：**当前Google渠道关于素材"引导下载"的规范，供您参考：
 
-结束页不允许诱导，具体要求如下: 结束页按钮文案不允许用:Download/下载/跳转商店:结束页不可出现指引手; 常驻下载按钮文案不允许用:Download/下载: 被允许的情况: 结束页/常规下载按钮文案:Next/Play now;结束页cta上使用缩放白色圆点代替指引手;结束页使用无文案的空自按钮
+❎结束页不允许诱导，具体要求如下:&#x20;
 
+* 结束页CTA按钮文案不允许用：Download/下载/跳转商店；
+* 结束页不可出现指引手;&#x20;
+* 常驻下载按钮文案不允许用：Download/下载；
+
+✅被允许的情况:&#x20;
+
+* 结束页/常驻下载按钮文案：Next/Play now;
+* 结束页CTA按钮上使用缩放白色圆点代替指引手;
+* 结束页使用无文案的空白按钮
+
+
+
+## <mark style="color:blue;">4.预览试玩相关问题</mark>
+
+### **Q1：**做好了可玩素材，在平台预览没问题，但用手机扫码试玩会鬼畜式加载或根本加载不出来，无法正常试玩？ <a href="#q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k" id="q1-zai-shi-yong-mou-mu-ban-jin-xing-zi-you-zhi-zuo-shi-xiang-tiao-zheng-mou-ge-tu-ceng-de-dong-hua-k"></a>
+
+**A：**出现这种情况，您可先自行检查是否是项目内的场景数量和视频资源过多，这会直接导致试玩加载缓慢甚至卡顿。建议：减少场景数量到≤4个；视频不要剪辑得太碎或交互次数过多
