@@ -8,7 +8,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -16,7 +16,7 @@
 
 3.根据布局模版结构，将所需素材一一上传到相应坑位中，如主视频、LOGO图，背景图等&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 💡<mark style="color:red;">**温馨提示：原视频模板附带的素材（如视频/logo等），建议直接替换掉或删除哦！否则会被一同计算进导出的总数量中**</mark>
 

@@ -12,7 +12,7 @@
 
 使用指南： [su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md](su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md "mention")
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">**STEP2: 视频AI消除**</mark>
 
@@ -22,7 +22,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 使用指南： [su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md](su-cai-shang-chuan-han-chi-cun-lie-bian-bu-ju-mu-ban.md "mention")
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">**STEP4: 语言裂变**</mark>
 
