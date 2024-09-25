@@ -4,7 +4,7 @@ description: '#自由编辑器'
 
 # 外观
 
-常规外观参数：可查看 [wai-guan.md](../../../can-shu-lei-xing-jie-shao/wai-guan.md "mention")[#chang-gui-can-shu](../../../can-shu-lei-xing-jie-shao/wai-guan.md#chang-gui-can-shu "mention")
+常规外观参数：可查看 [wai-guan-tu-ceng-can-shu.md](../../../wai-guan-tu-ceng-can-shu.md "mention")[#chang-gui-can-shu](../../../wai-guan-tu-ceng-can-shu.md#chang-gui-can-shu "mention")
 
 其他外观参数：图层的其他外观参数根据**资产类型**的不同，可分为以下内容：
 

@@ -25,7 +25,7 @@ description: '#自由编辑器'
 
 **A：**点击曲线缩略图打开【曲线编辑器】，双击曲线的任意位置即可添加关键帧；选中并拖动关键帧可调整位置，拖动手柄可调整曲线弧度
 
-**相关阅读：** [#id-2.-te-bie-shuo-ming-bian-hua-qu-xian](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/can-shu-lei-xing-jie-shao/dong-hua.md#id-2.-te-bie-shuo-ming-bian-hua-qu-xian "mention")
+**相关阅读：** [#id-2.-te-bie-shuo-ming-bian-hua-qu-xian](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/dong-hua-tu-ceng-can-shu.md#id-2.-te-bie-shuo-ming-bian-hua-qu-xian "mention")
 
 <div align="left">
 

@@ -22,7 +22,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1678).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1678).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -32,7 +32,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1679).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1679).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,7 +42,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1680).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1680).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -50,7 +50,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1682).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1682).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -60,7 +60,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1683).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1683).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -70,7 +70,7 @@ description: '#自由编辑器'
 
 当前触发事件包含六大类别：【点击】 【滑动】 【拖拽】 【媒体播放】 【定时器】 【条件判断】
 
-<table data-full-width="false"><thead><tr><th width="241">截图</th><th width="190">事件属性</th><th width="123">事件类别</th><th>类别细分</th></tr></thead><tbody><tr><td><img src="../../../../../../.gitbook/assets/image (208).png" alt=""></td><td>通用事件</td><td><strong>点击</strong></td><td><p>点击</p><p>长按3s</p><p>按下</p><p>抬起</p><p>双击</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (713).png" alt=""></td><td>通用事件</td><td><strong>滑动</strong></td><td><p>上滑</p><p>下滑</p><p>左滑</p><p>右滑</p><p>任意滑动</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (213).png" alt=""></td><td>图层事件(常规图层)</td><td><strong>拖拽</strong></td><td><p>拖拽</p><p>拖拽到指定位置</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (286).png" alt=""></td><td>图层事件(视频/音频)</td><td><strong>媒体播放</strong></td><td><p>开始时</p><p>结束时</p></td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (211).png" alt=""></td><td>场景事件</td><td><strong>定时器</strong></td><td>定时触发</td></tr><tr><td><img src="../../../../../../.gitbook/assets/image (920).png" alt=""></td><td>场景事件(全局变量)</td><td><strong>条件判断</strong></td><td>条件判断</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="241">截图</th><th width="190">事件属性</th><th width="123">事件类别</th><th>类别细分</th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/image (208).png" alt=""></td><td>通用事件</td><td><strong>点击</strong></td><td><p>点击</p><p>长按3s</p><p>按下</p><p>抬起</p><p>双击</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (713).png" alt=""></td><td>通用事件</td><td><strong>滑动</strong></td><td><p>上滑</p><p>下滑</p><p>左滑</p><p>右滑</p><p>任意滑动</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (213).png" alt=""></td><td>图层事件(常规图层)</td><td><strong>拖拽</strong></td><td><p>拖拽</p><p>拖拽到指定位置</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (286).png" alt=""></td><td>图层事件(视频/音频)</td><td><strong>媒体播放</strong></td><td><p>开始时</p><p>结束时</p></td></tr><tr><td><img src="../../../../../.gitbook/assets/image (211).png" alt=""></td><td>场景事件</td><td><strong>定时器</strong></td><td>定时触发</td></tr><tr><td><img src="../../../../../.gitbook/assets/image (920).png" alt=""></td><td>场景事件(全局变量)</td><td><strong>条件判断</strong></td><td>条件判断</td></tr></tbody></table>
 
 
 
@@ -88,7 +88,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1687).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1687).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -110,7 +110,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1688).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1688).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -135,7 +135,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1676).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1676).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -154,7 +154,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1686).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1686).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -168,7 +168,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1684).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1684).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -179,7 +179,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -195,10 +195,10 @@ description: '#自由编辑器'
 
 4）支持勾选“只生效一次”
 
-<mark style="color:red;">注意：只有当前项目添加</mark>[全局变量](../../../ding-bu-zi-chan-ku/quan-ju-bian-liang.md)<mark style="color:red;">后，才可使用这一触发事件</mark> (结合功能介绍文档查看 可以更快理解该触发事件哦)
+<mark style="color:red;">注意：只有当前项目添加</mark>[全局变量](../../ding-bu-zi-chan-ku/quan-ju-bian-liang.md)<mark style="color:red;">后，才可使用这一触发事件</mark> (结合功能介绍文档查看 可以更快理解该触发事件哦)
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1685).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1685).png" alt=""><figcaption></figcaption></figure>
 
 </div>

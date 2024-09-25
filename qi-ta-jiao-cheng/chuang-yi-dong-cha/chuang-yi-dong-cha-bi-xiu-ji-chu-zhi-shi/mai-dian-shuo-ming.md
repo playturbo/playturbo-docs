@@ -16,7 +16,7 @@
 
 _如：在下载按钮组上添加事件"按下" - 添加响应事件"设置埋点" - 选择埋点id为1 - 编辑埋点名称"玩家按下下载按钮"。这样，一个自定义埋点就添加成功了_
 
-相关阅读：  [#id-1.-tiao-zhuan-ji-mai-dian](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/can-shu-lei-xing-jie-shao/shi-jian/xiang-ying-shi-jian.md#id-1.-tiao-zhuan-ji-mai-dian "mention")  [kuai-jie-ding-wei.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/zuo-pin-yu-lan-qu/kuai-jie-ding-wei.md "mention")
+相关阅读：  [#id-1.-tiao-zhuan-ji-mai-dian](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/shi-jian/xiang-ying-shi-jian.md#id-1.-tiao-zhuan-ji-mai-dian "mention")  [kuai-jie-ding-wei.md](../../../ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/zuo-pin-yu-lan-qu/kuai-jie-ding-wei.md "mention")
 
 <div align="left">
 
