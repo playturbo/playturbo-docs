@@ -22,7 +22,7 @@ description: '#自由编辑器'
 
 **2.全局设置：**包括背景音乐、背景图片、背景颜色、语言版本
 
-相关操作可查看[quan-ju-she-zhi](../can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/quan-ju-chang-jing/quan-ju-she-zhi/ "mention")
+相关操作可查看[quan-ju-she-zhi](../can-shu-she-zhi-qu/quan-ju-she-zhi/ "mention")
 
 <figure><img src="../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 

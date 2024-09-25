@@ -1,14 +1,14 @@
 ---
-description: '#自由编辑器'
+description: 全局设置参数&全局场景的图层参数
 ---
 
 # 背景常驻内容调整
 
 背景常驻内容包含背景音乐、背景图片、背景颜色
 
-<figure><img src="../../../../../../../.gitbook/assets/image (961).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (961).png" alt=""><figcaption></figcaption></figure>
 
-## 1.背景音乐
+## <mark style="color:blue;">1.背景音乐</mark>
 
 ### 1）添加背景音乐
 
@@ -19,7 +19,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (962).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (962).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -33,13 +33,13 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (963).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (963).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-### &#x20;<a href="#tafiu" id="tafiu"></a>
 
-## 2.背景图片 <a href="#tafiu" id="tafiu"></a>
+
+## <mark style="color:blue;">2.背景图片</mark> <a href="#tafiu" id="tafiu"></a>
 
 注：在【全局设置】添加的背景图片默认位于所有图层最底部
 
@@ -52,7 +52,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (965).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (965).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -67,11 +67,15 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (964).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (964).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-## 3.背景颜色
+相关阅读： [#id-1.-tian-jia-bei-jing-tu-pian](../../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-shi-pei-xiang-guan.md#id-1.-tian-jia-bei-jing-tu-pian "mention")
+
+
+
+## <mark style="color:blue;">3.背景颜色</mark>
 
 注：在【全局设置】添加的背景颜色默认位于所有图层最底部
 
@@ -83,7 +87,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (966).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (966).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -94,7 +98,7 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (968).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (968).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -102,10 +106,6 @@ description: '#自由编辑器'
 
 <div align="left">
 
-<figure><img src="../../../../../../../.gitbook/assets/image (967).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (967).png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-
-
-关于背景图片其他内容可查看[#1.-bei-jing-tu-pian](../../../../../../zi-you-bian-ji-qi-zhi-zuo-ji-qiao-zhong-xin/tong-yong-zhi-zuo-ji-qiao/zhi-zuo-ji-qiao-shi-pei-xiang-guan.md#1.-bei-jing-tu-pian "mention")

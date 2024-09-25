@@ -88,7 +88,7 @@ description: '#自由编辑器 #自由制作'
 
 <mark style="color:red;">3）若图层区没有该图层，则可能</mark><mark style="color:red;">**位于【玩法模板】内**</mark><mark style="color:red;">：点击顶部资产库>>>玩法模板>>>玩法编辑/快捷布局，进行查找</mark>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **注意：**极少数模板的某些资产可能在【玩法模板】中也没有，这是因为该资产由开发通过代码控制，在自由编辑器内无法或不推荐修改，否则容易报错，因此我们不展示该资产坑位
 
@@ -144,7 +144,7 @@ description: '#自由编辑器 #自由制作'
 
 * 若该位置有动画参数，则代表可以调整
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)  (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)  (36).png" alt=""><figcaption></figcaption></figure>
 
 * 若该位置无动画参数，则可能由代码控制，不可以调整
 
@@ -162,7 +162,7 @@ description: '#自由编辑器 #自由制作'
 * 可以新增粒子特效，并调整其位置大小到合适
 * 同样，对于不需要的粒子特效，可以将其图层隐藏或调整该图层透明度为0
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)   (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)   (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.事件设置
 
@@ -191,7 +191,7 @@ description: '#自由编辑器 #自由制作'
 * 调整语言：在【默认语言】处点击笔刷图标，调起文本翻译窗口
 * 新增语言：在【默认语言】处点击【添加语言】，调起文本翻译窗口
 
-具体操作步骤可查看[duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/fen-chang-jing-qu-jie-shao/quan-ju-chang-jing/quan-ju-she-zhi/duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md "mention")
+具体操作步骤可查看[duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md](../zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/quan-ju-she-zhi/duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md "mention")
 
 <figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

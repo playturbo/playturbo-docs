@@ -1,10 +1,10 @@
 ---
-description: '#自由编辑器'
+description: 外观参数特别说明:屏幕适配方式
 ---
 
-# 适配规则与适配方式
+# 屏幕适配方式
 
-入口：参数设置区>>>屏幕适配方式
+入口：参数设置区>>>外观>>>屏幕适配方式
 
 <figure><img src="../../../../.gitbook/assets/image (1039).png" alt=""><figcaption></figcaption></figure>
 

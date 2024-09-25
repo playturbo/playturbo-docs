@@ -1,12 +1,12 @@
 ---
-description: '#自由编辑器'
+description: 事件参数 因场景/图层的不同也会有所不同
 ---
 
-# 事件
+# 事件-通用参数
 
 一个完整的事件由[chu-fa-shi-jian.md](chu-fa-shi-jian.md "mention")和[xiang-ying-shi-jian.md](xiang-ying-shi-jian.md "mention")组成，通过正确关联设置触发事件和响应事件，实现交互和逻辑功能
 
-* 触发事件是引起事件执行的条件或操作(如"点击")。这些事件因选中区域的不同而有所不同，所以触发事件可细分为[<mark style="color:blue;">场景事件</mark>](../fen-chang-jing-qu-jie-shao/pu-tong-chang-jing/shi-jian.md)和[图层事件](../fen-chang-jing-qu-jie-shao/tu-ceng/shi-jian.md)
+* 触发事件是引起事件执行的条件或操作(如"点击")。这些事件因选中区域的不同而有所不同，所以触发事件可细分为[<mark style="color:blue;">场景事件</mark>](broken-reference)和[图层事件](broken-reference)
 * 响应事件则是在触发事件发生时所执行的操作或反馈(如"跳转应用商店")。这些事件在添加触发事件后显示，且没有场景和图层的区分
 
 
