@@ -4,7 +4,7 @@ description: '#自由编辑器'
 
 # 粒子参数
 
-粒子图层的外观参数包含以下模块
+粒子图层的特殊参数包含以下模块
 
 [li-zi-tie-tu.md](li-zi-tie-tu.md "mention")
 
@@ -14,4 +14,4 @@ description: '#自由编辑器'
 
 [wu-li-can-shu.md](wu-li-can-shu.md "mention")
 
-<figure><img src="../../../../../../../../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>

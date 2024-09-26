@@ -77,8 +77,6 @@
             * [物理参数](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/wai-guan-tu-ceng-can-shu/li-zi-can-shu/wu-li-can-shu.md)
           * [视频参数](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/wai-guan-tu-ceng-can-shu/shi-pin-can-shu.md)
           * [音频参数](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/wai-guan-tu-ceng-can-shu/yin-pin-can-shu.md)
-          * [手势区域参数](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/wai-guan-tu-ceng-can-shu/shou-shi-qu-yu-can-shu.md)
-          * [组节点参数](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/wai-guan-tu-ceng-can-shu/zu-jie-dian-can-shu.md)
         * [动画-图层参数](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/dong-hua-tu-ceng-can-shu.md)
         * [事件-通用参数](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/shi-jian-tong-yong-can-shu/README.md)
           * [触发事件](ke-wan-gong-ju-zi-you-bian-ji-qi/zi-you-bian-ji-qi-shi-yong-zhi-nan/bian-ji-ye-mian-fen-qu-jie-shao/can-shu-she-zhi-qu/shi-jian-tong-yong-can-shu/chu-fa-shi-jian.md)

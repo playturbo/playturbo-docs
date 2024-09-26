@@ -39,5 +39,5 @@ description: '#自由编辑器'
 
 <figure><img src="../../../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
 
-手势区域相关参数设置，可移步[shou-shi-qu-yu-can-shu.md](../can-shu-she-zhi-qu/wai-guan-tu-ceng-can-shu/shou-shi-qu-yu-can-shu.md "mention")进行查看
+手势区域相关参数设置，可移步[Broken link](broken-reference "mention")进行查看
 
