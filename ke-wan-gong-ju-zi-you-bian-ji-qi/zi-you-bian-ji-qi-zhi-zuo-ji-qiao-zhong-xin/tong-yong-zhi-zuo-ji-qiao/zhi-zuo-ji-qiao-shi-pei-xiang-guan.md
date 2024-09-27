@@ -8,10 +8,10 @@ description: '#自由编辑器'
 
 在新建空白制作项目时，需要选择适配方向（模板默认为\[横屏&竖屏]）
 
-* 若选择【横屏&竖屏】，则在制作时需要分别对竖屏和横屏进行排版制作<mark style="color:red;">（建议您在完成每个场景竖屏的排版后，及时切换到横屏进行调整，通过“复用竖屏位置尺寸配置”按钮可以大大提高效率）</mark>
+* 若选择【横屏&竖屏】，则在制作时需要分别对竖屏和横屏进行排版制作<mark style="color:red;">（建议您在完成每个场景的竖屏制作后，及时切换到横屏进行调整，可选中所有最高层级的图层，使用“复用竖屏位置尺寸配置”功能一键复用竖屏排版，大大提高效率!）</mark>
 * 若选择单方向【横屏】或【竖屏】，只需制作当前屏幕方向的素材即可，无需切换横竖屏
 
-不同适配方向呈现出的效果可查看[zuo-pin-zhi-zuo-xin-jian-zhi-nan.md](../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md "mention") [#step3-xuan-ze-kuo-pei-fang-xiang](../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md#step3-xuan-ze-kuo-pei-fang-xiang "mention")
+不同适配方向呈现出的效果可查看[zuo-pin-zhi-zuo-xin-jian-zhi-nan.md](../../zuo-pin-zhi-zuo-xin-jian-zhi-nan.md "mention")
 
 <div align="left">
 
@@ -23,7 +23,7 @@ description: '#自由编辑器'
 
 ## <mark style="color:blue;">二、适配技巧</mark>
 
-### 1.添加背景图片
+### 1.背景图片的设置
 
 无论您是否要在场景中添加背景图片，我们都建议您先在【全局设置】添加背景图片兜底。因为：
 
@@ -80,6 +80,14 @@ description: '#自由编辑器'
 <table><thead><tr><th width="190">建议适配方向</th><th>图示</th><th>屏幕适配方式</th></tr></thead><tbody><tr><td>横屏/竖屏：底部</td><td><img src="../../../.gitbook/assets/image (1292).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (1293).png" alt="" data-size="original"></td></tr></tbody></table>
 
 **注：**默认"\[屏幕适配方式]参数横竖屏拆分"。若图层在横竖屏下的位置不一致，则需分开设置屏幕适配方式；若一致，可取消勾选拆分
+
+
+
+### 3.横竖屏排版不同，分开设置
+
+
+
+
 
 
 
