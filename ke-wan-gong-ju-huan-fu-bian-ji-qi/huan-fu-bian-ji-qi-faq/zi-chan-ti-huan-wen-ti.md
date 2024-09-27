@@ -1,8 +1,8 @@
 # 资产替换问题
 
-## <mark style="color:blue;">1.产品信息需要替换吗？还是可以自动对应Offer？</mark>
+## <mark style="color:blue;">1.产品信息相关问题</mark>
 
-**Q：模板项目里的产品信息，需要自己换成目标产品， 还是会自动对应Offer呢？**
+### **Q1：模板项目里的产品信息，需要自己换成目标产品， 还是会自动对应Offer呢？**
 
 **A：**产品信息是需要自行上传资产 进行替换的，不会自动对应Offer哦（换肤制作&自由制作都是）
 
@@ -14,9 +14,9 @@
 
 
 
-## <mark style="color:blue;">2.背景图显示不全/背景图变形？</mark>
+## <mark style="color:blue;">2.背景图片相关问题</mark>
 
-**Q：替换背景图片后，图片显示不完整？**
+### **Q1：替换背景图片后，图片显示不完整/变形？**
 
 **A：**在您替换图片类型的资产时，如坑位名称显示**"背景图"**相关
 
@@ -27,7 +27,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>"背景图"相关坑位示例</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="286"><figcaption><p>"背景图"相关坑位示例</p></figcaption></figure>
 
 </div>
 
@@ -38,22 +38,36 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="509"><figcaption></figcaption></figure>
 
 </div>
 
 
 
-## <mark style="color:blue;">3.图片大小限制是多少？有办法更改吗？</mark>
+## <mark style="color:blue;">3.资产大小要求相关问题</mark>
 
-**Q：在使用【换肤制作】时，看到坑位要求图片最大1MB，这是仅针对我用的这个模板还是针对所有模板呢？如果我的PNG图片压到1MB以下会模糊/失真怎么办？**
+### **Q1：在使用【换肤制作】时，看到坑位要求图片最大1MB，这是仅针对我用的这个模板还是针对所有模板呢？如果我的PNG图片压到1MB以下会模糊/失真怎么办？**
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="262"><figcaption></figcaption></figure>
 
 </div>
 
 **A：**图片大小要求是针对所有的，换肤编辑器和自由编辑器都要求图片1M以下。考虑到包体大小限制，建议您不要使用太多大尺寸的图片，不然超包的话后面还是要压缩。
 
 可以先用[图片压缩工具](https://tinypng.com/)试试看，要还是觉得图片质量差，建议您先把原图转成jpg格式>>>再进行压缩>>>并复制至自由制作进行替换，质量可能会好一些（同等尺寸的图片，PNG的大小会比JPG的要大）
+
+
+
+## <mark style="color:blue;">4.资产替换效果问题</mark>
+
+### Q1：如使用模板【经典钢琴键】，想在"失败页音效道具icon"坑位替换三张不同的封面图，但好像换不了？三个封面都是一样的
+
+**A：**可将项目"复制至自由制作"，进入对应场景3即可分别替换不同封面图<mark style="color:orange;">（tips: 在使用模板</mark><mark style="color:orange;">**换肤制作**</mark><mark style="color:orange;">时，如遇到调整受局限的问题，可尝试转</mark><mark style="color:orange;">**自由制作**</mark><mark style="color:orange;">进行调整，能解决大部分问题哦！）</mark>
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2158).png" alt=""><figcaption></figcaption></figure>
+
+</div>

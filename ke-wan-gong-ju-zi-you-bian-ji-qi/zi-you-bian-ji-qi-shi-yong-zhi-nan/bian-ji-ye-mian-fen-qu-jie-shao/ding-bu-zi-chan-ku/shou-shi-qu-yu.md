@@ -39,5 +39,4 @@ description: '#自由编辑器'
 
 <figure><img src="../../../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
 
-手势区域相关参数设置，可移步[Broken link](broken-reference "mention")进行查看
-
+手势区域相关参数设置，可查阅： [wai-guan-tu-ceng-can-shu](../can-shu-she-zhi-qu/wai-guan-tu-ceng-can-shu/ "mention")
