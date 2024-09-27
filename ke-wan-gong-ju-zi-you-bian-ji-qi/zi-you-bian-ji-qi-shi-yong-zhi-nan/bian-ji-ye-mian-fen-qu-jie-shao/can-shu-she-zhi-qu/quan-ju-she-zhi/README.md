@@ -12,8 +12,8 @@ description: 全局设置参数&全局场景的图层参数（少部分模板在
 
 **全局设置：** [bei-jing-chang-zhu-nei-rong-tiao-zheng.md](bei-jing-chang-zhu-nei-rong-tiao-zheng.md "mention")  [duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md](duo-yu-yan-pei-zhi-yu-zhi-neng-fan-yi.md "mention")
 
-<figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **全局场景：**参数使用同 [wai-guan-tu-ceng-can-shu](../wai-guan-tu-ceng-can-shu/ "mention") [dong-hua-tu-ceng-can-shu.md](../dong-hua-tu-ceng-can-shu.md "mention") [shi-jian-tong-yong-can-shu](../shi-jian-tong-yong-can-shu/ "mention")
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

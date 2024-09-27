@@ -22,7 +22,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 3）确认皮肤后，点击「换肤制作」 - 「普通制作」 ，填写项目名称后即进入编辑页面
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -54,7 +54,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 * 「预设」为单选切换
 * **调整「预设」后可能会使用到不同的模型，需前往场景内调整具体资源及玩法**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>示例：在[3D经典躲避跑酷]模板的「预设」中,可分别对模板的人物模型、有无奖励、有无障碍进行调整</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>示例：在[3D经典躲避跑酷]模板的「预设」中,可分别对模板的人物模型、有无奖励、有无障碍进行调整</p></figcaption></figure>
 
 
 
@@ -114,7 +114,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -195,7 +195,7 @@ Playturbo现已支持3D类型的可玩素材产出，可通过模版换肤制作
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
